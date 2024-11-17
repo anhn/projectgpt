@@ -29,7 +29,7 @@ with tab1:
         Ask for explanation and examples by input a prompt.
     """, unsafe_allow_html=False)
     with st.form("my_form"):
-        jim_line = st.text_area("Write you command here","", height=10, key='option')
+        jim_line = st.text_area("Write you command here","", height=70, key='option')
         submitted = st.form_submit_button("Submit")
 
 

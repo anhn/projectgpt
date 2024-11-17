@@ -34,16 +34,15 @@ with tab1:
 
 with tab2:
     st.title("Module 1")
-    col1, col2, col3 = st.columns(3)
+    col1, col2, col3, col4 = st.columns(4)
     with col1: 
-        st.button("Characterizing a software project",key="ex1") 
+        st.button("Characterizing a software project",key="ex1",use_container_width=True) 
     with col2:
         st.button("Stakeholder analysis",key="ex2",use_container_width=True) 
     with col3: 
         st.button("Project management areas",key="ex3") 
-    col4, col5, col6 = st.columns(3)
     with col4: 
-        st.button("SWOT analysis",key="ex4") 
+        st.button("SWOT analysis",key="ex4",use_container_width=True) 
     with st.form("my_form1"):
         jim_line = st.text_area("Write you command here","", height=70)
         submitted = st.form_submit_button("Submit")

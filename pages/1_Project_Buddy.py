@@ -21,10 +21,10 @@ def get_response(jim_line):
     output =  "dummy"
     return output 
                                                                                                                                                                                                                  
-tab1, tab2 = st.tabs(["Interactive Tutor", "Step-by-step Guideline"])
+tab1, tab2, tab3, tab4, tab5, tab6, tab7 = st.tabs(["General", "Module 1", "Module 2", "Module 3", "Module 4", "Module 5", "Module 6"])
 
 with tab1:
-    st.title("🏢 Interactive Tutor")
+    st.title("🏢 General")
     st.markdown ("""
         Ask for explanation and examples by input a prompt.
     """, unsafe_allow_html=False)
@@ -32,21 +32,57 @@ with tab1:
         jim_line = st.text_area("Write you command here","", height=70, key='option')
         submitted = st.form_submit_button("Submit")
 
-
 with tab2:
-    st.title("🏢 Step-by-step guideline")
-    st.markdown("""
-    Have you done with:  
-        1. Project planning 
-        2. WBS 
-        3. Gantt Chart 
-        4. Project implementation 
-        5. Requirement description 
-        6. Team and role assignment 
-        7. Prototyping  
-        8. Github and project configuration  
-        9. Meetings 
-        10. Testing
-    """)
+    st.title("Module 1")
+    st.markdown ("""
+        Ask for explanation and examples by input a prompt.
+    """, unsafe_allow_html=False)
+    with st.form("my_form"):
+        jim_line = st.text_area("Write you command here","", height=70, key='option')
+        submitted = st.form_submit_button("Submit")
 
+with tab3:
+    st.title("Module 2")
+    st.markdown ("""
+        Ask for explanation and examples by input a prompt.
+    """, unsafe_allow_html=False)
+    with st.form("my_form"):
+        jim_line = st.text_area("Write you command here","", height=70, key='option')
+        submitted = st.form_submit_button("Submit")
+
+with tab4:
+    st.title("Module 3")
+    st.markdown ("""
+        Ask for explanation and examples by input a prompt.
+    """, unsafe_allow_html=False)
+    with st.form("my_form"):
+        jim_line = st.text_area("Write you command here","", height=70, key='option')
+        submitted = st.form_submit_button("Submit")
+
+with tab5:
+    st.title("Module 4")
+    st.markdown ("""
+        Ask for explanation and examples by input a prompt.
+    """, unsafe_allow_html=False)
+    with st.form("my_form"):
+        jim_line = st.text_area("Write you command here","", height=70, key='option')
+        submitted = st.form_submit_button("Submit")
+
+with tab6:
+    st.title("Module 5")
+    st.markdown ("""
+        Ask for explanation and examples by input a prompt.
+    """, unsafe_allow_html=False)
+    with st.form("my_form"):
+        jim_line = st.text_area("Write you command here","", height=70, key='option')
+        submitted = st.form_submit_button("Submit")
+
+with tab7:
+    st.title("Module 6")
+    st.markdown ("""
+        Ask for explanation and examples by input a prompt.
+    """, unsafe_allow_html=False)
+    with st.form("my_form"):
+        jim_line = st.text_area("Write you command here","", height=70, key='option')
+        submitted = st.form_submit_button("Submit")
 

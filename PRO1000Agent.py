@@ -181,51 +181,39 @@ with st.form("test_form"):
         handle_submit(is_new_user, submit_text)
 
 
-with st.expander("Project Planning"):
-    with st.expander("Module 1"):
-        st.write('''
-             Characterizing a software project
-        ''')
-        st.write('''
-             Stakeholder analysis
-        ''')
-        st.write('''
-             Project management areas
-        ''')
-        st.write('''
-             SWOT analysis
-        ''')
-     with st.expander("Module 2"):
-        st.write('''
-             Github project setting
-        ''')
-        st.write('''
-             Project Layout
-        ''')
-        st.write('''
-             Project success criteria
-        ''')
-        st.write('''
-             Requirement Gathering and Analysis
-        ''')    
-        st.write('''
-             Work Breakdown Structure (WBS)
-        ''')    
-        st.write('''
-             Scope validation
-        ''')    
-with st.expander("Project Execution"):
+with st.expander("Module 1"):
     st.write('''
-        The chart above shows some numbers I picked for you.
-        I rolled actual dice for these, so they're *guaranteed* to
-        be random.
+         Characterizing a software project
     ''')
-with st.expander("Project Closing"):
     st.write('''
-        The chart above shows some numbers I picked for you.
-        I rolled actual dice for these, so they're *guaranteed* to
-        be random.
+         Stakeholder analysis
+    ''')
+    st.write('''
+         Project management areas
+    ''')
+    st.write('''
+         SWOT analysis
+    ''')
+with st.expander("Module 2"):
+    st.write('''
+         Github project setting
+    ''')
+    st.write('''
+         Project Layout
+    ''')
+    st.write('''
+         Project success criteria
+    ''')
+    st.write('''
+         Requirement Gathering and Analysis
     ''')    
+    st.write('''
+         Work Breakdown Structure (WBS)
+    ''')    
+    st.write('''
+         Scope validation
+    ''')    
+
 ####### SIDEBAR #######
 #components.sidebar_nav(st.session_state['user_id'] is None)
 

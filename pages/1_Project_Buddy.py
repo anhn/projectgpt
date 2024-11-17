@@ -38,7 +38,7 @@ with tab2:
     with col1: 
         st.button("Characterizing a software project",key="ex1") 
     with col2:
-        st.button("Stakeholder analysis",key="ex2",use_container_width=True)) 
+        st.button("Stakeholder analysis",key="ex2",use_container_width=True) 
     with col3: 
         st.button("Project management areas",key="ex3") 
     col4, col5, col6 = st.columns(3)

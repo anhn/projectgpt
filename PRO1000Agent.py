@@ -181,56 +181,51 @@ with st.form("test_form"):
         handle_submit(is_new_user, submit_text)
 
 
-st.subheader("Information about the project")
-st.write("ProjectGPT is a prototype of a virtual assistant built on GPT technology. ProjectGPT will support students to learn from the courses")
-
-st.subheader("Who is responsible for the research project?")
-st.write("Department of Economic and Informatikk, Business School, University of South Eastern Norway")
-
-st.subheader("Voluntary Participation")
-st.write("Your participation in this study is entirely voluntary. You have the right to withdraw at any time without any negative consequences. If you wish to withdraw all the data obtained concerning you for this study is deleted immediately. You will not be able to recover your data after withdrawing. To withdraw from the study click the button below:")
-withdraw_button_container = st.empty()
-if st.session_state['user_id'] is None:
-    withdraw_button_container.button("Click to withdraw from study", type="primary", disabled=True, help="You have not entered the study")
-else:
-    if withdraw_button_container.button("Click to withdraw from study", type="primary", disabled=False):
-        
-        print("witdrawn") ## Add modal when feature is released
-        db = client.usertests
-        backup_db = client.usertests_backup
-
-        if len(list(db.cycle_3.find({"Task-1.id": st.session_state['user_id']}))) > 0:
-            db.cycle_3.delete_one({"Task-1.id": st.session_state['user_id']})
-            backup_db.cycle_3.delete_one({"Task-1.id": st.session_state['user_id']})
-
-        for key in st.session_state.keys():
-            del st.session_state[key]
-        
-        st.session_state['user_id'] = None  
-        
-        withdraw_button = withdraw_button_container.button("You have successfully withdrawn from the study. All data associated to you has been deleted", type="primary", disabled=True)   
-        consent_button = button_container.form_submit_button('Submit and consent to data usage as described on this page')
-
-        streamlit_js_eval(js_expressions="parent.window.location.reload()")
-
-
-st.subheader("Confidentiality and Data Protection")
-lst = [
-    "We will only use your information for the purposes we have stated in this document.", 
-    "All personal data collected during this study will be treated confidentially and in accordance with privacy regulations.", 
-    "We will implement appropriate technical and organizational measures to ensure the security of your data.", 
-    "Data will be anonymized", 
-    "The data will be stored securely in a secure database and will only be accessible to the research team."
-]
-s = ''
-for i in lst:
-    s += "- " + i + "\n"
-st.markdown(s)
-
-st.subheader("What gives us the right to handle data about you?")
-st.write("We process information about you based on your consent.")
-st.write("On behalf of USN, Sikt – The Knowledge Sector's Service Provider (Kunnskapssektorens tjenesteleverandør in Norwegian) has assessed that the processing of personal data in this project is in accordance with the data protection regulations.")
-
+with st.expander("Project Planning"):
+    with st.expander("Module 1"):
+        st.write('''
+             Characterizing a software project
+        ''')
+        st.write('''
+             Stakeholder analysis
+        ''')
+        st.write('''
+             Project management areas
+        ''')
+        st.write('''
+             SWOT analysis
+        ''')
+     with st.expander("Module 2"):
+        st.write('''
+             Github project setting
+        ''')
+        st.write('''
+             Project Layout
+        ''')
+        st.write('''
+             Project success criteria
+        ''')
+        st.write('''
+             Requirement Gathering and Analysis
+        ''')    
+        st.write('''
+             Work Breakdown Structure (WBS)
+        ''')    
+        st.write('''
+             Scope validation
+        ''')    
+with st.expander("Project Execution"):
+    st.write('''
+        The chart above shows some numbers I picked for you.
+        I rolled actual dice for these, so they're *guaranteed* to
+        be random.
+    ''')
+with st.expander("Project Closing"):
+    st.write('''
+        The chart above shows some numbers I picked for you.
+        I rolled actual dice for these, so they're *guaranteed* to
+        be random.
+    ''')    
 ####### SIDEBAR #######
 #components.sidebar_nav(st.session_state['user_id'] is None)
 

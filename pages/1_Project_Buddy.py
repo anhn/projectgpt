@@ -46,12 +46,23 @@ with tab2:
     with st.form("my_form1"):
         jim_line = st.text_area("Write you command here","", height=70)
         submitted = st.form_submit_button("Submit")
-
 with tab3:
     st.title("Module 2")
-    st.markdown ("""
-        Ask for explanation and examples by input a prompt.
-    """, unsafe_allow_html=False)
+    col5, col6, col7, col8 = st.columns(4)
+    with col5: 
+        st.button("Github project setting",key="ex5",use_container_width=True) 
+    with col6:
+        st.button("Project Layout",key="ex6",use_container_width=True) 
+    with col7: 
+        st.button("Project success criteria",key="ex7",use_container_width=True) 
+    with col8: 
+        st.button("Requirement Gathering and Analysis",key="ex8",use_container_width=True) 
+    col9, col10 = st.columns(2)
+    with col9: 
+        st.button("Work Breakdown Structure (WBS)",key="ex9",use_container_width=True) 
+    with col10:
+        st.button("Scope validation",key="ex10",use_container_width=True) 
+
     with st.form("my_form2"):
         jim_line = st.text_area("Write you command here","", height=70)
         submitted = st.form_submit_button("Submit")

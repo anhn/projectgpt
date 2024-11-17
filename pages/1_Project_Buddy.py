@@ -40,7 +40,7 @@ with tab2:
     with col2:
         st.button("Stakeholder analysis",key="ex2",use_container_width=True) 
     with col3: 
-        st.button("Project management areas",key="ex3",,use_container_width=True) 
+        st.button("Project management areas",key="ex3",use_container_width=True) 
     with col4: 
         st.button("SWOT analysis",key="ex4",use_container_width=True) 
     with st.form("my_form1"):

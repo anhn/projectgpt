@@ -1,0 +1,16 @@
+st_pages>=0.4.3
+streamlit>=1.31
+langchain>=0.0.217
+openai>=1.2
+duckduckgo-search
+anthropic>=0.3.0
+trubrics>=1.4.3
+streamlit-feedback
+pymongo==3.12
+dnspython==1.16.0
+#pymongo[srv]
+extra_streamlit_components>=0.1.60
+streamlit_extras>=0.3.6
+streamlit_js_eval
+tiktoken>=0.6.0
+pypdf>=4.2.0

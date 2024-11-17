@@ -21,7 +21,7 @@ def get_response(jim_line):
     output =  "dummy"
     return output 
                                                                                                                                                                                                                  
-tab1, tab2, tab3, tab4, tab5, tab6, tab7 = st.tabs(["General", "Module 1", "Module 2", "Module 3", "Module 4", "Module 5", "Module 6"])
+tab1, tab2, tab3, tab4, tab5, tab6, tab7, tab8, tab9, tab10 = st.tabs(["General", "Module 1", "Module 2", "Module 3", "Module 4", "Module 5", "Module 6", "Module 7", "Module 8", "Module 9"])
 
 with tab1:
     st.title("🏢 General")
@@ -103,3 +103,29 @@ with tab7:
         jim_line = st.text_area("Write you command here","", height=70)
         submitted = st.form_submit_button("Submit")
 
+with tab8:
+    st.title("Module 7")
+    st.markdown ("""
+        Ask for explanation and examples by input a prompt.
+    """, unsafe_allow_html=False)
+    with st.form("my_form7"):
+        jim_line = st.text_area("Write you command here","", height=70)
+        submitted = st.form_submit_button("Submit")
+
+with tab9:
+    st.title("Module 8")
+    st.markdown ("""
+        Ask for explanation and examples by input a prompt.
+    """, unsafe_allow_html=False)
+    with st.form("my_form8"):
+        jim_line = st.text_area("Write you command here","", height=70)
+        submitted = st.form_submit_button("Submit")
+
+with tab10:
+    st.title("Module 9")
+    st.markdown ("""
+        Ask for explanation and examples by input a prompt.
+    """, unsafe_allow_html=False)
+    with st.form("my_form9"):
+        jim_line = st.text_area("Write you command here","", height=70)
+        submitted = st.form_submit_button("Submit")

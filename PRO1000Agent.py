@@ -180,7 +180,7 @@ with st.form("test_form"):
     if button_container.form_submit_button(submit_text):
         handle_submit(is_new_user, submit_text)
 
-
+url= "https://usn.instructure.com/courses/30635/pages/module-2-exercise?module_item_id=485903"
 with st.expander("Module 1"):
     st.write('''
          Characterizing a software project
@@ -194,7 +194,7 @@ with st.expander("Module 1"):
     st.write('''
          SWOT analysis
     ''')
-with st.expander("Module 2"):
+with st.expander("Module 2 [link](%s)" %url):
     st.write('''
          Github project setting
     ''')

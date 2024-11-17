@@ -29,7 +29,7 @@ with tab1:
         Ask for explanation and examples by input a prompt.
     """, unsafe_allow_html=False)
     with st.form("my_form"):
-        jim_line = st.text_area("Write you command here","", height=70, key='option')
+        jim_line = st.text_area("Write you command here","", height=70)
         submitted = st.form_submit_button("Submit")
 
 with tab2:
@@ -38,7 +38,7 @@ with tab2:
         Ask for explanation and examples by input a prompt.
     """, unsafe_allow_html=False)
     with st.form("my_form1"):
-        jim_line = st.text_area("Write you command here","", height=70, key='option')
+        jim_line = st.text_area("Write you command here","", height=70)
         submitted = st.form_submit_button("Submit")
 
 with tab3:
@@ -47,7 +47,7 @@ with tab3:
         Ask for explanation and examples by input a prompt.
     """, unsafe_allow_html=False)
     with st.form("my_form2"):
-        jim_line = st.text_area("Write you command here","", height=70, key='option')
+        jim_line = st.text_area("Write you command here","", height=70)
         submitted = st.form_submit_button("Submit")
 
 with tab4:
@@ -56,7 +56,7 @@ with tab4:
         Ask for explanation and examples by input a prompt.
     """, unsafe_allow_html=False)
     with st.form("my_form3"):
-        jim_line = st.text_area("Write you command here","", height=70, key='option')
+        jim_line = st.text_area("Write you command here","", height=70)
         submitted = st.form_submit_button("Submit")
 
 with tab5:
@@ -65,7 +65,7 @@ with tab5:
         Ask for explanation and examples by input a prompt.
     """, unsafe_allow_html=False)
     with st.form("my_form4"):
-        jim_line = st.text_area("Write you command here","", height=70, key='option')
+        jim_line = st.text_area("Write you command here","", height=70)
         submitted = st.form_submit_button("Submit")
 
 with tab6:
@@ -74,7 +74,7 @@ with tab6:
         Ask for explanation and examples by input a prompt.
     """, unsafe_allow_html=False)
     with st.form("my_form5"):
-        jim_line = st.text_area("Write you command here","", height=70, key='option')
+        jim_line = st.text_area("Write you command here","", height=70)
         submitted = st.form_submit_button("Submit")
 
 with tab7:
@@ -83,6 +83,6 @@ with tab7:
         Ask for explanation and examples by input a prompt.
     """, unsafe_allow_html=False)
     with st.form("my_form6"):
-        jim_line = st.text_area("Write you command here","", height=70, key='option')
+        jim_line = st.text_area("Write you command here","", height=70)
         submitted = st.form_submit_button("Submit")
 

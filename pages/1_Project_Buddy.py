@@ -37,7 +37,7 @@ with tab2:
     st.markdown ("""
         Ask for explanation and examples by input a prompt.
     """, unsafe_allow_html=False)
-    with st.form("my_form"):
+    with st.form("my_form1"):
         jim_line = st.text_area("Write you command here","", height=70, key='option')
         submitted = st.form_submit_button("Submit")
 
@@ -46,7 +46,7 @@ with tab3:
     st.markdown ("""
         Ask for explanation and examples by input a prompt.
     """, unsafe_allow_html=False)
-    with st.form("my_form"):
+    with st.form("my_form2"):
         jim_line = st.text_area("Write you command here","", height=70, key='option')
         submitted = st.form_submit_button("Submit")
 
@@ -55,7 +55,7 @@ with tab4:
     st.markdown ("""
         Ask for explanation and examples by input a prompt.
     """, unsafe_allow_html=False)
-    with st.form("my_form"):
+    with st.form("my_form3"):
         jim_line = st.text_area("Write you command here","", height=70, key='option')
         submitted = st.form_submit_button("Submit")
 
@@ -64,7 +64,7 @@ with tab5:
     st.markdown ("""
         Ask for explanation and examples by input a prompt.
     """, unsafe_allow_html=False)
-    with st.form("my_form"):
+    with st.form("my_form4"):
         jim_line = st.text_area("Write you command here","", height=70, key='option')
         submitted = st.form_submit_button("Submit")
 
@@ -73,7 +73,7 @@ with tab6:
     st.markdown ("""
         Ask for explanation and examples by input a prompt.
     """, unsafe_allow_html=False)
-    with st.form("my_form"):
+    with st.form("my_form5"):
         jim_line = st.text_area("Write you command here","", height=70, key='option')
         submitted = st.form_submit_button("Submit")
 
@@ -82,7 +82,7 @@ with tab7:
     st.markdown ("""
         Ask for explanation and examples by input a prompt.
     """, unsafe_allow_html=False)
-    with st.form("my_form"):
+    with st.form("my_form6"):
         jim_line = st.text_area("Write you command here","", height=70, key='option')
         submitted = st.form_submit_button("Submit")
 

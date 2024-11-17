@@ -34,7 +34,11 @@ with tab1:
 
 with tab2:
     st.title("Module 1")
-    st.button("Say hello") st.button("Say hello") st.button("Say hello") st.button("Say hello") st.button("Say hello")
+    st.button("Say hello") 
+    st.button("Say hello") 
+    st.button("Say hello") 
+    st.button("Say hello") 
+    st.button("Say hello")
     with st.form("my_form1"):
         jim_line = st.text_area("Write you command here","", height=70)
         submitted = st.form_submit_button("Submit")

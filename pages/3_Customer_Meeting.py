@@ -16,7 +16,7 @@ with col2:
         st.markdown ("""
                 Ask for explanation and examples by input a prompt.
             """, unsafe_allow_html=False)
-            with st.form("my_form"):
+        with st.form("my_form"):
                 jim_line = st.text_area("Write you question here","", height=70)
                 submitted = st.form_submit_button("Submit")
 

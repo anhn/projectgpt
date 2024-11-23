@@ -7,5 +7,12 @@ import app_components as components
 
 st.set_page_config(layout = "wide", page_title="Customer Meeting")
 
-st.markdown("The meetings with customers are scheduled.")
+st.markdown("The meetings with customers are scheduled. Today you will talk to your Customer Reidar Hellegurd")
+st.markdown("The objective of the meeting is to clarify the customer's need. Read the project description and prepare your questions. An example of questions can be - What is the prefered color scheme for the home page? How the cover photo should look like? ")
+st.markdown ("""
+        Ask for explanation and examples by input a prompt.
+    """, unsafe_allow_html=False)
+    with st.form("my_form"):
+        jim_line = st.text_area("Write you question here","", height=70)
+        submitted = st.form_submit_button("Submit")
 

@@ -25,15 +25,12 @@ tab1, tab2, tab3, tab4, tab5, tab6, tab7, tab8, tab9 = st.tabs(["General", "Modu
 
 with tab1:
     st.title("🏢 General")
-    st.markdown ("""
-        Ask for explanation and examples by input a prompt.
-    """, unsafe_allow_html=False)
     with st.form("my_form"):
         jim_line = st.text_area("Write you command here","", height=70)
         submitted = st.form_submit_button("Submit")
 
 with tab2:
-    st.title("Module 1")
+    st.image("https://miro.medium.com/v2/resize:fit:720/format:webp/1*fiEXMWcFg328ztjZEWYlpg.jpeg", width=800)
     col1, col2, col3, col4 = st.columns(4)
     with col1: 
         st.button("Characterizing a software project",key="ex1",use_container_width=True) 

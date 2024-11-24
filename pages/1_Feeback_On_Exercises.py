@@ -21,7 +21,7 @@ def get_response(jim_line):
     output =  "dummy"
     return output 
                                                                                                                                                                                                                  
-tab1, tab2, tab3, tab4, tab5, tab6, tab7, tab8, tab9, tab10 = st.tabs(["General", "Module 1", "Module 2", "Module 3", "Module 4", "Module 5", "Module 6", "Module 7", "Module 8", "Module 9"])
+tab1, tab2, tab3, tab4, tab5, tab6, tab7, tab8, tab9 = st.tabs(["General", "Module 1", "Module 2", "Module 3", "Module 4", "Module 5", "Module 6", "Module 7", "Module 8"])
 
 with tab1:
     st.title("🏢 General")
@@ -62,13 +62,19 @@ with tab3:
         st.button("Work Breakdown Structure (WBS)",key="ex9",use_container_width=True) 
     with col10:
         st.button("Scope validation",key="ex10",use_container_width=True) 
-
     with st.form("my_form2"):
         jim_line = st.text_area("Write you command here","", height=70)
         submitted = st.form_submit_button("Submit")
 
 with tab4:
     st.title("Module 3")
+    col11, col12, col13 = st.columns(3)
+    with col11: 
+        st.button("Network Diagram and Critical Path Analysis",key="ex11",use_container_width=True) 
+    with col12:
+        st.button("Gantt Chart",key="ex12",use_container_width=True) 
+    with col13: 
+        st.button("Time control",key="ex13",use_container_width=True) 
     st.markdown ("""
         Ask for explanation and examples by input a prompt.
     """, unsafe_allow_html=False)
@@ -78,6 +84,11 @@ with tab4:
 
 with tab5:
     st.title("Module 4")
+    col14, col15 = st.columns(2)
+    with col14: 
+        st.button("Low Fidelity Prototype",key="ex14",use_container_width=True) 
+    with col15:
+        st.button("Prototying with Figma",key="ex15",use_container_width=True) 
     st.markdown ("""
         Ask for explanation and examples by input a prompt.
     """, unsafe_allow_html=False)
@@ -87,6 +98,11 @@ with tab5:
 
 with tab6:
     st.title("Module 5")
+    col16, col17 = st.columns(2)
+    with col16: 
+        st.button("Scrum Project Management",key="ex16",use_container_width=True) 
+    with col17:
+        st.button("Sprint execution and report",key="ex17",use_container_width=True) 
     st.markdown ("""
         Ask for explanation and examples by input a prompt.
     """, unsafe_allow_html=False)
@@ -96,6 +112,11 @@ with tab6:
 
 with tab7:
     st.title("Module 6")
+    col18, col19 = st.columns(2)
+    with col18: 
+        st.button("Risk Management Table",key="ex18",use_container_width=True) 
+    with col19:
+        st.button("Communication Management Table",key="ex19",use_container_width=True) 
     st.markdown ("""
         Ask for explanation and examples by input a prompt.
     """, unsafe_allow_html=False)
@@ -105,6 +126,13 @@ with tab7:
 
 with tab8:
     st.title("Module 7")
+    col20, col21, col22 = st.columns(3)
+    with col20: 
+        st.button("Non-functional requirements",key="ex20",use_container_width=True) 
+    with col21:
+        st.button("Test plan",key="ex21",use_container_width=True) 
+    with col22:
+        st.button("Usability test",key="ex22",use_container_width=True) 
     st.markdown ("""
         Ask for explanation and examples by input a prompt.
     """, unsafe_allow_html=False)
@@ -114,18 +142,16 @@ with tab8:
 
 with tab9:
     st.title("Module 8")
+        col23, col24, col25 = st.columns(3)
+    with col23: 
+        st.button("Sprint planning meeting",key="ex23",use_container_width=True) 
+    with col24:
+        st.button("Sprint review meeting",key="ex24",use_container_width=True) 
+    with col25:
+        st.button("Retrospective meeting",key="ex25",use_container_width=True) 
     st.markdown ("""
         Ask for explanation and examples by input a prompt.
     """, unsafe_allow_html=False)
     with st.form("my_form8"):
-        jim_line = st.text_area("Write you command here","", height=70)
-        submitted = st.form_submit_button("Submit")
-
-with tab10:
-    st.title("Module 9")
-    st.markdown ("""
-        Ask for explanation and examples by input a prompt.
-    """, unsafe_allow_html=False)
-    with st.form("my_form9"):
         jim_line = st.text_area("Write you command here","", height=70)
         submitted = st.form_submit_button("Submit")

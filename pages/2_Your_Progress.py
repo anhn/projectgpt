@@ -12,7 +12,7 @@ with st.form("my_form"):
       st.write("To understand your progress, please fill in the following information:")
       st.caption("Milestone 1 - Project initiation")
       st.write("Team formation")
-      st.selectbox("Stage", options=["No team found", "Found a team", "Agree on way of working", "Storming time", "Perfomring time"], placeholder="Select an option", index=None)
+      st.selectbox("Stage", options=["No team found", "Found a team", "Agree on way of working", "Storming time", "Performing time"], placeholder="Select an option", index=None)
       st.write("Project specification")
       st.checkbox("Read project specification")
       st.checkbox("Chat with the customer")
@@ -40,7 +40,7 @@ with st.form("my_form"):
       st.write("Testing")
       st.write("Report")
       st.write("Deployment")
-      st.button("Save form", type="primary")
+      st.form_submit_button("Save form")
 
 st.header("Summary of your learning progress")
 

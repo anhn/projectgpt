@@ -6,7 +6,7 @@ from streamlit_extras.switch_page_button import switch_page
 import app_components as components 
 
 st.set_page_config(layout = "wide", page_title="Customer Meeting")
-col1, col2 = st.columns(2)
+col1, col2 = st.columns([1, 3])
 with col1:
         st.header("Reidar Hellegurd")
         st.image("https://www.nih.no/om/ansatte/reidars/reidar_safvenbom_250x250.jpg",width=300)

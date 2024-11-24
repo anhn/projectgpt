@@ -142,7 +142,7 @@ with tab8:
 
 with tab9:
     st.title("Module 8")
-        col23, col24, col25 = st.columns(3)
+    col23, col24, col25 = st.columns(3)
     with col23: 
         st.button("Sprint planning meeting",key="ex23",use_container_width=True) 
     with col24:

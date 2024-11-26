@@ -16,4 +16,8 @@ false_html = '<input type="checkbox" disabled="true">'
 
 df['D'] = df['D'].apply(lambda b: true_html if b else false_html)
 
-st.markdown(df.to_html(escape=False), unsafe_allow_html=True)
+edited_df = st.data_editor(df)
+
+favorite_command = edited_df.loc[edited_df["rating"].idxmax()]["command"]
+
+st.markdown(favorite_command.to_html(escape=False), unsafe_allow_html=True)

@@ -18,6 +18,6 @@ favorite_command = edited_df.loc[edited_df["rating"].idxmax()]["command"]
 st.markdown(f"Your favorite command is **{favorite_command}** 🎈")
 st.button('Click me', on_click=click_button)
 
-def click_button()
+def click_button():
     edited_df.to_csv("data.csv", index=False)
 

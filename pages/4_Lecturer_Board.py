@@ -1,4 +1,4 @@
---------import streamlit as st
+import streamlit as st
 import pandas as pd
 
 feedback1 = "Students are divided into teams of six to eight students. Teams are formed by randomly assigning students; the members generally do not know each other beforehand. This is a typical situation in a real life setting, especially when working as a consultant. The students are free to choose the methods that best fit their projects. In some cases, the development approaches are enforced by customers due to existing working processes they have adopted in their organizations. Each team decides by themselves about their management and leadership mechanisms. In most of the cases, students organize themselves using a flat organizational structure within the team. Decision making is often done collectively and the reasons for important decisions are documented in the final reports. There are several lectures at the beginning of the course teaching topics such as project management, team dynamics, Scrum, architecture, and testing."

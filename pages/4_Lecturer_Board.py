@@ -52,6 +52,6 @@ edited_df = st.data_editor(df)
 def click_button():
     edited_df.to_csv("data.csv", index=False)
 
-st.button('Click me', on_click=click_button)
+st.button('Send feedback', on_click=click_button)
 
 

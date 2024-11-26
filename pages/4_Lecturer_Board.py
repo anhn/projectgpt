@@ -38,12 +38,14 @@ Resten er kontrollerbart.
 14.   Som et nåværende medlem, ønsker jeg å kunne se en interaktiv og visuell floor plan for å velge og reservere en bestemt arbeidsplass i det åpne arbeidsområdet.
 15.   Som en nåværende medlem, ønsker jeg å kunne se informasjon om tilgjengelige parkeringsplasser ved coworking-området, slik at jeg kan planlegge min ankomst og avgang
 """
+st.selectbox("Class", options=["PRO1000 Bø", "PRO1000 Net", "PRO1000 Gol"], placeholder="Select an option", index=None)
+st.selectbox("Exercise", options=["M1E1 - Stakeholder analysis", "M2E2 - Workbreakdown Structure", "M2E3 - User Stories", "M2E4 - GanttChart", "M3E1 - Risk management"], placeholder="Select an option", index=None)
 
 df = pd.DataFrame({
-    "UserId": [1, 2, 3],
-    "Exercise": [exercise2,exercise2,exercise2],
-    "Feedback": [feedback1,feedback2,feedback3],
-    "FeedbackSent": [True,False,True]
+    "UserId": [1, 2, 3,4,5,6,7,8,9,10,11,12],
+    "Exercise": [exercise2,exercise2,exercise2,exercise2,exercise2,exercise2,exercise2,exercise2,exercise2,exercise2,exercise2,exercise2],
+    "Feedback": [feedback1,feedback2,feedback3,feedback1,feedback2,feedback3,feedback1,feedback2,feedback3,feedback1,feedback2,feedback3],
+    "FeedbackSent": [True,False,True,True,False,True,True,False,True,True,False,True]
 })
 edited_df = st.data_editor(df)
 

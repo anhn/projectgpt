@@ -11,11 +11,11 @@ df = pd.DataFrame({
     "Feedback": [feedback1,feedback2,feedback3],
     "FeedbackSent": [True,False,True]
 })
-
 edited_df = st.data_editor(df)
-
-st.button('Click me', on_click=click_button)
 
 def click_button():
     edited_df.to_csv("data.csv", index=False)
+
+st.button('Click me', on_click=click_button)
+
 

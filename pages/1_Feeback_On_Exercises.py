@@ -26,7 +26,7 @@ tab1, tab2, tab3, tab4, tab5, tab6, tab7, tab8, tab9 = st.tabs(["General", "Modu
 with tab1:
     col01, col02 = st.columns([1, 1])
     with col01:
-        st.video("https://youtube.com/shorts/HtDDvMFuXoE")
+        st.video("https://www.dropbox.com/scl/fi/vbh4y8gfs8rw9nyilpino/intro.mp4")
     with col02:
         st.write("This is Anh. I will help to answer any of your question regarding to the course, project, assignments and so on.")
         st.write("Examples: How are the teams formed, and can we request to be in a team with specific classmates? How is the final grade distributed across the presentation, project report, prototype, and teamwork?")

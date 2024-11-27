@@ -24,9 +24,14 @@ def get_response(jim_line):
 tab1, tab2, tab3, tab4, tab5, tab6, tab7, tab8, tab9 = st.tabs(["General", "Module 1", "Module 2", "Module 3", "Module 4", "Module 5", "Module 6", "Module 7", "Module 8"])
 
 with tab1:
-    st.title("🏢 General")
+    col01, col02 = st.columns([1, 3])
+    with col01:
+        st.image("https://www.usn.no/getfile.php/13775947-1692129923/usn.no/ansatte%20%28opplastet%29/angu.JPG%20%28article_small%29.jpg", width=300)
+    with col02:
+        st.write("This is Anh. I will help to answer any of your question regarding to the course, project, assignments and so on.")
+        st.write("Examples: How are the teams formed, and can we request to be in a team with specific classmates? How is the final grade distributed across the presentation, project report, prototype, and teamwork?")
     with st.form("my_form"):
-        jim_line = st.text_area("Write you command here","", height=70)
+        jim_line = st.text_area("Write your question here","", height=70)
         submitted = st.form_submit_button("Submit")
 
 with tab2:

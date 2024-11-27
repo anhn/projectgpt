@@ -46,9 +46,9 @@ df = pd.DataFrame({
     "SummaryOfCustomerMeetings": [exercise2,exercise2,exercise2,exercise2,exercise2,exercise2,exercise2,exercise2,exercise2,exercise2,exercise2,exercise2],
     "Grade": [feedback1,feedback2,feedback3,feedback1,feedback2,feedback3,feedback1,feedback2,feedback3,feedback1,feedback2,feedback3],
     "SummaryOfSprintPlanningMeetings": [exercise2,exercise2,exercise2,exercise2,exercise2,exercise2,exercise2,exercise2,exercise2,exercise2,exercise2,exercise2],
-    "Grade": [feedback1,feedback2,feedback3,feedback1,feedback2,feedback3,feedback1,feedback2,feedback3,feedback1,feedback2,feedback3],
+    "Grade2": [feedback1,feedback2,feedback3,feedback1,feedback2,feedback3,feedback1,feedback2,feedback3,feedback1,feedback2,feedback3],
     "SummaryOfSprintRetrospectiveMeetings": [exercise2,exercise2,exercise2,exercise2,exercise2,exercise2,exercise2,exercise2,exercise2,exercise2,exercise2,exercise2],
-    "Grade": [feedback1,feedback2,feedback3,feedback1,feedback2,feedback3,feedback1,feedback2,feedback3,feedback1,feedback2,feedback3],})
+    "Grade3": [feedback1,feedback2,feedback3,feedback1,feedback2,feedback3,feedback1,feedback2,feedback3,feedback1,feedback2,feedback3]})
 
 edited_df = st.data_editor(df)
 

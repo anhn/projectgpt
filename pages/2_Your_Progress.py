@@ -2,6 +2,7 @@ import streamlit as st
 import extra_streamlit_components as stx
 import time
 from streamlit_extras.switch_page_button import switch_page
+from datetime import date, timedelta
 
 
 st.set_page_config(layout="wide") 
@@ -59,10 +60,10 @@ with st.form("my_form"):
       st.checkbox("Perform a Sprint review meeting")
       st.checkbox("Perform a Sprint retrospective meeting")
       st.write("10. Software product design")
-      st.write("Use UML diagrams like use case diagram, class diagram, activity diagram, etc")
-      st.write("Define the technological approach and technological stack, i.e. wix, Wordpress, HTML, netlify, etc")
-      st.write("Study the architecture of the web with the selected technological approach")
-      st.write("11. Software implementation")
+      st.checkbox("Use UML diagrams like use case diagram, class diagram, activity diagram, etc")
+      st.checkbox("Define the technological approach and technological stack, i.e. wix, Wordpress, HTML, netlify, etc")
+      st.checkbox("Study the architecture of the web with the selected technological approach")
+      st.checkbox("11. Software implementation")
       st.checkbox("Write code with HTML and CSS")
       st.checkbox("Write code with Javascript")
       st.checkbox("Write backend code with i.e. PHP, Python, C#, ...")
@@ -81,7 +82,8 @@ with st.form("my_form"):
 
 st.header("Summary of your learning progress")
 
-st.write("Here we summarize your learning progress!")
+today = date.today()
+st.write("Here we summarize your learning progress up to ", today)
 st.write("Team: It looks like you have established your team! Do you get more meeting with other team members? Have you considered using a team contract to improve commitment within the team?")
 st.write("Customer: Here is the summary of your conversation with the customer so far. Make sure the request from the customers correctly understood!")
 st.write("Knowledge module: At this time, you should have completed module 2 with creating WBS for your project. Are you not sure if it is not correct? Send an email to the lecturer for feedback: anguatusn.no")

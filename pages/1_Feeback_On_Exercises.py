@@ -62,7 +62,7 @@ with tab3:
     with col10:
         st.button("Scope validation",key="ex10",use_container_width=True) 
     with st.expander("Submit your exercise here"):
-        with st.form("my_form1"):
+        with st.form("my_form2"):
             jim_email= st.text_input("Email to receive feedback", "12345678@std.usn")
             jim_line = st.text_area("Write your exercise here","", height=200)
             submitted = st.form_submit_button("Submit")
@@ -76,7 +76,7 @@ with tab4:
     with col13: 
         st.button("Time control",key="ex13",use_container_width=True) 
     with st.expander("Submit your exercise here"):
-        with st.form("my_form1"):
+        with st.form("my_form3"):
             jim_email= st.text_input("Email to receive feedback", "12345678@std.usn")
             jim_line = st.text_area("Write your exercise here","", height=200)
             submitted = st.form_submit_button("Submit")
@@ -88,7 +88,7 @@ with tab5:
     with col15:
         st.button("Prototying with Figma",key="ex15",use_container_width=True) 
     with st.expander("Submit your exercise here"):
-        with st.form("my_form1"):
+        with st.form("my_form4"):
             jim_email= st.text_input("Email to receive feedback", "12345678@std.usn")
             jim_line = st.text_area("Write your exercise here","", height=200)
             submitted = st.form_submit_button("Submit")
@@ -101,7 +101,7 @@ with tab6:
     with col17:
         st.button("Sprint execution and report",key="ex17",use_container_width=True) 
     with st.expander("Submit your exercise here"):
-        with st.form("my_form1"):
+        with st.form("my_form5"):
             jim_email= st.text_input("Email to receive feedback", "12345678@std.usn")
             jim_line = st.text_area("Write your exercise here","", height=200)
             submitted = st.form_submit_button("Submit")
@@ -113,7 +113,7 @@ with tab7:
     with col19:
         st.button("Communication Management Table",key="ex19",use_container_width=True) 
     with st.expander("Submit your exercise here"):
-        with st.form("my_form1"):
+        with st.form("my_form6"):
             jim_email= st.text_input("Email to receive feedback", "12345678@std.usn")
             jim_line = st.text_area("Write your exercise here","", height=200)
             submitted = st.form_submit_button("Submit")
@@ -128,7 +128,7 @@ with tab8:
     with col22:
         st.button("Usability test",key="ex22",use_container_width=True) 
     with st.expander("Submit your exercise here"):
-        with st.form("my_form1"):
+        with st.form("my_form7"):
             jim_email= st.text_input("Email to receive feedback", "12345678@std.usn")
             jim_line = st.text_area("Write your exercise here","", height=200)
             submitted = st.form_submit_button("Submit")
@@ -143,7 +143,7 @@ with tab9:
     with col25:
         st.button("Retrospective meeting",key="ex25",use_container_width=True) 
     with st.expander("Submit your exercise here"):
-        with st.form("my_form1"):
+        with st.form("my_form8"):
             jim_email= st.text_input("Email to receive feedback", "12345678@std.usn")
             jim_line = st.text_area("Write your exercise here","", height=200)
             submitted = st.form_submit_button("Submit")

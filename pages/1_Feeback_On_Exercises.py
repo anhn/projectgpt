@@ -40,9 +40,11 @@ with tab2:
         st.button("Project management areas",key="ex3",use_container_width=True) 
     with col4: 
         st.button("SWOT analysis",key="ex4",use_container_width=True) 
-    with st.form("my_form1"):
-        jim_line = st.text_area("Write you command here","", height=70)
-        submitted = st.form_submit_button("Submit")
+    with st.expander("Submit your exercise here"):
+        with st.form("my_form1"):
+            jim_email= st.text_input("Email to receive feedback", "12345678@std.usn")
+            jim_line = st.text_area("Write your exercise here","", height=200)
+            submitted = st.form_submit_button("Submit")
 with tab3:
     st.image("https://cdn-cnhfh.nitrocdn.com/jsHsUxJJAapjeJICfnGvtaAAOHZlckTe/assets/images/optimized/rev-dfbdbb8/e360-media.s3.amazonaws.com/2024/07/07160602/2290114_ProjectScopeManagementPMA-ControlScopeProcessPMP_070524.jpg", width=400)
     col5, col6, col7, col8 = st.columns(4)
@@ -59,9 +61,11 @@ with tab3:
         st.button("Work Breakdown Structure (WBS)",key="ex9",use_container_width=True) 
     with col10:
         st.button("Scope validation",key="ex10",use_container_width=True) 
-    with st.form("my_form2"):
-        jim_line = st.text_area("Write you command here","", height=70)
-        submitted = st.form_submit_button("Submit")
+    with st.expander("Submit your exercise here"):
+        with st.form("my_form1"):
+            jim_email= st.text_input("Email to receive feedback", "12345678@std.usn")
+            jim_line = st.text_area("Write your exercise here","", height=200)
+            submitted = st.form_submit_button("Submit")
 with tab4:
     st.image("https://images.squarespace-cdn.com/content/v1/56acc1138a65e2a286012c54/1587053683921-RPMQIPHXBQFOIZOXRTGD/time-management-1966396_1920.jpg", width=400)
     col11, col12, col13 = st.columns(3)
@@ -71,9 +75,11 @@ with tab4:
         st.button("Gantt Chart",key="ex12",use_container_width=True) 
     with col13: 
         st.button("Time control",key="ex13",use_container_width=True) 
-    with st.form("my_form3"):
-        jim_line = st.text_area("Write you command here","", height=70)
-        submitted = st.form_submit_button("Submit")
+    with st.expander("Submit your exercise here"):
+        with st.form("my_form1"):
+            jim_email= st.text_input("Email to receive feedback", "12345678@std.usn")
+            jim_line = st.text_area("Write your exercise here","", height=200)
+            submitted = st.form_submit_button("Submit")
 with tab5:
     st.image("https://cortouchmedia.com.ng/wp-content/uploads/2023/05/prototyping.png", width=400)
     col14, col15 = st.columns(2)
@@ -81,9 +87,11 @@ with tab5:
         st.button("Low Fidelity Prototype",key="ex14",use_container_width=True) 
     with col15:
         st.button("Prototying with Figma",key="ex15",use_container_width=True) 
-    with st.form("my_form4"):
-        jim_line = st.text_area("Write you command here","", height=70)
-        submitted = st.form_submit_button("Submit")
+    with st.expander("Submit your exercise here"):
+        with st.form("my_form1"):
+            jim_email= st.text_input("Email to receive feedback", "12345678@std.usn")
+            jim_line = st.text_area("Write your exercise here","", height=200)
+            submitted = st.form_submit_button("Submit")
 
 with tab6:
     st.image("https://scrumorg-website-prod.s3.amazonaws.com/drupal/inline-images/2023-09/scrum-framework-9.29.23.png", width=400)
@@ -92,10 +100,11 @@ with tab6:
         st.button("Scrum Project Management",key="ex16",use_container_width=True) 
     with col17:
         st.button("Sprint execution and report",key="ex17",use_container_width=True) 
-    with st.form("my_form5"):
-        jim_line = st.text_area("Write you command here","", height=70)
-        submitted = st.form_submit_button("Submit")
-
+    with st.expander("Submit your exercise here"):
+        with st.form("my_form1"):
+            jim_email= st.text_input("Email to receive feedback", "12345678@std.usn")
+            jim_line = st.text_area("Write your exercise here","", height=200)
+            submitted = st.form_submit_button("Submit")
 with tab7:
     st.image("https://www.intuition.com/wp-content/uploads/2023/07/Risk-Management-Process.png", width=400)
     col18, col19 = st.columns(2)
@@ -103,9 +112,11 @@ with tab7:
         st.button("Risk Management Table",key="ex18",use_container_width=True) 
     with col19:
         st.button("Communication Management Table",key="ex19",use_container_width=True) 
-    with st.form("my_form6"):
-        jim_line = st.text_area("Write you command here","", height=70)
-        submitted = st.form_submit_button("Submit")
+    with st.expander("Submit your exercise here"):
+        with st.form("my_form1"):
+            jim_email= st.text_input("Email to receive feedback", "12345678@std.usn")
+            jim_line = st.text_area("Write your exercise here","", height=200)
+            submitted = st.form_submit_button("Submit")
 
 with tab8:
     st.image("https://www.tatvasoft.com/outsourcing/wp-content/uploads/2022/11/difference-between-software-testing-vs-quality-assurance.jpg", width=400)
@@ -116,9 +127,11 @@ with tab8:
         st.button("Test plan",key="ex21",use_container_width=True) 
     with col22:
         st.button("Usability test",key="ex22",use_container_width=True) 
-    with st.form("my_form7"):
-        jim_line = st.text_area("Write you command here","", height=70)
-        submitted = st.form_submit_button("Submit")
+    with st.expander("Submit your exercise here"):
+        with st.form("my_form1"):
+            jim_email= st.text_input("Email to receive feedback", "12345678@std.usn")
+            jim_line = st.text_area("Write your exercise here","", height=200)
+            submitted = st.form_submit_button("Submit")
 
 with tab9:
     st.image("https://business.adobe.com/blog/basics/media_1f189f1c2c3c424441541e86d7b8b729ad795f205.jpeg", width=400)
@@ -129,6 +142,8 @@ with tab9:
         st.button("Sprint review meeting",key="ex24",use_container_width=True) 
     with col25:
         st.button("Retrospective meeting",key="ex25",use_container_width=True) 
-    with st.form("my_form8"):
-        jim_line = st.text_area("Write you command here","", height=70)
-        submitted = st.form_submit_button("Submit")
+    with st.expander("Submit your exercise here"):
+        with st.form("my_form1"):
+            jim_email= st.text_input("Email to receive feedback", "12345678@std.usn")
+            jim_line = st.text_area("Write your exercise here","", height=200)
+            submitted = st.form_submit_button("Submit")

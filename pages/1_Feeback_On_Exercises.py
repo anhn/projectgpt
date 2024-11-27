@@ -26,7 +26,9 @@ tab1, tab2, tab3, tab4, tab5, tab6, tab7, tab8, tab9 = st.tabs(["General", "Modu
 with tab1:
     col01, col02 = st.columns([1, 3])
     with col01:
-        st.image("https://www.usn.no/getfile.php/13775947-1692129923/usn.no/ansatte%20%28opplastet%29/angu.JPG%20%28article_small%29.jpg", width=300)
+        video_file = open("intro.mp4", "rb")
+        video_bytes = video_file.read()
+        st.video(video_bytes)
     with col02:
         st.write("This is Anh. I will help to answer any of your question regarding to the course, project, assignments and so on.")
         st.write("Examples: How are the teams formed, and can we request to be in a team with specific classmates? How is the final grade distributed across the presentation, project report, prototype, and teamwork?")

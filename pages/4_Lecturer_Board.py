@@ -40,7 +40,7 @@ Resten er kontrollerbart.
 """
 st.selectbox("Class", options=["PRO1000 Bø", "PRO1000 Net", "PRO1000 Gol"], placeholder="Select an option", index=None)
 st.selectbox("Exercise", options=["M1E1 - Stakeholder analysis", "M2E2 - Workbreakdown Structure", "M2E3 - User Stories", "M2E4 - GanttChart", "M3E1 - Risk management"], placeholder="Select an option", index=None)
-
+st.button('Retrieve latest data')
 df = pd.DataFrame({
     "UserId": [1, 2, 3,4,5,6,7,8,9,10,11,12],
     "Exercise": [exercise2,exercise2,exercise2,exercise2,exercise2,exercise2,exercise2,exercise2,exercise2,exercise2,exercise2,exercise2],

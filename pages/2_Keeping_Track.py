@@ -11,7 +11,7 @@ st.header("Reflecting on your learning progress")
 st.write("To keep track on your learning progress, we need to collect some information from you.")
 st.write("Please complete the form seriously as it might impact the feedback you will receive.")
 st.button("I understand! Let's start")
-st.button("Load the latest form to update new progress?)
+st.button("Load the latest form to update new progress?")
 with st.form("my_form"):
       st.write("To understand your progress, please fill in the following information:")
       st.caption("Milestone 1 - Project planning")

@@ -8,7 +8,10 @@ from datetime import date, timedelta
 st.set_page_config(layout="wide") 
 
 st.header("Reflecting on your learning progress")
-
+st.write("To keep track on your learning progress, we need to collect some information from you.")
+st.write("Please complete the form seriously as it might impact the feedback you will receive.")
+st.button("I understand! Let's start")
+st.button("Load the latest form to update new progress?)
 with st.form("my_form"):
       st.write("To understand your progress, please fill in the following information:")
       st.caption("Milestone 1 - Project planning")
@@ -80,14 +83,3 @@ with st.form("my_form"):
       st.checkbox("Create final presentation and practice")
       st.form_submit_button("Save form")
 
-st.header("Summary of your learning progress")
-
-today = date.today()
-st.write("Here we summarize your learning progress up to ", today)
-
-st.write("Team: It looks like you have established your team! Do you get more meeting with other team members? Have you considered using a team contract to improve commitment within the team?")
-st.write("Customer: Here is the summary of your conversation with the customer so far. Make sure the request from the customers correctly understood!")
-st.write("Knowledge module: At this time, you should have completed module 2 with creating WBS for your project. Are you not sure if it is not correct? Send an email to the lecturer for feedback: anguatusn.no")
-st.write("Process: Do you define how you and teammates will work together? We suggest to follow Scrum method. Let start the first Srpint. More information, read Module 4")
-st.write("Product: It is still early to work with the website now. However, you might want to look at websites about HTML, CSS to learn about web development!")
-st.write("Report: It is early to work with the report now. Obligagory Assignment 1 is the closet formal milestone.")

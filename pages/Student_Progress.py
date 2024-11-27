@@ -1,7 +1,8 @@
 import streamlit as st
 import pandas as pd
- 
+import numpy as np 
 st.selectbox("Class", options=["PRO1000 Bø", "PRO1000 Net", "PRO1000 Gol"], placeholder="Select an option", index=None)
+st.button('Retrieve Latest Data')
 
 df = pd.DataFrame({
     "UserId": [1, 2, 3],
@@ -48,7 +49,12 @@ df = pd.DataFrame({
 })
 edited_df = st.data_editor(df)
 
-def click_button():
-    edited_df.to_csv("data.csv", index=False)
+chart_data = pd.DataFrame(np.random.randn(8, 3), columns=["Group1", "Group2", "Group3"])
 
-st.button('Send feedback', on_click=click_button)
+st.line_chart(chart_data)
+
+
+chart_data = pd.DataFrame(np.random.randn(20, 3), columns=["a", "b", "c"])
+
+st.line_chart(chart_data)
+

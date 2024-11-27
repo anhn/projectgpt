@@ -6,7 +6,7 @@ st.selectbox("Class", options=["PRO1000 Bø", "PRO1000 Net", "PRO1000 Gol"], pla
 df = pd.DataFrame({
     "UserId": [1, 2, 3],
     "TeamStage": ["Found a team","Found a team","Found a team"],
-    "ProjectSpecification": ["Understand  what need to do","Understand  what need to do"","Understand  what need to do"],
+    "ProjectSpecification": ["Understand  what need to do","Understand  what need to do","Understand  what need to do"],
     "ProjectRepositorySetup": [True,False,True],
     "CommunicationToolSetup": [True,False,True],
     "ProjectManagementBoardSetup": [True,False,True],

@@ -1,4 +1,5 @@
 import streamlit as st
+import pandas as pd
 
 chart_data1 = pd.DataFrame(np.random.randn(10, 10), columns=["Group1", "Group2", "Group3", "Group4", "Group5", "Group6", "Group7", "Group8", "Group9", "Group10"])
 st.title("Teamwork")

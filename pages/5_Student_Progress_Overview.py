@@ -52,8 +52,5 @@ st.write("Wanna write a gentle reminder regarding the progress to the student te
 title = st.text_input("Student group name", "1,2,3")
 st.button('Send a reminder')
 
-chart_data = pd.DataFrame(np.random.randn(10, 10), columns=["Group1", "Group2", "Group3", "Group4", "Group5", "Group6", "Group7", "Group8", "Group9", "Group10"])
-
-st.line_chart(chart_data)
 
 

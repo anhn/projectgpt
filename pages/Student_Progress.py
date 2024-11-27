@@ -49,12 +49,8 @@ df = pd.DataFrame({
 })
 edited_df = st.data_editor(df)
 
-chart_data = pd.DataFrame(np.random.randn(8, 3), columns=["Group1", "Group2", "Group3"])
+chart_data = pd.DataFrame(np.random.randn(10, 10), columns=["Group1", "Group2", "Group3", "Group4", "Group5", "Group6", "Group7", "Group8", "Group9", "Group10"])
 
 st.line_chart(chart_data)
 
-
-chart_data = pd.DataFrame(np.random.randn(20, 3), columns=["a", "b", "c"])
-
-st.line_chart(chart_data)
 

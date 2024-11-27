@@ -84,6 +84,7 @@ st.header("Summary of your learning progress")
 
 today = date.today()
 st.write("Here we summarize your learning progress up to ", today)
+
 st.write("Team: It looks like you have established your team! Do you get more meeting with other team members? Have you considered using a team contract to improve commitment within the team?")
 st.write("Customer: Here is the summary of your conversation with the customer so far. Make sure the request from the customers correctly understood!")
 st.write("Knowledge module: At this time, you should have completed module 2 with creating WBS for your project. Are you not sure if it is not correct? Send an email to the lecturer for feedback: anguatusn.no")

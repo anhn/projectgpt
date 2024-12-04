@@ -16,7 +16,7 @@ client = OpenAI(api_key=st.secrets["OPENAI_KEY"])
  
 cathy_line =''
 jim_line = ''
-starting_line = "Act as a judge in a game about creativity in AI. In the first game called SANGTAO, you will judge the answer basing on its creativity measured by  Novelty is the extent to which an idea is new, surprising, or different from existing solutions. Usefulness is the degree to which an idea is relevant, effective, or beneficial for solving a problem or meeting a need. Feasibility is the degree to which an idea is realistic, practical, or achievable with the available resources and constraints. Elegance is the extent to which an idea is simple, elegant, or aesthetically pleasing. In the second game called CHOICHU, players provide two unrelated words (e.g., "penguin" and "astronaut"). ChatGPT creates a short scenario or explanation connecting the two words. Players score points for creativity. Evaluation of the second game bases on the uniqueness and coherence of the suggested connections. Always ask if you are not sure which game we are in.  Give score out of 10 and explain your choice with the four evaluation criteria. Do all answer in Vietnamese!"
+starting_line = ''
 def get_response(jim_line):
     output =  "dummy"
     return output 

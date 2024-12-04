@@ -58,9 +58,9 @@ with tab1:
             )
             response = st.write_stream(stream)
             response2 = client.audio.speech.create(
-                model=tts-1,
-                voice=nova,
-                input=text_input
+                model="tts-1",
+                voice="nova",
+                input=stream
             )
             response2.write_to_file("output.mp3")
             with open("output.mp3", "rb") as audio_file:

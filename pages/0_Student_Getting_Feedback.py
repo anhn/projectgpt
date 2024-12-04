@@ -41,7 +41,7 @@ with tab1:
         with st.chat_message(message["role"]):
             st.markdown(message["content"])        
     if prompt := st.chat_input("What is up?"):
-        game_instruction = "Act as a judge in a game about creativity in AI. In the first game called SANGTAO, you will judge the answer basing on its creativity measured by  Novelty is the extent to which an idea is new, surprising, or different from existing solutions. Usefulness is the degree to which an idea is relevant, effective, or beneficial for solving a problem or meeting a need. Feasibility is the degree to which an idea is realistic, practical, or achievable with the available resources and constraints. Elegance is the extent to which an idea is simple, elegant, or aesthetically pleasing. In the second game called CHOICHU, players provide two unrelated words like penguin and astronaut. You create a short scenario or explanation connecting the two words. Players score points for creativity in term of ability for imaginary, uniqueness and coherence of the suggested connections. Always ask if you are not sure which game we are in.  Give score out of 10 and explain your choice with the four evaluation criteria. Do all answer in Vietnamese!"
+        game_instruction = "Act as a judge in a game about creativity in AI. In the first game called SANGTAO, you will judge the answer basing on its creativity measured by  Novelty is the extent to which an idea is new, surprising, or different from existing solutions. Usefulness is the degree to which an idea is relevant, effective, or beneficial for solving a problem or meeting a need. Feasibility is the degree to which an idea is realistic, practical, or achievable with the available resources and constraints. Elegance is the extent to which an idea is simple, elegant, or aesthetically pleasing. In the second game called CHOICHU, players provide two unrelated words like penguin and astronaut. You create a short scenario or explanation connecting the two words. The scenario should be less than 120 words. Players score points for creativity in term of ability for imaginary, uniqueness and coherence of the suggested connections. Always ask if you are not sure which game we are in.  Give score out of 10 and explain your choice with the four evaluation criteria. Do all answer in Vietnamese!"
         st.session_state.messages.append({"role": "system", "content": game_instruction})
         st.session_state.messages.append({"role": "user", "content": prompt})
         with st.chat_message("user"):
@@ -56,14 +56,14 @@ with tab1:
                 stream=True,
             )
             response = st.write_stream(stream)
-            response2 = client.audio.speech.create(
-                model="tts-1",
-                voice="nova",
-                input=response
-            )
-            response2.write_to_file("output.mp3")
-            with open("output.mp3", "rb") as audio_file:
-                st.audio(audio_file, format='audio/mp3')
+            #response2 = client.audio.speech.create(
+            #    model="tts-1",
+            #    voice="nova",
+            #    input=response
+            #)
+            #response2.write_to_file("output.mp3")
+            #with open("output.mp3", "rb") as audio_file:
+            #    st.audio(audio_file, format='audio/mp3')
         st.session_state.messages.append({"role": "assistant", "content": response})
 
 

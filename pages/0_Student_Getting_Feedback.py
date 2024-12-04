@@ -60,7 +60,7 @@ with tab1:
             response2 = client.audio.speech.create(
                 model="tts-1",
                 voice="nova",
-                input=stream
+                input=stream.choices[0]["message"]["content"].strip()
             )
             response2.write_to_file("output.mp3")
             with open("output.mp3", "rb") as audio_file:

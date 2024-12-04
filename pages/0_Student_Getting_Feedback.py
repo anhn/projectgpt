@@ -11,7 +11,7 @@ st.set_page_config(layout = "wide", page_title="StartupGPT")
 #import app_components as components 
 #import chatbot_utils as cu
 
-client = OpenAI(api_key=st.secrets["OPENAI_API_KEY"])
+client = OpenAI(api_key=st.secrets["OPENAI_KEY"])
  
 cathy_line =''
 jim_line = ''

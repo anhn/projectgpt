@@ -28,7 +28,7 @@ with tab1:
     with col01:
         st.video("pages/intro.mp4")
     with col02:
-        st.write("This is Anh. I will help to answer any of your question regarding to the course, project, assignments and so on.")
+        st.write("This is Douglas. I will help to answer any of your question regarding to the course, project, assignments and so on.")
         st.write("Examples: How are the teams formed, and can we request to be in a team with specific classmates? How is the final grade distributed across the presentation, project report, prototype, and teamwork?")
     with st.form("my_form"):
         #jim_line = st.text_area("Write your question here","", height=70)
@@ -55,7 +55,6 @@ with tab1:
                 )
                 response = st.write_stream(stream)
             st.session_state.messages.append({"role": "assistant", "content": response})
-
 with tab2:
     st.image("https://miro.medium.com/v2/resize:fit:720/format:webp/1*fiEXMWcFg328ztjZEWYlpg.jpeg", width=400)
     col1, col2, col3, col4 = st.columns(4)

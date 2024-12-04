@@ -35,13 +35,14 @@ with tab1:
         #jim_line = st.text_area("Write your question here","", height=70)
         #submitted = st.form_submit_button("Submit")
     if "openai_model" not in st.session_state:
-        st.session_state["openai_model"] = "gpt-4o-mini-2024-07-18"        
+        st.session_state["openai_model"] = "gpt-4o"        
     if "messages" not in st.session_state:
         st.session_state.messages = []        
     for message in st.session_state.messages:
         with st.chat_message(message["role"]):
             st.markdown(message["content"])        
     if prompt := st.chat_input("What is up?"):
+        st.session_state.messages.append({"role": "system", "content": "Act as a judge in a game about creativity in AI. In the first game, you will judge the answer basing on its creativity measured by  Novelty is the extent to which an idea is new, surprising, or different from existing solutions. Usefulness is the degree to which an idea is relevant, effective, or beneficial for solving a problem or meeting a need. Feasibility is the degree to which an idea is realistic, practical, or achievable with the available resources and constraints. Elegance is the extent to which an idea is simple, elegant, or aesthetically pleasing. Give score out of 10 and explain your choice with the four evaluation criteria"})
         st.session_state.messages.append({"role": "user", "content": prompt})
         with st.chat_message("user"):
             st.markdown(prompt)

@@ -42,7 +42,8 @@ with tab1:
         with st.chat_message(message["role"]):
             st.markdown(message["content"])        
     if prompt := st.chat_input("What is up?"):
-        st.session_state.messages.append({"role": "system", "content": "Act as a judge in a game about creativity in AI. In the first game, you will judge the answer basing on its creativity measured by  Novelty is the extent to which an idea is new, surprising, or different from existing solutions. Usefulness is the degree to which an idea is relevant, effective, or beneficial for solving a problem or meeting a need. Feasibility is the degree to which an idea is realistic, practical, or achievable with the available resources and constraints. Elegance is the extent to which an idea is simple, elegant, or aesthetically pleasing. Give score out of 10 and explain your choice with the four evaluation criteria"})
+        game_instruction = "Act as a judge in a game about creativity in AI. In the first game, you will judge the answer basing on its creativity measured by  Novelty is the extent to which an idea is new, surprising, or different from existing solutions. Usefulness is the degree to which an idea is relevant, effective, or beneficial for solving a problem or meeting a need. Feasibility is the degree to which an idea is realistic, practical, or achievable with the available resources and constraints. Elegance is the extent to which an idea is simple, elegant, or aesthetically pleasing. Give score out of 10 and explain your choice with the four evaluation criteria. Do all answer in Vietnamese!"
+        st.session_state.messages.append({"role": "system", "content": game_instruction})
         st.session_state.messages.append({"role": "user", "content": prompt})
         with st.chat_message("user"):
             st.markdown(prompt)
@@ -56,7 +57,17 @@ with tab1:
                 stream=True,
             )
             response = st.write_stream(stream)
+            response2 = client.audio.speech.create(
+                model=tts-1,
+                voice=nova,
+                input=text_input
+            )
+            response2.write_to_file("output.mp3")
+            with open("output.mp3", "rb") as audio_file:
+                st.audio(audio_file, format='audio/mp3')
         st.session_state.messages.append({"role": "assistant", "content": response})
+
+
 with tab2:
     st.image("https://miro.medium.com/v2/resize:fit:720/format:webp/1*fiEXMWcFg328ztjZEWYlpg.jpeg", width=400)
     col1, col2, col3, col4 = st.columns(4)

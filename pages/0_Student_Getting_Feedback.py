@@ -35,7 +35,7 @@ with tab1:
         #jim_line = st.text_area("Write your question here","", height=70)
         #submitted = st.form_submit_button("Submit")
     if "openai_model" not in st.session_state:
-        st.session_state["openai_model"] = "gpt-3.5-turbo"        
+        st.session_state["openai_model"] = "gpt-4o-mini-2024-07-18"        
     if "messages" not in st.session_state:
         st.session_state.messages = []        
     for message in st.session_state.messages:

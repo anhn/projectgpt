@@ -55,14 +55,14 @@ with tab1:
                 stream=True,
             )
             response = st.write_stream(stream)
-            #response2 = client.audio.speech.create(
-            #    model="tts-1",
-            #    voice="nova",
-            #    input=response
-            #)
-            #response2.write_to_file("output.mp3")
-            #with open("output.mp3", "rb") as audio_file:
-            #    st.audio(audio_file, format='audio/mp3')
+            response2 = client.audio.speech.create(
+                model="tts-1",
+                voice="nova",
+                input=response
+            )
+            response2.write_to_file("output.mp3")
+            with open("output.mp3", "rb") as audio_file:
+                st.audio(audio_file, format='audio/mp3')
         st.session_state.messages.append({"role": "assistant", "content": response})
 
 

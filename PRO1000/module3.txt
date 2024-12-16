@@ -182,4 +182,1449 @@ pessimistic time = 24 days
 •        Kompetansebygging: Tilby opplæring og veiledning for teammedlemmer som mangler erfaring med de nødvendige teknologiene.
 •        Replanlegging: Gjennomgå og revider tidsplanen for å ta hensyn til avhengigheter og forsinkelser. Identifiser kritiske stier og prioriterte oppgaver.
 
+Module 3
+T H E I M P O R T A N C E O F P R O J E C T S C H E D U L E S
+Many information technology projects are failures in terms of meeting scope, time, and cost
+projections. Managers often cite delivering projects on time as one of their biggest challenges
+and the main cause of conflict.
+Perhaps part of the reason schedule problems are so common is that time is easily
+and simply measured. You can debate scope and cost overruns and make actual numbers
+appear closer to estimates, but once a project schedule is set, anyone can quickly estimate
+schedule performance by subtracting the original time estimate from how long it really
+took to complete the project. People often compare planned and actual project completion
+times without taking into account approved changes in the project. Time is also the one variable
+that has the least amount of flexibility. Time passes no matter what happens on a
+project.
+Individual work styles and cultural differences may also cause schedule conflicts. You
+will learn in Chapter 9, Project Human Resource Management, about the Myers Briggs Type
+Indicator. One dimension of this team-building tool deals with peoples attitudes toward
+structure and deadlines. Some people prefer detailed schedules and emphasize task completion.
+Others prefer to keep things open and flexible. Different cultures and even entire countries
+have different attitudes about schedules. For example, some countries close
+businesses for several hours every afternoon to have siestas. Others countries may have different
+religious or secular holidays at certain times of the year when not much work will
+be done. Cultures may also have different perceptions of work ethic some may value hard
+work and strict schedules while others may value the ability to remain relaxed and
+flexible.
+212
+Chapter 6
+M E D I A S N A P S H O T
+In contrast to the 2002 Salt Lake City Winter Olympic Games (see Chapter 4 s Media
+Snapshot) or the 2008 Beijing Summer Olympic Games, planning and scheduling was not
+well implemented for the 2004 Summer Olympic Games held in Athens, Greece. Many
+articles were written before the opening ceremonies predicting that the facilities would not
+be ready in time. With just 162 days to go to the opening of the Athens Olympics, the
+Greek capital is still not ready for the expected onslaught. . . . By now 22 of the 30 Olympic
+projects were supposed to be finished. This week the Athens Olympic Committee proudly
+announced 19 venues would be finished by the end of next month. That s a long way off
+target. 1
+However, many people were pleasantly surprised by the amazing opening ceremonies,
+beautiful new buildings, and state-of-the-art security and transportation systems in Athens.
+For example, traffic flow, considered a major pre-Games hurdle, was superb. One spectator
+at the games commented on the prediction that the facilities would not be ready in time,
+Athens proved them all wrong. . . . It has never looked better. 2 The Greeks even made fun
+of critics by having construction workers pretend to still be working as the ceremonies
+began. Athens Olympics chief Gianna Angelopoulos-Daskalaki deserves a gold medal for her
+performance in leading the many people involved in organizing the 2004 Olympic Games.
+Unfortunately, the Greek government suffered a huge financial deficit since the games cost
+more than twice the planned budget.
+With all these possibilities for schedule conflicts, it s important to use good project time
+management so that project managers can help improve performance in this area. Project
+time management, simply defined, involves the processes required to ensure timely completion
+of a project. Achieving timely completion of a project, however, is by no means
+simple. There are six main processes involved in project time management:
+1. Defining activities involves identifying the specific activities that the project
+team members and stakeholders must perform to produce the project deliverables.
+An activity or task is an element of work normally found on the work
+breakdown structure (WBS) that has an expected duration, a cost, and
+resource requirements. The main outputs of this process are an activity list,
+activity attributes, and milestone list.
+2. Sequencing activities involves identifying and documenting the relationships
+between project activities. The main outputs of this process include project
+schedule network diagrams and project document updates.
+3. Estimating activity resources involves estimating how many resources
+people, equipment, and materials a project team should use to perform
+project activities. The main outputs of this process are activity resource
+requirements, a resource breakdown structure, and project document
+updates.
+4. Estimating activity durations involves estimating the number of work periods
+that are needed to complete individual activities. Outputs include activity duration
+estimates and project document updates.
+213
+Project Time Management
+5. Developing the schedule involves analyzing activity sequences, activity
+resource estimates, and activity duration estimates to create the project schedule.
+Outputs include a project schedule, a schedule baseline, schedule data, and
+project document updates.
+6. Controlling the schedule involves controlling and managing changes to the
+project schedule. Outputs include work performance measurements, organizational
+process assets updates, change requests, project management plan
+updates, and project document updates.
+Figure 6-1 summarizes these processes and outputs, showing when they occur in a typical
+project.
+You can improve project time management by performing these processes and by using
+some basic project management tools and techniques. Every manager is familiar with some
+form of scheduling, but most managers have not used several of the tools and techniques
+unique to project time management, such as Gantt charts, network diagrams, and critical
+path analysis.
+D E F I N I N G A C T I V I T I E S
+Project schedules grow out of the basic documents that initiate a project. The project
+charter often mentions planned project start and end dates, which serve as the starting
+points for a more detailed schedule. The project manager starts with the project charter and
+Planning
+Process: Define activities
+Outputs: Activity list, activity attributes, milestone list
+Process: Sequence activities
+Outputs: Project schedule network diagrams, project document updates
+Process: Estimate activity resources
+Outputs: Activity resource requirements, resource breakdown structure,
+project document updates
+Process: Estimate activity durations
+Outputs: Activity duration estimates, project document updates
+Process: Develop schedule
+Outputs: Project schedule, schedule baseline, schedule data, project
+document updates
+Monitoring and Controlling
+Process: Control schedule
+Outputs: Work performance measurements, organizational process assets
+updates, change requests, project management plan updates,
+project document updates
+Project Start Project Finish
+FIGURE 6-1 Project time management summary
+214
+Chapter 6
+develops a project scope statement and WBS, as discussed in Chapter 5, Project Scope Management.
+The project charter should also include some estimate of how much money will
+be allocated to the project. Using this information with the main inputs for defining activities
+the scope baseline (the scope statement, WBS, and WBS dictionary), enterprise environmental
+factors, and organizational process assets the project manager and project
+team begin developing a detailed list of activities, their attributes, and a milestone list.
+The activity list is a tabulation of activities to be included on a project schedule. The
+list should include the activity name, an activity identifier or number, and a brief description
+of the activity. The activity attributes provide more schedule-related information about
+each activity, such as predecessors, successors, logical relationships, leads and lags,
+resource requirements, constraints, imposed dates, and assumptions related to the activity.
+The activity list and activity attributes should be in agreement with the WBS and WBS dictionary.
+Information is added to the activity attributes as it becomes available, such as logical
+relationships and resource requirements that are determined in later processes. Many
+project teams use an automated system to keep track of all of this activity-related
+information.
+A milestone on a project is a significant event that normally has no duration. It often
+takes several activities and a lot of work to complete a milestone, but the milestone itself
+is like a marker to help in identifying necessary activities. Milestones are also useful tools for
+setting schedule goals and monitoring progress. For example, milestones on a project like
+the one in the opening case might include completion and customer sign-off of documents,
+such as design documents and test plans; completion of specific products, such as software
+modules or installation of new hardware; and completion of important process-related work,
+such as project review meetings, tests, and so on. Not every deliverable or output created for
+a project is really a milestone. Milestones are the most important and visible ones. For
+example, the term milestone is used in several contexts, such as in child development.
+Parents and doctors check for milestones, such as a child first rolling over, sitting, crawling,
+walking, talking, and so on. You will learn more about milestones later in this chapter.
+Activity information is a required input to the other time management processes. You
+cannot determine activity sequencing, resources, or durations, develop the schedule, or
+control the schedule until you have a good understanding of project activities.
+Recall the triple constraint of project management balancing scope, time, and cost
+goals and note the order of these items. Ideally, the project team and key stakeholders first
+define the project scope, then the time or schedule for the project, and then the project s
+cost. The order of these three items reflects the basic order of the first four processes in
+project time management: defining activities (further defining the scope), sequencing activities
+(further defining the time), and estimating activity resources and activity durations (further
+defining the time and cost). These four project time management processes are the
+basis for creating a project schedule.
+The goal of the defining activities is to ensure that the project team has complete understanding
+of all the work they must do as part of the project scope so they can start scheduling
+the work. For example, a WBS item might be Produce study report. The project
+team would have to understand what that means before they can make schedule-related
+decisions. How long should the report be? Does it require a survey or extensive research
+to produce it? What skill level does the report writer need to have? Further defining that
+task will help the project team determine how long it will take to do and who should do it.
+215
+Project Time Management
+The WBS is often dissected further as the project team members further define the
+activities required for performing the work. For example, the task Produce study report
+might be broken down into several subtasks describing the steps involved in producing the
+report, such as developing a survey, administering the survey, analyzing the survey results,
+performing research, writing a draft report, editing the report, and finally producing the
+report. This process of progressive elaboration, as mentioned as an attribute of a project in
+Chapter 1, is sometimes called rolling wave planning.
+As stated earlier, activities or tasks are elements of work performed during the course
+of a project; they have expected durations, costs, and resource requirements. Defining activities
+also results in supporting detail to document important product information as well as
+assumptions and constraints related to specific activities. The project team should review
+the activity list and activity attributes with project stakeholders before moving on to the
+next step in project time management. If they do not review these items, they could produce
+an unrealistic schedule and deliver unacceptable results. For example, if a project manager
+simply estimated that it would take one day for the Produce study report task and had
+an intern or trainee write a 10-page report to complete that task, the result could be a furious
+customer who expected extensive research, surveys, and a 100-page report. Clearly
+defining the work is crucial to all projects. If there are misunderstandings about activities,
+requested changes may be required.
+In the opening case, Sue Johnson and her project team had a contract and detailed specifications
+for the college s new online registration system. They also had to focus on meeting
+the May 1 date for an operational system so the college could start using the new
+system for the new semester s registration. To develop a project schedule, Sue and her team
+had to review the contract, detailed specifications, and desired operational date, create an
+activity list, activity attributes, and milestone list. After developing more detailed definitions
+of project activities, Sue and her team would review them with their customers to ensure
+that they were on the right track.
+WH A T WE N T WR O N G ?
+At the U.S. Federal Bureau of Investigation (FBI), poor time management was one of the
+reasons behind the failure of Trilogy, a disastrous, unbelievably expensive piece of vaporware,
+which was more than four years in the (un)making. The system was supposed to
+enable FBI agents to integrate intelligence from isolated information silos within the
+Bureau. 3 In May 2006, the Government Accounting Agency said that the Trilogy project
+failed at its core mission of improving the FBI s investigative abilities and was plagued with
+missed milestones and escalating costs.
+The FBI rushed to develop the new system, beginning in 2001, in response to the
+attacks on September 11. The need for new software was obvious to former FBI agent,
+David J. Williams, who recalls joining a roomful of agents shortly after 9/11 to help with
+intelligence. Agents were wearing out the casters on their chairs by sliding back and forth
+between 20 old computer terminals, many of which were attached to various databases containing
+different information.
+continued
+216
+Chapter 6
+Congressional hearings revealed numerous problems with the project. The requirements
+for the project were very loosely defined, there were many leadership changes
+throughout the project, and several contracts had no scheduled milestones for completion
+or penalties if work was late. The new system was finally completed in 2006 and cost more
+than $537 million more than a year late and $200 million over budget. The FBI replaced
+Trilogy with a new system called Sentinel and began training employees to use it in May
+2007. Although that was about a month behind schedule, director Robert Mueller told a
+Senate panel that he was optimistic about the $425 million project s progress.4
+S E Q U E N C I N G A C T I V I T I E S
+After defining project activities, the next step in project time management is sequencing
+them or determining their dependencies. Inputs to the activity sequencing process include
+the activity list and attributes, project scope statement, milestone list, and organizational
+process assets. It involves evaluating the reasons for dependencies and the different types
+of dependencies.
+Dependencies
+A dependency or relationship relates to the sequencing of project activities or tasks. For
+example, does a certain activity have to be finished before another one can start? Can the
+project team do several activities in parallel? Can some overlap? Determining these relationships
+or dependencies between activities has a significant impact on developing and
+managing a project schedule.
+There are three basic reasons for creating dependencies among project activities:
+Mandatory dependencies are inherent in the nature of the work being performed
+on a project. They are sometimes referred to as hard logic. For example,
+you cannot test code until after the code is written.
+Discretionary dependencies are defined by the project team. For example, a
+project team might follow good practice and not start the detailed design of a
+new information system until the users sign off on all of the analysis work. Discretionary
+dependencies are sometimes referred to as soft logic and should be
+used with care since they may limit later scheduling options.
+External dependencies involve relationships between project and non-project
+activities. The installation of a new operating system and other software may
+depend on delivery of new hardware from an external supplier. Even though
+the delivery of the new hardware may not be in the scope of the project, you
+should add an external dependency to it because late delivery will affect the
+project schedule.
+As with activity definition, it is important that project stakeholders work together to
+define the activity dependencies that exist on their project. If you do not define the
+sequence of activities, you cannot use some of the most powerful schedule tools available
+to project managers: network diagrams and critical path analysis.
+217
+Project Time Management
+Network Diagrams
+Network diagrams are the preferred technique for showing activity sequencing. A network
+diagram is a schematic display of the logical relationships among, or sequencing of, project
+activities. Some people refer to network diagrams as project schedule network diagrams or
+PERT charts. PERT is described later in this chapter. Figure 6-2 shows a sample network
+diagram for Project X, which uses the arrow diagramming method (ADM) or activity-onarrow
+(AOA) approach.
+Note the main elements on this network diagram. The letters A through J represent
+activities with dependencies that are required to complete the project. These activities
+come from the WBS and activity definition process described earlier. The arrows represent
+the activity sequencing or relationships between tasks. For example, Activity A must be
+done before Activity D; Activity D must be done before Activity H, and so on.
+The format of this network diagram uses the activity-on-arrow (AOA) approach or the
+arrow diagramming method (ADM) a network diagramming technique in which activities
+are represented by arrows and connected at points called nodes to illustrate the
+sequence of activities. A node is simply the starting and ending point of an activity. The
+first node signifies the start of a project, and the last node represents the end of a
+project.
+Keep in mind that the network diagram represents activities that must be done to complete
+the project. It is not a race to get from the first node to the last node. Every activity
+on the network diagram must be completed in order for the project to finish. It is also
+important to note that not every single item on the WBS needs to be on the network
+diagram; only activities with dependencies need to be shown on the network diagram. However,
+some people like to have start and end milestones and to list every activity. It is a matter
+of preference. For projects with hundreds of activities, it might be simpler to include
+only activities with dependencies on a network diagram, especially on large projects. Sometimes
+it is enough to put summary tasks on a network diagram or to break down the project
+into several smaller network diagrams.
+Note: Assume all durations are in days; A=1 means Activity A has a
+duration of 1 day.
+6 8
+7
+2 5
+3
+4
+A = 1
+B = 2
+C = 3
+D = 4
+E = 5
+F = 4
+G = 6
+I = 2
+H = 6
+J = 3
+1
+FIGURE 6-2 Activity-on-arrow (AOA) network diagram for Project X
+218
+Chapter 6
+Assuming you have a list of the project activities and their start and finish nodes, follow
+these steps to create an AOA network diagram:
+1. Find all of the activities that start at Node 1. Draw their finish nodes, and draw
+arrows between Node 1 and each of those finish nodes. Put the activity letter
+or name on the associated arrow. If you have a duration estimate, write that
+next to the activity letter or name, as shown in Figure 6-2. For example, A = 1
+means that the duration of Activity A is one day, week, or other standard unit
+of time. Also be sure to put arrowheads on all arrows to signify the direction
+of the relationships.
+2. Continue drawing the network diagram, working from left to right. Look for
+bursts and merges. Bursts occur when two or more activities follow a single
+node. A merge occurs when two or more nodes precede a single node. For
+example, in Figure 6-2, Node 1 is a burst since it goes into Nodes 2, 3, and 4.
+Node 5 is a merge preceded by Nodes 2 and 3.
+3. Continue drawing the AOA network diagram until all activities are included
+on the diagram.
+4. As a rule of thumb, all arrowheads should face toward the right, and no arrows
+should cross on an AOA network diagram. You may need to redraw the diagram
+to make it look presentable.
+Even though AOA or ADM network diagrams are generally easy to understand and create,
+a different method is more commonly used: the precedence diagramming method. The
+precedence diagramming method (PDM) is a network diagramming technique in which
+boxes represent activities. It is particularly useful for visualizing certain types of time
+relationships.
+Figure 6-3 illustrates the types of dependencies that can occur among project activities.
+After you determine the reason for a dependency between activities (mandatory,
+FIGURE 6-3 Task dependency types
+219
+Project Time Management
+discretionary, or external), you must determine the type of dependency. Note that the terms
+activity and task are used interchangeably, as are relationship and dependency. See
+Appendix A to learn how to create dependencies in Microsoft Project 2007. The four types
+of dependencies or relationships between activities include:
+Finish-to-start dependency: a relationship where the from activity or predecessor
+must finish before the to activity or successor can start. For example,
+you cannot provide user training until after software, or a new system, has been
+installed. Finish-to-start is the most common type of relationship, or dependency,
+and AOA network diagrams use only finish-to-start dependencies.
+Start-to-start dependency: a relationship in which the from activity cannot
+start until the to activity or successor is started. For example, on several
+information technology projects, a group of activities all start simultaneously,
+such as the many tasks that occur when a new system goes live.
+Finish-to-finish dependency: a relationship where the from activity must
+be finished before the to activity can be finished. One task cannot finish
+before another finishes. For example, quality control efforts cannot finish
+before production finishes, although the two activities can be performed at the
+same time.
+Start-to-finish dependency: a relationship where the from activity must start
+before the to activity can be finished. This type of relationship is rarely used,
+but it is appropriate in some cases. For example, an organization might strive
+to stock raw materials just in time for the manufacturing process to begin. A
+delay in the manufacturing process starting should delay completion of stocking
+the raw materials. Another example would be a babysitter who wants to finish
+watching a young child but is dependent on the parent arriving. The parent must
+show up or start before the babysitter can finish his or her oversight.
+Figure 6-4 illustrates Project X using the precedence diagramming method. Notice that
+the activities are placed inside boxes, which represent the nodes on this diagram. Arrows
+show the relationships between activities. This figure was created using Microsoft Project,
+which automatically places additional information inside each node. Each task box includes
+the start and finish date, labeled Start and Finish, the task ID number, labeled ID, the task s
+duration, labeled Dur, and the names of resources, if any, assigned to the task, labeled Res.
+The border of the boxes for tasks on the critical path appears automatically in red in the
+Microsoft Project network diagram view. In Figure 6-4, the boxes for critical tasks have a
+thicker border.
+The precedence diagramming method is used more often than AOA network diagrams
+and offers a number of advantages over the AOA technique. First, most project management
+software uses the precedence diagramming method. Second, the precedence
+diagramming method avoids the need to use dummy activities. Dummy activities have
+no duration and no resources but are occasionally needed on AOA network diagrams to
+show logical relationships between activities. They are represented with dashed arrow
+lines, and have zero for the duration estimate. Third, the precedence diagramming method
+shows different dependencies among tasks, whereas AOA network diagrams use only
+finish-to-start dependencies. You will learn more about activity sequencing using Project
+2007 in Appendix A.
+220
+Chapter 6
+E S T I M A T I N G A C T I V I T Y R E S O U R C E S
+Before you can estimate the duration for each activity, you must have a good idea of the
+quantity and type of resources (people, equipment, and materials) that will be assigned to
+each activity. The nature of the project and the organization will affect resource estimating.
+Expert judgment, an analysis of alternatives, estimating data, and project management software
+are tools available to assist in resource estimating. It is important that the people who
+help determine what resources are necessary include people who have experience and
+expertise in similar projects and with the organization performing the project.
+Important questions to answer in activity resource estimating include:
+How difficult will it be to do specific activities on this project?
+Is there anything unique in the project s scope statement that will affect
+resources?
+What is the organization s history in doing similar activities? Has the organization
+done similar tasks before? What level of personnel did the work?
+Does the organization have people, equipment, and materials that are capable
+and available for performing the work? Are there any organizational policies
+that might affect the availability of resources?
+Does the organization need to acquire more resources to accomplish the
+work? Would it make sense to outsource some of the work? Will outsourcing
+increase or decrease the amount of resources needed and when they ll be
+available?
+A project s activity list, activity attributes, resource calendars or availability, enterprise
+environmental factors, and organizational process assets (such as policies regarding staffing
+FIGURE 6-4 Precedence diagramming method (PDM) network diagram for Project X
+221
+Project Time Management
+and outsourcing) are all important inputs to answering these questions. During the early
+phases of a project, the project team may not know which specific people, equipment, and
+materials will be available. For example, they might know from past projects that there will
+be a mix of experienced and inexperienced programmers working on a project. They might
+also have information available that approximates the number of people or hours it normally
+takes to perform specific activities.
+It is important to thoroughly brainstorm and evaluate alternatives related to
+resources, especially on projects that involve people from multiple disciplines and companies.
+Since most projects involve many human resources and the majority of costs
+are for salaries and benefits, it is often effective to solicit ideas from different people
+to help develop alternatives and address resource-related issues early in a project. The
+resource estimates should also be updated as more detailed information becomes
+available.
+The main outputs of the resource estimating process include a list of activity
+resource requirements, a resource breakdown structure, and project document updates.
+For example, if junior employees will be assigned to many activities, the project manager
+might request that additional activities, time, and resources be approved to help train and
+mentor those employees. In addition to providing the basis for estimating activity durations,
+estimating activity resources provides vital information for project cost estimating
+(Chapter 7), project human resource management (Chapter 9), project communications
+management (Chapter 10), project risk management (Chapter 11), and project procurement
+management (Chapter 12). For example, a resource breakdown structure is a
+hierarchical structure that identifies the project s resources by category and type.
+Resource categories might include analysts, programmers, and testers. Under programmers,
+there might be types of programmers, such as Java programmers or COBOL programmers.
+This information would be helpful in determining resource costs, acquiring
+resources, and so on.
+E S T I M A T I N G A C T I V I T Y D U R A T I O N S
+After working with key stakeholders to define activities, determine their dependencies, and
+estimate their resources, the next process in project time management is to estimate the
+duration of activities. It is important to note that duration includes the actual amount of
+time worked on an activity plus elapsed time. For example, even though it might take one
+workweek or five workdays to do the actual work, the duration estimate might be two weeks
+to allow extra time needed to obtain outside information. The resources assigned to a task
+will also affect the task duration estimate.
+Do not confuse duration with effort, which is the number of workdays or work hours
+required to complete a task. A duration estimate of one day could be based on eight hours
+of work or eighty hours of work. Duration relates to the time estimate, not the effort estimate.
+Of course, the two are related, so project team members must document their
+assumptions when creating duration estimates and update the estimates as the project progresses.
+The people who will actually do the work, in particular, should have a lot of say in
+these duration estimates, since they are the ones whose performance will be evaluated on
+meeting them. If scope changes occur on the project, the duration estimates should be
+222
+Chapter 6
+updated to reflect those changes. It is also helpful to review similar projects and seek the
+advice of experts in estimating activity durations.
+There are several inputs to activity duration estimating. The activity list, activity attributes,
+activity resource requirements, resource calendars, project scope statement, enterprise environmental
+factors, and organizational process assets all include information that affect duration
+estimates. In addition to reviewing past project information, the teamshould also review the
+accuracy of the duration estimates thus far on the project. For example, if they find that all of
+their estimates have beenmuch too long or short, the teamshould update the estimates to
+reflect what they have learned. One of themost important considerations inmaking activity
+duration estimates is the availability of resources, especially human resources.What specific
+skills do people need to do the work?What are the skill levels of the people assigned to the project?
+Howmany people are expected to be available to work on the project at any one time?
+The outputs of activity duration estimating include activity duration estimates and
+project document updates. Duration estimates are often provided as a discrete number, such
+as four weeks, or as a range, such as three to five weeks, or as a three-point estimate. A
+three-point estimate is an estimate that includes an optimistic, most likely, and pessimistic
+estimate, such as three weeks for the optimistic, four weeks for the most likely, and five weeks
+for the pessimistic estimate. The optimistic estimate is based on a best-case scenario, while
+the pessimistic estimate is based on a worst-case scenario. The most likely estimate, as it
+sounds, is an estimate based on a most likely or expected scenario. A three-point estimate is
+required for performing PERT estimates, as described later in this chapter, and for performing
+Monte Carlo simulations, described in Chapter 11, Project Risk Management. Other duration
+estimating techniques include analogous and parametric estimating and reserve analysis, as
+described in Chapter 7, Project Cost Management. Expert judgment is also an important tool
+for developing good activity duration estimates.
+D E V E L O P I N G T H E S C H E D U L E
+Schedule development uses the results of all the preceding project time management processes
+to determine the start and end dates of the project. There are often several iterations
+of all the project time management processes before a project schedule is finalized. The ultimate
+goal of developing the schedule is to create a realistic project schedule that provides
+a basis for monitoring project progress for the time dimension of the project. The main outputs
+of this process are the project schedule, a schedule baseline, project document
+updates, and schedule data. Some project teams create a computerized model to create a
+network diagram, enter resource requirements and availability by time period, and adjust
+other information to quickly generate alternative schedules. See Appendix A for information
+on using Project 2007 to assist in schedule development.
+Several tools and techniques assist in schedule development:
+A Gantt chart is a common tool for displaying project schedule information.
+Critical path analysis is a very important tool for developing and controlling
+project schedules.
+Critical chain scheduling is a technique that focuses on limited resources when
+creating a project schedule.
+PERT analysis is a means for considering schedule risk on projects.
+223
+Project Time Management
+The following sections provide samples of each of these tools and techniques and discuss
+their advantages and disadvantages. (See the PMBOK® Guide, Fourth Edition to learn
+how these main techniques and others are broken into additional categories.)
+Gantt Charts
+Gantt charts provide a standard format for displaying project schedule information by listing
+project activities and their corresponding start and finish dates in a calendar format. Gantt
+charts are sometimes referred to as bar charts since the activities start and end dates are
+shown as horizontal bars. Figure 6-5 shows a simple Gantt chart for Project X created with
+Microsoft Project. Figure 6-6 shows a Gantt chart that is more sophisticated based on a software
+launch project from a template provided by Microsoft. Recall that the activities on the
+Gantt chart should coincide with the activities on the WBS, which should coincide with the
+activity list and milestone list. Notice that the software launch project s Gantt chart contains
+milestones, summary tasks, individual task durations, and arrows showing task dependencies.
+Notice the different symbols on the software launch project s Gantt chart (Figure 6-6):
+The black diamond symbol represents a milestone. In Figure 6-6, Task 1, Marketing
+Plan distributed, is a milestone that occurs on March 17. Tasks 3, 4,
+8, 9, 14, 25, 27, 43, and 45 are also milestones. For very large projects, top
+managers might want to see only milestones on a Gantt chart. Microsoft Project
+allows you to filter information displayed on a Gantt chart so you can easily
+show specific tasks, such as milestones.
+The thick black bars with arrows at the beginning and end represent summary
+tasks. For example, Activities 12 through 15 Develop creative briefs,
+Develop concepts, Creative concepts, and Ad development are all subtasks
+of the summary task called Advertising, Task 11. WBS activities are
+referred to as tasks and subtasks in most project management software.
+FIGURE 6-5 Gantt chart for Project X
+224
+Chapter 6
+The light gray horizontal bars such as those found in Figure 6-6 for Tasks 5,
+6, 7, 10, 12, 13, 15, 22, 24, 26, and 44, represent the duration of each individual
+task. For example, the light gray bar for Subtask 5, Packaging, starts in
+mid-February and extends until early May.
+Arrows connecting these symbols show relationships or dependencies between
+tasks. Gantt charts often do not show dependencies, which is their major disadvantage.
+If dependencies have been established in Microsoft Project, they are
+automatically displayed on the Gantt chart.
+Adding Milestones to Gantt Charts
+Milestones can be a particularly important part of schedules, especially for large projects.
+Many people like to focus on meeting milestones, so you can create milestones to emphasize
+important events or accomplishments on projects. Normally, you create milestones by
+entering tasks with zero duration. In Microsoft Project, you can also mark any task as a
+milestone by checking the appropriate box in the Advanced tab of the Task Information dialog
+box. The duration of the task will not change to zero, but the Gantt chart will show the
+milestone symbol to represent that task based on its start date. See Appendix A for more
+information.
+WBS hierarchy shown
+by indentations Summary
+task
+Milestone
+Individual task bar Arrows show
+dependencies
+FIGURE 6-6 Gantt chart for software launch project
+225
+Project Time Management
+To make milestones meaningful, some people use the SMART criteria to help define
+them. The SMART criteria are guidelines suggesting that milestones should be:
+Specific
+Measurable
+Assignable
+Realistic
+Time-framed
+For example, distributing a marketing plan is specific, measurable, and assignable if
+everyone knows what should be in the marketing plan, how it should be distributed, how
+many copies should be distributed and to whom, and who is responsible for the actual delivery.
+Distributing the marketing plan is realistic and able to be time-framed if it is an achievable
+event and scheduled at an appropriate time.
+B E S T P R A C T I C E
+Schedule risk is inherent in the development of complex systems. Luc Richard, the founder
+of www.projectmangler.com, suggests that project managers can reduce schedule risk
+through project milestones, a best practice that involves identifying and tracking significant
+points or achievements in the project. The five key points of using project milestones
+include the following:
+1. Define milestones early in the project and include them in the Gantt chart to provide
+a visual guide.
+2. Keep milestones small and frequent.
+3. The set of milestones must be all-encompassing.
+4. Each milestone must be binary, meaning it is either complete or incomplete.
+5. Carefully monitor the critical path.
+Additional best practices Richard recommends for software development projects
+include the following:
+Monitor the project s progress and revise the plan.
+Build on a solid base; that means developing a system with less than a .1 percent
+defect rate.
+Assign the right people to the right tasks. Put the best developers on the critical tasks.
+Start with high-risk tasks.
+Don t boil the ocean. In other words, if the entire project consists of high-risk
+tasks, then the project itself is high-risk and bound for failure.
+Integrate early and often, and follow practices like the daily build process.5 (A
+daily build involves compiling the latest version of a software program each day
+to ensure that all required dependencies are present and that the program is tested
+to avoid introducing new bugs.)
+Using Tracking Gantt Charts to Compare Planned and Actual Dates
+You can use a special form of a Gantt chart to evaluate progress on a project by showing
+actual schedule information. Figure 6-7 shows a Tracking Gantt chart a Gantt chart that
+226
+Chapter 6
+compares planned and actual project schedule information. The planned schedule dates for
+activities are called the baseline dates, and the entire approved planned schedule is called
+the schedule baseline. The Tracking Gantt chart includes columns (hidden in Figure 6-7)
+labeled Start and Finish to represent actual start and finish dates for each task, as well
+as columns labeled Baseline Start and Baseline Finish to represent planned start and finish
+dates for each task. In this example, the project is completed, but several tasks missed
+their planned start and finish dates.
+To serve as a progress evaluation tool, a Tracking Gantt chart uses a few additional
+symbols:
+Notice that the Gantt chart in Figure 6-7 often shows two horizontal bars for tasks.
+The top horizontal bar represents the planned or baseline duration for each task.
+The bar below it represents the actual duration. Subtasks 1.2 and 1.3 illustrate this
+type of display. If these two bars are the same length, and start and end on the
+same dates, then the actual schedule was the same as the planned schedule for
+that task. This scheduling occurred for Subtask 1.1, where the task started and
+ended as planned on March 4. If the bars do not start and end on the same dates,
+then the actual schedule differed from the planned or baseline schedule. If the top
+horizontal bar is shorter than the bottom one, the task took longer than planned,
+as you can see for Subtask 1.2. If the top horizontal bar is longer than the bottom
+one, the task took less time than planned. A striped horizontal bar, illustrated by
+Main Tasks 1 and 2, represents the planned duration for summary tasks. The
+black bar adjoining it shows progress for summary tasks. For example, Main Task
+2 clearly shows the actual duration took longer than what was planned.
+A white diamond on the Tracking Gantt chart represents a slipped milestone.
+A slipped milestone means the milestone activity was actually completed later
+than originally planned. For example, the last task provides an example of a
+Planned dates
+Actual dates Slipped milestone
+FIGURE 6-7 Sample Tracking Gantt chart
+227
+Project Time Management
+slipped milestone since the final report and presentation were completed later
+than planned.
+Percentages to the right of the horizontal bars display the percentage of work
+completed for each task. For example, 100 percent means the task is finished,
+50 percent means the task is still in progress and is 50 percent completed.
+A Tracking Gantt chart is based on the percentage of work completed for project tasks
+or the actual start and finish dates. It allows the project manager to monitor schedule progress
+on individual tasks and the whole project. For example, Figure 6-7 shows that this project
+is completed. It started on time, but it finished a little late, on May 13 (5/13) versus May 8.
+The main advantage of using Gantt charts is that they provide a standard format for displaying
+planned and actual project schedule information. In addition, they are easy to create
+and understand. The main disadvantage of Gantt charts is that they do not usually show relationships
+or dependencies between tasks. If Gantt charts are created using project management
+software and tasks are linked, then the dependencies will be displayed, but differently
+than they would be displayed on a network diagram. However, whether you prefer viewing
+dependencies on a Gantt chart or network diagram is a matter of personal preference.
+Critical Path Method
+Many projects fail to meet schedule expectations. Critical path method (CPM) also called
+critical path analysis is a network diagramming technique used to predict total project
+duration. This important tool will help you combat project schedule overruns. A critical path
+for a project is the series of activities that determine the earliest time by which the project can
+be completed. It is the longest path through the network diagram and has the least amount
+of slack or float. Slack or float is the amount of time an activity may be delayed without delaying
+a succeeding activity or the project finish date. There are normally several tasks done in
+parallel on projects, and most projects have multiple paths through a network diagram. The
+longest path or path containing the critical tasks is what is driving the completion date for the
+project. You are not finished with the project until you have finished all the tasks.
+Calculating the Critical Path
+To find the critical path for a project, you must first develop a good network diagram, which,
+in turn, requires a good activity list based on the WBS. Once you create a network diagram,
+you must also estimate the duration of each activity to determine the critical path. Calculating
+the critical path involves adding the durations for all activities on each path through the
+network diagram. The longest path is the critical path.
+Figure 6-8 shows the AOA network diagram for Project X again. Note that you can use
+either the AOA or precedence diagramming method to determine the critical path on projects.
+Figure 6-8 shows all of the paths a total of four through the network diagram. Note
+that each path starts at the first node (1) and ends at the last node (8) on the AOA network
+diagram. This figure also shows the length or total duration of each path through the network
+diagram. These lengths are computed by adding the durations of each activity on the path.
+Since path B-E-H-J at 16 days has the longest duration, it is the critical path for the project.
+What does the critical path really mean? The critical path shows the shortest time in
+which a project can be completed. Even though the critical path is the longest path, it
+228
+Chapter 6
+represents the shortest time it takes to complete a project. If one or more of the activities
+on the critical path takes longer than planned, the whole project schedule will slip unless
+the project manager takes corrective action.
+Project teams can be creative in managing the critical path. For example, Joan Knutson,
+a well-known author and speaker in the project management field, often describes how a
+gorilla helped Apple computer complete a project on time. Team members worked in an
+area with cubicles, and whoever was in charge of a task currently on the critical path had
+a big, stuffed gorilla on top of his or her cubicle. Everyone knew that person was under the
+most time pressure, so they tried not to distract him or her. When a critical task was completed,
+the person in charge of the next critical task received the gorilla.
+Growing Grass Can Be on the Critical Path
+People are often confused about what the critical path is for a project or what it really
+means. Some people think the critical path includes the most critical activities. However,
+the critical path is concerned only with the time dimension of a project. The fact that its
+name includes the word critical does not mean that it includes all critical activities. For
+example, Frank Addeman, Executive Project Director at Walt Disney Imagineering,
+explained in a keynote address at a PMI-ISSIG Professional Development Seminar that growing
+grass was on the critical path for building Disney s Animal Kingdom theme park! This
+500-acre park required special grass for its animal inhabitants, and some of the grass took
+years to grow. Another misconception is that the critical path is the shortest path through
+the network diagram. In some areas, such as transportation modeling, similar network diagrams
+are drawn in which identifying the shortest path is the goal. For a project, however,
+each task or activity must be done in order to complete the project. It is not a matter of
+choosing the shortest path.
+8
+J = 3
+Path 1:
+Path 2:
+Path 3:
+Path 4:
+A-D-H-J
+B-E-H-J
+B-F-J
+C-G-I-J
+Length = 1+4+6+3 = 14 days
+Length = 2+5+6+3 = 16 days
+Length = 2+4+3 = 9 days
+Length = 3+6+2+3 = 14 days
+Since the critical path is the longest path through the network diagram, Path 2,
+B-E-H-J, is the critical path for Project X.
+Note: Assume all durations are in days.
+6
+I = 2
+H = 6
+7
+5
+D = 4
+E = 5
+F = 4
+G = 6
+2
+3
+4
+A = 1
+B = 2
+C = 3
+1
+FIGURE 6-8 Determining the critical path for Project X
+229
+Project Time Management
+Other aspects of critical path analysis may cause confusion. Can there be more
+than one critical path on a project? Does the critical path ever change? In the Project
+X example, suppose that Activity A has a duration estimate of three days instead of one
+day. This new duration estimate would make the length of Path 1 equal to 16 days. Now
+the project has two longest paths of equal duration, so there are two critical paths.
+Therefore, there can be more than one critical path on a project. Project managers
+should closely monitor performance of activities on the critical path to avoid late project
+completion. If there is more than one critical path, project managers must keep
+their eyes on all of them.
+The critical path on a project can change as the project progresses. For example, suppose
+everything is going as planned at the beginning of the project. In this example, suppose Activities
+A, B, C, D, E, F, and G all start and finish as planned. Then suppose Activity I runs into problems.
+If Activity I takes more than four days, it will cause path C-G-I-J to be longer than the
+other paths, assuming they progress as planned. This change would cause path
+C-G-I-J to become the new critical path. Therefore, the critical path can change on a project.
+Using Critical Path Analysis to Make Schedule Trade-Offs
+It is important to know what the critical path is throughout the life of a project so the product
+manager can make trade-offs. If the project manager knows that one of the tasks on the
+critical path is behind schedule, he or she needs to decide what to do about it. Should the
+schedule be renegotiated with stakeholders? Should more resources be allocated to other
+items on the critical path to make up for that time? Is it okay if the project finishes behind
+schedule? By keeping track of the critical path, the project manager and his or her team
+take a proactive role in managing the project schedule.
+A technique that can help project managers make schedule trade-offs is determining the
+free slack and total slack for each project activity. Free slack or free float is the amount
+of time an activity can be delayed without delaying the early start date of any immediately
+following activities. The early start date for an activity is the earliest possible time an
+activity can start based on the project network logic. Total slack or total float is the amount
+of time an activity can be delayed from its early start without delaying the planned project
+finish date.
+Project managers calculate free slack and total slack by doing a forward and backward
+pass through a network diagram. A forward pass determines the early start and early finish
+dates for each activity. The early finish date for an activity is the earliest possible time an
+activity can finish based on the project network logic. The project start date is equal to the
+early start date for the first network diagram activity. Early start plus the duration of the
+first activity is equal to the early finish date of the first activity. It is also equal to the early
+start date of each subsequent activity unless an activity has multiple predecessors. When
+an activity has multiple predecessors, its early start date is the latest of the early finish
+datesof those predecessors. For example, Tasks D and E immediately precede Task H in
+Figure 6-8. The early start date for Task H, therefore, is the early finish date of Task E, since
+it occurs later than the early finish date of Task D. A backward pass through the network
+diagram determines the late start and late finish dates for each activity in a similar fashion.
+The late start date for an activity is the latest possible time an activity might begin without
+delaying the project finish date. The late finish date for an activity is the latest possible
+time an activity can be completed without delaying the project finish date.
+230
+Chapter 6
+Project managers can determine the early and late start and finish dates of each activity
+by hand. For example, Figure 6-9 shows a simple network diagram with three tasks, A, B,
+and C. Tasks A and B both precede Task C. Assume all duration estimates are in days. Task
+A has an estimated duration of 5 days, Task B has an estimated duration of 10 days, and
+Task C has an estimated duration of 7 days. There are only two paths through this small network
+diagram: path A-C has a duration of 12 days (5 7), and path B-C has a duration of
+17 days (10 7). Since path B-C is longest, it is the critical path. There is no float or slack
+on this path, so the early and late start and finish dates are the same. However, Task A has
+5 days of float or slack. Its early start date is day 0, and its late start date is day 5. Its early
+finish date is day 5, and its late finish date is day 10. Both the free and total float amounts
+for Task A are the same at 5 days.
+A much faster and easier way to determine early and late start and finish dates and free
+and total slack amounts for activities is by using project management software. Table 6-1
+shows the free and total slack for all activities on the network diagram for Project X after
+entering the data from Figure 6-8 and assuming Tasks A, B, and C started on August 3,
+2009. (The network diagram is shown in Figure 6-4.) The data in this table was created
+by selecting the Schedule Table view in Microsoft Project. Knowing the amount of float or
+slack allows project managers to know whether the schedule is flexible and how flexible it
+might be. For example, at 7 days (7d), Task F has the most free and total slack. The most
+slack on any other activity is only 2 days (2d). Understanding how to create and use slack
+information provides a basis for negotiating (or not negotiating) project schedules. See the
+Help information in Microsoft Project or research other resources for more detailed information
+on calculating slack.
+ES = early start
+EF = early finish
+LS = late start
+LF = late finish
+ES EF
+LS LF
+Legend:
+0 5
+5 10
+A=5
+0 0
+0 0
+Start
+0 10
+0 10
+B=10
+10 17
+10 17
+C=7
+FIGURE 6-9 Calculating early and late start and finish dates
+231
+Project Time Management
+Using the Critical Path to Shorten a Project Schedule
+It is common for stakeholders to want to shorten a project schedule estimate. A project
+team may have done their best to develop a project schedule by defining activities, determining
+sequencing, and estimating resources and durations for each activity. The results
+of this work may have shown that the project team needs ten months to complete the project.
+The sponsor might ask if the project can be done in eight or nine months. Rarely do
+people ask the project team to take longer than they suggested. By knowing the critical path,
+the project manager and his or her team can use several duration compression techniques
+to shorten the project schedule. One technique is to reduce the duration of activities on the
+critical path. The project manager can shorten the duration of critical path activities by allocating
+more resources to those activities or by changing their scope.
+Recall that Sue Johnson in the opening case was having schedule problems with the
+online registration project because several users missed important project review meetings
+and one of the senior programmers quit. If Sue and her team created a realistic project
+schedule, produced accurate duration estimates, and established dependencies between
+tasks, they could analyze their status in terms of meeting the May 1 deadline. If some activities
+on the critical path had already slipped and they did not build in extra time at the end
+of the project, then they would have to take corrective actions to finish the project on time.
+Sue could request that her company or the college provide more people to work on the project
+in an effort to make up time. She could also request that the scope of activities be
+reduced to complete the project on time. Sue could also use project time management techniques,
+such as crashing or fast tracking, to shorten the project schedule.
+TABLE 6-1 Free and total float or slack for Project X
+Task
+Name
+Start Finish Late
+Start
+Late
+Finish
+Free
+Slack
+Total
+Slack
+A 8/3/09 8/3/09 8/5/09 8/5/09 0d 2d
+B 8/3/09 8/4/09 8/3/09 8/4/09 0d 0d
+C 8/3/09 8/5/09 8/5/09 8/7/09 0d 2d
+D 8/4/09 8/7/09 8/6/09 8/11/09 2d 2d
+E 8/5/09 8/11/09 8/5/09 8/11/09 0d 0d
+F 8/5/09 8/10/09 8/14/09 8/17/09 7d 7d
+G 8/6/09 8/13/09 8/10/09 8/17/09 0d 2d
+H 8/12/09 8/19/09 8/12/09 8/19/09 0d 0d
+I 8/14/09 8/17/09 8/18/09 8/19/09 2d 2d
+J 8/20/09 8/24/09 8/20/09 8/24/09 0d 0d
+232
+Chapter 6
+Crashing is a technique for making cost and schedule trade-offs to obtain the greatest
+amount of schedule compression for the least incremental cost. For example, suppose one
+of the items on the critical path for the online registration project was entering course data
+for the new semester into the new system. If this task is yet to be done and was originally
+estimated to take two weeks based on the college providing one part-time data entry clerk,
+Sue could suggest that the college have the clerk work full time to finish the task in one
+week instead of two. This change would not cost Sue s company more money, and it could
+shorten the project end date by one week. If the college could not meet this request, Sue
+could consider hiring a temporary data entry person for one week to help get the task done
+faster. By focusing on tasks on the critical path that could be done more quickly for no extra
+cost or a small cost, the project schedule can be shortened.
+The main advantage of crashing is shortening the time it takes to finish a project. The
+main disadvantage of crashing is that it often increases total project costs. You will learn
+more about project costs in Chapter 7, Project Cost Management.
+Another technique for shortening a project schedule is fast tracking. Fast tracking
+involves doing activities in parallel that you would normally do in sequence. For example,
+Sue Johnson s project team may have planned not to start any of the coding for the online
+registration system until all of the analysis was done. Instead, they could consider starting
+some coding activity before the analysis is completed. The main advantage of fast tracking,
+like crashing, is that it can shorten the time it takes to finish a project. The main disadvantage
+of fast tracking is that it can end up lengthening the project schedule since starting
+some tasks too soon often increases project risk and results in rework.
+Importance of Updating Critical Path Data
+In addition to finding the critical path at the beginning of a project, it is important to update
+the schedule with actual data. After the project team completes activities, the project manager
+should document the actual durations of those activities. He or she should also document
+revised estimates for activities in progress or yet to be started. These revisions often
+cause a project s critical path to change, resulting in a new estimated completion date for
+the project. Again, proactive project managers and their teams stay on top of changes so
+they can make informed decisions and keep stakeholders informed of, and involved in,
+major project decisions.
+Critical Chain Scheduling
+Another technique that addresses the challenge of meeting or beating project finish dates
+is an application of the Theory of Constraints called critical chain scheduling. The Theory
+of Constraints (TOC) is a management philosophy developed by Eliyahu M. Goldratt and
+discussed in his books The Goal and Critical Chain. The Theory of Constraints is based
+on the fact that, like a chain with its weakest link, any complex system at any point in time
+often has only one aspect or constraint that limits its ability to achieve more of its goal. For
+the system to attain any significant improvements, that constraint must be identified, and
+the whole system must be managed with it in mind. Critical chain scheduling is a method
+of scheduling that considers limited resources when creating a project schedule and
+includes buffers to protect the project completion date.
+An important concept in critical chain scheduling is the availability of scarce resources.
+Some projects cannot be done unless a particular resource is available to work on one or
+233
+Project Time Management
+several tasks. For example, if a television station wants to produce a show centered around
+a particular celebrity, it must first check the availability of that celebrity. As another example,
+if a particular piece of equipment is needed full time to complete each of two tasks that
+were originally planned to occur simultaneously, critical chain scheduling acknowledges
+that you must either delay one of those tasks until the equipment is available or find another
+piece of equipment in order to meet the schedule. Other important concepts related to critical
+chain scheduling include multitasking and time buffers.
+Multitasking occurs when a resource works on more than one task at a time. This situation
+occurs frequently on projects. People are assigned to multiple tasks within the same
+project or different tasks on multiple projects. For example, suppose someone is working
+on three different tasks, Task 1, Task 2, and Task 3, for three different projects, and each
+task takes 10 days to complete. If the person did not multitask, and instead completed each
+task sequentially, starting with Task 1, then Task 1 would be completed after day 10, Task
+2 would be completed after day 20, and Task 3 would be completed after day 30, as shown
+in Figure 6-10a. However, because many people in this situation try to please all three people
+who need their tasks completed, they often work on the first task for some time, then the
+second, then the third, then go back to the first task, and so on, as shown in Figure 6-10b.
+In this example, the tasks were all half-done one at a time, then completed one at a time.
+Task 1 is now completed at the end of day 20 instead of day 10, Task 2 is completed at the
+end of day 25 instead of day 20, and Task 3 is still completed on day 30. This example illustrates
+how multitasking can delay task completions. Multitasking also often involves wasted
+setup time, which increases total duration.
+Task 1 completed
+after 10 days
+Task 1 Task 2 Task 3
+10 days 10 days 10 days
+Without
+multitasking
+Task 2 completed
+after 20 days
+Task 3 completed
+after 30 days
+FIGURE 6-10a Three tasks without multitasking
+Task 1 completed
+after 20 days
+Task 1 Task 2 Task 3
+5 days
+With
+multitasking
+after 25 days
+Task 1 Task 2 Task 3
+5 days 5 days 5 days 5 days 5 days
+Task 3 completed
+after 30 days
+Task 2 completed
+FIGURE 6-10b Three tasks with multitasking
+234
+Chapter 6
+Critical chain scheduling assumes that resources do not multitask or at least minimize
+multitasking. Someone should not be assigned to two tasks simultaneously on the same project
+when critical chain scheduling is in effect. Likewise, critical chain theory suggests that
+projects be prioritized so people working on more than one project at a time know which
+tasks take priority. Preventing multitasking avoids resource conflicts and wasted setup time
+caused by shifting between multiple tasks over time.
+An essential concept to improving project finish dates with critical chain scheduling is
+to change the way people make task estimates. Many people add a safety or buffer, which
+is additional time to complete a task, to an estimate to account for various factors. These
+factors include the negative effects of multitasking, distractions and interruptions, fear that
+estimates will be reduced, Murphy s Law, and so on. Murphy’s Law states that if something
+can go wrong, it will. Critical chain scheduling removes buffers from individual tasks and
+instead creates a project buffer, which is additional time added before the project s due
+date. Critical chain scheduling also protects tasks on the critical chain from being delayed
+by using feeding buffers, which consist of additional time added before tasks on the critical
+chain that are preceded by non-critical-path tasks.
+Figure 6-11 provides an example of a network diagram constructed using critical chain
+scheduling. Note that the critical chain accounts for a limited resource, X, and the schedule
+includes use of feeding buffers and a project buffer in the network diagram. The tasks
+marked with an X are part of the critical chain, which can be interpreted as being the critical
+path using this technique. The task estimates in critical chain scheduling should be
+shorter than traditional estimates because they do not include their own buffers. Not having
+task buffers should mean less occurrence of Parkinson’s Law, which states that work
+expands to fill the time allowed. The feeding and project buffers protect the date that really
+needs to be met the project completion date.
+FB X
+X
+FB X
+Completion
+date
+Project
+buffer
+Critical chain
+Critical chain
+X = Tasks done by limited resource
+FB = Feeding buffer
+Critical chain
+FB
+FIGURE 6-11 Example of critical chain scheduling6
+235
+Project Time Management
+Several organizations have reported successes with critical chain scheduling. For example,
+the U.S. health care industry is learning to think differently by using the Theory of Constraints.
+Consider a relatively simple system of a physician s office or clinic. The steps
+in the process could be patients checking in, filling out forms, having vital signs
+taken by a nurse, seeing the physician, seeing the nurse for a prescribed procedure
+such as vaccination, and so forth. These steps could take place in a simple
+linear sequence or chain . . . This process or chain only can produce an average
+of eight per hour. The chain is only as strong as its weakest link and the rate of the
+slowest resource in this example, the weakest link, is eight. This is true regardless
+of how fast each of the other resources can process individually, how much work
+is stuffed into the pipeline, or how complex the process or set of interconnected
+processes is to complete. Moreover, improving the performance of any link
+besides the constraint does nothing to improve the system as a whole. 7
+As you can see, critical chain scheduling is a fairly complicated yet powerful tool that
+involves critical path analysis, resource constraints, and changes in how task estimates are
+made in terms of buffers. Some consider critical chain scheduling one of the most important
+new concepts in the field of project management.
+Program Evaluation and Review Technique (PERT)
+Another project time management technique is the Program Evaluation and Review
+Technique (PERT) a network analysis technique used to estimate project duration when
+there is a high degree of uncertainty about the individual activity duration estimates. PERT
+applies the critical path method (CPM) to a weighted average duration estimate. This
+approach was developed about the same time as CPM, in the late 1950s, and also uses network
+diagrams, which are still sometimes referred to as PERT charts.
+PERT uses probabilistic time estimates duration estimates based on using optimistic,
+most likely, and pessimistic estimates of activity durations instead of one specific or
+discrete duration estimate, as CPM does. In other words, PERT uses a three-point estimate,
+as described earlier. To use PERT, you calculate a weighted average for the duration estimate
+of each project activity using the following formula:
+PERT weighted average
+optimistic time 4 most likely time pessimistic time
+6
+By using the PERT weighted average for each activity duration estimate, the total
+project duration estimate takes into account the risk or uncertainty in the individual
+activity estimates.
+Suppose Sue Johnson s project team in the opening case used PERT to determine the
+schedule for the online registration system project. They would have to collect numbers for
+the optimistic, most likely, and pessimistic duration estimates for each project activity. Suppose
+one of the activities was to design an input screen for the system. Someone might estimate
+that it would take about two weeks or 10 workdays to do this activity. Without using
+PERT, the duration estimate for that activity would be 10 workdays. Using PERT, the project
+team would also need to estimate the pessimistic and optimistic times for completing
+this activity. Suppose an optimistic estimate is that the input screen can be designed in
+236
+Chapter 6
+eight workdays, and a pessimistic time estimate is 24 workdays. Applying the PERT formula,
+you get the following:
+PERT weighted average
+8 workdays 4 10 workdays 24 workdays
+6
+12 work days
+Instead of using the most likely duration estimate of 10 workdays, the project team
+would use 12 workdays when doing critical path analysis. These additional two days could
+really help the project team in getting the work completed on time.
+The main advantage of PERT is that it attempts to address the risk associated with duration
+estimates. Since many projects exceed schedule estimates, PERT may help in developing
+schedules that are more realistic. PERT s main disadvantages are that it involves more
+work than CPM since it requires several duration estimates, and there are better probabilistic
+methods for assessing schedule risk (see the information on Monte Carlo simulations in
+Chapter 11, Project Risk Management).
+C O N T R O L L I N G T H E S C H E D U L E
+The final process in project time management is controlling the schedule. Like scope control,
+schedule control is a portion of the integrated change control process under project
+integration management. The goal of schedule control is to know the status of the schedule,
+influence the factors that cause schedule changes, determine that the schedule has changed,
+and manage changes when they occur.
+The main inputs to schedule control are the project management plan, project schedule,
+work performance data, and organizational process assets. Some of tools and techniques
+include:
+Progress reports
+A schedule change control system, operated as part of the integrated change
+control system described in Chapter 4, Project Integration Management
+A scheduling tool and/or project management software, such as Project 2007
+or similar software
+Schedule comparison bar charts, such as the Tracking Gantt chart
+Variance analysis, such as analyzing float or slack
+What-if scenario analysis, which can be done manually or with the aid of
+software
+Adjusting leads and lags
+Schedule compression, such as crashing and fast-tracking described earlier in
+this chapter
+Performance measurement, such as earned value, described in Chapter 7, Project
+Cost Management
+Resource leveling, as described in Chapter 9, Project Human Resource
+Management
+The main outputs of schedule control include work performance measurements, organizational
+process assets updates, such as lessons-learned reports related to schedule control,
+change requests, project management plan updates, and project document updates.
+237
+Project Time Management
+There are many issues involved in controlling changes to project schedules. It is important
+first to ensure that the project schedule is realistic. Many projects, especially in information
+technology, have very unrealistic schedule expectations. It is also important to use
+discipline and leadership to emphasize the importance of following and meeting project
+schedules. Although the various tools and techniques assist in developing and managing
+project schedules, project managers must handle several people-related issues to keep projects
+on track. Most projects fail because of people issues, not from failure to draw a good
+PERT chart. 8 Project managers can perform a number of reality checks that will help them
+manage changes to project schedules. Several soft skills can help project managers to
+control schedule changes.
+Reality Checks on Scheduling and the Need for Discipline
+It is important for projects to have realistic schedule goals and for project managers to use
+discipline to help meet those goals. One of the first reality checks a project manager should
+make is to review the draft schedule usually included in the project charter. Although this
+draft schedule might include only a project start and end date, the project charter sets some
+initial schedule expectations for the project. Next, the project manager and his or her team
+should prepare a more detailed schedule and get stakeholders approval. To establish the
+schedule, it is critical to get involvement and commitment from all project team members,
+top management, the customer, and other key stakeholders.
+Several experts have written about the lack of realistic schedule estimates for information
+technology projects. Ed Yourdon, a well-known and respected software development
+expert, describes death march projects as projects doomed for failure from the start, due
+to unclear and/or unrealistic expectations, especially for meeting time constraints.9 For
+example, in 2008, twenty months after a project was started to overhaul and integrate more
+than 300 key IT systems for the city of Portland, Oregon, the city changed IT consultants
+as the cost and schedule for the project continued to increase. Robert Stoll, a Portland attorney
+representing Ariston Consulting & Technologies, Inc. in the termination negotiations
+with the city, said Ariston did the best it could do with the information it was given by the
+city. From Ariston s point of view, he said, city officials who prepared the project requirements
+and put it out for bid weren t familiar enough with their overall IT systems and needs,
+making the goal for the work an impossible target to hit a death march project. It s sort
+of garbage in, garbage out, if you know what I mean, Stoll said. I certainly don t think that
+Ariston made any mistakes. 10
+Experts in chaos theory suggest that project managers must account not only for project
+risks based upon their inaccuracies in estimation, but also for the complex behavior
+of the organization brought on by multiple independent project managers who also must
+estimate project risks. The interdependencies of such a complex system will typically
+result in a generally predictable inefficiency. They propose that this inefficiency can be
+addressed by arranging for additional resources to be committed to the project. Using an
+analogy related to the behavior of traffic systems, they suggest that project managers
+schedule resources on the project so that no single resource is utilized more than
+75 percent. The actual inefficiency estimate can and should be assessed for each individual
+organization, but typically will vary between 70 and 80 percent.11 It is very important,
+therefore, to set realistic project schedules and allow for contingencies throughout the life
+of a project.
+238
+Chapter 6
+Another type of reality check comes from progress meetings with stakeholders. The
+project manager is responsible for keeping the project on track, and key stakeholders like
+to stay informed, often through high-level periodic reviews. Managers like to see progress
+made on projects approximately each month. Project managers often illustrate progress
+with a Tracking Gantt chart showing key deliverables and activities. The project manager
+needs to understand the schedule, including why activities are or are not on track, and take
+a proactive approach to meeting stakeholder expectations. It is also important to verify
+schedule progress, as Sue Johnson from the opening case discovered (see the Case Wrap-Up).
+Just because a team member says a task was completed on time does not always mean that
+it was. Project managers must review the actual work and develop a good relationship with
+team members to ensure work is completed as planned or changes are reported as
+needed.
+Top management hates surprises, so the project manager must be clear and honest in
+communicating project status. By no means should project managers create the illusion that
+the project is going fine when, in fact, it is having serious problems. When serious conflicts
+arise that could affect the project schedule, the project manager must alert top management
+and work with them to resolve the conflicts.
+Project managers must also use discipline to control project schedules. Several information
+technology project managers have discovered that setting firm dates for key project
+milestones helps minimize schedule changes. It is very easy for scope creep to raise its ugly
+head on information technology projects. Insisting that important schedule dates be met
+and that proper planning and analysis be completed up front helps everyone focus on doing
+what is most important for the project. This discipline results in meeting project
+schedules.
+WH A T WE N T R I G H T ?
+A recent example of using discipline and strong user involvement to meet project schedules
+comes from a winner of Poland s Project Excellence Award in 2007. Mittal Steel Poland is
+part of ArcelorMittal which is the world s number one steel company, with 320,000 employees
+in more than 60 countries. The main goal of Mittal Steel Poland s Implementation of
+SAP System project was to unify IT systems with other Mittal branches in Europe and to
+improve business and financial processes.12 Research by AMR found that 46 percent of ERP
+licenses are unused, leaving many users with unnecessary support and maintenance bills.
+Derek Prior, research director at AMR Research, identified three things the most successful
+SAP implementation projects do to deliver business benefits:
+Form a global competence centre. You need a team, including IT professionals
+and business analysts, who understand the intricacies of how the software is set
+up in your company and the business processes it enables.
+Identify super-users for each location. These need to be business managers keen
+to use the software to its full capacity who also have the respect of their local
+business peers so they can spread the message on what the software offers.
+You need ongoing involvement of managers in business processes so they feel
+they own these processes. 13
+239
+Project Time Management
+U S I N G S O F TWA R E T O A S S I S T I N P R O J E C T
+T I M E M A N A G E M E N T
+Several types of software are available to assist in project time management. Software for
+facilitating communications helps project managers exchange schedule-related information
+with project stakeholders. Decision support models can help project managers analyze various
+trade-offs that can be made related to schedule issues. However, project management
+software, such as Microsoft Project 2007, was designed specifically for performing project
+management tasks. You can use project management software to draw network diagrams,
+determine the critical path for a project, create Gantt charts, and report, view, and filter
+specific project time management information.
+Many projects involve hundreds of tasks with complicated dependencies. After you
+enter the necessary information, project management software automatically generates a
+network diagram and calculates the critical path(s) for the project. It also highlights the critical
+path in red on the network diagram. Project management software also calculates the
+free and total float or slack for all activities. For example, the data in Table 6-1 was created
+using Microsoft Project by selecting the schedule table view from the menu bar. Using project
+management software eliminates the need to perform cumbersome calculations
+manually and allows for what if analysis as activity duration estimates or dependencies
+change. Recall that knowing which activities have the most slack gives the project manager
+an opportunity to reallocate resources or make other changes to compress the schedule or
+help keep it on track.
+Project 2007 easily creates Gantt charts and Tracking Gantt charts, which make tracking
+actual schedule performance versus the planned or baseline schedule much easier. It
+is important, however, to enter actual schedule information in a timely manner in order to
+benefit from using the Tracking Gantt chart feature. Some organizations use e-mail or other
+communications software to send up-to-date task and schedule information to the person
+responsible for updating the schedule. He or she can then quickly authorize these updates
+and enter them directly into the project management software. This process provides an
+accurate and up-to-date project schedule in Gantt chart form.
+Project 2007 also includes many built-in reports, views, and filters to assist in project
+time management. For example, a project manager can quickly run a report to list all tasks
+that are to start soon. He or she could then send out a reminder to the people responsible for
+these tasks. If the project manager were presenting project schedule information to top
+management, he or she could create a Gantt chart showing only summary tasks or milestones.
+You can also create custom reports, views, tables, and filters. See Appendix A to
+learn how to use the project time management features of Project 2007.
+Words of Caution on Using Project Management Software
+Many people misuse project management software because they do not understand the concepts
+behind creating a network diagram, determining the critical path, or setting a schedule
+baseline. They might also rely too heavily on sample files or templates in developing
+their own project schedules. Understanding the underlying concepts (even being able to
+work with the tools manually) is critical to successful use of project management software,
+as is understanding the specific needs of your project.
+240
+Chapter 6
+Many top managers, including software professionals, have made blatant errors using
+various versions of Microsoft Project and similar tools. For example, one top manager did
+not know about establishing dependencies among project activities and entered every
+single start and end date for hundreds of activities. When asked what would happen if the
+project started a week or two late, she responded that she would have to reenter all of the
+dates.
+This manager did not understand the importance of establishing relationships among
+the tasks. Establishing relationships among tasks allows the software to update formulas
+automatically when the inputs change. If the project start date slips by one week, the project
+management software will update all the other dates automatically, as long as they are not
+hard-coded into the software. (Hard-coding involves entering all activity dates manually
+instead of letting the software calculate them based on durations and relationships.) If one
+activity cannot start before another ends, and the first activity s actual start date is two days
+late, the start date for the succeeding activity will automatically be moved back two days.
+To achieve this type of functionality, tasks that have relationships must be linked in project
+management software.
+Another top manager on a large information technology project did not know about setting
+a baseline in Microsoft Project. He spent almost one day every week copying and pasting
+information from Microsoft Project into a spreadsheet and using complicated IF
+statements to figure out what activities were behind schedule. He had never received any
+training on Microsoft Project and did not know about many of its capabilities. To use any
+software effectively, users must have adequate training in the software and an understanding
+of its underlying concepts.
+Many project management software programs also come with templates or sample files.
+It is very easy to use these files without considering unique project needs. For example, a
+project manager for a software development project can use the Microsoft Project Software
+Development template file, the files containing information from similar projects done in the
+past, or sample files purchased from other companies. All of these files include suggested
+tasks, durations, and relationships. There are benefits to using templates or sample files,
+such as less setup time and a reality check if the project manager has never managed this
+type of project before. However, there are also drawbacks to this approach. There are many
+assumptions in these template files that may not apply to the project, such as a design phase
+that takes three months to complete or the performance of certain types of testing. Project
+managers and their teams may over-rely on templates or sample files and ignore unique
+concerns for their particular projects.
+241
+Project Time Management
+C A S E WR A P - U P
+It was now March 15, just a month and a half before the new online registration system was
+supposed to go live. The project was in total chaos. Sue Johnson thought she could handle
+all of the conflicts that kept appearing on the project, and she was too proud to admit to her
+top management or the college president that things were not going well. She spent a lot
+of time preparing a detailed schedule for the project, and she thought she was using their
+project management software well enough to keep up with project status. However, the five
+main programmers on the project all figured out a way to generate automatic updates for
+their tasks every week, saying that everything was completed as planned. They paid very little
+attention to the actual plan and hated filling out status information. Sue did not verify
+most of their work to check that it was actually completed. In addition, the head of the
+Registrar s Office was uninterested in the project and delegated sign-off responsibility to
+one of his clerks who really did not understand the entire registration process. When Sue
+and her team started testing the new system, she learned they were using last year s course
+data. Using last year s course data caused additional problems because the college was moving
+from quarters to semesters in the new semester. How could they have missed that
+requirement? Sue hung her head in shame as she walked into a meeting with her manager
+to ask for help. She learned the hard way how difficult it was to keep a project on track. She
+wished she had spent more time talking face-to-face with key project stakeholders, especially
+her programmers and the Registrar s Office representatives, to verify that the project was
+on schedule and that the schedule was updated accurately.
+242
+Chapter 6
+Chapter Summary
+Project time management is often cited as the main source of conflict on projects. Most information
+technology projects exceed time estimates. The main processes involved in project time management
+include defining activities, sequencing activities, estimating activity resources, estimating
+activity durations, developing the schedule, and controlling the schedule.
+Defining activities involves identifying the specific activities that must be done to produce the
+project deliverables. It usually results in a more detailed WBS.
+Sequencing activities determines the relationships or dependencies between activities. Three
+reasons for creating relationships are that they are mandatory based on the nature of the work,
+discretionary based on the project team's experience, or external based on non-project activities.
+Activity sequencing must be done in order to use critical path analysis.
+Network diagrams are the preferred technique for showing activity sequencing. The two methods
+used for creating these diagrams are the arrow diagramming method and the precedence
+diagramming method. There are four types of relationships between tasks: finish-to-start, finishto-
+finish, start-to-start, and start-to-finish.
+Estimating activity resources involves determining the quantity and type of resources (people,
+equipment, and materials) that will be assigned to each activity. The nature of the project and the
+organization will affect resource estimating.
+Estimating activity durations creates estimates for the amount of time it will take to complete
+each activity. These time estimates include the actual amount of time worked plus elapsed time.
+Developing the schedule uses results from all of the other project time management
+processes to determine the start and end dates for the project. Project managers often use Gantt
+charts to display the project schedule. Tracking Gantt charts show planned and actual schedule
+information.
+The critical path method predicts total project duration. The critical path for a project is the
+series of activities that determines the earliest completion date for the project. It is the longest path
+through a network diagram. If any activity on the critical path slips, the whole project will slip unless
+the project manager takes corrective action.
+Crashing and fast tracking are two techniques for shortening project schedules. Project managers
+and their team members must be careful about accepting unreasonable schedules, especially
+for information technology projects.
+Critical chain scheduling is an application of the Theory of Constraints (TOC) that uses critical
+path analysis, resource constraints, and buffers to help meet project completion dates.
+The Program Evaluation and Review Technique (PERT) is a network analysis technique
+used to estimate project duration when there is a high degree of uncertainty about the individual
+activity duration estimates. It uses optimistic, most likely, and pessimistic estimates of activity
+durations. PERT is seldom used today.
+Controlling the schedule is the final process in project time management. Even though scheduling
+techniques are very important, most projects fail because of people issues, not from a poor
+network diagram. Project managers must involve all stakeholders in the schedule development
+process. It is critical to set realistic project schedules and use discipline to meet schedule goals.
+Project management software can assist in project scheduling if used properly. With project
+management software, you can avoid the need to perform cumbersome calculations manually and
+perform what if analysis as activity duration estimates or dependencies change. Many people
+misuse project management software because they do not understand the concepts behind
+creating a network diagram, determining the critical path, or setting a schedule baseline. Project
+managers must also avoid over-relying on sample files or templates when creating their unique
+project schedules.
+Key Terms
+activity — an element of work, normally found on the WBS, that has an expected duration and
+cost, and expected resource requirements; also called a task
+activity attributes — information about each activity, such as predecessors, successors, logical
+relationships, leads and lags, resource requirements, constraints, imposed dates, and
+assumptions related to the activity
+activity list — a tabulation of activities to be included on a project schedule
+activity-on-arrow (AOA) — a network diagramming technique in which activities are
+represented by arrows and connected at points called nodes to illustrate the sequence of
+activities; also called arrow diagramming method (ADM)
+arrow diagramming method (ADM)— a network diagramming technique in which activities are
+represented by arrows and connected at points called nodes to illustrate the sequence of
+activities; also called activity-on-arrow (AOA)
+backward pass — a project network diagramming technique that determines the late start and
+late finish dates for each activity in a similar fashion
+baseline dates — the planned schedule dates for activities in a Tracking Gantt chart
+buffer — additional time to complete a task, added to an estimate to account for various factors
+burst— when a single node is followed by two or more activities on a network diagram
+crashing — a technique for making cost and schedule trade-offs to obtain the greatest amount
+of schedule compression for the least incremental cost
+critical chain scheduling — a method of scheduling that takes limited resources into account
+when creating a project schedule and includes buffers to protect the project completion date
+critical path — the series of activities in a network diagram that determines the earliest
+completion of the project; it is the longest path through the network diagram and has the
+least amount of slack or float
+critical path method (CPM) or critical path analysis — a project network analysis technique
+used to predict total project duration
+dependency — the sequencing of project activities or tasks; also called a relationship
+discretionary dependencies — sequencing of project activities or tasks defined by the project
+team and used with care since they may limit later scheduling options
+dummy activities — activities with no duration and no resources used to show a logical
+relationship between two activities in the arrow diagramming method of project network
+diagrams
+duration — the actual amount of time worked on an activity plus elapsed time
+early finish date — the earliest possible time an activity can finish based on the project network
+logic
+early start date — the earliest possible time an activity can start based on the project network
+logic
+effort — the number of workdays or work hours required to complete a task
+external dependencies — sequencing of project activities or tasks that involve relationships
+between project and non-project activities
+fast tracking — a schedule compression technique in which you do activities in parallel that you
+would normally do in sequence
+feeding buffers — additional time added before tasks on the critical path that are preceded by
+non-critical-path tasks
+250
+Chapter 6
+finish-to-finish dependency — a relationship on a project network diagram where the from
+activity must be finished before the to activity can be finished
+finish-to-start dependency — a relationship on a project network diagram where the from
+activity must be finished before the to activity can be started
+float — the amount of time a project activity may be delayed without delaying a succeeding
+activity or the project finish date; also called slack
+forward pass — a network diagramming technique that determines the early start and early
+finish dates for each activity
+free slack (free float) — the amount of time an activity can be delayed without delaying the
+early start of any immediately following activities
+Gantt chart— a standard format for displaying project schedule information by listing project
+activities and their corresponding start and finish dates in a calendar format; sometimes
+referred to as bar charts
+late finish date — the latest possible time an activity can be completed without delaying the
+project finish date
+late start date — the latest possible time an activity may begin without delaying the project
+finish date
+mandatory dependencies — sequencing of project activities or tasks that are inherent in the
+nature of the work being done on the project
+merge — when two or more nodes precede a single node on a network diagram
+milestone — a significant event that normally has no duration on a project; serves as a marker
+to help in identifying necessary activities, setting schedule goals, and monitoring progress
+multitasking — when a resource works on more than one task at a time
+Murphy’s Law — principle that if something can go wrong, it will
+network diagram — a schematic display of the logical relationships or sequencing of project
+activities
+node — the starting and ending point of an activity on an activity-on-arrow diagram
+Parkinson’s Law — principle that work expands to fill the time allowed
+PERT weighted average —
+optimistic time 4 most likely time pessimistic time
+6
+Precedence Diagramming Method (PDM)— a network diagramming technique in which boxes
+represent activities
+probabilistic time estimates — duration estimates based on using optimistic, most likely, and
+pessimistic estimates of activity durations instead of using one specific or discrete estimate
+Program Evaluation and Review Technique (PERT)— a project network analysis technique
+used to estimate project duration when there is a high degree of uncertainty with the
+individual activity duration estimates
+project buffer — additional time added before the project s due date
+project time management — the processes required to ensure timely completion of a project
+relationship — the sequencing of project activities or tasks; also called a dependency
+resource breakdown structure — a hierarchical structure that identifies the project s resources
+by category and type
+resources — people, equipment, and materials
+schedule baseline — the approved planned schedule for the project
+slack — the amount of time a project activity may be delayed without delaying a succeeding
+activity or the project finish date; also called float
+Project Time Management
+slipped milestone — a milestone activity that is completed later than planned
+SMART criteria — guidelines to help define milestones that are specific, measurable,
+assignable, realistic, and time-framed
+start-to-finish dependency — a relationship on a project network diagram where the from
+activity cannot start before the to activity is finished
+start-to-start dependency — a relationship on a project network diagram in which the from
+activity cannot start until the to activity starts
+task — an element of work, normally found on the WBS, that has an expected duration and
+cost, and expected resource requirements; also called an activity
+Theory of Constraints (TOC)— a management philosophy that states that any complex
+system at any point in time often has only one aspect or constraint that is limiting its ability
+to achieve more of its goal
+three-point estimate — an estimate that includes an optimistic, most likely, and pessimistic
+estimate
+total slack (total float)— the amount of time an activity may be delayed from its early start
+without delaying the planned project finish date
+Tracking Gantt chart— a Gantt chart that compares planned and actual project schedule
+Information
+3.3 Time planning 
+The essential of time planning is to create and update a project schedule diagram called Gantt Chart. A Gantt chart, or harmonogram, is a type of bar chart that illustrates a project schedule2. This chart lists the tasks to be performed on the vertical axis, and time intervals on the horizontal axis. The width of the horizontal bars in the graph shows the duration of each activity. Gantt charts illustrate the start and finish dates of the terminal elements and summary elements of a project. Terminal elements and summary elements constitute the work breakdown structure of the project. Modern Gantt charts also show the dependency (i.e., precedence network) relationships between activities. 
+2 https://en.wikipedia.org/wiki/Gantt_chart 30 
+
+Figure 8: An example of a Gantt chart for a web application development project 
+Similarly to Section 3.2, we present here common mistakes when students firstly making Gantt charts: 
+• This is not a Gantt chart: there are common conventions about drawing Gantt chart. Students should use existing templates for visualizing their Gantt Chart, and not invent their own notations. Microsoft Office provides a template as a Excel document3, but you can find various templates in other software online. 
+• Right size of Gantt chart: as seen in Figure 8, the overview of the whole project is capture in one screen. It is possible to go in details of the WBS and have the correspondingly timeline for each task. However, keep in mind that too many details can make it difficult to watch the overview. Some modern project management tools might provide features to dynamically switch between views of Gantt Chart. However, most of the free templates will not give you the capacity. 
+• Forget to add milestones: Gantt chart includes not only timeline for activities, but also important milestones, such as Sprint review meeting, User acceptance testing, Project final presentation, and Final exam date. Visualizing milestones will guide the adjustment of time plan to meet project deadlines. 
+• Forget to update Gantt chart: similar to WBS, time plan can change over time. There is also a need to update the schedule chart when WBS is updated. Maintaining an accurate version of WBS is important to have a correct view on the project progress and the time plan till the end of the project. 
 

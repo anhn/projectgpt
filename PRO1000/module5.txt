@@ -1,0 +1,202 @@
+
+        Lecture 5 - Agenda
+•        Agile Manifesto
+•        Introduction to Scrum
+•        Scrum framework
+–        Roles
+–        Ceremonies
+–        Artifacts
+
+•        The Agile Manifesto
+•        Value 1:  Individuals and Interactions over Processes and Tools
+•        Strong players: a must, but can fail if don’t work together.
+•        Strong player:  not necessarily an ‘ace;’  work well with others! 
+–        Communication and interacting is more important than raw talent.
+•        ‘Right’ tools are vital to smooth functioning of a team.
+•        Start small.  Find a free tool and use until you can demo you’ve outgrown it.  Don’t assume bigger is better.  Start with white board;  flat files before going to a huge database.
+•        Building a team more important than building environment.  
+–        Some managers build the environment and expect the team to fall together.  
+–        Doesn’t work.  
+–        Let the team build the environment on the basis of need.
+•        Value 2:  Working Software over Comprehensive Documentation
+•        Code – not ideal medium for communicating rationale and system structure.  
+–        Team needs to produce human readable documents describing system and design decision rationale.
+•        Too much documentation is worse than too little.
+–        Take time;  more to keep in sync with code;  Not kept in sync? it is a lie and misleading.
+•        Short rationale and structure document.
+–        Keep this in sync;  Only highest level structure in system kept. 
+–        Fatal flaw:  Pursue documentation instead of software:
+•        Rule:  Produce no document unless need is immediate and significant.
+•        Value 3:  Customer Collaboration over Contract Negotiation (1 of 2)
+•        Not possible to describe software requirements up front and leave someone else to develop it within cost and on time.
+•        Customers cannot just cite needs and go away
+•        Successful projects require customer feedback on a regular and frequent basis – and not dependent upon a contract or SOW.
+•        Value 3:  Customer Collaboration over Contract Negotiation (2 of 2)
+•        Best contracts are NOT those specifying requirements, schedule and cost.  
+–        Become meaningless shortly.
+•        Far better are contracts that govern the way the development team and customer will work together. 
+•        Key is intense collaboration with customer and a contract that governed collaboration rather than details of scope and schedule
+–        Details ideally not specified in contract.  
+–        Rather contracts could pay when a block (deliverable) passed customer’s acceptance tests. 
+–        With frequent deliverables and feedback, acceptance tests never an issue.
+•        Value 4:  Responding to Change over Following a Plan
+•        Our plans and ability to respond to changes is critical!
+•        Course of a project cannot be predicted far into future.
+–        Too many variables;  not many good ways at estimating cost  
+–        As developers gain knowledge of the system and as customer gains knowledge about their needs, some tasks will become unnecessary.
+•        Better planning strategy: – make detailed plans for the next few weeks, very rough plans for the next few months, and extremely crude plans beyond that.
+•        Need to know what we will be working on the next few weeks;  roughly for the next few months;  a vague idea what system will do after a year.
+•        Only invest in a detailed plan for immediate tasks;  once plan is made, difficult to change due to momentum and commitment.
+–        The lower resolution parts of the plan can be changed with relative ease.
+•        Introduction to SCRUM
+•        Scrum has been used by:
+•        Scrum has been used for:
+•        Commercial software
+•        In-house development
+•        Contract development
+•        Fixed-price projects
+•        Financial applications
+•        ISO 9001-certified applications
+•        Embedded systems
+•        24x7 systems with 99.999% uptime requirements
+•        How Scrum Works?
+•        Sprints
+•        Scrum projects make progress in a series of “sprints”
+–        Analogous to Extreme Programming iterations
+•        Typical duration is 2–4 weeks or a calendar month at most
+•        A constant duration leads to a better rhythm
+•        Product is designed, coded, and tested during the sprint
+
+•        The sprint goal
+•        A short statement of what the work will be focused on during the sprint
+•        Sequential vs. overlapping development
+•        No changes during a sprint
+•        Plan sprint durations around how long you can commit to keeping change out of the sprint
+•        Scrum framework
+•        Scrum roles
+•        Product owner
+•        Define the features of the product
+•        Decide on release date and content
+•        Be responsible for the profitability of the product (ROI)
+•        Prioritize features according to market value 
+•        Adjust features and priority every iteration, as needed  
+•        Accept or reject work results
+
+•        Scrum Master
+•        Represents management to the project
+•        Responsible for enacting Scrum values and practices
+•        Removes impediments 
+•        Ensure that the team is fully functional and productive
+•        Enable close cooperation across all roles and functions
+•        Shield the team from external interferences
+•        The team
+•        Typically 5-9 people
+•        Cross-functional:
+•        Programmers, testers, user experience designers, etc.
+•        Members should be full-time
+•        May be exceptions (e.g., database administrator)
+•        Teams are self-organizing
+•        Ideally, no titles but rarely a possibility
+•        Membership should change only between sprints
+
+•        Scrum Practices
+
+P01: Product Backlog and Prioritization ............................................................................................. 1 
+P02: Sprint Plan meeting ..................................................................................................................... 1 
+P03: Daily standup meeting ................................................................................................................ 1 
+P04: Burn-down chart ......................................................................................................................... 2 
+P05: Retrospective meeting ................................................................................................................. 2 
+P06: Sprint review meeting ................................................................................................................. 2 
+P07: Planning poker ............................................................................................................................ 2 
+P08: Test first programming ................................................................................................................ 3 
+P09: Pair programming ....................................................................................................................... 3 
+P10: Collective ownership ................................................................................................................... 3 
+P11: System metaphor: ........................................................................................................................ 3 
+P12: Continuous integration ................................................................................................................ 4 
+P13: Active stakeholder ....................................................................................................................... 4 
+P14: Code standard .............................................................................................................................. 4 
+P15: Burn down chart .......................................................................................................................... 4 
+P16: Scrum master............................................................................................................................... 4 
+P17: Product owner ............................................................................................................................. 5 
+P18: Self organizing team ................................................................................................................... 5 
+P19: User stories .................................................................................................................................. 6 
+P20: Code refactoring .......................................................................................................................... 6 
+P21: 100% coverage for unit tests ....................................................................................................... 6 
+P22: User acceptance test .................................................................................................................... 6 
+
+•        Scrum framework
+•        Sprint planning
+•        Decide how to achieve sprint goal (design)
+•        Team selects items from the product backlog they can commit to completing
+•        Create sprint backlog (tasks) from product backlog items (user stories / features)
+•        Estimate sprint backlog in hours. Tasks is estimated (1-16 hours)
+•        Collaboratively, not done alone by the ScrumMaster
+•        The daily scrum ( Your version: Bi/weekly Scrum)
+•        Daily, 15-minutes, stand-up
+•        Not for problem solving
+•        Moderated by a Scrum Master
+•        Three questions:
+•        What did you do yesterday?
+•        What will you do today?
+•        Is anything in your way?
+
+
+
+
+
+•        The Sprint review meeting
+(Our formal supervision meeting)
+•        Team presents what it accomplished during the sprint
+•        Typically takes the form of a demo of new features or underlying architecture
+•        Informal
+•        2-hour prep time rule
+•        No slides
+•        Whole team participates
+•        Invite the world
+•        Sprint retrospective meeting
+•        Periodically take a look at what is and is not working
+•        Typically 15–30 minutes
+•        Done after every sprint
+•        Whole team participates
+•        Moderated by a Scrum Master
+•        Each team member is asked to identify specific things that the team should:
+–        Start doing
+–        Stop doing
+–        Continue doing
+
+•        Exercise 1 – Retrospective meeting
+•        Perform the retrospective within your team about what you have done so far
+•        Each team member is asked to identify specific things that the team should:
+–        Start doing
+–        Stop doing
+–        Continue doing
+•        Make three slides:
+•        Slide 1: List of what you are doing well
+•        Slide 2: List of what you think you need to improve
+•        Slide 3: List of what you will try in next Sprint
+
+•        Scrum framework
+•        Product backlog
+•        List of user story (requirements)
+•        A list of all desired work on the project
+•        Ideally expressed such that each item has value to the users or customers of the product 
+•        Prioritized by the product owner
+•        Reprioritized at the start of each sprint
+•        Breaking Down The Work:
+•        User stories
+•        An informal, natural language description of one or more features of a software system
+•        Written from the perspective of an end user
+•        A common pattern:
+–        As a <role> I can/ want <capability>, so that <receive benefit>
+
+•        Sprint backlog
+•        Any team member can add, delete or change the sprint backlog
+•        Stories from previous Sprint can be added to the current Sprint
+•        Sprint backlog might include items that are not user stories:
+•        Engineering-specific activities:
+o        Testing the UX of the User Story ABC
+•        Project management activities:
+o        Creating a test plan
+o        Meeting with customers
+
+

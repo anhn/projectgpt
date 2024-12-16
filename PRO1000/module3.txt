@@ -1,0 +1,185 @@
+•        Viktigheten av prosjektplaner
+•        Ledere nevner ofte å levere prosjekter i tide som en av sine største utfordringer.
+•        50 prosent av IT-prosjektene ble utfordret i CHAOS-studien fra 2003, og deres gjennomsnittlige tidsoverskridelse økte til 82 prosent fra et lavpunkt på 63 prosent i 2000.
+•        *Tidsplanspørsmål er hovedårsaken til konflikter på prosjekter, spesielt i andre halvdel av prosjekter.
+•        Tid har minst mulig fleksibilitet; det går over uansett hva som skjer på et prosjekt.
+•        Prosjektplanen definerer hvilke ressurser som kreves for å fullføre prosjektet, inkludert menneskelige ressurser, økonomi, tid og utstyr. Dette hjelper med å sikre at nødvendige ressurser er tilgjengelige når de trengs.
+•        Tidsplankonflikt
+•        Tidsplankonflikt oppstår når det er uoverensstemmelser eller problemer knyttet til tidslinjen eller tidsplanen for ulike oppgaver, aktiviteter eller hendelser i et prosjekt eller i ulike deler av en organisasjon. Dette kan føre til forsinkelser, overbokning av ressurser, prioriteringsproblemer og andre utfordringer som kan påvirke prosjekter eller daglig drift.
+–        Ressurskonflikt: Dette oppstår når de samme ressursene er nødvendige for å fullføre flere oppgaver eller prosjekter samtidig. For eksempel, hvis en bestemt gruppe ansatte er nødvendige for to prosjekter som kolliderer i tid, kan det oppstå en ressurskonflikt.
+–        Avhengighetskollisjon: Når det er avhengigheter mellom ulike oppgaver eller prosjekter, kan en forsinkelse i en oppgave føre til en forsinkelse i en annen, og dette kan føre til en tidsplankonflikt.
+–        Prioriteringsproblemer: Når det er uklarhet om hvilke oppgaver eller prosjekter som skal prioriteres, kan det oppstå en konflikt. Dette kan skje når ulike interessenter har ulike synspunkter på hva som er viktigst.
+–        Overbokning av ressurser: Hvis ressurser som ansatte, utstyr eller fasiliteter er overbooket på en slik måte at de ikke kan brukes til alle nødvendige oppgaver samtidig, oppstår en tidsplankonflikt.
+–        Konflikt mellom prosjekter: I organisasjoner som administrerer flere prosjekter samtidig, kan konflikter oppstå når det er begrensede ressurser, og det er behov for å prioritere mellom prosjektene.
+
+•        Prosjekttidsstyring
+•        Prosjekttidsstyring involverer prosesser og aktiviteter for å sikre at et prosjekt fullføres innenfor den angitte tidsrammen og at prosjektplanene administreres effektivt. Det er et av de sentrale kunnskapsområdene innen prosjektledelse. 
+•        Prosjekttidsstyringsprosessene, som definert av Project Management Institute (PMI), inkluderer seks hoved områder
+•        Full version: http://pmworkplace.com/PMP/A_Guide_to_the_Project_Management_Body_of_Knowledge_PMBOKGuide/images/9342125-00_0.jpg 
+•        Prosjekttidsstyring
+•        Planlegging av prosjektets tid
+•        Definere aktiviteter
+•        Sekvensering av aktiviteter
+•        Estimering av aktivitetsressurser
+•        Utvikling av prosjekttidsplanen
+•        Styring av prosjektets tidsramme
+
+        1. Aktivitetsdefinisjon
+•        En aktivitet eller oppgave er et element av arbeid som normalt finnes på WBS som har en forventet varighet, en kostnad og ressurskrav.
+•        Prosjektplaner vokser ut av de grunnleggende dokumentene som starter et prosjekt.
+–        Prosjektet charter inkluderer start- og sluttdatoer og budsjettinformasjon.
+–        Omfangserklæringen og WBS er med på å definere hva som skal gjøres.
+•        Aktivitetsdefinisjon innebærer å utvikle en mer detaljert WBS og støttende forklaringer for å forstå alt arbeidet som skal gjøres, slik at du kan utvikle realistiske kostnads- og varighetsestimater.
+•        2. Aktivitetssekvensering
+•        Innebærer å gjennomgå aktiviteter og bestemme avhengigheter. En avhengighet eller et forhold er relatert til rekkefølgen av prosjektaktiviteter eller oppgaver
+–        Obligatoriske avhengigheter: Iboende i arten av arbeidet som utføres på et prosjekt; noen ganger referert til som hard logikk.
+–        Skjønnsmessige avhengigheter: Definert av prosjektgruppen; noen ganger referert til som myk logikk og bør brukes med forsiktighet fordi de kan begrense senere planleggingsalternativer.
+–        Eksterne avhengigheter: Involvere forhold mellom prosjekt- og ikke-prosjektaktiviteter
+•        Du må bestemme avhengigheter for å bruke kritisk baneanalyse.
+•        2. Aktivitetssekvensering - Nettverksdiagram
+•        Et nettverksdiagram, ofte brukt i prosjektledelse, er en grafisk representasjon av prosjektoppgaver og deres avhengigheter. Hoved trins er:
+–        Bestem avhengigheter: Definer avhengighetene mellom aktiviteter. Identifiser hvilke oppgaver som må fullføres før andre kan starte. 
+–        Bruk de fire typene avhengigheter: Avslutt-til-start (FS), Start-til-Start (SS), Slutt-til-slutt (FF) og Start-til-slutt (SF) etter behov.
+–        Opprett noder: Hver oppgave er representert som en node (en boks) i nettverksdiagrammet. Skriv navnet på oppgaven i boksen.
+–        Tegn piler: Bruk pilene til å representere oppgaveavhengigheter. Koble nodene med piler som indikerer retningen til avhengigheten. For eksempel representerer en pil som peker fra oppgave A til oppgave B en FS-avhengighet der oppgave A må fullføres før oppgave B kan starte.
+–        Legg til varigheter: Inkluder estimert varighet for hver oppgave nær den respektive noden. Dette vil hjelpe deg med å forstå tidslinjen bedre.
+•        2. Aktivitetssekvensering
+•        Kritisk bane
+•        En kritisk vei for et prosjekt er serien av aktiviteter som bestemmer det tidligste tidspunktet da prosjektet kan fullføres.
+•        Den kritiske banen er den lengste veien gjennom nettverksdiagrammet og har minst mulig slakk eller flyt.
+•        Slakk eller flyte er hvor lang tid en aktivitet kan bli forsinket uten å forsinke en påfølgende aktivitet eller prosjektets sluttdato.
+•        Free slack eller free float er hvor lang tid en aktivitet kan bli forsinket uten å forsinke den tidlige starten av umiddelbart etterfølgende aktiviteter.
+•        Total slakk eller total flyt er hvor lang tid en aktivitet kan bli forsinket fra tidlig start uten å forsinke den planlagte sluttdatoen for prosjektet.
+•        Kritisk bane
+•        Analyser nettverksdiagrammet for å identifisere den kritiske banen, som er den lengste sekvensen av 
+•        Fordelene med Critical Path Analysis inkluderer:
+–        Identifisere de mest tidssensitive aktivitetene
+–        Forutsi prosjektvarighet
+–        Håndtering av prosjektrisiko
+–        Ressursallokering
+–        Overvåke fremdrift
+•        Et eksempel – Projekt X
+•        Kritisk bane
+•        Beregn tidlig start (ES) og tidlig målgang (EF): 
+–        Start with the first Activity (usually project initiation), which has an ES of 0.
+–        Beregn ES og EF for hver påfølgende oppgave basert på den tidligste fullføringstiden for de foregående oppgavene. Formelen er ES = EF fra forgjengeren, og EF = ES + varighet.
+•        Beregn sen start (LS) og sen målgang (LF):
+–        Begynn med den siste oppgaven i prosjektplanen, sett LF til EF.
+–        Beregn LS for hver foregående oppgave basert på siste starttidspunkt for følgende oppgaver. Formelen er LF = LS + varighet
+•        Beregn total flyte (slakk):
+–        Total Float er hvor lang tid en aktivitet kan bli forsinket uten å forsinke prosjektets fullføring.
+–        Total Float beregnes som TF = LS - ES eller LF - EF.
+–        Aktiviteter på den kritiske banen har null total flyte (TF = 0)
+•        Et eksempel – Projekt X
+•        Et eksempel – Projekt Y: planning for a simple website development project
+•        Step 1: Activity identification
+–        Activity 1: Gather Requirements
+–        Activity 2: Create Wireframes
+–        Activity 3: Design User Interface
+–        Activity 4: Develop Back-End
+–        Activity 5: Develop Front-End
+–        Activity 6: Testing
+–        Activity 7: Quality Assurance
+–        Activity 8: Client Review
+–        Activity 9: Deployment
+
+•        Et eksempel – Projekt Y: planning for a simple website development project
+•        Step 3: Calculate Early Start (ES) and Early Finish (EF):
+–        Task 1 (T1): ES = 0, EF = 5
+–        Task 2 (T2): ES = 5, EF = 8
+–        Task 3 (T3): ES = 8, EF = 13
+–        Task 4 (T4): ES = 13, EF = 20
+–        Task 5 (T5): ES = 13, EF = 20
+–        Task 6 (T6): ES = 20, EF = 24
+–        Task 7 (T7): ES = 20, EF = 23
+–        Task 8 (T8): ES = 20, EF = 22
+–        Task 9 (T9): ES = 23, EF = 26
+•        Et eksempel – Projekt Y: planning for a simple website development project
+•        Gantt Charts
+•        Gantt-diagrammer gir et standardformat for visning av prosjektplaninformasjon ved å liste opp prosjektaktiviteter og deres tilsvarende start- og sluttdatoer i et kalenderformat.
+•        Elementer i et Gantt-diagram:
+–        Aktiviteter: Hver aktivitet i prosjektet representeres som en linje i diagrammet. Aktivitetene er plassert på tidslinjen basert på når de skal starte og slutte.
+–        Varighet: Lengden på hver aktivitet vises som en linje som strekker seg over tidslinjen. Dette indikerer hvor lenge hver aktivitet forventes å ta.
+–        Start- og sluttdatoer: Gantt-diagrammet inneholder informasjon om når hver aktivitet skal begynne og slutte.
+–        Milepæler: Viktige milepæler i prosjektet, som betydningsfulle milestein, er markert i diagrammet for å indikere viktige punkter i prosjektets fremdrift.
+–        Avhengigheter: Forholdet mellom ulike aktiviteter, for eksempel start-til-start eller slutt-til-slutt, vises i diagrammet for å vise hvordan aktivitetene er koblet sammen.
+•        Gantt Charts - Example
+
+
+
+•        Når bruke Ganttchart?
+•        For å kommunisere plan eller status for et byggeprosjekt.
+•        For å overvåke aktiviteter i et prosjekt.
+•        Når du setter sammen et enkelt forslag til et lite prosjekt
+•        For å instruere på et høyt nivå sekvensen og varigheten av spesifikke aktiviteter eller prosesser fra et byggeprosjekt,
+•        For å demonstrere hvilke aktiviteter som avhenger av fullføring av tidligere aktiviteter.
+•        Critical paths as “the sequences of scheduled activities that determines the duration of the project.”
+
+
+
+•        Aktivitetsressursestimating
+•        1. Top-down estimat: tildeler en samlet tid for prosjektet og deler den deretter ned i diskrete faser, arbeid og oppgaver – vanligvis basert på prosjektets arbeidsnedbrytningsstruktur (WBS)
+•        2. Bottom-up-estimat: Ved å bruke denne estimeringsteknikken starter du med å estimere hver enkelt oppgave eller aspekt av prosjektet. Deretter kombinerer du alle disse separate estimatene for å bygge opp det samlede prosjektestimatet. Siden hver aktivitet vurderes individuelt, har denne typen anslag en tendens til å være mer nøyaktig enn ovenfra-ned-tilnærmingen. Men det tar også mer tid.
+•        3. Ekspertvurdering: en av de mest populære estimeringsteknikkene, siden dette er rask og enkel. Denne teknikken innebærer å stole på erfaringen til eksperter for å estimere prosjekter. Det er mest nyttig når du planlegger et standardprosjekt som ligner på prosjekter teamet ditt har fullført tidligere. Ekspertvurdering kan brukes til å lage ovenfra-og-ned-estimater.
+•        4. Analog estimering: Sammenlignende estimering bruker tidligere prosjektdata kombinert med en top-down tilnærming for å estimere prosjektvarighet. Hvis den gjennomsnittlige gjennomføringstiden for lignende prosjekter var åtte måneder, vil du anta at det nåværende vil ta åtte måneder. Deretter kan du dele opp disse åtte månedene på tvers av oppgaver og aktiviteter for å få arbeidsanslagene på lavere nivå.
+•        5. Parametrisk modellestimering: Parametrisk modellering bruker også tidligere prosjektdata, men den prøver å justere dataene for å gjenspeile forskjellene i hvert prosjekt. Denne teknikken tar detaljene fra tidligere prosjekter og pro-raterer den for å estimere det nåværende prosjektet.
+•        6. Tre-punkts estimering: I stedet for å anta én varighet for en oppgave, kan du tilordne tre: optimistisk, pessimistisk og mest sannsynlig. Disse tre tallene er gjennomsnittet for å lage ditt faktiske anslag. PERT-metoden (Program Evaluation and Review Technique) bruker tre-punkts estimering, men den tar et vektet gjennomsnitt av de tre poengene, med den "mest sannsynlige" gjetningen som veier mer.
+•        PERT Formula and Example
+•        PERT weighted average = 
+
+optimistic time + 4X most likely time + pessimistic time
+                                6
+•        Example:
+
+PERT weighted average =
+ 8 workdays + 4 X 10 workdays + 24 workdays         = 12 days                                        
+                                       6
+where: 
+optimistic time= 8 days
+most likely time = 10 days
+pessimistic time = 24 days
+    Therefore, you’d use 12 days on the network diagram instead of 10 when using PERT for the above example.
+•        Ressursestimering i praksis
+•        Andre aktiviteter som haster mye som skal utføres som vil ha prioritet fremfor denne (annet kurs)
+•        Ulykker og nødsituasjoner (noen blir syke eller drar)
+•        Interne/eksterne møter (teammøter tar tid)
+•        Helligdager (Påske?)
+•        Kontakt med andre kunder, leverandører og entreprenører (kundekontakt tar tid)
+•        Havari i utstyr (døde bærbare datamaskiner?)
+•        Avbrudd fra kunder, leverandører, entreprenører, familie, kjæledyr, medarbeidere, etc.
+•        Uventede hendelser
+•        Ressursestimering i praksis – Planning Poker!
+•        Planning poker, also called Scrum poker, is a consensus-based, gamified technique for estimating, mostly used to estimate effort or relative size of Activities in software development
+
+•        Planning Poker!
+•        4. Tidsplankontroll
+•        Mål er å kjenne statusen til timeplanen, påvirke faktorer som forårsaker tidsplanendringer, fastslå at tidsplanen har endret seg og administrere endringer når de inntreffer.
+•        Verktøy og teknikker inkluderer:
+–        Fremdriftsrapporter.
+–        Et kontrollsystem for tidsplanendring.
+–        Prosjektledelsesprogramvare, inkludert tidsplansammenligningsdiagrammer, for eksempel Gantt-sporingsdiagrammet.
+–        Variansanalyse, som å analysere float eller slakk.
+–        Ishikawa diagram
+•        4. Tidsplankontroll
+•        Prosjektlederen overvåker nøye fremdriften av prosjektet for å sikre at oppgaver blir utført i henhold til tidsplanen. Dette kan inkludere daglige eller ukentlige oppdateringer, avhengig av prosjektets varighet og kompleksitet. 
+•        Prosjektlederen identifiserer eventuelle avvik mellom den planlagte tidsplanen og den faktiske fremdriften. Dette kan omfatte forsinkelser, tidlig ferdigstillelse eller endringer i oppgaver.
+•        Årsaksanalyse: Når avvik oppdages, er det viktig å analysere årsakene. Hvorfor oppstod forsinkelsen? Hva er de underliggende årsakene til avviket? Dette gir grunnlag for å iverksette tiltak.
+•        Tiltak og Korreksjoner: Basert på årsaksanalysen, tar prosjektlederen tiltak for å korrigere tidsplanen. Dette kan inkludere omfordeling av ressurser, justering av oppgaver, eller revisjon av tidsplanen.
+•        Tidsplankontroll er en kontinuerlig prosess gjennom hele prosjektets livssyklus. Ved å implementere tidsplankontroll riktig, kan prosjektlederen bidra til å sikre at prosjektet leveres til rett tid og innenfor de fastsatte rammene.
+•        4. Tidsplankontroll - Eksempel
+•        Scenario: Prosjektet har en planlagt leveringsdato for den nye programvareapplikasjonen om 12 uker. Imidlertid har prosjektledelsen oppdaget at prosjektet er forsinket, og det er nå bare 8 uker igjen til den opprinnelige leveringsdatoen.
+•        Årsaksanalyse:
+•        Manglende ressurser: En gjennomgang av prosjektteamets ressursallokering viser at flere nøkkelressurser har blitt trukket til andre kritiske prosjekter. Dette har ført til redusert bemanning i vårt prosjekt og forsinkelser i oppgaveutførelse.
+•        Endringer i krav: Underveis i prosjektet ble det introdusert betydelige endringer i programvarekravene. Dette har ført til omfattende omføkt utviklingsarbeid og har påvirket tidsplanen negativt.
+•        Tekniske utfordringer: Under utviklingsprosessen har teamet møtt tekniske utfordringer knyttet til programvarearkitekturen. Løsningene på disse problemene har tatt lengre tid enn forventet.
+•        Manglende erfaring: Enkelte teammedlemmer har begrenset erfaring med de nødvendige teknologiene og verktøyene som brukes i prosjektet. Dette har ført til tregere utvikling og testing.
+•        Saksavhengigheter: Prosjektoppgaver er i stor grad avhengige av hverandre, og forsinkelser i en oppgave har forplantet seg gjennom tidsplanen, påvirker andre oppgaver
+•        4. Tidsplankontroll - Eksempel
+•        Tiltak: Basert på årsaksanalysen kan følgende tiltak iverksettes for å takle forsinkelsene og gjenopprette tidsplanen:
+•        Ressursallokering: Prosjektledelsen må forhandle med andre prosjekter for å få tilbake nødvendige ressurser og sikre at teamet er tilstrekkelig bemannet.
+•        Endringskontroll: Alle nye krav må gå gjennom en streng endringskontrollprosess for å vurdere deres innvirkning på tidsplanen før de blir akseptert.
+•        Teknisk støtte: Involvere erfarne tekniske eksperter for å hjelpe med å løse de tekniske utfordringene og forhindre ytterligere forsinkelser.
+•        Kompetansebygging: Tilby opplæring og veiledning for teammedlemmer som mangler erfaring med de nødvendige teknologiene.
+•        Replanlegging: Gjennomgå og revider tidsplanen for å ta hensyn til avhengigheter og forsinkelser. Identifiser kritiske stier og prioriterte oppgaver.
+
+

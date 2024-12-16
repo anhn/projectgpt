@@ -1,0 +1,394 @@
+        Agenda
+        User centered Design
+        Prototyping
+        Design principles
+        Gestalt laws
+        UX laws
+        Design icons, logos and texts
+        Agenda
+        User centered Design
+        Prototyping
+        Design principles
+        Gestalt laws
+        UX laws
+        Design icons, logos and texts
+        User Centered design (UCD)
+        An approach to UI development and system development
+        User-centered design (UCD) is an iterative design process in which designers focus on the users and their needs in each phase of the design process. 
+
+
+        ISO on User-centered Design
+        ISO 13407 describes human-centered design processes for interactive systems
+        Principles of human-centered design:
+        Active involvement of users
+        Appropriate allocation of function between  user and system
+        Iteration of design solutions
+        Multidisciplinary design teams
+        ISO on User-centered Design
+        Essential activities in human-centered design:
+•        Understand and specify the context of use
+•        Specify the user and organizational requirements
+•        Produce design solutions (prototyping)
+•        Evaluate designs with users against requirements (Usability testing)
+        Agenda
+        User centered Design
+        Prototyping
+        Design principles
+        Gestalt laws
+        UX laws
+        Design icons, logos and texts
+        Prototyping
+•        A prototype is an early model or release of a product built to test a concept or process. It's a tool for obtaining feedback and understanding user requirements more precisely.
+•        Prototyping helps in validating ideas and designs before full-scale development. It aids in identifying user needs and expectations, testing hypotheses, and reducing misunderstandings between developers and users.
+        Prototyping - examples
+•        a series of screen sketches
+•        a storyboard, i.e. a cartoon-like series of scenes 
+•        a Powerpoint slide show
+•        a video simulating the use of a system
+•        a 3D printing artifacts
+•        a cardboard mock-up
+•        a digital wireframe like Figma
+•        a piece of software with limited functionality written in the target language or in another language
+        Types of prototypes
+•        Throwaway/Rapid Prototyping:
+        Used to quickly create a model of a requirement or part of a system.
+        Once evaluated, this prototype is discarded, and the final system is built with a clearer understanding of user needs.
+•        Evolutionary Prototyping:
+        Involves building a robust prototype in a structured manner which is constantly refined based on user feedback.
+        The prototype gradually evolves into the final product.
+        Low-Fidelity vs. High-Fidelity Prototyping
+•        Low-Fidelity:
+        Simple and quick to create.
+        Focuses on concepts, design alternatives, and basic interactions.
+        Examples: sketches of screens, task sequences,  ‘post-it’ notes, storyboards, ‘Wizard-of-Oz’, paper-based or simple digital mockups.
+        Useful for early-stage feedback and brainstorming.
+•        High-Fidelity:
+        Closer to the final product in look and feel.
+        Includes more detailed and functional interactions.
+        Digital and often interactive.
+        Useful for user testing and presenting the final vision of the product.
+        Low-Fidelity vs. High-Fidelity Prototyping
+        Tools - Figma
+        A popular web-based graphics editing and user interface design app.
+        Primarily used for UI and UX design of mobile apps, websites, and smaller graphical tasks.
+        Key features include:
+        Collaborative Design: Allows multiple users to edit a design at the same time, similar to Google Doc 
+        Vector Graphics Editing: Supports vector editing, which is crucial for designing interfaces that need to scale without losing quality
+        Prototyping: Offers tools to create interactive prototypes without needing to code.
+        Version Control: Keeps track of all the changes, allowing you to revert to previous versions if needed.
+        User Testing and Feedback: Facilitates user testing by sharing prototypes and gathering feedback directly in the app.
+        Cross-Platform Accessibility: Being cloud-based, it's accessible across different platforms and devices.
+
+
+        Tools – GEN AI tools
+        Tools can generate visual artifact: Dall E, MidJourney, ChatGPT 4
+        Prototyping with AI tools like DALL-E and Midjourney represents a significant advancement in the design and creative fields. These tools leverage artificial intelligence to generate images and visual content based on textual descriptions, providing a new avenue for rapid prototyping and creative exploration.
+
+
+        DALL-e protyping – Step-by-step
+        Step 1: Define Your Design Requirements
+•        Understand your needs: Clearly define what you want to prototype. This could be a web page, a mobile app interface, or any other software element.
+•        Identify key elements: Decide on important features like buttons, text fields, navigation bars, etc., that need to be included in the design.
+        Step 2: Craft Detailed Prompts
+•        Be specific: The more detailed your prompt, the better DALL-E can generate images that meet your expectations. Include details about layout, color scheme, typography, and any specific elements (like a search bar, login form, etc.).
+•        Use design terminology: Familiarize yourself with basic design terms to accurately describe what you want (e.g., "minimalist," "user-friendly," "modern").
+        Step 3: Generate Images
+•        Input the prompt: Enter your crafted description into DALL-E.
+•        Iterate as needed: The first output may not be perfect. You might need to tweak your prompts and generate multiple images to get closer to your envisioned design.
+        Step 4: Evaluate and Refine
+•        Assess the outputs: Look at the generated images and evaluate how well they align with your vision and requirements.
+•        Refine with traditional tools: You may use traditional design tools like Adobe XD, Sketch, or Figma to refine and further develop the AI-generated prototype.
+        Tools – GEN AI tools
+        Best Practices:
+        Use as a Starting Point: Utilize AI-generated images for initial ideas and inspiration, followed by refinement through traditional design methods.
+        Iterative Process: Experiment with different prompts and refine based on outputs to get closer to the desired result.
+        Combine with Traditional Tools: Integrate AI-generated elements with standard design tools like Photoshop or Illustrator for detailed editing.
+
+
+        Agenda
+        User centered Design
+        Prototyping
+        Design principles
+        Gestalt laws
+        UX laws
+        Design icons, logos and texts
+        Design principle
+        A design principle is a fundamental guideline or standard that informs and shapes the process of creating designs, whether in web development, graphic design, industrial design, or any other field involving creative and functional composition. 
+        Essential for ensuring that a design is not only aesthetically pleasing but also practical, user-friendly, and effective in its purpose.
+        help designers and developers make informed decisions about layout, color schemes, typography, navigation, and overall user experience.
+        Design principle
+        Key aspects of design principles include:
+        Consistency: Ensuring a coherent and predictable experience across the design, enhancing usability and learnability.
+        Hierarchy: Organizing elements in a way that naturally directs the user's attention to the most important information first.
+        Alignment: Arranging elements in a visually pleasing and easy-to-navigate manner.
+        Contrast: Using differences in color, size, and shape to emphasize importance and improve readability.
+        Balance: Creating a visually harmonious arrangement of elements, contributing to a sense of stability in the design.
+        Proximity: Grouping related items together to establish a relationship and reduce clutter.
+        Simplicity: Striving for a clean, uncluttered design that communicates the message clearly and directly.
+        Functionality: Ensuring the design serves its intended purpose effectively and efficiently.
+        Accessibility: Designing for a wide range of users, including those with disabilities, to ensure usability for everyone.
+        Details can be learned from different set of rules for design
+        Agenda
+        User centered Design
+        Prototyping
+        Design principles
+        Gestalt laws
+        UX laws
+        Design icons, logos and texts
+        GESTALT Laws
+        Theories of visual perception developed by German psychologists in the 1920s
+        Describe how people tend to organize visual elements into groups or unified wholes when certain principles are applied
+        The whole is greater than the sum of its parts
+        Laws:
+        Foreground and background
+        Proximity
+        Similarity
+        Symmetry
+        Continuity
+        Closure
+        GESTALT Laws
+        Because Gestalt principles describe the manner in which the brain interprets imagery, they should be the cornerstone of every visual designer’s education
+        It determines which visual elements are most effective in any given situation 
+        Wide applications in goal-oriented, problem-solving, intuitive design, user interface design
+        1. The Law of Figure Ground
+        The eye's tendency to see and separate objects from their surrounding background
+        Small object lies in front of the bigger object
+        The Law of Figure Ground
+        The Law of Figure Ground
+        The Law of Figure Ground
+        The Law of Figure Ground
+        The Law of Figure Ground
+        The contrast between the figure and the ground
+        https://webaim.org/resources/contrastchecker
+
+        2. The Law of proximity
+        Items are viewed as a group based on their proximity (or distance) to one another
+        how to organize elements, i.e. divs, form elements, paragraphs, etc to express their relationships
+        how to organize the layout to make it scannable and easily-perceived for users
+        The Law of proximity
+        Using space: the space without any content not only adds the air to general layout but can be also used to organize its elements as groups and unities where it’s needed
+
+        The Law of proximity
+        Use hierachy smart!
+
+        The Law of proximity
+        The Law of proximity
+        The Law of proximity
+        3. The Law of SIMILARITY
+        When items look similar to one another, people often perceive them as a group or pattern
+        Similarity is also what makes elements seem related. Some examples include size, color, texture, shape, orientation and dimension.
+
+        The Law of SIMILARITY
+Similar Relationships in Content
+        For web designers, we can use this law to group elements together that belong to one category
+        Site visitors can efficiently perceive the organization of the page
+        The Law of SIMILARITY
+Various Link Styles for a Common Purpose
+        Bigger font is reserved for the most important headlines
+        Smaller font is meant for body content, videos and less important headlines
+        Dark blue indicates headlines
+        Lighter blue indicates links to stories
+        The Law of SIMILARITY
+        Anomally is useful for logo design
+        4. The Law of closure
+        If enough of the shape is indicated, people perceive the whole by filling in the missing information
+        The Law of closure
+        The Law of closure
+Simple exercises in closure:
+        Th exrcse are mst likly dne diffrntly by diffrnt pple
+        1, 3, 5, __, 9
+        There once was a man from Massachus
+        ** I **** ******* this * swear I’ll ***** ***** *****.
+
+        The Law of closure
+A designer can take advantage of this in a few ways, such as:
+        Allowing partial elements to save space or aid communication.
+        Encouraging minimalism for an elegant style.
+        Stimulate users with artistry and creativity.
+        The Law of closure
+
+        5. The Law of symmetry
+        Items that are symmetrical to each other tend to be perceived as a unified group
+        Symmetric objects or arrangements are associated with positive aspects such as stability, consistency and structure. 
+        It’s good to use Symmetry for portfolios, galleries, product displays, listings, navigation, banners, and any content-heavy page.
+        Adding an asymmetrical element can help with drawing attention – but use with care!
+        The Law of symmetry
+        An example of the principle of symmetry in action is visible in almost any web page you’re likely to come across
+
+        The Law of symmetry
+
+        The Law of symmetry
+For web designers: symmetry can be achieved in
+        Header, logo and navigational menu
+        Organizations of the main section, with vertical menu, aside sections and blocks of articles
+        Testimonial areas with quotes or representative customers
+        Footers with social media links and contact information
+        6. The Law of continuity
+        The eye is compelled to move through one object and continue to another object
+        Continuity helps readers interpret direction and movement through a composition
+        The Law of continuity
+        @web designer: elements in a row or a line will achieve a similarity, and so suggest similar functions
+        The Law of continuity
+        @web designer: elements in a row or a line will achieve a similarity, and so suggest similar functions
+        The Law of continuity
+        @web designer: elements in a row or a line will achieve a similarity, and so suggest similar functions
+        Agenda
+        User centered Design
+        Prototyping
+        Design principles
+        Gestalt laws
+        UX laws
+        Design icons, logos and texts
+        Laws of UX 
+        7. Jakob’s Law
+
+        7. Jakob’s Law
+        7. Jakob’s Law
+
+        8. Fitt’s Law
+        8. Fitt’s Law
+        8. Fitt’s Law
+        9. Hick’s law
+        Hick’s Law (or the Hick-Hyman Law).
+        The more choices you present your users with, the longer it will take them to reach a decision. 
+
+        9. Hick’s law
+        Minimize choices when response times are critical to increase decision time.
+        Break complex tasks into smaller steps in order to decrease cognitive load.
+        Avoid overwhelming users by highlighting recommended options.
+        Use progressive onboarding to minimize cognitive load for new users.
+        Be careful not to simplify to the point of abstraction.
+        9. Hick’s law
+
+        9. Hick’s law
+        Once your app or website is launched, it is also important to keep an eye on how Hick’s law might be affecting your users’ experience. Here are some variables that you can use to analyse it:
+        Time on Site
+        Page Views 
+
+        10. Miller’s Law
+
+        7 8 9 6 5 1 2 6 6 5
+
+        7896 – 512 - 665
+        10. Miller’s Law
+
+        The number of objects an average person can hold in working memory is about seven, also known as The Magical Number Seven, Plus or Minus Two.
+        Organize content into smaller chunks to help users process, understand, and memorize easily.
+        Remember that short-term memory capacity will vary per individual, based on their prior knowledge and situational context.
+        10. Miller’s Law
+
+
+        10. Miller’s Law
+
+        Chunking is commonly used to group products and filters on ecommerce websites
+        11. Postel’s Law
+        “be conservative in what you send, be liberal in what you accept”
+        in an early specification of TCP (Postel, Jon, ed. (January 1980). Transmission Control Protocol. IETF. doi:10.17487/RFC0761. RFC 761)
+        11. Postel’s Law
+        Be empathetic to, flexible about, and tolerant of any of the various actions the user could take or any input they might provide.
+        Anticipate virtually anything in terms of input, access, and capability while providing a reliable and accessible interface.
+        The more we can anticipate and plan for in design, the more resilient the design will be.
+        Accept variable input from users, translating that input to meet your requirements, defining boundaries for input, and providing clear feedback to the user.
+        12. Peak-End Rule
+        A 1993 study titled “When More Pain Is Preferred to Less: Adding a Better End” by Kahneman, Fredrickson, Charles Schreiber, and Donald Redelmeier provided groundbreaking evidence for the peak–end rule
+        The peak–end rule is a cognitive bias that impacts how people remember past events. Intense positive or negative moments (the “peaks”) and the final moments of an experience (the “end”) are heavily weighted in our mental calculus.
+        12. Peak-End Rule
+        Creating Positive Peaks: Elements that highlight moments of convenience, comfort, and even delight can transform a pleasant experience into a truly memorable one.
+        A bright color, an icon, or a lively illustration at the end of a successful interaction can solidify a good experience in your users’ memories.
+        12. Peak-End Rule
+        Impact of negative peak:
+        Her earlier negative experience with the menu had a strong effect on how she described the site at the end of the session.
+        13. Aestethic-Usability Effect
+        people perceive more-aesthetic designs as easier to use than less-aesthetic designs
+        stronger correlation between the participants’ ratings of aesthetic appeal and perceived ease of use than the correlation between their ratings of aesthetic appeal and actual ease of use.
+        Apart from having a great UX, it is equally important to have great UI and Visual Design
+        13. Aestethic-Usability Effect
+
+
+Arcadis, a consultancy, uses large background photos on many pages throughout the site. During a usability test, a participant responded positively to the site’s aesthetics: “First thing, popping into this webpage, I see this beautiful, colorful image.” After struggling to complete several tasks, however, the participant revised his opinion of the same design detail: “I feel like the whole screen being taken by this is pretty awesome once… And probably annoying the second time.”
+
+
+
+        14. Von Restorff Effect
+        coined by German psychiatrist and pediatrician Hedwig von Restorff (1906–1962)
+        when multiple homogeneous stimuli are presented, the stimulus that differs from the rest is more likely to be remembered
+        if a person examines a shopping list with one item highlighted in bright green, he or she will be more likely to remember the highlighted item than any of the others.
+        15. Tesler’s Law
+•        All processes have a core of complexity that cannot be designed away and therefore must be assumed by either the system or the user.
+•        Ensure as much as possible of the  burden is lifted from users by dealing with inherent complexity during design and development.
+•        Take care not to simplify interfaces to the point of abstraction.
+
+
+        Tesler’s Law
+        While booking flights or hotels we have to give certain details which cannot be reduced further. These are perfect examples of Tesler’s law.
+        
+
+        16. Doherty Threshold
+        Richard P. Kelisky and Doherty, in 1976, did a study at IBM to check the degradation of our attention with respect to the response time of a system
+        Productivity soars when a computer and its users interact at a pace (<400ms) that ensures that neither has to wait on the other.
+        16. Doherty Threshold
+•        Provide system feedback within 400 ms in order to keep users’ attention and increase productivity.
+•        Use perceived performance to improve response time and reduce the perception of waiting.
+•        Animation is one way to visually engage people while loading or processing is happening in the background.
+•        Progress bars help make wait times tolerable, regardless of their accuracy.
+•        Purposefully adding a delay to a process can actually increase its perceived value and instill a sense of trust, even when the process itself actually takes much less time.
+        Agenda
+        User centered Design
+        Prototyping
+        Design principles
+        Gestalt laws
+        UX laws
+        Design icons, logos and texts
+        Golden ratio        
+1.618
+        Golden ratio        
+
+        Golden ratio        - picture sizing
+
+        Golden ratio
+        Web designers should start learn to work with proportions
+        Sketch layout while wireframing
+        Golden ratio        - web layout
+        Golden ratio is also used to divide space between the body of the website and the sidebar
+        Main content c.a 555px and sidebar c.a 345 px
+        Text
+        Text has a large implication on usability of a website
+        Capital letters is often more difficult to read than lower case letters
+        Line length can improve the speed of reading. 
+        Propostional fonts is easier to read  the the font with fixed width
+        Use special font with cares
+        Text should be large enough for any users can read
+        Sufficient margin and space
+        Text size change according to the screen size: use of relative size
+        icon
+        Icon design is the process of designing a graphic symbol that represents some real, fantasy or abstract motive, entity or action
+        A good icon combines of low complexity, uniqueness and recognizability
+        icon
+        Simple form
+        Primary geometric shapes — circle, square and triangle create a foundation for icon design
+        icon
+        Recognizability refers not only to comprehension of the object, idea or action being depicted, but also to recognition of the unique icon set
+        Color
+        The perceptually based models are known as HSV (hue, saturation, and value) and HLS (hue, light, and saturation).
+        Hue is the spectral wavelength composition of color that produces the colors we see, such as orange, blue, etc. 
+        Saturation is the relative purity of the color on a scale from gray to the most vibrant tone of the particular color. 
+        Value is the strength or darkness of the color. 
+        Lightness, also referred to as brightness, refers to the amount of light energy creating the color.
+        The most common display-based models are RGB (red, green, blue) 
+        Color on web
+        Several ways:
+        Color name: color: red;
+        RGB value from 0 to 255: color: rgb(255, 255, 0);
+        RGB value in percentage: color: rgb(100%, 100%, 0%);
+        Hexadecimals: color:#FFFF00
+
+
+
+        Color-TRANSPARENCY
+        Alpha compositing
+        Alpha = opaqueness
+        alpha = 1 means fully opaque 
+        alpha = 0 means fully transparent
+
+
+

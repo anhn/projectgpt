@@ -1,0 +1,43 @@
+Hva er et prosjekt?
+Et prosjekt er en midlertidig innsats som har en tydelig definert start- og sluttdato, samt et spesifikt mål eller en ønsket utgang. Prosjekter blir ofte gjennomført for å oppnå noe unikt, som kan være å levere et bestemt produkt, tjeneste eller resultat. Prosessen med å gjennomføre et prosjekt innebærer vanligvis en systematisk tilnærming som inkluderer planlegging, utførelse og oppfølging.
+Hva er et prosjekt?
+Aktiviteter som mangler et distinkt, midlertidig mål, et unikt resultat og et definert endepunkt regnes vanligvis ikke som prosjekter.
+Hva er prosjektets egenskaper?
+•        Unikt: Et prosjekt har sin egen identitet og innebærer arbeid som ikke tidligere er blitt gjennomført på samme måte.
+•        Mål: Et prosjekt har et tydelig definert mål eller en ønsket sluttresultat. Målet er vanligvis spesifikt, målbart, oppnåelig, relevant og tidsbestemt
+•        Utgang: Et prosjektet produserer en sluttprodukt, en tjeneste eller en leveranse som er konkret og målbar. 
+•        Begrenset ressurs: Prosjekter er underlagt begrensninger når det gjelder tid, kostnader og ressurser. Disse begrensningene gjør at prosjektledelsen må balansere og optimalisere bruken av tilgjengelige ressurser for å oppnå prosjektmålene.
+•        Teamarbeid: Prosjekter involverer vanligvis et team av enkeltpersoner med ulike ferdigheter og kompetanse som samarbeider for å oppnå prosjektmålene. Effektiv kommunikasjon og samarbeid er viktig for suksess.
+•        Komplekst: Prosjekter kan inneholde mange variabler, avhengigheter, usikkerheter og utfordringer som krever grundig planlegging, styring og overvåking.
+Hva med programvareprosjekter?
+Et programvareutviklingsprosjekt er et prosjekt med det formål å utvikle, implementere eller forbedre programvareapplikasjoner eller systemer. En type programvare bør være resultatet av prosjektet. Noen typer programvareprosjekter:        
+•        Ny programvareutvikling: lage en helt ny programvareapplikasjon fra bunnen av. Dette kan inkludere alt fra en enkel mobilapp til en kompleks bedriftsprogramvareløsning.
+•        Programvareoppgradering: forbedre en eksisterende programvareapplikasjon ved å legge til nye funksjoner, fikse feil, eller tilpasse den til nye plattformer
+•        Open Source-prosjekter: fellesskapet kan bidra til utviklingen og forbedringen av programvaren. Eksempler inkluderer Linux-kjernen og Firefox-nettleseren.
+•        Forskning og utviklingsprosjekter (FoU): utføre eksperimentell forskning og utvikling for å utforske nye teknologier og konsepter som kan føre til fremtidige programvareinnovasjoner.
+Prosjekt aktør
+Enkeltpersoner eller grupper som har en interesse eller er direkte berørt av resultatet av et prosjekt som kan påvirke prosjektets suksess
+Organisasjonen er ofte interessert i prosjektets tilpasning til selskapets strategiske mål, økonomiske resultater og generelle suksess. De sørger for prosjektets finansiering og ressurser og tar viktige beslutninger om igangsetting og videreføring.
+Utviklingsteamet består av personer som er ansvarlige for å designe, kode, teste og implementere prosjektet. Dette inkluderer programvareutviklere, designere, testere og andre tekniske eksperter.
+Ledere på ulike nivåer (f.eks. prosjektledere, teamledere, avdelingsledere) som er ansvarlige for å planlegge, overvåke og koordinere prosjektet. De sikrer at prosjektoppgavene fullføres i tide, innenfor rammen og innenfor budsjett. 
+Kunder er eksterne personer som ofte er end users eller innkjøpere av prosjektets leveranser. Deres tilbakemeldinger og tilfredshet er avgjørende for prosjektets suksess og organisasjonens omdømme.
+Brukere er individer som vil samhandle direkte med og dra nytte av prosjektets utfall. De kan være ansatte i organisasjonen eller eksterne brukere.
+Et team og teamarbeid
+En gruppe mennesker knyttet sammen i arbeid eller aktivitet for å oppnå et felles mål. 
+Et team blir mer enn bare en samling mennesker når en sterk følelse av gjensidig forpliktelse skaper synergi, og dermed genererer ytelse som er større enn summen av ytelsen til dets individuelle medlemmer.
+Teamarbeid er en samarbeidsinnsats fra en gruppe individer som jobber sammen for å oppnå et felles mål. Det innebærer koordinert bruk av hvert teammedlems ferdigheter, kunnskaper og ressurser for å løse problemer, ta beslutninger og produsere ønskede resultater.
+Hva er prosjektledelse?
+Prosjektledelse er disiplinen for å planlegge, organisere, utføre og kontrollere ressurser (inkludert mennesker, tid, budsjett og omfang) for å oppnå spesifikke mål og oppfylle suksesskriteriene til et prosjekt. 
+Det innebærer å bruke kunnskap, ferdigheter, verktøy og teknikker for å administrere et prosjekt effektivt gjennom hele livssyklusen. 
+Prosjektledelse er en strukturert tilnærming for å sikre at prosjekter fullføres til rett tid, innenfor omfang og innenfor budsjett samtidig som de oppfyller de ønskede kvalitetsstandardene.
+Prosjektledelse er viktig fordi…
+Ta med lederskap
+Sørg for klart fokus og mål
+Oppnå realistisk prosjektplanlegging
+Kvalitetskontroll
+Risikostyring
+Ordnet prosess
+Kontinuerlig tilsyn
+Fagkompetanse
+Project management process
+Project knowledge areas

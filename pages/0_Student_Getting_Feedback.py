@@ -26,6 +26,11 @@ def get_response(jim_line):
                                                                                                                                                                                                                  
 tab1, tab2, tab3, tab4, tab5, tab6, tab7, tab8, tab9 = st.tabs(["General", "Module 1", "Module 2", "Module 3", "Module 4", "Module 5", "Module 6", "Module 7", "Module 8"])
 
+def get_course_description(course_name):
+    pathname = course_name + "/description.txt"
+    f=open(pathname, "r")
+    return f
+ 
 with tab1:
     col01, col02 = st.columns([1, 2])
     with col01:

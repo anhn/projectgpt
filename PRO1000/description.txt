@@ -1,1 +1,44 @@
 This is a description of PRO1000 course.
+This study took place in a project-based course, which aims to teach \textit{“software engineering (SE) skills in the context of a development project to make a realistic prototype of an Information System (IS) "on contract" for a real-world customer”} [30]. The projects are designed with a reduced complexity to be suitable for a semester-long course. During the course, teams of six to eight students carry out projects with real customers. In this iteration of the course where the data for this paper was collected, there were 16 such teams (though the reports of only 15 were included in this study).
+
+Students have several theory lectures in the beginning of the course and weekly supervision during their projects. Although the list of topics changes somewhat year to year, they basically include development processes and practices, software engineering advanced topics, teamwork, and technical report writing. The course has been rated as the most important learning experience for Information Technology students at University A. Since 2015, we have attempted to reflect the promotion for women in computing in the context of our course. We have encouraged female students to actively and broadly participate in software projects. For example, a female student who takes a team leader role actively participates in both technical and non-technical tasks.
+
+The students are required to have the prerequisite knowledge from an introductory software engineering course and several fundamental programming courses. This knowledge includes software engineering processes and practices. For example, students have learned about alternative software development lifecycle models, namely waterfall, agile, and lean startup.
+
+Students are divided into teams of six to eight students. Teams are formed by randomly assigning students; the members generally do not know each other beforehand. This is a typical situation in a real life setting, especially when working as a consultant. The students are free to choose the methods that best fit their projects. In some cases, the development approaches are enforced by customers due to existing working processes they have adopted in their organizations. Each team decides by themselves about their management and leadership mechanisms. In most of the cases, students organize themselves using a flat organizational structure within the team. Decision making is often done collectively and the reasons for important decisions are documented in the final reports. There are several lectures at the beginning of the course teaching topics such as project management, team dynamics, Scrum, architecture, and testing.
+
+Students typical engage in three phases of their projects, which are planning, execution and closing (refer to Figure 1). In the planning phase, the students get to know their team members, customers, and their project requirements. The students need to decide roles and areas of responsibility for each member. They also make a preliminary project plan and set up the working environment. In the execution phase, the student teams typically carry out sprints with frequent deliveries to their customers. Each project covers fundamental SE activities, i.e., requirement elicitation, architecture level design, coding, and testing. Students also write a project report that reflects their team’s progress. In the closing phase, the project results are submitted in a report; they are also demonstrated and presented to the customer and course staff (e.g., course instructor, supervising teaching assistant). 
+
+The course deliverables for each team include (1) an end of term demonstration of the software, (2) a presentation, and (3) a final project report. The course project work is evaluated on the basis of the quality of the project reports, the functioning prototype of the system, the presentation delivered at the end of the course, and the team dynamics. Customers consider their experience working with the team, the value of the software developed, and the delivered report in their evaluations. Supervisors, who are typically teaching assistants in the course, evaluate their teams’ performance and learning based on their observations throughout the course. The faculty member responsible for the course involves both the customer and the supervisor in an evaluation meeting to determine the final marks for students. In the evaluation scheme, a team with a poorly functioning application does not necessarily receive a low grade. Student teams that have difficult projects with poor functionality, but express quick learning curves and effective teamwork can achieve a good grade.
+
+1. Faglig innhold i emnet
+Studentene skal anvende kunnskapen fra førsteårsemner i studiet for å gjennomføre et praktisk systemutviklingsprosjekt. Det legges vekt på studentenes evne til å reflektere over fagstoffet, og evnen til å foreta en kritisk vurdering av sammenhengen mellom teori og praksis.
+
+2. Forkunnskapskrav
+Grunnleggende programmering med Web Utvikling og HCI
+Prototyping og Usability Test
+3. Læringsutbytte
+3.1. Kunnskap
+Etter fullført emne skal studenten ha kunnskap om prosjektarbeid og prosjektmetodikk som grunnlag for å kunne gjennomføre et prosjektarbeid
+Prosjektledelse: hvordan å planlegge, utføre og levere et prosjekt
+Software prosesser: forskjellige Software aktiviteter og metodologier, for eksempel Scrum.
+3.2. Ferdigheter
+Programmering ferdigheter: ulike erfaringer med å jobbe med frontend, backend, database og mobile applikasjoner
+Team dynamic: Arbeider i et programvareutviklingsteam
+Interaksjon med kunder: å jobbe med et assistert kundesystem
+Problemløsning ferdigheter
+Konflikthåndtering: Hvordan komme igjennom vanskelige situasjoner med lagmedlemmer dine
+Debat og forhandle: Beskytt og forsvar for dine egne ideer
+3.3. Generell kompetanse
+Etter fullført emne skal studenten kunne planlegge og gjennomføre prosjekter sammen med andre reflektere over egen faglig utøvelse og justere denne under veiledning analysere relevante IT-faglige problemstillinger.
+Formidle fremgangsmåter og resultater i forbindelse med IT-faglige prosjekter og arbeidsoppgaver, samt beherske IT-faglige uttrykksformer både i relasjon til kommunikasjon med IT-spesialister og allmennheten.
+4. Læringsaktiviteter
+Flipped klasserom med lysbilder, videoer og lesemateriell
+Selvstendig arbeid i grupper
+Student presentasjoner og tilbakemelinger
+Deltakelse i obligatoriske arbeidskrav
+5. Vurderingsformer og vurderingsuttrykk
+Prokjekt mappe i Github: pro1000_mappe.png
+Avsluttende vurdering skriftlig gruppeeksamen rapport.
+Gradert karakterskala A - F, der A er beste karakter og F er ikke bestått.
+Levering dato: 26th April 2025, kl 23:59

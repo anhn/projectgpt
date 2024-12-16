@@ -142,13 +142,13 @@ with tab2:
              if message["role"] in ["user", "assistant"]:
                 with st.chat_message(message["role"]):
                     st.markdown(message["content"])        
-        if prompt := st.chat_input("What is up?"):
+        if prompt_tab2 := st.text_area("What is up?"):
              st.session_state.messages.append({"role": "system", "content": get_course_description("project")})
-             if genre == "Exercise2":
+             if em1 == "Exercise2":
                   st.session_state.messages.append({"role": "assistant", "content": "Assisting Exercise 2"})
-             st.session_state.messages.append({"role": "user", "content": prompt})
+             st.session_state.messages.append({"role": "user", "content": prompt_tab2})
              with st.chat_message("user"):
-                  st.markdown(prompt)
+                  st.markdown(prompt_tab2)
              with st.chat_message("assistant"):
                   user_messages = [
                       {"role": m["role"], "content": m["content"]}

@@ -30,7 +30,7 @@ def get_course_description(course_name):
     pathname = course_name + "/description.txt"
     f=open(pathname, "r")
     content = f.read()
-    file.close()
+    f.close()
     return content
  
 with tab1:

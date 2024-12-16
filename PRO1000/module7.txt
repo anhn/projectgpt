@@ -1,0 +1,329 @@
+Agenda
+The importance of quality
+Quality aspects: product, process and resource
+Quality model
+Software testing
+Unit testing
+Component testing
+System testing
+Acceptance testing
+Test plan
+Code inspection
+Usability test
+Agenda
+The importance of quality
+Quality aspects: product, process and resource
+Quality model
+Software testing
+Unit testing
+Component testing
+System testing
+Acceptance testing
+Test plan
+Code inspection
+Usability test
+Why is Software quality important?
+Definition of quality
+(ISO) defines quality as the totality of characteristics of an entity that bear on its ability to satisfy stated or implied needs (ISO8042:1994) or the degree to which a set of inherent characteristics fulfils requirements. (ISO9000:2000).
+Conformance to requirements means the project s processes and products meet written specifications.
+Fitness for use means a product can be used as it was intended.
+Quality aspects:
+product: delivered to the customer
+process: produces the software product
+resources: (both the product and the process require resources)
+
+
+Agenda
+The importance of quality
+Quality aspects: product, process and resource
+Quality model
+Software testing
+Unit testing
+Component testing
+System testing
+Acceptance testing
+Test plan
+Code inspection
+Usability test
+Process quality vs. Product quality
+Quality can mean the difference between excellence and disaster
+Airbus A400M Atlas crash in 2015, 4 killed
+
+Process quality vs. Product quality
+“The black boxes attest to that there are no structural defects [with the aircraft], but we have a serious quality problem in the final assembly.”
+Product or process issue?
+8/2016: Security breach with Bitcoin cost 72 mil. Usd lost in market
+Agenda
+The importance of quality
+Quality aspects: product, process and resource
+Quality model
+Software testing
+Unit testing
+Component testing
+System testing
+Acceptance testing
+Test plan
+Code inspection
+Usability test
+Software Quality attributes (1)
+Software quality model
+
+Agenda
+The importance of quality
+Quality aspects: product, process and resource
+Quality model
+Software testing
+Unit testing
+Component testing
+System testing
+Acceptance testing
+Test plan
+Code inspection
+Usability test
+Quality assurance vs. control
+
+What actually is testing?
+(Software) Product Testing
+Myth: testing comes near the end of information technology product development
+Fact: testing needs to be done during almost every phase of the systems development life cycle
+Myth: Software Testers are the only ones responsible for quality
+Fact: Quality is everyone’s job. Testers and developers should work together
+Myth: It is a so-called Bug-free Software
+Fact: Creating bug-free software is basically impossible.
+Myth: QA is primarily a women dominated career path
+Fact: There are a lot of women in software testing, but there are also a lot of men
+
+A model of the software testing process 
+Stages of testing
+Development testing
+the system is tested during development to discover bugs and defects. 
+Release testing
+a separate testing team test a complete version of the system before it is released to users. 
+User testing
+users or potential users of a system test the system in their own environment.
+Agenda
+The importance of quality
+Quality aspects: product, process and resource
+Quality model
+Software testing
+Unit testing
+Component testing
+System testing
+Acceptance testing
+Test plan
+Code inspection
+Usability test
+Development testing
+
+Unit testing: 
+for individual program units or object classes
+focus on testing the functionality of objects or methods.
+Component testing: 
+several individual units are integrated to create composite components
+focus on testing component interfaces.
+System testing: 
+some or all of the components in a system are integrated and the system is tested as a whole
+focus on testing component interactions.
+
+Typical life cycle of testing
+Unit test is done to test each individual component
+Integration testing to test functionally grouped components
+System testing tests the entire system as one entity.
+User acceptance testing is an independent test performed by end users
+System testing
+Focus on testing the interactions between components. 
+System testing checks that components are compatible, interact correctly and transfer the right data at the right time across their interfaces. 
+And tests the emergent behaviour of a system. 
+Types of System Tests
+Volume
+Subject product to large amounts of input.
+Usability
+Measure user reaction (e.g., score 1-10).
+Performance
+Measure speed under various circumstances.
+Configuration
+Configure to various hardware / software 
+Compatibility
+with other designated applications 
+Reliability / Availability
+Measure up-time over extended period.
+Security
+Subject to compromise attempts. 
+Resource usage
+Measure usage of RAM and disk space etc.
+Install-ability
+Install under various circumstances.
+Recoverability
+Force activities that take the application down.
+Serviceability
+Service application under various situations.
+Load / Stress
+Subject to extreme data & event traffic
+Agenda
+The importance of quality
+Quality aspects: product, process and resource
+Quality model
+Software testing
+Unit testing
+Component testing
+System testing
+Acceptance testing
+Test plan
+Code inspection
+Usability test
+Test Plan
+Testing requires meticulous planning on an operational level and on a strategic level
+The test manager needs to transpose such generic guidelines to create a concrete testing strategy for the project at hand 
+Test plan should state:
+•        Testing objectives 
+•        What testing strategy (e.g., manual, regression testing, automated testing) shall be conducted? 
+•        What testing techniques (i.e. blackbox vs whitebox testing) shall be conducted? 
+•        What testing levels (unit test, component test and system test) are covered ? 
+•        What non-functional requirements (i.e. security, scalability, performance, usability, etc) shall be tested? And How? 
+•        What are the criteria for test success criteria?
+
+Test plan - Example
+User Acceptance Test
+Acceptance testing is a test conducted to determine if the requirements of a specification or contract are met
+It can look like a system test … with customer involvement
+It is blackbox testing
+It may involve performance test, stress test, usability test, etc
+Testers should be given real-life scenarios such as the three most common or difficult tasks that the users they represent will undertake
+Stages in the acceptance testing process
+
+
+
+
+Define acceptance criteria
+Plan acceptance testing
+Derive acceptance tests
+Run acceptance tests
+Negotiate test results
+Reject/accept system
+Agenda
+The importance of quality
+Quality aspects: product, process and resource
+Quality model
+Software testing
+Unit testing
+Component testing
+System testing
+Acceptance testing
+Test plan
+Code inspection
+Usability test
+What is inspection?
+Visual examination of software product
+
+Identify software anomalies
+Errors
+Code smells
+Deviations from specifications
+Deviations from standards
+E.g., Java code conventions
+www.oracle.com/technetwork/java/codeconventions-150003.pdf
+
+Inspections VS. testing
+Software inspections 
+Concerned with analysis of the static system representation to discover problems  (static verification)
+May be supplement by tool-based document and code analysis.
+
+Software testing 
+Concerned with exercising and observing product behaviour (dynamic verification)
+The system is executed with test data and its operational behaviour is observed.
+
+Testing vs. Inspection
+Code review at Google
+“All code that gets submitted needs to be reviewed by at least one other person, and either the code writer or the reviewer needs to have readability in that language”
+“Most people use Mondrian to do code reviews, and obviously, we spend a good chunk of our time reviewing code”
+     
+    --Amanda Camp, Software Engineer, Google
+Inspect Code 1 of 5: Classes Overall
+C1.  Is its (the class’) name appropriate? 
+C2.  Could it be abstract (to be used only as a base)?
+C3.  Does its header describe its purpose?
+C4.  Does its header reference the requirements and/or design element to which it corresponds? 
+C5.  Does it state the package to which it belongs?
+C6.  Is it as private as it can be?
+C7.  Should it be final (Java)
+C8.  Have the documentation standards been applied?
+Inspect Code 2 of 5 : Attributes
+A1.  Is it (the attribute) necessary?
+A2.  Could it be static?
+A3.  Should it be final?
+A4.  Are the naming conventions properly applied?
+A5.  Is it as private as possible?
+A6.  Are the attributes as independent as possible?
+A7.  Is there a comprehensive initialization strategy?
+Inspect Code 3 of 5 : Constructors
+CO1.  Is it (the constructor) necessary?
+CO2.  Does it leverage existing constructors?
+CO3.  Does it initialize of all the attributes?
+CO4.  Is it as private as possible?
+CO5.  Does it execute the inherited constructor(s) where necessary?
+Inspect Code 4 of 5: Method Headers
+MH1.  Is the method appropriately named?
+MH2.  Is it as private as possible?
+MH3.  Could it be static?
+MH4.  Should it be final?
+MH5.  Does the header describe method’s purpose?
+MH6.  Does the method header reference the requirements and/or design section that it satisfies? 
+MH7.  Does it state all necessary invariants?
+MH8.  Does it state all pre-conditions?
+MH9.  Does it state all post-conditions?
+MH10.Does it apply documentation standards?
+MH11.Are the parameter types restricted?
+Inspect Code 5 of 5: Method Bodies
+MB1.   Is the algorithm consistent with the detailed design pseudocode and/or flowchart?   
+MB2.   Does the code assume no more than the stated preconditions?
+MB3.   Does the code produce every one of the postconditions?
+MB4.   Does the code respect the required invariant?
+MB5.   Does every loop terminate? 
+MB6.   Are required notational standards observed? 
+MB7.   Has every line been thoroughly checked?
+MB8.   Are all braces balanced? 
+MB9.   Are illegal parameters considered?
+MB10. Does the code return the correct type?  
+MB11. Is the code thoroughly commented?
+Agenda
+The importance of quality
+Quality aspects: product, process and resource
+Quality model
+Software testing
+Unit testing
+Component testing
+System testing
+Acceptance testing
+Test plan
+Code inspection
+Usability test
+Usability
+Example 2: What is wrong with this Interface?
+Usability testing
+Usability testing is all about getting real people to interact with your product and observing their behavior and reactions to it
+The goal of usability testing is to reveal areas of confusion and uncover opportunities to improve the overall user experience.
+
+Usability testing
+Employing tests with real users helps you:
+Validate your prototype
+Confirm your product meets expectations
+Identify issues with complex flows
+Complement and illuminate other data points
+Catch minor errors
+Develop empathy
+Ultimately provide a better user experience
+What is NOT Usability Testing
+A/B testing: A/B testing can help validate whether a certain approach is working or not, but can't tell you why.
+Focus groups: goal is to learn people's opinions about a product or service, not to test how they use it.
+Surveys: do not allow you to actually observe users on the site in action
+User acceptance testing: a technical test of QA (quality assurance), not a way to evaluate if the product is user-friendly and efficient.
+User testing
+
+Usability Test process
+Usability testing methods for webs/ apps
+Usability test – Example at Google
+Usability test plan
+Usability test report
+How many user to test?
+
+

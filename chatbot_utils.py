@@ -6,6 +6,11 @@ import RAG_retrieve
 
 task_1_description = "In this user test, your task is to act as an early-stage tech startup that is in the process of idea validation and developing your first prototype. Ask the chatbots questions you would consider natural for an early-stage startup to have regarding idea validation and early prototype development. Test out all the chatbots (Chatbot 1, Chatbot 2 and Chatbot 3), then answer the questionnaire. Ask all chatbots the same initial question, then let the conversation flow naturally for each chatbot."
 
+def load_course_description(course_name):
+    pathname = course_name + "\description.txt"
+    f=open(pathname, "r")
+    return f
+    
 def write_data(mydict, client):
     db = client.usertests #establish connection to the 'test_db' db
     backup_db = client.usertests_backup

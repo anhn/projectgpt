@@ -58,6 +58,7 @@ with tab1:
         st.session_state.messages.append({"role": "system", "content": get_course_description("description")})
         st.session_state.messages.append({"role": "system", "content": get_course_description("report_guideline")})
         st.session_state.messages.append({"role": "system", "content": get_course_description("project")})
+        st.session_state.messages.append({"role": "system", "content": get_course_description("module5")})
         st.session_state.messages.append({"role": "user", "content": prompt})
         with st.chat_message("user"):
             st.markdown(prompt)

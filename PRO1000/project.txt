@@ -1,0 +1,68 @@
+Project Description: GreenCode Initiative Website. The goal of this project is to design and develop a website that promotes sustainable programming practices (also known as Green Software Development). The website will serve as an educational and inspirational place for those who are interested in building software systems that are energy-efficient, environmentally friendly, and socially responsible. The possible users of the website include software developers interested in learning and applying sustainable coding practices to reduce the environmental impact of their work. Students and teachers in computer science or related fields can use the platform as a learning tool to explore the principles of green software development. Additionally, startups and tech companies looking to incorporate eco-friendly practices into their workflows, as well as sustainability advocates and environmental researchers exploring technology's role in reducing carbon emissions, would find the website valuable for its educational content and tools.
+
+Possible customers who can pay to use the website include tech companies and software development firms seeking premium tools and resources, such as detailed optimization reports or sustainable coding certification programs. Educational institutions and corporate training programs might subscribe to access specialized content or use the platform for teaching green software practices. Additionally, sustainability-focused organizations and NGOs might invest in premium features to integrate green coding principles into their initiatives or fund the development of additional tools and resources for broader impact.
+
+The website should have at least five pages as below:
+Suggested Structure of the Website
+1. Home Page
+Purpose: To introduce the mission and importance of sustainable programming.
+Key Elements:
+A hero section with an engaging headline like: "Build Smarter. Code Greener." A visually compelling graphic or video emphasizing the environmental impact of software.
+Call-to-action (CTA) buttons, e.g., "Learn More," "Start Your Green Journey." But come up with your own headline.
+A summary of the main sections of the website with quick links.
+2. About Green Programming
+Purpose: To educate users on what Green programming is and why it matters.
+Key Elements:
+A blogs with with at least the five articles of the following topics:
+Efficient algorithms
+Low-energy hardware integration
+Optimized code structures
+Cloud resource optimization
+Sustainable webdesign 
+Each article should provide a link to external resources for further reading.
+3. Sustainable Practices Toolkit
+Purpose: To introduce and provide a list of tools, frameworks and checklists for sustainable programming practices
+Key Elements:
+A list of tools are: 
+https://www.thegreenwebfoundation.org/tools/
+https://calculator.green-algorithms.org/
+https://www.suso.academy/en/sustainability-awareness-framework-susaf/
+https://www.websitecarbon.com/
+https://housing.uga.edu/sa_docs/sustainability/sustainability_programchecklist.pdf
+https://w3c.github.io/sustyweb/checklist.pdf
+https://github.com/thegreenwebfoundation/co2.js/
+https://carbon-aware-sdk.greensoftware.foundation/
+https://codecarbon.io/
+https://powerapi.org/#open-source
+
+4. Case study
+Purpose: To present a case study about the adoption of green coding.
+Key Elements:
+Present a case study from a IT professions or educators when using the website
+
+5. Contact Page
+Purpose: To facilitate communication and inquiries.
+Key Elements:
+A contact form for feedback or inquiries.
+FAQs related to the website's content.
+
+Project Deliverables
+1. A fully functional, responsive website that raises awareness about sustainable programming practices.
+2. Research and content creation by students on sustainable software practices.
+3. The transcript of the interview for Case study page
+4. Implementation of modern, efficient, and clean web design principles.
+
+We do not have any brand design yet. You are all free to design the logo, color palette, typography and icons.
+
+Technically, we want prototypes to be maded with Figma. The prototypes should be interactive with multiple screens. The final website can be implemented using Wix, Wordpress or our own code with HTML, CSS and Javascript. The website can be static, without the backend. Implementation of the backend part is a plus. In the end, the website should be hosted and published (just for the purpose of this course).  
+
+The project will start from second week of January 2024 and end at the end of April 2024.
+
+Evaluation Criteria
+Visual Appeal: Is the design sustainable, engaging, and consistent with the green theme?
+Functionality: Are web pages accessible, functional as intented?
+Content: are all required content presented in a good way ?
+Quality: are the website tested with usability test and system test?
+
+Students may need to ask questions, seek clarifications, or provide progress updates during the development process. Communication should be done via InnSpillAI or email. Each email should has a title - PRO1000 - Groupnumber - Main points to communicate. Email should be sent to angu@usn.no
+

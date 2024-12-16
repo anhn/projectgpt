@@ -1,0 +1,220 @@
+•        Lecture 6 - Agenda
+•        Project Execution
+•        Quality Assurance
+•        Report writing
+
+
+•        Project management tools
+•        http://www.trello.com
+•        https://www.atlassian.com/software/jira
+•        http://www.ganttproject.biz/
+•        https://tinyurl.com/ganttchart-pro1000
+•        https://products.office.com/en-us/microsoft-project-2013
+•        https://github.com/
+•        https://www.adobe.com/products/xd.html
+
+•        Project management tools
+•        Trelloboard structure suggestion
+
+•        Meta column: Information about the team, project, notation used in the team board 
+•        Product backlog column: include the latest version of the project backlog 
+•        Sprint 1 backlog: includes the list of backlog items plan for this Sprint 
+•        Sprint 1 to-do: when the team start with this Sprint, items from Sprint backlog shall be copied and pasted into this To-do column 
+•        Sprint 1 complete: when an item is done, it should be moved from Sprint 1 to-do column to the Complete column. 
+•        …
+•        Definition of Done
+•        Potentially Shippable Product is the sum of the Product Backlog Items delivered each Sprint.
+•        Adhering to a list of “done” criteria ensures that the sprint product is truly shippable
+
+
+•        Project Estimation in Scrum
+•        Story points are units of measure for expressing an estimate of the overall effort required to fully implement a product backlog item or any other piece of work.
+•        Teams assign story points relative to work complexity, the amount of work, and risk or uncertainty.
+•        Project Estimation in Scrum
+•        Project Estimation in Scrum
+•        T-shirt size estimation
+•        T-shirt sizing is a project estimation tool that helps to track how much time or effort an initiative will take. 
+•        Assign each project or task a t-shirt size—from Extra Small to XXL—to represent that task’s relative effort. 
+•        Depending on how you choose to use this tool, a t-shirt size can represent task scope, effort, complexity, work hours, time estimates—or all of the above.
+
+
+•        Project Estimation in Scrum
+•        T-shirt size estimation
+•        T-shirt sizing is a project estimation tool that helps to track how much time or effort an initiative will take. 
+•        Assign each project or task a t-shirt size—from Extra Small to XXL—to represent that task’s relative effort. 
+•        Depending on how you choose to use this tool, a t-shirt size can represent task scope, effort, complexity, work hours, time estimates—or all of the above.
+
+
+•        Project Estimation in Scrum
+•        Planing poker
+•        Each team member gets a set of cards.
+•        Each user story/ item is discussed.
+•        Each team member privately selects a card representing his/her estimate.
+•        When everyone is ready, all selected cards are revealed at the same time.
+•        If all team members selected the same card, then that point value is the estimate.
+•        If the cards are not the same, the team discusses the estimate with emphasis placed on the outlying values:
+•        The member who selected the lowest value explains why he/she selected the value.
+•        The member who selected the highest value explains why he/she selected the value.
+•        Select again until estimates converge.
+•        Definition of Done (DoD)
+•        DoD is a checklist of features and activities, for example, writing code, coding comments, unit testing, integration testing, release notes, design documents, etc. that adds or demonstrates value to the product
+•        Definition of Done
+•        Definition of Done for a feature ( user story or product backlog item)
+•        Definition of Done for a sprint (collection of features developed within a sprint)
+•        Definition of Done for a release (potentially shippable state)
+
+•        Definition of Done checklist for An User Story
+•        Produced code for presumed functionalities
+•        Assumptions of User Story met
+•        Project builds without errors
+•        Unit test written and passing
+•        Project deployed on the test environment identical to production platform
+•        Feature is tested against acceptance criteria
+•        Documentation updated
+•        Definition of Done checklist for Sprint
+•        DoD of each single User story, included in the Sprint are met
+•        “to do’s” are completed
+•        All unit tests passing
+•        Product backlog updated
+•        Project deployed on the test environment identical to production platform
+•        Tests of backward compatibility passed
+•        The performance tests passed
+•        All bugs fixed
+•        Sprint marked as ready for the production deployment by the Product Owner
+•        Project management tools
+•        Are you still in Trello?
+•        Complete view on product backlog?
+•        Good balance among:
+–        Product development
+–        Scrum practice
+–        Documentaion
+•        Continuous updating your plan?
+•        Exercise 1 – Evaluting your team Sprint
+•        How much you think it is finished now?
+•        What DoD criteria you will use to evaluate ?
+•        Conflict handle
+•        Common cause
+–        Misunderstanding
+–        Poor communication
+–        Different sight on reality
+–        Conflict of interests
+–        Confusing in the realtionship to goals, scope, roles, tasks
+–        Lack of trust/ respect
+–        Lack of leadership and management
+
+•        Conflict handle
+•        Conflict handle
+–        Willing to meet
+–        Have a desire to solve the conflict
+–        Define in common what will take up
+–        Accept that one thing has several sides
+–        Allow others to share their opinions, needs, thoughts
+–        Willing to put yourself in “other’s shoes”
+–        Find a solution that both can live with
+•        Quality Management
+
+•        Quality assurance vs. control
+
+•        (Software) Product Testing
+•        Myth: testing comes near the end of information technology product development
+–        Fact: testing needs to be done during almost every phase of the systems development life cycle
+•        Myth: Software Testers are the only ones responsible for quality
+–        Fact: Quality is everyone’s job. Testers and developers should work together
+•        Myth: It is a so-called Bug-free Software
+–        Fact: Creating bug-free software is basically impossible.
+•        Myth: QA is primarily a women dominated career path
+–        Fact: There are a lot of women in software testing, but there are also a lot of men
+
+•        Typical life cycle of testing
+•        Unit test is done to test each individual component
+•        Integration testing to test functionally grouped components
+•        System testing tests the entire system as one entity.
+•        User acceptance testing is an independent test performed by end users
+•        What actually is testing?
+•        Inspections VS. testing
+•        Software inspections 
+–        Concerned with analysis of the static system representation to discover problems  (static verification)
+–        May be supplement by tool-based document and code analysis.
+
+•        Software testing 
+–        Concerned with exercising and observing product behaviour (dynamic verification)
+–        The system is executed with test data and its operational behaviour is observed.
+
+•        Example: what is wrong here?
+•        Usability
+•        Example 2: What is wrong with this Interface?
+•        System testing
+•        Focus on testing the interactions between components. 
+–        System testing checks that components are compatible, interact correctly and transfer the right data at the right time across their interfaces. 
+•        And tests the emergent behaviour of a system. 
+•        Types of System Tests
+•        Volume
+–        Subject product to large amounts of input.
+•        Usability
+–        Measure user reaction (e.g., score 1-10).
+•        Performance
+–        Measure speed under various circumstances.
+•        Configuration
+–        Configure to various hardware / software 
+•        Compatibility
+–        with other designated applications 
+•        Reliability / Availability
+–        Measure up-time over extended period.
+•        Security
+–        Subject to compromise attempts. 
+•        Resource usage
+–        Measure usage of RAM and disk space etc.
+•        Install-ability
+–        Install under various circumstances.
+•        Recoverability
+–        Force activities that take the application down.
+•        Serviceability
+–        Service application under various situations.
+•        Load / Stress
+–        Subject to extreme data & event traffic
+•        Usability testing
+•        Usability testing is all about getting real people to interact with your product and observing their behavior and reactions to it
+•        The goal of usability testing is to reveal areas of confusion and uncover opportunities to improve the overall user experience.
+•        
+
+•        Usability testing
+•        Employing tests with real users helps you:
+–        Validate your prototype
+–        Confirm your product meets expectations
+–        Identify issues with complex flows
+–        Complement and illuminate other data points
+–        Catch minor errors
+–        Develop empathy
+–        Ultimately provide a better user experience
+•        What is NOT Usability Testing
+•        A/B testing: A/B testing can help validate whether a certain approach is working or not, but can't tell you why.
+•        Focus groups: goal is to learn people's opinions about a product or service, not to test how they use it.
+•        Surveys: do not allow you to actually observe users on the site in action
+•        User acceptance testing: a technical test of QA (quality assurance), not a way to evaluate if the product is user-friendly and efficient.
+•        User testing
+
+•        Usability Test process
+•        Usability testing methods for webs/ apps
+•        Usability test – Example at Google
+•        How many user to test?
+•        Report writing - content
+•        Cover page
+•        Abstract
+•        Table of Content
+•        Introduction
+•        Project planning
+•        Problem vs Solution Space
+•        Product backlog
+•        Architectural design
+•        Testing
+•        Sprint summary
+•        Project evaluation
+•        References
+•        Report writing - formatting
+•        Existing template?
+•        Word or Latex?
+•        Font family
+•        Page layout
+•        …
+
+

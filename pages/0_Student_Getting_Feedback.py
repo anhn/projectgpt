@@ -26,19 +26,23 @@ def get_response(jim_line):
                                                                                                                                                                                                                  
 tab1, tab2, tab3, tab4, tab5, tab6, tab7, tab8, tab9 = st.tabs(["General", "Module 1", "Module 2", "Module 3", "Module 4", "Module 5", "Module 6", "Module 7", "Module 8"])
 
-def get_course_description(course_name):
-    pathname = course_name + "/description.txt"
-    f=open(pathname, "r")
-    content = f.read()
-    f.close()
-    return content
+def get_course_description(type):
+    pathname = f"PRO1000/{type}.txt"    
+    try:
+        with open(pathname, "r") as f:
+            content = f.read()
+        return content
+    except FileNotFoundError:
+        return f"Error: File '{pathname}' not found."
+    except Exception as e:
+        return f"Error: {e}"
  
 with tab1:
     col01, col02 = st.columns([1, 2])
     with col01:
         st.video("pages/game.mp4")
     with col02:
-        st.write(get_course_description("PRO1000"))
+        st.write("Placeholder!")
     #with st.form("my_form"):
         #jim_line = st.text_area("Write your question here","", height=70)
         #submitted = st.form_submit_button("Submit")
@@ -50,8 +54,9 @@ with tab1:
         with st.chat_message(message["role"]):
             st.markdown(message["content"])        
     if prompt := st.chat_input("What is up?"):
-        game_instruction = "Act as a judge in a game about creativity in AI. In the first game called YTUONGSANGTAO, you will judge an idea for a idea of buying a Christmas gift now for yourself in 10 years time. Evalaute the answer basing on its creativity measured by  Novelty is the extent to which an idea is new, surprising, or different from existing solutions. Usefulness is the degree to which an idea is relevant, effective, or beneficial for the future of a mid-age Vietnamese person settled in Norway. Feasibility is the degree to which an idea is realistic, practical, or achievable with a person income around 50000 to 70000 usd per year. In the second game called NOICHUTHANHTRUYEN, players provide two unrelated words and a theme, like penguin, astronaut and adventure story. You create a short scenario or explanation connecting the two words following the theme. The scenario should be less than 120 words. Three evaluation criteria for this game are 1. Word frequency - the uncommon of the used words, the less likelihood the word combination is, the better score it has. 2. Creative plot - the more uncommon, or suprised plot development, the better score it has. Give a score out of 10 for each criteria dimension, and the overall average score for the game, and explain your choice with the evaluation criteria. The third game is called THUTHACHAI. Answer the questions that players enter. Ask the players if the generated answer is correct or not. If it is not the player will get 3 points. Track the scores of all people. We will summarize the game when I say to end the game. Do all answer in Vietnamese!"
-        st.session_state.messages.append({"role": "system", "content": game_instruction})
+        st.session_state.messages.append({"role": "system", "content": get_course_description("description")})
+        st.session_state.messages.append({"role": "system", "content": get_course_description("report_guideline")})
+        st.session_state.messages.append({"role": "system", "content": get_course_description("project")})
         st.session_state.messages.append({"role": "user", "content": prompt})
         with st.chat_message("user"):
             st.markdown(prompt)
@@ -65,14 +70,14 @@ with tab1:
                 stream=True,
             )
             response = st.write_stream(stream)
-            response2 = client.audio.speech.create(
-                model="tts-1",
-                voice="nova",
-                input=response
-            )
-            response2.write_to_file("output1.mp3")
-            with open("output1.mp3", "rb") as audio_file:
-                st.audio(audio_file, format='audio/mp3')
+            #response2 = client.audio.speech.create(
+            #    model="tts-1",
+            #    voice="nova",
+            #    input=response
+            #)
+            #response2.write_to_file("output1.mp3")
+            #with open("output1.mp3", "rb") as audio_file:
+            #    st.audio(audio_file, format='audio/mp3')
         st.session_state.messages.append({"role": "assistant", "content": response})
 
 

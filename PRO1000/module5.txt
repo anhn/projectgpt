@@ -199,4 +199,55 @@ o        Testing the UX of the User Story ABC
 o        Creating a test plan
 o        Meeting with customers
 
+3.6 Way of working 
+Software Engineering presents a vast amount of software development models, processes and practices. According to Jacobson, the author of Rational Unified Process, there is no one-size-fit-all when it comes to methods (Jacobson et al. 2019). A method needs to be adapted to the project situation, which is inherently evolving. Project teams need to constantly evolve their methods as long as there is work to do on the product. 
+There are some other software development approaches worth mentioning, such as Waterfall life cycle, Spiral life cycle model, incremental software development, RAD life cycle model, that occur early in the history of software industry. In the last 20 years, methods such as Scrum and Disciplined Agile are among the most common approach for small software development 35 
+
+team. Ken Schwaber and Jeff Sutherland are the ones who formulate the initial versions of the Scrum framework and to present Scrum as a formal process at the conference OOPSLA'95 (Sutherland et al. 1997). In 2001, a group of 17 software professionals (including Ken and Jeff) published the Manifesto for Agile Software Development4 that focus on four values: 
+4 https://agilemanifesto.org/ 
+5 https://www.scrumguides.org/scrum-guide.html#purpose 
+• Individuals and interactions over processes and tools 
+• Working software over comprehensive documentation 
+• Customer collaboration over contract negotiation 
+• Responding to change over following a plan 
+
+Scrum is an Agile process that allows us to focus on delivering the highest business value in the shortest time. It allows us to rapidly and repeatedly inspect actual working software (every two to four weeks). The business sets the priorities. Teams self-organize to determine the best way to deliver the highest priority features. Every two weeks to a month anyone can see real working software and decide to release it as is or continue to enhance it for another sprint, as seen in Figure 10. 
+Figure 10: A typical Sprint in a Scrum process (Scrum Guide) 
+In subsections below, we present the list of Scrum practices that we think most relevant for the student project contexts. We present briefly the practice and students who are going to adopt them can find more instructive guideline in other sources. The full list of practices can be found in the Industrial guideline5. Tip 16: Students should have their own way of working by composing existing practices in the way works best for their project situation. 
+3.6.1 Product Backlog and Prioritization 
+A list of everything that needs to be done to the product, listed in priority order. The sprint backlog is a list of tasks identified by the Scrum team to be completed during the Scrum sprint.
+3.6.2 User stories 
+User stories are short, simple descriptions of a feature told from the perspective of the person who desires the new capability, usually a user or customer of the system. They typically follow a simple template: As a < type of user >, I want < some goal > so that < some reason >. 
+3.6.7 Planning poker 
+Planning Poker6 is a common approach to estimate the size of items in product backlogs. Planning Poker can be used with story points, working hours, or any other estimating unit. To start a poker planning session, the product owner or customer reads an agile user story or describes a feature to the estimators. Each estimator is holding a deck of Planning Poker cards with values like 0, 1, 2, 3, 5, 8, 13, 20, 40 and 100, which is the sequence we recommend. The values represent the number of story points, ideal days, or other units in which the team estimates. The estimators discuss the feature, asking questions of the product owner as needed. When the feature has been fully discussed, each estimator privately selects one card to represent his or her estimate. All cards are then revealed at the same time. If all estimators selected the same value, that becomes the estimate. If not, the estimators discuss their estimates. The high and low estimators should especially share their reasons. After further discussion, each estimator reselects an estimate card, and all cards are again revealed at the same time. The poker planning process is repeated until consensus is achieved or until the estimators decide that agile estimating and planning of a particular item needs to be deferred until additional information can be acquired. Students should learn to use Planning poker for every Sprint. However, it is noticed that for novices, project estimates could be over-optimistic and planning poker additionally increased the over-optimism (Mahnič & Hovelja 2012). 
+6 https://en.wikipedia.org/wiki/Planning_poker 
+7 https://en.wikipedia.org/wiki/Acceptance_testing 
+3.6.8 Code standard 
+If programmers all adhere to a single agile coding standard (including everything from tabs vs. spaces and curly bracket placement to naming conventions for things like classes, methods, and interfaces), everything just works better. It’s easier to maintain and extend code, to refactor it, and to reconcile integration conflicts, if a common standard is applied consistently throughout. 
+3.6.9 100% coverage for unit tests 
+Unit tests are released into the code repository along with the code they test. Code without tests may not be released. A program with high test coverage, measured as a percentage, has had more of its source code executed during testing which suggests it has a lower chance of containing undetected software bugs compared to a program with low test coverage 
+3.6.10 User acceptance test 
+Acceptance tests7 are created from user stories. The customer specifies scenarios to test when a user story has been correctly implemented. A story can have one or many acceptance tests, whatever it takes to ensure the functionality works. 
+Acceptance tests are black box system tests. Each acceptance test represents some expected result from the system. Customers are responsible for verifying the correctness of the acceptance tests and reviewing test scores to decide which failed tests are of highest priority. Acceptance tests are also used as regression tests prior to a production release. 
+A user story is not considered complete until it has passed its acceptance tests. This means that new acceptance tests must be created each iteration, or the development team will report zero progress. 38 
+
+3.6.11 Burn-down chart 
+Early detection of issues is always better than late detection. This can be done as long as progress is tracked. The daily burndown chart8 is a simple practice that helps the team track daily progress. Scrum methodology uses the burndown chart to see the progress on completed and pending tasks. 
+3.6.12 Pair programming 
+Pair programming9 is a common adopted Agile technique in which two programmers work together at one workstation. One, the driver, writes code while the other, the observer or navigator, reviews each line of code as it is typed in. The two programmers switch roles frequently. 
+3.6.13 Test driven development 
+Test driven development (TDD)10 starts by writing a test for a user story or a feature. The first step is to quickly add a test, basically just enough code to fail. Next you run your tests, often the complete test suite although for sake of speed you may decide to run only a subset, to ensure that the new test does in fact fail. You then update your functional code to make it pass the new tests. The fourth step is to run your tests again. If they fail, you need to update your functional code and retest. Once the tests pass the next step is to start over. 
+3.6.14 Scrum master 
+Development process and practices facilitated by a dedicated role. The Scrum Master11 is responsible for making sure a Scrum team lives by the values and practices of Scrum. The Scrum Master is often considered a coach for the team, helping the team do the best work it possibly can. The Scrum Master can also be thought of as a process owner for the team, creating a balance with the project's key stakeholder, who is referred to as the product owner. 
+The Scrum Master does anything possible to help the team perform at their highest level. This involves removing any impediments to progress, facilitating meetings, and doing things like working with the product owner to make sure the product backlog is in good shape and ready for the next sprint. The Scrum Master role is commonly filled by a former project manager or a technical team leader but can be anyone. 
+The Scrum Master is also often viewed as a protector of the team. The most common example is that the Scrum Master protects the team by making sure they do not over-commit themselves to what they can achieve during a sprint due to pressure from an overly aggressive product owner. However, a good Scrum Master also protects the team from complacency. 
+3.6.15 Product owner 
+The Product owner12 is typically a project's key stakeholder. Part of the product owner responsibilities is to have a vision of what he or she wishes to build and convey that vision to the scrum team. This is key to successfully starting any agile software development project.
+8 https://en.wikipedia.org/wiki/Burn_down_chart 
+9 https://en.wikipedia.org/wiki/Pair_programming 
+10 https://en.wikipedia.org/wiki/Test-driven_development 
+11 https://www.scrum.org/resources/what-is-a-scrum-master 
+12 https://www.scrum.org/resources/what-is-a-product-owner  
+The agile product owner does this in part through the product backlog, which is a prioritized features list for the product. 
+The product owner is commonly a lead user of the system or someone from marketing, product management or anyone with a solid understanding of users, the marketplace, the competition and of future trends for the domain or type of system being developed. 
 

@@ -4,6 +4,7 @@ import os
 #from decouple import config
 import openai
 import streamlit as st
+import chatbot_utils
 #from streamlit_chat import message
 from email.policy import default
 from pymongo import MongoClient
@@ -28,7 +29,7 @@ with tab1:
     with col01:
         st.video("pages/game.mp4")
     with col02:
-        st.write("Chào mừng bạn đến với trò chơi thú vị này với Trí tuệ nhân tạo sáng tạo. Chúng tôi sẽ có ba trò chơi để khám phá khả năng sáng tạo của bạn với GenAI. Trò chơi đầu tiên có tên là Y Tường Sang Tạo. Trong trò chơi này, bạn sẽ viết ý tưởng cho một yêu cầu. Ý tưởng sáng tạo nhất sẽ đạt điểm cao nhất. Trò chơi thứ hai có tên là Kết Chu Thanh Truyền. Bạn cho tôi hai từ không liên quan, tôi sẽ viết một truyện ngắn dựa trên đó. Câu chuyện độc đáo, sáng tạo nhất sẽ đạt điểm cao nhất. Trò chơi thứ ba có tên là Thu trí thông minh của AI. Trong trò chơi này, bạn sẽ cho tôi một câu hỏi mà tôi có thể trả lời sai. Bạn cần biết câu trả lời chính xác. Nếu bạn có thể bắt tôi trả lời sai thì bạn sẽ được điểm.")
+        st.write(get_course_description(PRO1000))
     #with st.form("my_form"):
         #jim_line = st.text_area("Write your question here","", height=70)
         #submitted = st.form_submit_button("Submit")

@@ -160,7 +160,7 @@ with tab2:
                       messages=user_messages,
                       stream=True,
                   )
-                  response = st.write_stream(ex2_feedup + stream)
+                  response = st.write_stream(stream)
              st.session_state.messages.append({"role": "assistant", "content": response})
         #with st.form("my_form1"):
         #    jim_email= st.text_input("Email to receive feedback", "12345678@std.usn")

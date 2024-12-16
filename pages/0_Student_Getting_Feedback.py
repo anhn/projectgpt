@@ -4,7 +4,9 @@ import os
 #from decouple import config
 import openai
 import streamlit as st
-from .. import chatbot_utils
+import sys
+sys.path.append("/PRO1000")
+import chatbot_utils
 #from streamlit_chat import message
 from email.policy import default
 from pymongo import MongoClient

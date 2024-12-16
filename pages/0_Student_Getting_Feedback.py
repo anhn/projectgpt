@@ -58,42 +58,42 @@ with tab1:
         st.session_state.messages.append({"role": "system", "content": get_course_description("description")})
         st.session_state.messages.append({"role": "system", "content": get_course_description("report_guideline")})
         st.session_state.messages.append({"role": "system", "content": get_course_description("project")})
-        st.session_state.messages.append({"role": "system", "content": "Jeg har sykdom som migrene, og derfor kunne jeg ikke så mye komme på universitet. I forrige semester fortalte jeg om meg selv til deg. Jeg tar 2 busser for å komme til skolen. Det tar nesten 5 timer å gå og komme. Jeg skrevet mitt situasjon til student veileder som heter Hege. Hvis jeg er frisk, vil jeg gjøre en innsats for å delta på undervisning. Hvis det er mulig, kan du hjelpe meg å finne gruppe")
-        st.session_state.messages.append({"role": "assistant", "content": "This course is mainly group work, so I suggest you to come to the class at least for group arrangement. I can not just simply put you in a group. There needs some agreements among everyone in the group about how you will work and what to achieve in the end.")
-        st.session_state.messages.append({"role": "system", "content": " jeg og gruppen lurer på når felles møte med kunden skal være? ")
-        st.session_state.messages.append({"role": "assistant", "content": "We will have a schedule for each group to meet the customer, and will announce in canvas")
-        st.session_state.messages.append({"role": "system", "content": "And what do you think is a fair number when it comes to sprints, is it okay with 6 since were doing this project in around 12 weeks? One sprint over 2 weeks each time?")
-        st.session_state.messages.append({"role": "assistant", "content": "Two-week sprints are a standard duration in Agile. For student projects with many other duties, you can think of three-week sprints. You should plan for three months working in this project, so maybe a practical number of sprints are between three and five")
-        st.session_state.messages.append({"role": "system", "content": "Vi har en presentasjon på fredag. Jeg lurer på om den vil være foran hele gruppen?")
-        st.session_state.messages.append({"role": "assistant", "content": "Ja, alle gruppemedlemmer bør delta på presentasjonen. Hvordan dere velger å presentere – om én person tar ledelsen eller dere fordeler det – er opp til dere som gruppe. Lykke til! 😊")
-        st.session_state.messages.append({"role": "system", "content": "Unfortunately I have got the flu, so I can't attend the lecture on Friday.")
-        st.session_state.messages.append({"role": "assistant", "content": "Thank you for letting me know—focus on resting and recovering, and feel free to reach out if you need any materials or assistance")
-        st.session_state.messages.append({"role": "system", "content": "jeg lurer på om hva betyr akkurat å skrive om problemstilling i Report, er det du mener å skrive om problemstilling i prosjekt eller?")
-        st.session_state.messages.append({"role": "assistant", "content": "Du kan problemet kundene har, og det er derfor de trenger å lage dette prosjektet. Du kan også angi mål eller mål for prosjektet, og forventningene til kundene.")
-        st.session_state.messages.append({"role": "system", "content": "Lurte bare på om det er greit at vi er en gruppe på 5 stk? Vi har vært i gruppe tidligere og vil prøve å unngå å splittes.")
-        st.session_state.messages.append({"role": "assistant", "content": "Hei Det er greit. Kan du skrive navnet till alle gruppe medlemer og sende via epost?")
-        st.session_state.messages.append({"role": "system", "content": "In Module 2 Exercise 3- It it enough short simple answers (A few sentences) or should write something more detailed?")
-        st.session_state.messages.append({"role": "assistant", "content": "Module 2 Exercise 3: a short answer is enough so long it can explain for your argument, decisions or analysis")
-        st.session_state.messages.append({"role": "system", "content": "Hei jeg ble kastet ut fra gruppa kan jeg få nye grupe vær så snill")
-        st.session_state.messages.append({"role": "assistant", "content": "Hei, jeg forstår situasjonen. Jeg skal undersøke hva som har skjedd og finne en løsning. Jeg vil enten hjelpe deg med å bli reintegrert i gruppa eller plassere deg i en ny gruppe. Jeg tar kontakt snart!")
-        st.session_state.messages.append({"role": "system", "content": "Is it okie one group member submit the assignment ?")
-        st.session_state.messages.append({"role": "assistant", "content": "Yes, you are working under a Group setting in Canvas and one member will delivery for the whole group.")
-        st.session_state.messages.append({"role": "system", "content": "Hva er hovedmålet med PRO1000?")
-        st.session_state.messages.append({"role": "assistant", "content": "Hovedmålet med PRO1000 er å gi studentene praktisk erfaring med prosjektarbeid. Studentene arbeider i grupper for å planlegge, designe og utvikle en funksjonell nettside, samtidig som de lærer prosjektstyring og samarbeid.")
-        st.session_state.messages.append({"role": "system", "content": "Hvilke ferdigheter vektlegges i dette faget?")
-        st.session_state.messages.append({"role": "assistant", "content": "Faget fokuserer på prosjektplanlegging, teamarbeid, webutvikling, dokumentasjon og presentasjonsferdigheter.")
-        st.session_state.messages.append({"role": "system", "content": "Hvordan blir gruppeprestasjonen evaluert?")
-        st.session_state.messages.append({"role": "assistant", "content": "Gruppeprestasjonen vurderes basert på det endelige prosjektplanlegging, teamarbeid, prosjektleveransen, og finale dokumenter")
-        st.session_state.messages.append({"role": "system", "content": "Skal prosjektet være på norsk eller engelsk?")
-        st.session_state.messages.append({"role": "assistant", "content": "Prosjektet og rapporten bør som hovedregel være på norsk, med mindre annet er avtalt med faglærer.")
-        st.session_state.messages.append({"role": "system", "content": "Hvordan bør vi fordele tiden for dette prosjektet?")
-        st.session_state.messages.append({"role": "assistant", "content": "For dette prosjektet bør de første ukene brukes til å bli kjent med prosjektet, definere mål og forventninger, samt gjøre nødvendig research. Deretter kan dere bruke tid på prosjektplanlegging, inkludert å etablere en backlog og definere roller og ansvar i gruppen. Når dette er på plass, kan dere gå over til implementeringsfasen, organisert i Scrum-sprinter. En typisk tilnærming kan være å bruke én til to uker på oppstart og planlegging, og deretter jobbe i sprintsykluser på to uker for å utvikle, teste og levere funksjonalitet. Husk å ha sprint reviews og retrospektiver for å evaluere fremdriften og justere planene underveis")
-        st.session_state.messages.append({"role": "system", "content": "Kan vi spørre studentassistenten om hjelp?")
-        st.session_state.messages.append({"role": "assistant", "content": "Ja, studentassistenter er tilgjengelige i labtimene eller via e-post for veiledning og støtte. Du kan bruke AI assistent her for spøsmåler om emne, prosjekt, oppgaver, etc")
-        st.session_state.messages.append({"role": "system", "content": "Hvordan fordeles vurderingen mellom individuell og gruppeinnsats?")
-        st.session_state.messages.append({"role": "assistant", "content": "Gruppens leveranser teller hovedsakelig for vurderingen, men individuell innsats kan være en faktor gjennom peer-review og deltakelse i presentasjonen.")
-        st.session_state.messages.append({"role": "system", "content": "Hva hvis et gruppemedlem ikke bidrar?")
-        st.session_state.messages.append({"role": "assistant", "content": "Dokumenter problemet og diskuter det med faglærer eller studentassistent for å håndtere det på en passende måte.")     
+        st.session_state.messages.append({"role": "system", "content": "Jeg har sykdom som migrene, og derfor kunne jeg ikke så mye komme på universitet. I forrige semester fortalte jeg om meg selv til deg. Jeg tar 2 busser for å komme til skolen. Det tar nesten 5 timer å gå og komme. Jeg skrevet mitt situasjon til student veileder som heter Hege. Hvis jeg er frisk, vil jeg gjøre en innsats for å delta på undervisning. Hvis det er mulig, kan du hjelpe meg å finne gruppe"})
+        st.session_state.messages.append({"role": "assistant", "content": "This course is mainly group work, so I suggest you to come to the class at least for group arrangement. I can not just simply put you in a group. There needs some agreements among everyone in the group about how you will work and what to achieve in the end."})
+        st.session_state.messages.append({"role": "system", "content": " jeg og gruppen lurer på når felles møte med kunden skal være? "})
+        st.session_state.messages.append({"role": "assistant", "content": "We will have a schedule for each group to meet the customer, and will announce in canvas"})
+        st.session_state.messages.append({"role": "system", "content": "And what do you think is a fair number when it comes to sprints, is it okay with 6 since were doing this project in around 12 weeks? One sprint over 2 weeks each time?"})
+        st.session_state.messages.append({"role": "assistant", "content": "Two-week sprints are a standard duration in Agile. For student projects with many other duties, you can think of three-week sprints. You should plan for three months working in this project, so maybe a practical number of sprints are between three and five"})
+        st.session_state.messages.append({"role": "system", "content": "Vi har en presentasjon på fredag. Jeg lurer på om den vil være foran hele gruppen?"})
+        st.session_state.messages.append({"role": "assistant", "content": "Ja, alle gruppemedlemmer bør delta på presentasjonen. Hvordan dere velger å presentere – om én person tar ledelsen eller dere fordeler det – er opp til dere som gruppe. Lykke til! 😊"})
+        st.session_state.messages.append({"role": "system", "content": "Unfortunately I have got the flu, so I can't attend the lecture on Friday."})
+        st.session_state.messages.append({"role": "assistant", "content": "Thank you for letting me know—focus on resting and recovering, and feel free to reach out if you need any materials or assistance"})
+        st.session_state.messages.append({"role": "system", "content": "jeg lurer på om hva betyr akkurat å skrive om problemstilling i Report, er det du mener å skrive om problemstilling i prosjekt eller?"})
+        st.session_state.messages.append({"role": "assistant", "content": "Du kan problemet kundene har, og det er derfor de trenger å lage dette prosjektet. Du kan også angi mål eller mål for prosjektet, og forventningene til kundene."})
+        st.session_state.messages.append({"role": "system", "content": "Lurte bare på om det er greit at vi er en gruppe på 5 stk? Vi har vært i gruppe tidligere og vil prøve å unngå å splittes."})
+        st.session_state.messages.append({"role": "assistant", "content": "Hei Det er greit. Kan du skrive navnet till alle gruppe medlemer og sende via epost?"})
+        st.session_state.messages.append({"role": "system", "content": "In Module 2 Exercise 3- It it enough short simple answers (A few sentences) or should write something more detailed?"})
+        st.session_state.messages.append({"role": "assistant", "content": "Module 2 Exercise 3: a short answer is enough so long it can explain for your argument, decisions or analysis"})
+        st.session_state.messages.append({"role": "system", "content": "Hei jeg ble kastet ut fra gruppa kan jeg få nye grupe vær så snill"})
+        st.session_state.messages.append({"role": "assistant", "content": "Hei, jeg forstår situasjonen. Jeg skal undersøke hva som har skjedd og finne en løsning. Jeg vil enten hjelpe deg med å bli reintegrert i gruppa eller plassere deg i en ny gruppe. Jeg tar kontakt snart!"})
+        st.session_state.messages.append({"role": "system", "content": "Is it okie one group member submit the assignment ?"})
+        st.session_state.messages.append({"role": "assistant", "content": "Yes, you are working under a Group setting in Canvas and one member will delivery for the whole group."})
+        st.session_state.messages.append({"role": "system", "content": "Hva er hovedmålet med PRO1000?"})
+        st.session_state.messages.append({"role": "assistant", "content": "Hovedmålet med PRO1000 er å gi studentene praktisk erfaring med prosjektarbeid. Studentene arbeider i grupper for å planlegge, designe og utvikle en funksjonell nettside, samtidig som de lærer prosjektstyring og samarbeid."})
+        st.session_state.messages.append({"role": "system", "content": "Hvilke ferdigheter vektlegges i dette faget?"})
+        st.session_state.messages.append({"role": "assistant", "content": "Faget fokuserer på prosjektplanlegging, teamarbeid, webutvikling, dokumentasjon og presentasjonsferdigheter."})
+        st.session_state.messages.append({"role": "system", "content": "Hvordan blir gruppeprestasjonen evaluert?"})
+        st.session_state.messages.append({"role": "assistant", "content": "Gruppeprestasjonen vurderes basert på det endelige prosjektplanlegging, teamarbeid, prosjektleveransen, og finale dokumenter"})
+        st.session_state.messages.append({"role": "system", "content": "Skal prosjektet være på norsk eller engelsk?"})
+        st.session_state.messages.append({"role": "assistant", "content": "Prosjektet og rapporten bør som hovedregel være på norsk, med mindre annet er avtalt med faglærer."})
+        st.session_state.messages.append({"role": "system", "content": "Hvordan bør vi fordele tiden for dette prosjektet?"})
+        st.session_state.messages.append({"role": "assistant", "content": "For dette prosjektet bør de første ukene brukes til å bli kjent med prosjektet, definere mål og forventninger, samt gjøre nødvendig research. Deretter kan dere bruke tid på prosjektplanlegging, inkludert å etablere en backlog og definere roller og ansvar i gruppen. Når dette er på plass, kan dere gå over til implementeringsfasen, organisert i Scrum-sprinter. En typisk tilnærming kan være å bruke én til to uker på oppstart og planlegging, og deretter jobbe i sprintsykluser på to uker for å utvikle, teste og levere funksjonalitet. Husk å ha sprint reviews og retrospektiver for å evaluere fremdriften og justere planene underveis"})
+        st.session_state.messages.append({"role": "system", "content": "Kan vi spørre studentassistenten om hjelp?"})
+        st.session_state.messages.append({"role": "assistant", "content": "Ja, studentassistenter er tilgjengelige i labtimene eller via e-post for veiledning og støtte. Du kan bruke AI assistent her for spøsmåler om emne, prosjekt, oppgaver, etc"})
+        st.session_state.messages.append({"role": "system", "content": "Hvordan fordeles vurderingen mellom individuell og gruppeinnsats?"})
+        st.session_state.messages.append({"role": "assistant", "content": "Gruppens leveranser teller hovedsakelig for vurderingen, men individuell innsats kan være en faktor gjennom peer-review og deltakelse i presentasjonen."})
+        st.session_state.messages.append({"role": "system", "content": "Hva hvis et gruppemedlem ikke bidrar?"})
+        st.session_state.messages.append({"role": "assistant", "content": "Dokumenter problemet og diskuter det med faglærer eller studentassistent for å håndtere det på en passende måte."})     
         st.session_state.messages.append({"role": "user", "content": prompt})
         with st.chat_message("user"):
             st.markdown(prompt)
@@ -122,15 +122,17 @@ with tab1:
 
 with tab2:
     st.image("https://miro.medium.com/v2/resize:fit:720/format:webp/1*fiEXMWcFg328ztjZEWYlpg.jpeg", width=400)
-    col1, col2, col3, col4 = st.columns(4)
-    with col1: 
-        st.button("Characterizing a software project",key="ex1",use_container_width=True) 
-    with col2:
-        st.button("Stakeholder analysis",key="ex2",use_container_width=True) 
-    with col3: 
-        st.button("Project management areas",key="ex3",use_container_width=True) 
-    with col4: 
-        st.button("SWOT analysis",key="ex4",use_container_width=True) 
+    em1 = st.radio(
+        "Choose the exercise to practice",
+        ["Exercise1", "Exercise2", "Exercise3", "Exercise4"],
+        captions=[
+            "Characterizing a software project.",
+            "Stakeholder analysis.",
+            "Project management areas.",
+            "SWOT Analysis.",
+        ],
+    ) 
+ 
     with st.expander("Submit your exercise here"):
         if "openai_model" not in st.session_state:
             st.session_state["openai_model"] = "gpt-4o"        
@@ -142,6 +144,8 @@ with tab2:
                     st.markdown(message["content"])        
         if prompt := st.chat_input("What is up?"):
              st.session_state.messages.append({"role": "system", "content": get_course_description("project")})
+             if genre == "Exercise2":
+                  st.session_state.messages.append({"role": "assistant", "content": "Assisting Exercise 2")
              st.session_state.messages.append({"role": "user", "content": prompt})
              with st.chat_message("user"):
                   st.markdown(prompt)

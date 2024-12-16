@@ -1,0 +1,123 @@
+•        Lecture 8 – Project Execution
+
+
+•        Project management tools
+•        http://www.trello.com
+•        https://www.atlassian.com/software/jira
+•        http://www.ganttproject.biz/
+•        https://tinyurl.com/ganttchart-pro1000
+•        https://products.office.com/en-us/microsoft-project-2013
+•        https://github.com/
+•        https://www.adobe.com/products/xd.html
+
+•        Project management tools
+•        Trelloboard structure suggestion
+
+•        Meta column: Information about the team, project, notation used in the team board 
+•        Product backlog column: include the latest version of the project backlog 
+•        Sprint 1 backlog: includes the list of backlog items plan for this Sprint 
+•        Sprint 1 to-do: when the team start with this Sprint, items from Sprint backlog shall be copied and pasted into this To-do column 
+•        Sprint 1 complete: when an item is done, it should be moved from Sprint 1 to-do column to the Complete column. 
+•        …
+•        Definition of Done
+•        Potentially Shippable Product is the sum of the Product Backlog Items delivered each Sprint.
+•        Adhering to a list of “done” criteria ensures that the sprint product is truly shippable
+
+
+•        Definition of Done (DoD)
+•        DoD is a checklist of features and activities, for example, writing code, coding comments, unit testing, integration testing, release notes, design documents, etc. that adds or demonstrates value to the product
+•        Definition of Done
+•        Definition of Done for a feature ( user story or product backlog item)
+•        Definition of Done for a sprint (collection of features developed within a sprint)
+•        Definition of Done for a release (potentially shippable state)
+
+•        Definition of Done checklist for An User Story
+•        Produced code for presumed functionalities
+•        Assumptions of User Story met
+•        Project builds without errors
+•        Unit test written and passing
+•        Project deployed on the test environment identical to production platform
+•        Feature is tested against acceptance criteria
+•        Documentation updated
+•        Definition of Done checklist for Sprint
+•        DoD of each single User story, included in the Sprint are met
+•        “to do’s” are completed
+•        All unit tests passing
+•        Product backlog updated
+•        Project deployed on the test environment identical to production platform
+•        Tests of backward compatibility passed
+•        The performance tests passed
+•        All bugs fixed
+•        Sprint marked as ready for the production deployment by the Product Owner
+•        Project management tools
+•        Are you still in Trello?
+•        Complete view on product backlog?
+•        Good balance among:
+•        Product development
+•        Scrum practice
+•        Documentaion
+•        Continuous updating your plan?
+
+
+
+
+•        Conflict handle
+•        Common cause
+•        Misunderstanding
+•        Poor communication
+•        Different sight on reality
+•        Conflict of interests
+•        Confusing in the realtionship to goals, scope, roles, tasks
+•        Lack of trust/ respect
+•        Lack of leadership and management
+
+•        Conflict handle
+•        Conflict handle
+•        Willing to meet
+•        Have a desire to solve the conflict
+•        Define in common what will take up
+•        Accept that one thing has several sides
+•        Allow others to share their opinions, needs, thoughts
+•        Willing to put yourself in “other’s shoes”
+•        Find a solution that both can live with
+•        Process monitoring
+•        Hour tracking
+•        Tip 20: Keep tracking of individual work from Day 1. Tracking can be done in a weekly basic 
+•        Meeting
+•        At least having two meeting per week in the first month of the course, when the forming and storming stage would likely to happen. 
+•        Scrum meetings, i.e. Scrum planning, daily standup meeting and Retrospective meeting are followed when the methodology is established. 
+•        Tip 21: Take note of meetings and store meeting notes online in one place for tracking and simplicity         
+
+
+•        Scrum practices
+•        Product Backlog and Prioritization .................................................................... 35
+•        User stories ......................................................................................................... 36
+•        Sprint Plan meeting ............................................................................................ 36
+•        Daily standup meeting ........................................................................................ 36
+•        Retrospective meeting ........................................................................................ 36
+•        Sprint review meeting ........................................................................................ 36
+•        Planning poker .................................................................................................... 37
+•        Code standard ..................................................................................................... 37
+•        100% coverage for unit tests .............................................................................. 37
+•        User acceptance test ........................................................................................... 37
+•        Burn-down chart ................................................................................................. 38
+•        Pair programming ............................................................................................... 38
+•        Test driven development .................................................................................... 38
+•        Scrum master ...................................................................................................... 38
+•        Product owner .................................................................................................... 38
+•        Report structure
+•        Forside
+•        Abstrakt
+•        Indeksering
+•        Introduksjon
+•        Prosjektplanlegging
+•        Pre-study (Sprint 0)
+•        Arbeidsmåte
+•        Produktkø
+•        Løsningsdesign
+•        Testing
+•        Sprintoppsummeringer
+•        Prosjektevaluering
+•        References
+
+

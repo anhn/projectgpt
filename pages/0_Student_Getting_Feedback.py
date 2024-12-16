@@ -145,7 +145,8 @@ with tab2:
         if prompt_tab2 := st.text_area("What is up?"):
              st.session_state.messages.append({"role": "system", "content": get_course_description("project")})
              if em1 == "Exercise2":
-                  st.session_state.messages.append({"role": "assistant", "content": "Assisting Exercise 2"})
+                  st.session_state.messages.append({"role": "system", "content": "Act as a lecturer in a software project management course. Students are asked to list all potential stakeholders. Classify them based on their interest, influence, and impact on the project. Anticipate any potential conflicts of interest in term of website functionalities among them."})
+                  st.session_state.messages.append({"role": "system", "content": "Evaluation criteria is the completeness and correctness of identified stakeholders, reasonable arguments for their interest, influence and impact, and. Create a rubric for yourself with five levels: Excellent (5)	Proficient (4)	Satisfactory (3)	Needs Improvement (2)	Unsatisfactory (1). Write feedback using the rubric. Briefly summarize the strengths and weaknesses of the answer. State actionable points to improve the student answer. Write a question in the end to motivate the student to engage in discussing the given feedback."})
              st.session_state.messages.append({"role": "user", "content": prompt_tab2})
              with st.chat_message("user"):
                   st.markdown(prompt_tab2)
@@ -159,7 +160,8 @@ with tab2:
                       messages=user_messages,
                       stream=True,
                   )
-                  response = st.write_stream(stream)
+                  ex2_feedup = "The role of this exercise is to help you to understand the project better! \n"           
+                  response = st.write_stream(ex2_feedup + stream)
              st.session_state.messages.append({"role": "assistant", "content": response})
         #with st.form("my_form1"):
         #    jim_email= st.text_input("Email to receive feedback", "12345678@std.usn")

@@ -154,13 +154,13 @@ with tab2:
                       {"role": m["role"], "content": m["content"]}
                       for m in st.session_state.messages
                   ]
-             stream = client.chat.completions.create(
-                model=st.session_state["openai_model"],
-                messages=user_messages,
-                stream=True,
-            )
-            response = st.write_stream(stream)
-        st.session_state.messages.append({"role": "assistant", "content": response})
+                  stream = client.chat.completions.create(
+                      model=st.session_state["openai_model"],
+                      messages=user_messages,
+                      stream=True,
+                  )
+                  response = st.write_stream(stream)
+             st.session_state.messages.append({"role": "assistant", "content": response})
         #with st.form("my_form1"):
         #    jim_email= st.text_input("Email to receive feedback", "12345678@std.usn")
         #    jim_line = st.text_area("Write your exercise here","", height=200)

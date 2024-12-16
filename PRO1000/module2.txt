@@ -1,0 +1,163 @@
+•        Omfangsstyring
+•        Omfang refererer til alt arbeidet som er involvert i å lage produktene til prosjektet og prosessene som brukes for å lage dem
+•        Omfangsstyring
+Omfangsstyring refererer til prosessene som er involvert i å definere, kontrollere og validere prosjektets omfang. Seks hovedtrinns:
+•        Planlegging av et prosjektomfang
+•        Samlekrav
+•        Definere omfang
+•        Opprette WBS
+•        Validerer omfang
+•        Kontrollerende omfang
+
+•        1. Planlegging av et prosjektomfang
+•        Prosjektets formål og mål: Formålet definerer hvorfor prosjektet gjennomføres. Målene fastsetter hva som skal oppnås.
+•        Identifisering av interessenter og deres forventninger: Dette inkluderer både interne og eksterne interessenter som kan bli påvirket av prosjektets resultater. 
+•        Prosjektskisse: gir en overordnet beskrivelse av prosjektets omfang, mål, ressurser og tidsramme
+•        Fastsettelse av prosjektets begrensninger og betingelser: Identifikasjon og dokumentasjon av prosjektets begrensninger og betingelser er avgjørende for å unngå overambisiøse forventninger og urealistiske mål. Dette inkluderer faktorer som budsjettrestriksjoner, tidsrammer, ressurstilgjengelighet og teknologiske begrensninger
+•        Etablering av suksesskriterier: kvantifiserbare målene og resultatene som indikerer om prosjektet har oppnådd sine mål. Disse kriteriene tjener som en metode for å vurdere prosjektsuksessen. De kan omfatte aspekter som kostnadsstyring, kvalitetsstandarder, leveringsdatoer og kundetilfredshet
+
+•        1. Planlegging av et prosjektomfang - Prosjektskisse
+Prosjektskisse: Implementering av et Nytt Kundeservicesystem
+Prosjektets omfang: Dette prosjektet har som mål å implementere et nytt kundeservicesystem for å forbedre vår kundesupporttjeneste. Omfanget inkluderer utviklingen av programvare, opplæring av ansatte, overføring av eksisterende data, og etablering av kundesupportprosesser og retningslinjer for å forbedre responstider og kundetilfredshet. Prosjektet inkluderer også integrering av systemet med eksisterende datasystemer.
+Prosjektmål
+•        Redusere kundesvartid med 25% innen seks måneder etter implementering.
+•        Øke kundetilfredshetsscoren med minst 15 poeng innen ett år.
+•        Implementere kundeservicesystemet innenfor den tildelte budsjettgrensen på 500 000 kroner.
+•        Trene alle kundesupportansatte innen to måneder etter systemets implementering.
+Interessenter:
+•        Kundesupportteamet og ledelse
+•        IT-avdelingen for systemimplementering
+•        Kunder og brukere av kundesupporttjenester
+•        Leverandører av programvare og teknologi
+•        Prosjekteiere og toppledels
+•        1. Planlegging av et prosjektomfang - suksesskriteriene
+•        Redusere kundesvartid med 25% innen seks måneder etter implementering: Dette suksesskriteriet måler effektiviteten av det nye kundeservicesystemet ved å evaluere hvor raskt kundesupportteamet kan svare på henvendelser. Målet er å redusere svartiden med 25% fra det tidligere nivået.
+•        Øke kundetilfredshetsscoren med minst 15 poeng innen ett år: Dette suksesskriteriet fokuserer på kundenes opplevelse og tilfredshet. Målet er å øke kundetilfredshetsscoren med minst 15 poeng fra utgangspunktet innen ett år etter implementeringen av det nye systemet.
+•        Implementere kundeservicesystemet innenfor den tildelte budsjettgrensen på 500 000 kroner: Dette suksesskriteriet vurderer prosjektkostnadene. Målet er å sikre at implementeringen utføres innenfor den fastsatte budsjettgrensen på 500 000 kroner.
+•        Trene alle kundesupportansatte innen to måneder etter systemets implementering: Dette suksesskriteriet måler opplæringsprosessen og forberedelsen av kundesupportteamet for å bruke det nye systemet. Målet er å fullføre opplæringen av alle ansatte innen to måneder etter systemets implementering.
+•        2. Samlekrav
+•        Et krav er en spesifikk forventning, nødvendighet, spesifikasjon eller betingelse som må oppfylles for at et produkt, system eller tjeneste skal være akseptabelt og tilfredsstille de ønskede behovene. Krav er grunnleggende i enhver form for ingeniørarbeid, produktutvikling, prosjektledelse og programvaredesign. De hjelper med å definere funksjonaliteten, ytelsen og kvaliteten som forventes fra det som blir utviklet. Krav kan variere i natur og omfang og kan inkludere:
+–        Funksjonelle krav: Dette beskriver hva systemet skal gjøre eller utføre. For eksempel, et funksjonelt krav for et nettbankprogram kan være "systemet må tillate brukere å overføre penger mellom kontoer.«
+–        Ikke-funksjonelle krav: Dette beskriver kvaliteten, ytelsen eller begrensningene som systemet må oppfylle. Dette kan inkludere krav som pålitelighet, sikkerhet, ytelse, brukervennlighet, og mer. Et eksempel på et ikke-funksjonelt krav er "systemet må være i stand til å håndtere 1000 samtidige brukere uten tregere ytelse."
+
+
+•        2. Samlekrav – Requirement Engineering
+•        Requirement Engineering (RE) er en disiplin innen systemutvikling og prosjektledelse som fokuserer på å identifisere, analysere, dokumentere og administrere kravene som er nødvendige for å utvikle et produkt, system eller programvare
+–        Kravsamlet: Dette trinnet innebærer å forstå og identifisere alle nødvendige krav fra ulike kilder, inkludert kunder, brukere, interessenter og eksisterende dokumentasjon. Kravene kan være funksjonelle (hva systemet skal gjøre), ikke-funksjonelle (kvalitetskrav som ytelse, sikkerhet og brukervennlighet) eller tekniske (tekniske spesifikasjoner).
+–        Kravanalyse: Etter å ha samlet kravene, må de analyseres for å sikre at de er klare, konsistente, realistiske og oppnåelige. Analysen hjelper til med å forstå kravenes innbyrdes avhengighet og påvirke og kan innebære bruk av teknikker som kravmodellering, prototyping og simuleringsverktøy.
+–        Kravsdokumentasjon: Kravene må dokumenteres på en strukturert måte, vanligvis i et kravsdokument, som gir en klar og detaljert beskrivelse av hvert krav. Dokumentasjonen kan inkludere kravbeskrivelser, prioriteringer, målbare suksesskriterier og eventuelle spesifikasjoner som er nødvendige.
+–        Kravsgodkjenning: Etter at kravene er dokumentert, må de bli godkjent av relevante interessenter, inkludert kunden og prosjekteiere. Dette sikrer enighet om prosjektets mål og omfang.
+–        Kravshåndtering og endringskontroll: Gjennom hele prosjektløpet kan kravene endres som følge av endringer i forretningskrav, teknologi eller brukerbehov. Requirement Engineering innebærer å håndtere endringer og sørge for at de nødvendige tilpasninger blir gjort uten å påvirke prosjektkvaliteten eller tidsrammen negativt.
+–        Kravstruktur og sporbarhet: Kravene kan organiseres i en struktur som hjelper med å spore deres avhengighet og forhold til hverandre. Dette gir en oversikt over hvordan kravene oppfyller prosjektmålene og hjelper med endringshåndtering.
+•        2. Samlekrav - Kvaliteten på kravene 
+•        Kvaliteten på kravene er av avgjørende betydning for suksessen til ethvert prosjekt eller produktutviklingsinitiativ. Godt definerte og høykvalitetskrav legger grunnlaget for å oppnå prosjektmålene, sikrer effektiv kommunikasjon mellom teammedlemmer og interessenter, og reduserer risikoen for misforståelser og kostbare endringer senere i prosjektet. Her er noen viktige aspekter ved kvaliteten på kravene:
+–        Klare og forståelige: Kvalitetskrav bør være klare, enkle og forståelige for alle interessenter. De skal unngå unødig teknisk terminologi og være formulert på en måte som alle involverte kan tolke ensartet.
+–        Konsistente og sammenhengende: Kravene skal være konsistente med hverandre og med prosjektmålene. Eventuell uoverensstemmelse mellom krav kan føre til forvirring og konflikt.
+–        Riktighet (Correctness): Riktighet refererer til at kravene er faktisk korrekte og nøyaktige. Riktige krav sørger for at de er i tråd med virkelige forhold og at de oppfyller de faktiske behovene til prosjektet eller produktet. Riktige krav unngår feil og misforståelser som kan føre til kostbare feil og problemer senere i prosjektet.
+–        Entydighet (Unambiguity): Entydighet handler om å sørge for at kravene er uttrykt på en måte som ikke gir rom for tolkningsfeil eller tvetydighet. Entydige krav unngår språklige tvetydigheter og sikrer at det er enighet om hva som er forventet. Entydige krav bidrar til å redusere risikoen for misforståelser og konflikter mellom teammedlemmer og interessenter.
+–        Målbare: Kravene skal være spesifikke og målbare, noe som betyr at de skal gi kvantitative mål som kan brukes for testing og verifikasjon
+–        Testbare og verifiserbare: Kvalitetskrav skal være testbare, slik at de kan bekreftes gjennom testing og evaluering. Dette bidrar til å sikre at prosjektet oppfyller kravene og forventningene til interessenter.
+2. Samlekrav - Brukerhistorier
+•        Brukerhistorier (user stories) er en teknikk som brukes i smidig programvareutvikling for å beskrive kravene til et system fra sluttbrukerens perspektiv. Brukerhistoriene er vanligvis skrevet i en fortellende form og følger et spesifikt format som beskriver hvem, hva og hvorfor. Format:
+•        As a < type of user >, I want < some goal > so that < some reason >
+•        Brukerhistoriene suppleres ofte med akseptansekriterier, som er detaljerte beskrivelser av hva som skal være oppfylt for at brukerhistorien skal betraktes som fullført. Dette gir tydelige retningslinjer for testing og validering.
+•        2. Samlekrav - Brukerhistorier
+•        Som en bruker, vil jeg kunne opprette en konto på e-læringsplattformen for å få tilgang til kursmateriale og funksjoner.
+•        Som en instruktør, vil jeg kunne opprette nye kurs med beskrivelser og læringsmål.
+•        Som en student, vil jeg kunne laste opp og levere oppgaver som en del av kurset.
+•        Som en student, vil jeg kunne få tilgang til interaktive lærematerialer som videoer, quizzer og øvingsoppgaver.
+•        Som en bruker, vil jeg være sikker på at mine personlige data og resultater er beskyttet gjennom passende sikkerhetsmekanismer.
+•        Som en bruker, forventer jeg at plattformen skal laste kursmateriale raskt, med en sideindlastningstid på mindre enn 2 sekunder.
+•        Som en administrator, forventer jeg at plattformen skal kunne håndtere samtidig tilgang for minst 1 000 brukere uten tregere ytelse.
+•        Som en bruker med funksjonsnedsettelser, forventer jeg at plattformen skal være WCAG 2.0 AA-kompatibel for å sikre universell tilgjengelighet.
+•        Som en administrator, forventer jeg at all brukerinformasjon og data skal lagres og overføres kryptert i samsvar med bransjestandarder for datasikkerhet.
+•        Som en systemadministrator, forventer jeg at plattformen skal kunne håndtere økende datamengder og brukere ved å skalere horisontalt og vertikalt etter behov.
+•        2. Samlekrav - Metoder for kravinnsamling
+•        Intervjuer: Intervjuer med interessenter, brukere, eksperter og andre relevante parter er en av de mest direkte metodene for kravinnsamling. Dette gir muligheten til å stille spesifikke spørsmål og få detaljert innsikt i kravene.
+•        Workshops og møter: Å organisere kravsamlingssesjoner, workshops og møter med interessenter og teammedlemmer kan hjelpe til med å samle krav gjennom diskusjon og samarbeid. Brainstorming og diskusjoner kan avdekke nye perspektiver og krav.
+•        Spørreundersøkelser: Bruk av skriftlige spørreskjemaer og spørreundersøkelser kan være nyttig for å samle inn kvantitative data og meninger fra et bredt spekter av interessenter.
+•        Observasjon: Observasjon av eksisterende prosesser, brukeratferd og systeminteraksjoner kan gi verdifull innsikt i hva som er nødvendig for å forbedre eller utvikle et produkt eller system.
+•        Prototyping: Utvikling av prototyper eller mock-ups av systemet kan hjelpe interessenter med å visualisere og klarlegge kravene. Prototyping er spesielt nyttig for å samle inn krav knyttet til brukergrensesnitt og interaksjonsdesign.
+•        Benchmarking: Sammenligning av lignende produkter, systemer eller tjenester på markedet kan hjelpe med å identifisere bransjestandarder og beste praksis, som deretter kan omdannes til krav.
+•        Dokumentanalyse: Gjennomgang av eksisterende dokumenter, som kontrakter, retningslinjer og regelverk, kan avdekke eksplisitte og implisitte krav.
+•        3. Definere omfang
+•        Prosjektskisse kontra prosjektomfang
+•        Utvikling av en omfangsbeskrivelse
+•        Opprettelse av en omfangsvedlegg som inkluderer detaljert beskrivelse av alle leveranser
+•        Krav for godkjenning av omfang
+•        4. Work breakdown structure (WBS)
+•        En hierarkisk dekomponering av det leverte arbeidet som trengs for å fullføre et prosjekt. Den deler opp leveransene i håndterbare arbeidspakker som kan planlegges og har kostnader og ressurser tildelt dem
+•        WBS inkluderer 100 % av arbeidet definert av prosjektets omfang og fanger opp alle leveranser – interne, eksterne, interim – når det gjelder arbeidet som skal fullføres, inkludert prosjektledelse
+•        4. Work breakdown structure (WBS) – Hvorfor?
+•        Dekomponering av prosjektet: En WBS deler prosjektet ned i mindre, mer håndterbare deler eller arbeidspakker. Dette gjør prosjektet mer overkommelig og gir klarhet om hva som må gjøres for å oppnå prosjektmålene.
+•        Strukturering av arbeid: WBS gir en hierarkisk struktur som viser hvordan arbeidet er organisert og relatert. Dette hjelper prosjektteamet og interessentene med å forstå hvordan ulike deler av prosjektet bidrar til å oppnå prosjektmålene.
+•        Ressursallokering: Med WBS kan du tydelig se hvilke ressurser som kreves for hver arbeidspakke. Dette hjelper med å planlegge ressursallokeringen og fordele ansvar i prosjektet.
+•        Tidsplanlegging: WBS gir grunnlaget for å utvikle en prosjekttidsplan. Ved å kjenne omfanget av arbeidet i hver arbeidspakke, kan du estimere tidsrammer og definere avhengigheter mellom oppgaver.
+•        Kostnadsstyring: En WBS gir en struktur som kan brukes for kostnadsestimater og budsjettallokering. Du kan estimere kostnader for hver arbeidspakke og summe dem for å få en oversikt over prosjektkostnadene.
+•        Kommunikasjon: WBS er et kraftig verktøy for kommunikasjon mellom prosjektteamet og interessenter. Det gir et felles rammeverk for å diskutere og vurdere prosjektets omfang og arbeidspakker.
+•        Risikohåndtering: WBS kan bidra til å identifisere potensielle risikoer og usikkerheter i prosjektet. Ved å bryte ned prosjektet i mindre deler, kan du vurdere risikoen for hver arbeidspakke og utvikle risikoreduserende strategier.
+•        Overvåking og kontroll: En WBS gir et strukturert rammeverk for overvåking og kontroll av prosjektets fremdrift. Du kan spore fremdrift for hver arbeidspakke og identifisere avvik fra planen.
+•        4. Work breakdown structure (WBS) – Regler av en WBS
+•        Enhetlig struktur: WBS skal følge en enhetlig struktur der alle elementene i hierarkiet har samme nivå av detaljer. Dette gjør det enklere å forstå og organisere arbeidet.
+•        Ingen overlappende arbeidspakker: Det bør ikke være overlapp eller duplicering av arbeid mellom arbeidspakkene. Hver arbeidspakke skal ha en klar og unik rolle i prosjektet.
+•        Ingen hull: Det skal heller ikke være hull i WBS. Det vil si at alle aspekter av prosjektet bør dekkes, og ingenting skal utelates.
+•        Dekker hele prosjektet: WBS skal dekke hele prosjektet fra start til slutt. Det skal inkludere alle aktiviteter, leveranser og oppgaver som er nødvendige for å oppnå prosjektmålene.
+•        Logisk struktur: WBS skal ha en logisk og hierarkisk struktur der elementene bygger på hverandre. Øverste nivå representerer prosjektets hovedmål, mens de lavere nivåene gir mer detaljerte beskrivelser.
+•        Mutasjonen skal være klare: Hver arbeidspakke skal være tilstrekkelig klar og forståelig, slik at det er tydelig hva som kreves for å fullføre den.
+•        Nummerering: En vanlig praksis er å nummerere elementene i WBS for å vise hierarki og organisering. For eksempel kan øverste nivå være "1", de neste nivåene kan være "1.1", "1.2", "1.3", og så videre.
+•        Endringskontroll: WBS kan bli endret i løpet av prosjektet for å reflektere endringer i prosjektet. Enhver endring i WBS bør være underlagt en nøye kontrollprosess.
+•        4. WBS - UTVIKLINGSMETODE
+•        Top-Down-metoden: Dette er den mest vanlige tilnærmingen til å utvikle en WBS. Du begynner med å identifisere de høyeste nivåene av prosjektet, vanligvis prosjektmål eller hovedoppgaver, og deretter bryter du dem gradvis ned i mindre deler på lavere nivåer. Dette gir en naturlig hierarkisk struktur.
+•        Bottom-Up-metoden: I motsetning til top-down-metoden, begynner du med mindre arbeidsenheter og bygger oppover. Dette kan være nyttig når du har detaljerte kunnskaper om de mindre elementene i prosjektet, og du vil se hvordan de passer inn i de større målene.
+•        Mind Mapping: Mind mapping er en kreativ tilnærming som lar deg brainstorme og visualisere strukturen til WBS. Du starter med en sentral idé (prosjektmålet) og oppretter grener som representerer hovedkomponenter, og deretter ytterligere grener for å bryte dem ned i mindre oppgaver og arbeidspakker.
+•        Organisasjonens standardstruktur: Noen organisasjoner har etablerte standard WBS-strukturer som kan brukes som utgangspunkt. Dette er spesielt nyttig i bransjer der prosjekter har lignende strukturer og krav.
+•        Analogimetoden: Denne metoden innebærer å se på WBS-er fra tidligere prosjekter som ligner på det gjeldende prosjektet og tilpasse dem til de nye behovene. Det er en effektiv måte å dra nytte av tidligere erfaringer.
+•        Ekspertvurdering: Involvering av erfarne eksperter fra bransjen eller prosjektteamet i utviklingen av WBS kan være svært nyttig. De kan bidra til å identifisere de riktige nivåene av arbeidsbryting og riktig struktur.
+•        Workshop-metoden: Å organisere en arbeidsverkstedssesjon med nøkkelinteressenter og teammedlemmer kan være en effektiv måte å samle inn innsikt og utvikle WBS. Diskusjon og samarbeid kan bidra til å oppnå en felles forståelse av prosjektstrukturen.
+•        Automatiserte verktøy: Det er spesialiserte programvareverktøy tilgjengelige som kan hjelpe med å generere og administrere WBS-er. Disse verktøyene kan være nyttige for komplekse prosjekter med mange arbeidspakker.
+•        4. WBS av artifacts eller aktiviteter
+•        En Work Breakdown Structure (WBS) kan organiseres av enten artefakter eller aktiviteter, avhengig av det spesifikke prosjektet og prosjektledelsestilnærmingen som brukes. Valget av hvordan WBS skal struktureres avhenger ofte av prosjektets kompleksitet, og preferansene til prosjektgruppen.
+•        WBS av Artifacts:
+–        Når WBS er organisert etter artefakter, bryter den ned prosjektet i leveranser eller sluttprodukter. Hver større leveranse eller artefakt er delt inn i mindre komponenter, og dette hierarkiet kan fortsette til prosjektet er brutt ned i de minste arbeidspakkene. Denne tilnærmingen brukes ofte i prosjekter hvor fokus er på sluttproduktene eller resultatene.
+–        For eksempel, i et byggeprosjekt, kan WBS starte med de viktigste leveransene som «Bygningsstruktur», «Elektrisk system», «VVS-system» og «Landskapsarbeid». Hver av disse leveransene er videre brutt ned i delleveranser, og så videre.
+•        WBS av aktiviteter:
+–        Når WBS er organisert etter aktiviteter, fokuserer den på å dele opp prosjektet i oppgavene, aktivitetene eller arbeidspakkene som må utføres for å fullføre prosjektet. Denne tilnærmingen brukes ofte i prosjekter hvor det legges vekt på å styre og spore arbeidet som må gjøres fremfor sluttproduktene.
+–        For eksempel, i et programvareutviklingsprosjekt, kan WBS starte med aktiviteter som «Requirements Gathering», «Design», «Coding», «Testing» og «Documentation». Hver av disse aktivitetene kan videre deles inn i delaktiviteter og arbeidspakker.
+•        4. WBS av artifacts
+•        4. WBS av aktiviteter
+•        5. Validerer omfang
+•        Betydningen av omfangsvalidering
+•        Metoder for å validere omfang, som gjennomgang av omfangsdokumentasjon og prototyping
+•        Rolle og ansvar for interessenter i valideringsprosessen
+•        Godkjennelseskriterier for omfangsvalidering
+ 
+•        5. Validerer omfang
+•        6. Kontrolerer Omfang
+•        Overvåke og styre endringer i prosjektets omfang for å opprettholde prosjektleveransen i tråd med planen.
+–        Etablere en Baseline
+–        Overvåke Omfangsendringer
+–        Endringskontrollprosess
+–        Vurdering av Endringens Konsekvense
+–        Kommunikasjon med Interessenter
+–        Godkjennelse av Endringer
+–        Oppdatere Omfangsbeskrivelse
+•        6. Kontrolerer Omfang - Scope Creep
+Omfangskryp: endringer, kontinuerlig eller ukontrollert vekst i et prosjekts omfang, når som helst etter at prosjektet starter
+Grunner?
+–        Dårlig endringskontroll
+–        Mangel på riktig innledende identifikasjon og/eller dokumentasjon av funksjonene som kreves for å oppnå prosjektmålene
+–        Svak prosjektleder eller utøvende sponsor
+•        6. Kontrolerer Omfang - Scope Creep
+•        For å redusere denne typen problemer er de foreslåtte løsningene som følger:
+–        Definer krav som «må-has» og «fint å ha»
+–        Sett forventninger til prosjektet
+–        Bli enige om leveranser, og dokumenter
+–        Dokumentere og gjennomgå forretningskrav
+•        6. Kontrolerer Omfang - Urealistisk omfang
+•        Det er flere typer urealistiske omfang som kan forekomme i programvareutviklingsprosjekter, og de kan variere avhengig av prosjektets natur og kompleksitet
+•        F-35 Lightning II-prosjektet: involverer utviklingen av et komplekst militært fly, har opplevd betydelige kostnadsoverskridelser og tidsrammeproblemer, delvis på grunn av et svært ambisiøst omfang og teknologiske utfordringer.
+•        NHS National Programme for IT (NPfIT):programmet i Storbritannia hadde som mål å transformere IT-systemene i National Health Service (NHS), men det ble preget av omfangskryp og kostnadsoverskridelser, og ble senere avviklet.
+•        Denver International Airport Baggage Handling System: involverte utvikling av et komplekst bagasjebehandlingssystem for flyplassen, opplevde alvorlige utfordringer, inkludert urealistisk omfang og teknologiske problemer.
+
+
+

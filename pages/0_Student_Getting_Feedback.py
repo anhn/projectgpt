@@ -29,7 +29,9 @@ tab1, tab2, tab3, tab4, tab5, tab6, tab7, tab8, tab9 = st.tabs(["General", "Modu
 def get_course_description(course_name):
     pathname = course_name + "/description.txt"
     f=open(pathname, "r")
-    return f
+    content = f.read()
+    file.close()
+    return content
  
 with tab1:
     col01, col02 = st.columns([1, 2])

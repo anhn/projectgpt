@@ -36,7 +36,7 @@ with tab1:
     with col01:
         st.video("pages/game.mp4")
     with col02:
-        st.write(get_course_description(PRO1000))
+        st.write(get_course_description("PRO1000"))
     #with st.form("my_form"):
         #jim_line = st.text_area("Write your question here","", height=70)
         #submitted = st.form_submit_button("Submit")

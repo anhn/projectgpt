@@ -132,10 +132,35 @@ with tab2:
     with col4: 
         st.button("SWOT analysis",key="ex4",use_container_width=True) 
     with st.expander("Submit your exercise here"):
-        with st.form("my_form1"):
-            jim_email= st.text_input("Email to receive feedback", "12345678@std.usn")
-            jim_line = st.text_area("Write your exercise here","", height=200)
-            submitted = st.form_submit_button("Submit")
+        if "openai_model" not in st.session_state:
+            st.session_state["openai_model"] = "gpt-4o"        
+        if "messages" not in st.session_state:
+            st.session_state.messages = []        
+        for message in st.session_state.messages:
+             if message["role"] in ["user", "assistant"]:
+                with st.chat_message(message["role"]):
+                    st.markdown(message["content"])        
+        if prompt := st.chat_input("What is up?"):
+             st.session_state.messages.append({"role": "system", "content": get_course_description("project")})
+             st.session_state.messages.append({"role": "user", "content": prompt})
+             with st.chat_message("user"):
+                  st.markdown(prompt)
+             with st.chat_message("assistant"):
+                  user_messages = [
+                      {"role": m["role"], "content": m["content"]}
+                      for m in st.session_state.messages
+                  ]
+             stream = client.chat.completions.create(
+                model=st.session_state["openai_model"],
+                messages=user_messages,
+                stream=True,
+            )
+            response = st.write_stream(stream)
+        st.session_state.messages.append({"role": "assistant", "content": response})
+        #with st.form("my_form1"):
+        #    jim_email= st.text_input("Email to receive feedback", "12345678@std.usn")
+        #    jim_line = st.text_area("Write your exercise here","", height=200)
+        #    submitted = st.form_submit_button("Submit")
 with tab3:
     st.image("https://cdn-cnhfh.nitrocdn.com/jsHsUxJJAapjeJICfnGvtaAAOHZlckTe/assets/images/optimized/rev-dfbdbb8/e360-media.s3.amazonaws.com/2024/07/07160602/2290114_ProjectScopeManagementPMA-ControlScopeProcessPMP_070524.jpg", width=400)
     col5, col6, col7, col8 = st.columns(4)

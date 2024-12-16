@@ -145,7 +145,7 @@ with tab2:
         if prompt := st.chat_input("What is up?"):
              st.session_state.messages.append({"role": "system", "content": get_course_description("project")})
              if genre == "Exercise2":
-                  st.session_state.messages.append({"role": "assistant", "content": "Assisting Exercise 2")
+                  st.session_state.messages.append({"role": "assistant", "content": "Assisting Exercise 2"})
              st.session_state.messages.append({"role": "user", "content": prompt})
              with st.chat_message("user"):
                   st.markdown(prompt)

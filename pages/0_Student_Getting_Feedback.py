@@ -162,8 +162,9 @@ with tab2:
                       {"role": m["role"], "content": m["content"]}
                       for m in st.session_state.messages
                   ]
-                  print(num_tokens_from_string(user_messages, "gpt-4o"))
-                  if(num_tokens_from_string(user_messages, "gpt-4o")<2000):
+                  user_messages_string = " ".join([m["content"] for m in user_messages]
+                  print(num_tokens_from_string(user_messages_string, "gpt-4o"))
+                  if(num_tokens_from_string(user_messages_string, "gpt-4o")<2000):
                       stream = client.chat.completions.create(
                           model=st.session_state["openai_model"],
                           messages=user_messages,
@@ -172,7 +173,7 @@ with tab2:
                       response = st.write_stream(stream)
                       st.session_state.messages.append({"role": "assistant", "content": response})
                   else:
-                      st.markdown(f"The input you entered is too long. The total words you have now is **{num_tokens_from_string(user_messages, "gpt-4o")}** Keep the input less than 2000 words!")
+                      st.markdown(f"The input you entered is too long. The total words you have now is **{num_tokens_from_string(prompt_tab2, "gpt-4o")}** Keep the input less than 2000 words!")
         #with st.form("my_form1"):
         #    jim_email= st.text_input("Email to receive feedback", "12345678@std.usn")
         #    jim_line = st.text_area("Write your exercise here","", height=200)

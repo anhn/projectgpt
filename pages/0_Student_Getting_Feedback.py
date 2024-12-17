@@ -4,6 +4,7 @@ import os
 #from decouple import config
 import openai
 import streamlit as st
+import tiktoken
 import sys
 sys.path.append("/PRO1000")
 import chatbot_utils
@@ -25,6 +26,12 @@ def get_response(jim_line):
     return output 
                                                                                                                                                                                                                  
 tab1, tab2, tab3, tab4, tab5, tab6, tab7, tab8, tab9 = st.tabs(["General", "Module 1", "Module 2", "Module 3", "Module 4", "Module 5", "Module 6", "Module 7", "Module 8"])
+
+
+def num_tokens_from_string(string: str, encoding_name: str) -> int:
+    encoding = tiktoken.encoding_for_model(encoding_name)
+    num_tokens = len(encoding.encode(string))
+    return num_tokens
 
 def get_course_description(type):
     pathname = f"PRO1000/{type}.txt"    
@@ -155,13 +162,17 @@ with tab2:
                       {"role": m["role"], "content": m["content"]}
                       for m in st.session_state.messages
                   ]
-                  stream = client.chat.completions.create(
-                      model=st.session_state["openai_model"],
-                      messages=user_messages,
-                      stream=True,
-                  )
-                  response = st.write_stream(stream)
-             st.session_state.messages.append({"role": "assistant", "content": response})
+                  print(num_tokens_from_string(user_messages, "gpt-4o"))
+                  if(num_tokens_from_string(user_messages, "gpt-4o")<2000):
+                      stream = client.chat.completions.create(
+                          model=st.session_state["openai_model"],
+                          messages=user_messages,
+                          stream=True,
+                      )
+                      response = st.write_stream(stream)
+                      st.session_state.messages.append({"role": "assistant", "content": response})
+                  else:
+                      st.markdown(f"The input you entered is too long. The total words you have now is **{num_tokens_from_string(user_messages, "gpt-4o")}** Keep the input less than 2000 words!"
         #with st.form("my_form1"):
         #    jim_email= st.text_input("Email to receive feedback", "12345678@std.usn")
         #    jim_line = st.text_area("Write your exercise here","", height=200)

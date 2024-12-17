@@ -162,7 +162,7 @@ with tab2:
                       {"role": m["role"], "content": m["content"]}
                       for m in st.session_state.messages
                   ]
-                  user_messages_string = " ".join([m["content"] for m in user_messages]
+                  user_messages_string = " ".join([m["content"] for m in user_messages])
                   print(num_tokens_from_string(user_messages_string, "gpt-4o"))
                   if(num_tokens_from_string(user_messages_string, "gpt-4o")<2000):
                       stream = client.chat.completions.create(

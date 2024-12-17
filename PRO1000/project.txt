@@ -63,6 +63,3 @@ Visual Appeal: Is the design sustainable, engaging, and consistent with the gree
 Functionality: Are web pages accessible, functional as intented?
 Content: are all required content presented in a good way ?
 Quality: are the website tested with usability test and system test?
-
-Students may need to ask questions, seek clarifications, or provide progress updates during the development process. Communication should be done via InnSpillAI or email. Each email should has a title - PRO1000 - Groupnumber - Main points to communicate. Email should be sent to angu@usn.no
-

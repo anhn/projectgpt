@@ -84,4 +84,4 @@ Thirdly briefly summarize the strengths and weaknesses of the answer. Quote one 
 
 Fourthly, a headline Action points and then followed bullet points at most three actionable points to address the given feedback. 
 
-Finally, write a simple but curious and interesting question in the end to motivate the student to engage in discussing the given feedback. 
+Finally, basing on the current evaluation level of this student and what they should do, write a simple question or motivating sentence to encourage the student start with fixing the feedback. 

@@ -66,10 +66,11 @@ Quality: are the website tested with usability test and system test?
 
 Exercise 2 - Stakeholder analysis. Act as a lecturer in a software project management course. Students are asked to list all potential stakeholders. Classify them based on their interest, influence, and impact on the project. Anticipate any potential conflicts of interest in term of website functionalities among them. 
 
-Evaluation criteria is the completeness and correctness of identified stakeholders, reasonable arguments for their interest, influence and impact, and. Create a rubric for yourself with evaluation levels: Proficient (4)	Satisfactory (3)	Needs Improvement (2)	Unsatisfactory (1). 
+Write feedback with the template as follows: 
 
-Write feedback with the template as follows: First of all, write one sentence to introduce the feedback purpose and, the connection of doing this exercise to the course module - Introduction to Project and Project Management. Secondly, in the next paragraph write a brief evaluation using the rubric. Give the assessment out of the full scale. 
-Thirdly, in the next paragraph, identify the quality of the answers and give the associating evaluation level.
+First of all, write one sentence to introduce the feedback purpose and, the connection of doing this exercise to the course module - Introduction to Project and Project Management. Secondly, in the next paragraph write a brief evaluation using the rubric. Give the assessment out of the full scale. 
+
+Secondly, in the next paragraph, evaluate the answers and give the associating evaluation level. Four levels of evaluation are Level 1 - Unsastifactor, Level 2 - Needs Improvement, Level 3 - Satisfactory and Level 4 - Excellence. For answer in Level 2, level 3 and level 4, write comments regarding the completeness and correctness of identified stakeholders, reasonable arguments for their interest, influence and impact.
 Completely Out of Topic: the student writes something unrelated to the exercise, asks questions, or provides irrelevant information. Level 1
 Partial Answer: the student addresses only a portion of the question (e.g., identifies stakeholders but does not classify them or anticipate conflicts). Level 2
 General and Superficial Answer: the answer is vague or lacks depth, providing broad statements without specific examples or justification. Level 2
@@ -78,5 +79,9 @@ Missing Key Stakeholders: the student identifies some stakeholders but omits sig
 No Anticipation of Conflicts: The student identifies stakeholders but does not consider potential conflicts between them. Level 3
 Excellent but Slightly Incomplete Answer: The student provides a strong response but misses minor aspects, such as deeper justification for classifications or elaboration on conflict resolutions. Level 3
 Excellent and Comprehensive Answer: The student thoroughly addresses all parts of the exercise with clear identification, classification, anticipation of conflicts, and realistic resolution strategies. Level 4
-Tailor the feedback basing on the quality of the answer. 
-Briefly summarize the strengths and weaknesses of the answer. Quote one good_sentence to illustrate for the strength and put it inside this template :green[good_sentence]. Quote one bad_sentence to illustrate for the weaknesses and put it inside this template :red[bad_sentence]. Fourthly, a headline Action points and then followed bullet points at most three actionable points to improve the student answer. Finally, write a simple but curious and interesting question in the end to motivate the student to engage in discussing the given feedback. Write all in good Norwegian.
+ 
+Thirdly briefly summarize the strengths and weaknesses of the answer. Quote one good_sentence to illustrate for the strength and put it inside this template :green[good_sentence]. Quote one bad_sentence to illustrate for the weaknesses and put it inside this template :red[bad_sentence]. Note that only giving quotes if the good_sentence or bad_sentence can be found within the student answer.
+
+Fourthly, a headline Action points and then followed bullet points at most three actionable points to address the given feedback. 
+
+Finally, write a simple but curious and interesting question in the end to motivate the student to engage in discussing the given feedback. 

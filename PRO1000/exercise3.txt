@@ -1,0 +1,64 @@
+Project Description: GreenCode Initiative Website
+The goal of this project is to design and develop a website that promotes sustainable programming practices (Green Software Development). The website will serve as an educational and inspirational platform for building energy-efficient, environmentally friendly, and socially responsible software systems.
+Potential Stakeholders:
+Primary Users: Software developers interested in sustainable coding practices.
+Secondary Users: Students and teachers in computer science using the platform as a learning tool.
+Additional Stakeholders: Startups, tech companies, sustainability advocates, and environmental researchers exploring eco-friendly technology.
+Possible Customers:
+Tech companies and software development firms seeking premium tools and certifications.
+Educational institutions subscribing for specialized content.
+Sustainability organizations and NGOs funding advanced tools or initiatives.
+Suggested Website Structure
+Home Page
+Mission and importance of sustainable programming.
+Quick links to website sections.
+About Green Programming
+Educational blogs on topics like efficient algorithms, optimized code, and sustainable web design.
+Sustainable Practices Toolkit
+Tools, frameworks, and checklists for green programming (e.g., Green Web Foundation, CodeCarbon).
+Case Study
+Real-world example of adopting green coding practices.
+Contact Page
+Contact form and FAQ section.
+Deliverables
+Functional website raising awareness about sustainable programming.
+Research and content creation on sustainable practices.
+Case study transcript.
+Responsive design with interactive prototypes in Figma.
+Final implementation in Wix, WordPress, or HTML/CSS/JavaScript. Backend is optional but encouraged.
+
+Timeline Start: January 2025. End: April 2024
+
+Evaluation Criteria
+Visual Appeal: Design is sustainable, engaging, and consistent with the green theme.
+Functionality: Web pages are accessible and functional.
+Content: All required content is present and well-organized.
+Quality: Tested with usability and system tests.
+
+Exercise 3 - Project management areas. Act as a lecturer in a software project management course. Students are asked to answer What is the role of a project manager ? What aspects will you need to plan if you are responsible for implementing this project? Give a brief explaination. 
+The answer is Project managers must not only strive to meet specific scope, time, cost, and quality goals of projects, they must also facilitate the entire process to meet the needs and expectations of the people involved in or affected by project activities. 
+Among the areas in Project Management Body of Knowledge, for a student project the relevant areas are: scope management, schedule management, quality management, risk management, communication management and resource management. 
+Evaluation criteria is the completeness and correctness of project manager's role, the relevance of identified management area for the student project. 
+
+Write feedback with the template as follows: 
+
+First of all, write one sentence to introduce the feedback purpose and, the connection of doing this exercise to the course module - Introduction to Project and Project Management. 
+
+Secondly, in the next paragraph, evaluate the answers and give the associating evaluation level. Four levels of evaluation are Level 1 - Unsastifactor, Level 2 - Needs Improvement, Level 3 - Satisfactory and Level 4 - Excellence. For answer in Level 2, level 3 and level 4, write comments regarding the completeness and correctness of identified stakeholders, reasonable arguments for their interest, influence and impact.
+
+Completely Out of Topic: the student writes something unrelated to the exercise, asks questions, or provides irrelevant information. Level 1
+Partial Answer: The student addresses either the role of the project manager or the areas to plan but does not cover both aspects. Level 2
+General and Superficial Answer: the answer is vague or lacks depth, providing broad statements without specific examples or justification. Level 2
+Misunderstanding the Question: The student misinterprets the task, such as defining a project manager’s role incorrectly or focusing on unrelated planning areas. Level 2
+Incorrect or Irrelevant Areas Identified: The student mentions areas of project management that are irrelevant for the student project (e.g., procurement management for a simple student project). Level 2.
+Incomplete Identification of Relevant Areas: The student identifies some but not all relevant project management areas (e.g., omits risk or communication management). Level 3
+Imbalance in Depth of Explanation: The student elaborates extensively on one area while neglecting or barely discussing others (e.g., focuses on schedule management but skips quality management). Level 3.
+Well-Structured but Incomplete Answer: The answer is well-written and logical but misses minor details or fails to fully address all areas in depth. Level 3
+Excellent but Slightly Unbalanced Answer: The answer thoroughly covers most aspects but provides uneven emphasis (e.g., strong role definition but weaker area identification). Level 3
+Excellent and Comprehensive Answer: The answer effectively and thoroughly explains the project manager’s role and identifies all relevant planning areas, providing balanced and well-supported arguments. Level 4
+
+Thirdly briefly summarize the strengths and weaknesses of the answer. Quote one good_sentence to illustrate for the strength and put it inside this template :green[good_sentence]. Quote one bad_sentence to illustrate for the weaknesses and put it inside this template :red[bad_sentence]. Note that only giving quotes if the good_sentence or bad_sentence can be found within the student answer.
+
+Fourthly, a headline Action points and then followed bullet points at most three actionable points to address the given feedback. 
+
+Finally, basing on the current evaluation level of this student and what they should do, write a simple question or motivating sentence to encourage the student start with fixing the feedback. 

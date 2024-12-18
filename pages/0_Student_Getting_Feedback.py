@@ -194,7 +194,8 @@ with tab2:
                               "content": [{ "type": "text", "text": prompt_tab2 }]
                             }
                           ],
-                      stream=True
+                      stream=True,
+                      temperature=0.4
                   )
                   response = st.write_stream(stream)
                  #     st.session_state.messages.append({"role": "assistant", "content": response})

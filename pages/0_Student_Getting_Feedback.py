@@ -51,6 +51,7 @@ def clear_cache():
         st.session_state.messages = []
 
 with tab1:
+    '''
     col01, col02 = st.columns([1, 2])
     with col01:
         st.video("pages/game.mp4")
@@ -131,7 +132,7 @@ with tab1:
             #with open("output1.mp3", "rb") as audio_file:
             #    st.audio(audio_file, format='audio/mp3')
         st.session_state.messages.append({"role": "assistant", "content": response})
-
+     '''
 
 with tab2:
     st.image("https://miro.medium.com/v2/resize:fit:720/format:webp/1*fiEXMWcFg328ztjZEWYlpg.jpeg", width=400)
@@ -146,14 +147,14 @@ with tab2:
         ],
     ) 
     with st.expander("Submit your exercise here"):
-        if "openai_model" not in st.session_state:
-            st.session_state["openai_model"] = "gpt-4o"        
+        #if "openai_model" not in st.session_state:
+        #    st.session_state["openai_model"] = "gpt-4o"        
         if "messages" not in st.session_state:
             st.session_state.messages = []        
-        for message in st.session_state.messages:
-             if message["role"] in ["user", "assistant"]:
-                with st.chat_message(message["role"]):
-                    st.markdown(message["content"])        
+        #for message in st.session_state.messages:
+        #     if message["role"] in ["user", "assistant"]:
+        #        with st.chat_message(message["role"]):
+        #            st.markdown(message["content"])        
         if prompt_tab2 := st.text_area("What is up?"):
              #if em1 == "Exercise1":
              #     clear_cache()
@@ -161,32 +162,42 @@ with tab2:
              #     st.session_state.messages.append({"role": "system", "content": "Act as a lecturer in a software project management course. Students are asked to elaborate attributes of the given project regarding: A project has a unique purpose, A project is temporary, A project is developed using progressive elaboration, A project requires resources, often from various areas, A project should have a primary customer and A project involves uncertainty. Evaluation criteria is the completeness and correctness of identified attributes for the given project, logical and quality of the arguments. Create a rubric for yourself with five levels: Excellent (5)	Proficient (4)	Satisfactory (3)	Needs Improvement (2)	Unsatisfactory (1). Write feedback with the template as follows: First of all, write one sentence to introduce the feedback purpose and, the connection of doing this exercise to the course learning objective. Secondly, in the next paragraph write a brief evaluation using the rubric. Give the assessment out of the full scale. Thirdly , in the next paragraph, briefly summarize the strengths and weaknesses of the answer. Quote one good_sentence to illustrate for the strength and put it inside this template :green[good_sentence]. Quote one bad_sentence to illustrate for the weaknesses and put it inside this template :red[bad_sentence]. Fourthly, a headline Action points and then followed bullet points at most three actionable points to improve the student answer. Finally, write a simple but curious and interesting question in the end to motivate the student to engage in discussing the given feedback. Write all in good Norwegian."})
              if em1 == "Exercise2":
                   #clear_cache()
-                  st.session_state.messages.append({"role": "system", "content": get_course_description("project")})
-                  st.session_state.messages.append({"role": "system", "content": "Act as a lecturer in a software project management course. Students are asked to list all potential stakeholders. Classify them based on their interest, influence, and impact on the project. Anticipate any potential conflicts of interest in term of website functionalities among them. Evaluation criteria is the completeness and correctness of identified stakeholders, reasonable arguments for their interest, influence and impact, and. Create a rubric for yourself with five levels: Excellent (5)	Proficient (4)	Satisfactory (3)	Needs Improvement (2)	Unsatisfactory (1). Write feedback with the template as follows: First of all, write one sentence to introduce the feedback purpose and, the connection of doing this exercise to the course learning objective. Secondly, in the next paragraph write a brief evaluation using the rubric. Give the assessment out of the full scale. Thirdly , in the next paragraph, briefly summarize the strengths and weaknesses of the answer. Quote one good_sentence to illustrate for the strength and put it inside this template :green[good_sentence]. Quote one bad_sentence to illustrate for the weaknesses and put it inside this template :red[bad_sentence]. Fourthly, a headline Action points and then followed bullet points at most three actionable points to improve the student answer. Finally, write a simple but curious and interesting question in the end to motivate the student to engage in discussing the given feedback. Write all in good Norwegian."})
+                  #st.session_state.messages.append({"role": "system", "content": get_course_description("project")})
+                  #st.session_state.messages.append({"role": "system", "content": "Act as a lecturer in a software project management course. Students are asked to list all potential stakeholders. Classify them based on their interest, influence, and impact on the project. Anticipate any potential conflicts of interest in term of website functionalities among them. Evaluation criteria is the completeness and correctness of identified stakeholders, reasonable arguments for their interest, influence and impact, and. Create a rubric for yourself with five levels: Excellent (5)	Proficient (4)	Satisfactory (3)	Needs Improvement (2)	Unsatisfactory (1). Write feedback with the template as follows: First of all, write one sentence to introduce the feedback purpose and, the connection of doing this exercise to the course learning objective. Secondly, in the next paragraph write a brief evaluation using the rubric. Give the assessment out of the full scale. Thirdly , in the next paragraph, briefly summarize the strengths and weaknesses of the answer. Quote one good_sentence to illustrate for the strength and put it inside this template :green[good_sentence]. Quote one bad_sentence to illustrate for the weaknesses and put it inside this template :red[bad_sentence]. Fourthly, a headline Action points and then followed bullet points at most three actionable points to improve the student answer. Finally, write a simple but curious and interesting question in the end to motivate the student to engage in discussing the given feedback. Write all in good Norwegian."})
              #if em1 == "Exercise3":
              #     clear_cache()
              #     st.session_state.messages.append({"role": "system", "content": "Act as a lecturer in a software project management course. Students are asked to answer What is the role of a project manager ? What aspects will you need to plan if you are responsible for implementing this project? Give a brief explaination. The answer is Project managers must not only strive to meet specific scope, time, cost, and quality goals of projects, they must also facilitate the entire process to meet the needs and expectations of the people involved in or affected by project activities. Among the areas in Project Management Body of Knowledge, for a student project the relevant areas are: scope management, schedule management, quality management, risk management, communication management and resource management. Evaluation criteria is the completeness and correctness of project manager's role, the relevanced of identified management area for the student project. Create a rubric for yourself with five levels: Excellent (5)	Proficient (4)	Satisfactory (3)	Needs Improvement (2)	Unsatisfactory (1). Write feedback with the template as follows: First of all, write one sentence to introduce the feedback purpose and, the connection of doing this exercise to the course learning objective. Secondly, in the next paragraph write a brief evaluation using the rubric. Give the assessment out of the full scale. Thirdly , in the next paragraph, briefly summarize the strengths and weaknesses of the answer. Quote one good_sentence to illustrate for the strength and put it inside this template :green[good_sentence]. Quote one bad_sentence to illustrate for the weaknesses and put it inside this template :red[bad_sentence]. Fourthly, a headline Action points and then followed bullet points at most three actionable points to improve the student answer. Finally, write a simple but curious and interesting question in the end to motivate the student to engage in discussing the given feedback. Write all in good Norwegian."})
              #if em1 == "Exercise4":
              #     clear_cache()
              #     st.session_state.messages.append({"role": "system", "content": "Act as a lecturer in a software project management course. Students are asked to team's Strengths, Weaknesses, Opportunities, and Threats. It's an excellent way for team members to understand their collective capabilities and areas that need improvement. This exercise fosters open communication and strategic planning. Evaluation criteria is the completeness and relevance of the given content regarding ability of a first year student taking courses in a full time bachelor program. Create a rubric for yourself with five levels: Excellent (5)	Proficient (4)	Satisfactory (3)	Needs Improvement (2)	Unsatisfactory (1). Write feedback with the template as follows: First of all, write one sentence to introduce the feedback purpose and, the connection of doing this exercise to the course learning objective. Secondly, in the next paragraph write a brief evaluation using the rubric. Give the assessment out of the full scale. Be easy here so if students answer all the four SWOT points the should get at least from 3/5. Thirdly , in the next paragraph, briefly summarize the strengths and weaknesses of the answer. Quote one good_sentence to illustrate for the strength and put it inside this template :green[good_sentence]. Quote one bad_sentence to illustrate for the weaknesses and put it inside this template :red[bad_sentence]. Fourthly, a headline Action points and then followed bullet points at most three actionable points to improve the student answer. Finally, write a simple but curious and interesting question in the end to motivate the student to engage in discussing the given feedback. Write all in good Norwegian."})
-             st.session_state.messages.append({"role": "user", "content": prompt_tab2})
-             with st.chat_message("user"):
+             #st.session_state.messages.append({"role": "user", "content": prompt_tab2})
+             #with st.chat_message("user"):
                   st.markdown(prompt_tab2)
-             with st.chat_message("assistant"):
-                  user_messages = [
-                      {"role": m["role"], "content": m["content"]}
-                      for m in st.session_state.messages
-                  ]
-                  user_messages_string = " ".join([m["content"] for m in user_messages])
-                  if(num_tokens_from_string(user_messages_string, "gpt-4o")<2000):
-                      st.markdown(f"The total number of tokens used is **{num_tokens_from_string(user_messages_string, "gpt-4o")}**.")
+             #with st.chat_message("assistant"):
+             #     user_messages = [
+             #        {"role": m["role"], "content": m["content"]}
+             #         for m in st.session_state.messages
+             #     ]
+             #     user_messages_string = " ".join([m["content"] for m in user_messages])
+             #     if(num_tokens_from_string(user_messages_string, "gpt-4o")<2000):
+             #         st.markdown(f"The total number of tokens used is **{num_tokens_from_string(user_messages_string, "gpt-4o")}**.")
                       stream = client.chat.completions.create(
                           model="gpt-4o",
-                          messages=user_messages,
+                          messages=
+                              [
+                                {
+                                  "role": "system",
+                                  "content": [{ "type": "text", "text": get_course_description("project") }]
+                                },
+                                {
+                                  "role": "user",
+                                  "content": [{ "type": "text", "text": prompt_tab2 }]
+                                }
+                              ],
                           stream=True,
                       )
                       response = st.write_stream(stream)
-                      st.session_state.messages.append({"role": "assistant", "content": response})
+                 #     st.session_state.messages.append({"role": "assistant", "content": response})
                   else:
                       st.markdown(f"The input you entered is too long. The total words you have now is **{num_tokens_from_string(user_messages_string, "gpt-4o")}**. The total number of tokens used is **{user_messages_string}**. Keep the input less than 2000 words!")
         #with st.form("my_form1"):

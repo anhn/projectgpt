@@ -47,7 +47,7 @@ def get_course_description(type):
 def clear_cache():
     for key in st.session_state.keys():
         del st.session_state[key]
-     if "messages" not in st.session_state:
+    if "messages" not in st.session_state:
         st.session_state.messages = []
 
 with tab1:

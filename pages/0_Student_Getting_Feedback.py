@@ -145,7 +145,6 @@ with tab2:
             "SWOT Analysis.",
         ],
     ) 
- 
     with st.expander("Submit your exercise here"):
         if "openai_model" not in st.session_state:
             st.session_state["openai_model"] = "gpt-4o"        
@@ -182,7 +181,7 @@ with tab2:
                   if(num_tokens_from_string(user_messages_string, "gpt-4o")<2000):
                       st.markdown(f"The total number of tokens used is **{num_tokens_from_string(user_messages_string, "gpt-4o")}**.")
                       stream = client.chat.completions.create(
-                          model=st.session_state["openai_model"],
+                          model="gpt-4o",
                           messages=user_messages,
                           stream=True,
                       )

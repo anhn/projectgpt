@@ -156,11 +156,11 @@ with tab2:
         #        with st.chat_message(message["role"]):
         #            st.markdown(message["content"])        
         if prompt_tab2 := st.text_area("What is up?"):
-             #if em1 == "Exercise1":
+             if em1 == "Exercise1":
              #     clear_cache()
              #     st.session_state.messages.append({"role": "system", "content": get_course_description("project")})
              #     st.session_state.messages.append({"role": "system", "content": "Act as a lecturer in a software project management course. Students are asked to elaborate attributes of the given project regarding: A project has a unique purpose, A project is temporary, A project is developed using progressive elaboration, A project requires resources, often from various areas, A project should have a primary customer and A project involves uncertainty. Evaluation criteria is the completeness and correctness of identified attributes for the given project, logical and quality of the arguments. Create a rubric for yourself with five levels: Excellent (5)	Proficient (4)	Satisfactory (3)	Needs Improvement (2)	Unsatisfactory (1). Write feedback with the template as follows: First of all, write one sentence to introduce the feedback purpose and, the connection of doing this exercise to the course learning objective. Secondly, in the next paragraph write a brief evaluation using the rubric. Give the assessment out of the full scale. Thirdly , in the next paragraph, briefly summarize the strengths and weaknesses of the answer. Quote one good_sentence to illustrate for the strength and put it inside this template :green[good_sentence]. Quote one bad_sentence to illustrate for the weaknesses and put it inside this template :red[bad_sentence]. Fourthly, a headline Action points and then followed bullet points at most three actionable points to improve the student answer. Finally, write a simple but curious and interesting question in the end to motivate the student to engage in discussing the given feedback. Write all in good Norwegian."})
-             if em1 == "Exercise2":
+             #if em1 == "Exercise2":
                   #clear_cache()
                   #st.session_state.messages.append({"role": "system", "content": get_course_description("project")})
                   #st.session_state.messages.append({"role": "system", "content": "Act as a lecturer in a software project management course. Students are asked to list all potential stakeholders. Classify them based on their interest, influence, and impact on the project. Anticipate any potential conflicts of interest in term of website functionalities among them. Evaluation criteria is the completeness and correctness of identified stakeholders, reasonable arguments for their interest, influence and impact, and. Create a rubric for yourself with five levels: Excellent (5)	Proficient (4)	Satisfactory (3)	Needs Improvement (2)	Unsatisfactory (1). Write feedback with the template as follows: First of all, write one sentence to introduce the feedback purpose and, the connection of doing this exercise to the course learning objective. Secondly, in the next paragraph write a brief evaluation using the rubric. Give the assessment out of the full scale. Thirdly , in the next paragraph, briefly summarize the strengths and weaknesses of the answer. Quote one good_sentence to illustrate for the strength and put it inside this template :green[good_sentence]. Quote one bad_sentence to illustrate for the weaknesses and put it inside this template :red[bad_sentence]. Fourthly, a headline Action points and then followed bullet points at most three actionable points to improve the student answer. Finally, write a simple but curious and interesting question in the end to motivate the student to engage in discussing the given feedback. Write all in good Norwegian."})
@@ -180,14 +180,14 @@ with tab2:
              #     ]
              #     user_messages_string = " ".join([m["content"] for m in user_messages])
              #     if(num_tokens_from_string(user_messages_string, "gpt-4o")<2000):
-                  st.markdown(f"The total number of tokens used is **{num_tokens_from_string(get_course_description("project"), "gpt-4o")}**.")
+                  st.markdown(f"The total number of tokens used is **{num_tokens_from_string(get_course_description("exercise1"), "gpt-4o")}**.")
                   stream = client.chat.completions.create(
                       model="gpt-4o",
                       messages=
                           [
                             {
                               "role": "system",
-                              "content": [{ "type": "text", "text": get_course_description("project") }]
+                              "content": [{ "type": "text", "text": get_course_description("exercise1") }]
                             },
                             {
                               "role": "user",

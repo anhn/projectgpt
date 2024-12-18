@@ -180,26 +180,26 @@ with tab2:
              #     ]
              #     user_messages_string = " ".join([m["content"] for m in user_messages])
              #     if(num_tokens_from_string(user_messages_string, "gpt-4o")<2000):
-             #         st.markdown(f"The total number of tokens used is **{num_tokens_from_string(user_messages_string, "gpt-4o")}**.")
-                      stream = client.chat.completions.create(
-                          model="gpt-4o",
-                          messages=
-                              [
-                                {
-                                  "role": "system",
-                                  "content": [{ "type": "text", "text": get_course_description("project") }]
-                                },
-                                {
-                                  "role": "user",
-                                  "content": [{ "type": "text", "text": prompt_tab2 }]
-                                }
-                              ],
-                          stream=True,
-                      )
-                      response = st.write_stream(stream)
+                  st.markdown(f"The total number of tokens used is **{num_tokens_from_string(get_course_description("project"), "gpt-4o")}**.")
+                  stream = client.chat.completions.create(
+                      model="gpt-4o",
+                      messages=
+                          [
+                            {
+                              "role": "system",
+                              "content": [{ "type": "text", "text": get_course_description("project") }]
+                            },
+                            {
+                              "role": "user",
+                              "content": [{ "type": "text", "text": prompt_tab2 }]
+                            }
+                          ],
+                      stream=True,
+                  )
+                  response = st.write_stream(stream)
                  #     st.session_state.messages.append({"role": "assistant", "content": response})
-                  else:
-                      st.markdown(f"The input you entered is too long. The total words you have now is **{num_tokens_from_string(user_messages_string, "gpt-4o")}**. The total number of tokens used is **{user_messages_string}**. Keep the input less than 2000 words!")
+                 # else:
+                 #     st.markdown(f"The input you entered is too long. The total words you have now is **{num_tokens_from_string(user_messages_string, "gpt-4o")}**. The total number of tokens used is **{user_messages_string}**. Keep the input less than 2000 words!")
         #with st.form("my_form1"):
         #    jim_email= st.text_input("Email to receive feedback", "12345678@std.usn")
         #    jim_line = st.text_area("Write your exercise here","", height=200)

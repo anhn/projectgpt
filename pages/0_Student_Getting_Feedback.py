@@ -195,6 +195,8 @@ with tab2:
                             }
                           ],
                       stream=True,
+                      temperature=0.2,
+                      top_p=0.3
                   )
                   response = st.write_stream(stream)
                  #     st.session_state.messages.append({"role": "assistant", "content": response})

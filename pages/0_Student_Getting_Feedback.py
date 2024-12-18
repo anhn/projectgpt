@@ -188,7 +188,7 @@ with tab2:
                       response = st.write_stream(stream)
                       st.session_state.messages.append({"role": "assistant", "content": response})
                   else:
-                      st.markdown(f"The input you entered is too long. The total words you have now is **{num_tokens_from_string(prompt_tab2, "gpt-4o")}**. The total number of tokens used is **{user_messages_string}**. Keep the input less than 2000 words!")
+                      st.markdown(f"The input you entered is too long. The total words you have now is **{num_tokens_from_string(user_messages, "gpt-4o")}**. The total number of tokens used is **{user_messages_string}**. Keep the input less than 2000 words!")
         #with st.form("my_form1"):
         #    jim_email= st.text_input("Email to receive feedback", "12345678@std.usn")
         #    jim_line = st.text_area("Write your exercise here","", height=200)

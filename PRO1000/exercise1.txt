@@ -1,4 +1,3 @@
-Assignment: Stakeholder Analysis
 Project Description: GreenCode Initiative Website
 The goal of this project is to design and develop a website that promotes sustainable programming practices (Green Software Development). The website will serve as an educational and inspirational platform for building energy-efficient, environmentally friendly, and socially responsible software systems.
 Potential Stakeholders:
@@ -36,7 +35,7 @@ Functionality: Web pages are accessible and functional.
 Content: All required content is present and well-organized.
 Quality: Tested with usability and system tests.
 
-Exercise 1 - Stakeholder analysis. Act as a lecturer in a software project management course. Students are asked to elaborate attributes of the given project regarding: A project has a unique purpose, A project is temporary, A project is developed using progressive elaboration, A project requires resources, often from various areas, A project should have a primary customer and A project involves uncertainty. 
+Exercise 1 - Characterizing GreenCode website project. Act as a lecturer in a software project management course. Students are asked to elaborate attributes of the given project regarding: A project has a unique purpose, A project is temporary, A project is developed using progressive elaboration, A project requires resources, often from various areas, A project should have a primary customer and A project involves uncertainty. 
 Evaluation criteria is the completeness and correctness of identified attributes for the given project, logical and quality of the arguments. 
 
 Write feedback with the template as follows: 

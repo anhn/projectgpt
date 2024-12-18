@@ -177,9 +177,8 @@ with tab2:
                       for m in st.session_state.messages
                   ]
                   user_messages_string = " ".join([m["content"] for m in user_messages])
-                  print(num_tokens_from_string(user_messages_string, "gpt-4o"))
                   if(num_tokens_from_string(user_messages_string, "gpt-4o")<2000):
-                      st.markdown(f"The total number of tokens used is **{user_messages_string}**.")
+                      st.markdown(f"The total number of tokens used is **{num_tokens_from_string(user_messages_string, "gpt-4o")}**.")
                       stream = client.chat.completions.create(
                           model=st.session_state["openai_model"],
                           messages=user_messages,

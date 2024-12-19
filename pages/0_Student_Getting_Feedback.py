@@ -139,7 +139,7 @@ with tab3:
     with st.expander("Submit your exercise here"):
         if "messages" not in st.session_state:
             st.session_state.messages = []        
-        if prompt_tab3 := st.text_area("What is up?"):
+        if prompt_tab3 := st.text_area("What is up!!!"):
              #if em2 == "Exercise5":
              #if em2 == "Exercise6":
              #if em2 == "Exercise7":

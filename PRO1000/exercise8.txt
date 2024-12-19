@@ -1,0 +1,1 @@
+basing on the a list of requirements, convert them into user stories.

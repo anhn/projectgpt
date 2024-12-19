@@ -1,0 +1,203 @@
+Project Description: GreenCode Initiative Website
+The goal of this project is to design and develop a website that promotes sustainable programming practices (Green Software Development). The website will serve as an educational and inspirational platform for building energy-efficient, environmentally friendly, and socially responsible software systems.
+Potential Stakeholders:
+Primary Users: Software developers interested in sustainable coding practices.
+Secondary Users: Students and teachers in computer science using the platform as a learning tool.
+Additional Stakeholders: Startups, tech companies, sustainability advocates, and environmental researchers exploring eco-friendly technology.
+Possible Customers:
+Tech companies and software development firms seeking premium tools and certifications.
+Educational institutions subscribing for specialized content.
+Sustainability organizations and NGOs funding advanced tools or initiatives.
+Suggested Website Structure
+Home Page
+Mission and importance of sustainable programming.
+Quick links to website sections.
+About Green Programming
+Educational blogs on topics like efficient algorithms, optimized code, and sustainable web design.
+Sustainable Practices Toolkit
+Tools, frameworks, and checklists for green programming (e.g., Green Web Foundation, CodeCarbon).
+Case Study
+Real-world example of adopting green coding practices.
+Contact Page
+Contact form and FAQ section.
+Deliverables
+Functional website raising awareness about sustainable programming.
+Research and content creation on sustainable practices.
+Case study transcript.
+Responsive design with interactive prototypes in Figma.
+Final implementation in Wix, WordPress, or HTML/CSS/JavaScript. Backend is optional but encouraged.
+
+Timeline Start: January 2025. End: April 2024
+
+Evaluation Criteria
+Visual Appeal: Design is sustainable, engaging, and consistent with the green theme.
+Functionality: Web pages are accessible and functional.
+Content: All required content is present and well-organized.
+Quality: Tested with usability and system tests.
+
+Exercise 5 - Develop a Work Breakdown structure for the project. Describe the type of WBS you developed, and how you have developed it.
+Work breakdown structure (WBS) – Regler av en WBS
+•        Enhetlig struktur: WBS skal følge en enhetlig struktur der alle elementene i hierarkiet har samme nivå av detaljer. Dette gjør det enklere å forstå og organisere arbeidet.
+•        Ingen overlappende arbeidspakker: Det bør ikke være overlapp eller duplicering av arbeid mellom arbeidspakkene. Hver arbeidspakke skal ha en klar og unik rolle i prosjektet.
+•        Ingen hull: Det skal heller ikke være hull i WBS. Det vil si at alle aspekter av prosjektet bør dekkes, og ingenting skal utelates.
+•        Dekker hele prosjektet: WBS skal dekke hele prosjektet fra start til slutt. Det skal inkludere alle aktiviteter, leveranser og oppgaver som er nødvendige for å oppnå prosjektmålene.
+•        Logisk struktur: WBS skal ha en logisk og hierarkisk struktur der elementene bygger på hverandre. Øverste nivå representerer prosjektets hovedmål, mens de lavere nivåene gir mer detaljerte beskrivelser.
+•        Mutasjonen skal være klare: Hver arbeidspakke skal være tilstrekkelig klar og forståelig, slik at det er tydelig hva som kreves for å fullføre den.
+•        Nummerering: En vanlig praksis er å nummerere elementene i WBS for å vise hierarki og organisering. For eksempel kan øverste nivå være "1", de neste nivåene kan være "1.1", "1.2", "1.3", og så videre.
+•        Endringskontroll: WBS kan bli endret i løpet av prosjektet for å reflektere endringer i prosjektet. Enhver endring i WBS bør være underlagt en nøye kontrollprosess.
+
+ En Work Breakdown Structure (WBS) kan organiseres av enten artefakter eller aktiviteter, avhengig av det spesifikke prosjektet og prosjektledelsestilnærmingen som brukes. Valget av hvordan WBS skal struktureres avhenger ofte av prosjektets kompleksitet, og preferansene til prosjektgruppen.
+•        WBS av Artifacts: Når WBS er organisert etter artefakter, bryter den ned prosjektet i leveranser eller sluttprodukter. Hver større leveranse eller artefakt er delt inn i mindre komponenter, og dette hierarkiet kan fortsette til prosjektet er brutt ned i de minste arbeidspakkene. Denne tilnærmingen brukes ofte i prosjekter hvor fokus er på sluttproduktene eller resultatene.
+–        For eksempel, i et byggeprosjekt, kan WBS starte med de viktigste leveransene som «Bygningsstruktur», «Elektrisk system», «VVS-system» og «Landskapsarbeid». Hver av disse leveransene er videre brutt ned i delleveranser, og så videre.
+•        WBS av aktiviteter: Når WBS er organisert etter aktiviteter, fokuserer den på å dele opp prosjektet i oppgavene, aktivitetene eller arbeidspakkene som må utføres for å fullføre prosjektet. Denne tilnærmingen brukes ofte i prosjekter hvor det legges vekt på å styre og spore arbeidet som må gjøres fremfor sluttproduktene.
+–        For eksempel, i et programvareutviklingsprosjekt, kan WBS starte med aktiviteter som «Requirements Gathering», «Design», «Coding», «Testing» og «Documentation». Hver av disse aktivitetene kan videre deles inn i delaktiviteter og arbeidspakker.
+
+Example of a good WBS type artifact:
+WBS
+1. GreenCode Initiative Website
+1.1 Home Page
+1.1.1 Define mission and purpose content
+1.1.2 Design hero section (headline, visuals)
+1.1.3 Add quick links to main sections
+1.1.4 Develop and integrate navigation system
+
+1.2 About Green Programming Page
+1.2.1 Research and write educational blog content
+1.2.2 Topics:
+1.2.2.1 Efficient algorithms
+1.2.2.2 Optimized code structures
+1.2.2.3 Sustainable web design
+1.2.3 Add links to external resources
+1.2.4 Format and integrate the content into the website
+
+1.3 Sustainable Practices Toolkit
+1.3.1 Gather resources and tools
+1.3.1.1 Green Web Foundation tools
+1.3.1.2 CodeCarbon resources
+1.3.1.3 Other checklists and frameworks
+1.3.2 Organize tools into categories for easy access
+1.3.3 Implement interactive features for users to explore tools
+
+1.4 Case Study Page
+1.4.1 Conduct research or interviews for the case study
+1.4.2 Write and edit the case study content
+1.4.3 Design page layout for presenting case study
+
+1.5 Contact Page
+1.5.1 Design and implement contact form
+1.5.2 Compile FAQs based on anticipated user questions
+1.5.3 Ensure email integration for inquiries
+
+1.6 Prototypes and Testing
+1.6.1 Create Figma prototypes for all pages
+1.6.2 Conduct usability testing with feedback loops
+1.6.3 Address design and functionality issues
+
+1.7 Final Implementation
+1.7.1 Choose implementation platform (Wix, WordPress, or custom code)
+1.7.2 Develop responsive design for mobile and desktop
+1.7.3 Host and publish the website
+
+1.8 Project Management and Documentation
+1.8.1 Define scope and timeline
+1.8.2 Manage tasks and track progress
+1.8.3 Prepare final project report
+
+Example of a good WBS type activities:
+WBS Hierarchy
+1. GreenCode Initiative Website Project
+1.1 Planning Phase
+1.1.1 Define project scope
+1.1.2 Identify stakeholders
+1.1.3 Develop Work Breakdown Structure (WBS)
+1.1.4 Prepare project schedule
+1.1.5 Allocate resources (team roles, tools, and technologies)
+1.1.6 Conduct risk assessment
+1.1.7 Finalize project plan and get stakeholder approval
+
+1.2 Implementing Phase
+
+Organized into three sprints, each with standard Agile activities.
+1.2.1 Sprint 1: Design and Prototyping
+1.2.1.1 Sprint Planning
+1.2.1.1.1 Define sprint goals
+1.2.1.1.2 Assign sprint tasks
+1.2.1.2 Design Activities
+1.2.1.2.1 Create wireframes for all pages (Home, About, Toolkit, etc.)
+1.2.1.2.2 Develop interactive prototypes using Figma
+1.2.1.2.3 Gather team feedback and iterate prototypes
+1.2.1.3 Daily Standups
+1.2.1.4 Sprint Review
+1.2.1.4.1 Present prototypes to stakeholders
+1.2.1.4.2 Collect feedback for improvement
+1.2.1.5 Sprint Retrospective
+1.2.1.5.1 Identify what went well and areas for improvement
+
+1.2.2 Sprint 2: Development
+1.2.2.1 Sprint Planning
+1.2.2.1.1 Refine sprint backlog based on prototypes
+1.2.2.1.2 Assign development tasks
+1.2.2.2 Development Activities
+1.2.2.2.1 Implement Home and About pages
+1.2.2.2.2 Build Toolkit and Case Study pages
+1.2.2.2.3 Add basic functionality for contact form
+1.2.2.2.4 Ensure responsive design for mobile and desktop
+1.2.2.3 Daily Standups
+1.2.2.4 Sprint Review
+1.2.2.4.1 Demo working website to stakeholders
+1.2.2.4.2 Collect feedback for functionality and design improvements
+1.2.2.5 Sprint Retrospective
+
+1.2.3 Sprint 3: Testing and Refinement
+1.2.3.1 Sprint Planning
+1.2.3.1.1 Finalize sprint backlog with testing tasks
+1.2.3.2 Testing Activities
+1.2.3.2.1 Conduct usability testing with users
+1.2.3.2.2 Perform system testing for functionality and performance
+1.2.3.2.3 Fix bugs and optimize performance
+1.2.3.3 Final Refinements
+1.2.3.3.1 Implement stakeholder feedback
+1.2.3.3.2 Ensure all pages meet design and content requirements
+1.2.3.4 Daily Standups
+1.2.3.5 Sprint Review
+1.2.3.5.1 Present final product to stakeholders
+1.2.3.6 Sprint Retrospective
+
+1.3 Closing Phase
+1.3.1 Finalize project documentation
+1.3.1.1 Prepare user and maintenance guides
+1.3.1.2 Document lessons learned
+1.3.2 Conduct project handover
+1.3.2.1 Deliver website and documentation to stakeholders
+1.3.2.2 Host final stakeholder presentation
+1.3.3 Archive project files
+1.3.4 Conduct team retrospective and project closure review
+
+The evaluation of the Work Breakdown Structure (WBS) exercise will focus on four key criteria: completeness, logical structure, clarity, and hierarchical organization. 
+For completeness, the WBS must include all necessary activities, deliverables, and work packages to achieve the project objectives, ensuring no significant tasks are omitted. 
+Logical structure evaluates whether the WBS follows a coherent hierarchy, with the main project goal broken into key phases, deliverables, and detailed tasks. 
+Clarity assesses whether each work package is well-defined, unambiguous, and understandable, ensuring the team can execute the tasks effectively. 
+Lastly, hierarchical organization ensures the WBS reflects a structured and logical breakdown, avoiding overlaps or gaps, and using proper numbering to show dependencies and relationships. 
+
+Write feedback with the template as follows: 
+
+First of all, write one sentence to introduce the feedback purpose and, the connection of doing this exercise to the course module - Scope Management. 
+
+Secondly, in the next paragraph, evaluate the answers and give the associating evaluation level. Four levels of evaluation are Level 1 - Unsastifactory, Level 2 - Needs Improvement, Level 3 - Satisfactory and Level 4 - Excellence. 
+
+Completely Out of Topic: The student writes irrelevant content, asks unrelated questions, or provides an answer that does not address the exercise (e.g., discussing Agile principles instead of creating a WBS). Level 1
+Partial Answer: The student provides only a part of the WBS (e.g., includes the planning phase but omits implementation and closing phases). Level 1
+General and Superficial Answer: The student provides a high-level breakdown that lacks depth and detail, such as vague descriptions of deliverables or activities (e.g., “Develop the website” without specific tasks or work packages). Level 2
+Misunderstanding the Task: The student misinterprets the assignment, such as creating a simple task list instead of a hierarchical WBS, or failing to organize the structure logically. Level 1
+Incomplete or Illogical Structure: The WBS is missing key elements, includes gaps, or has a poorly organized hierarchy, such as overlapping work packages or inconsistent numbering. Level 2
+Ambiguous or Unclear Work Items: The student lists work packages that are not well-defined or are not linked to project description. Level 2
+Incorrect Focus: The WBS focuses on unrelated or unnecessary tasks that are not aligned with the project’s objectives (e.g., including backend features when the deliverable is a static website). Level 2
+Well-Structured but Incomplete WBS: The WBS is logically structured and follows the hierarchical approach but lacks some important details or activities. Level 3
+Excellent but Slightly Imbalanced Answer: The WBS covers most elements well but gives uneven focus to certain areas, such as detailed implementation phases but superficial planning or closing phases. Level 3
+Excellent and Comprehensive Answer: The WBS thoroughly covers all project phases (planning, implementation, and closing) with a clear, logical, and detailed hierarchical structure, ensuring no gaps or overlaps. Level 4
+
+Thirdly briefly summarize the strengths and weaknesses of the answer. Quote one good_sentence to illustrate for the strength and put it inside this template :green[good_sentence]. Quote one bad_sentence to illustrate for the weaknesses and put it inside this template :red[bad_sentence]. Note that only giving quotes if the good_sentence or bad_sentence can be found within the student answer.
+
+Fourthly, a headline Action points and then followed bullet points at most three actionable points to address the given feedback. 
+
+Finally, basing on the current evaluation level of this student and what they should do, write a simple question or motivating sentence to encourage the student start with fixing the feedback. 

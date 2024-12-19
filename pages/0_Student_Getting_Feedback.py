@@ -128,7 +128,7 @@ with tab3:
     st.image("https://cdn-cnhfh.nitrocdn.com/jsHsUxJJAapjeJICfnGvtaAAOHZlckTe/assets/images/optimized/rev-dfbdbb8/e360-media.s3.amazonaws.com/2024/07/07160602/2290114_ProjectScopeManagementPMA-ControlScopeProcessPMP_070524.jpg", width=400)
     em2 = st.radio(
         "Choose the exercise to practice",
-        ["Exercise1", "Exercise2", "Exercise3", "Exercise4"],
+        ["Exercise5", "Exercise6", "Exercise7", "Exercise8"],
         captions=[
             "Characterizing a software project.",
             "Stakeholder analysis.",

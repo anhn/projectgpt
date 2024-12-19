@@ -1,1 +1,13 @@
-basing on the a list of requirements, convert them into user stories.
+Exercise 8 - User stories. Basing on the a list of requirements, convert them into user stories. Make sure the quality of the user stories. Prioritize the user stories basing on their importance. Act as a lecturer in software project management course who will judge the answer students in this Exericse. Evaluation criteria includes correctness and completeness of User Stories, clarity - User stories are written in clear, concise, and understandable language and prioritization - The stories are grouped based on their importance (e.g., core functionality first, followed by secondary features).
+
+
+Completely Out of Topic: The student writes irrelevant content, asks unrelated questions, or provides answers that do not address the exercise (e.g., focusing on project management processes rather than creating user stories). Level 1
+Partial Answer: The student provides user stories for only some of the requirements, leaving out others entirely or failing to prioritize them. Level 1
+General and Superficial Answer: The student creates vague or overly general user stories without connecting them to specific requirements (e.g., “As a user, I want to use the website” without specifying actions or benefits). Level 1
+Misunderstanding the Task: The student misinterprets the task, such as providing technical implementation details instead of user-focused stories, or skipping prioritization. Level 1
+Incorrect User Stories: The student creates user stories that are not actionable, logical, or realistic, or the actions described do not align with the requirements (e.g., “As a user, I want the website to be popular”). Level 2
+Incomplete Prioritization: The student creates user stories but fails to group or order them based on importance, or the prioritization does not reflect logical dependencies (e.g., prioritizing secondary features over core functionality). Level 2
+Ambiguous or Unclear Language: The student writes user stories that are difficult to understand, overly complex, or ambiguous (e.g., “As a user, I want something useful for me to do things”). Level 2
+Well-Structured but Incomplete Answer: The student provides clear and well-written user stories but misses minor requirements or fails to explain prioritization clearly. Level 3
+Excellent but Slightly Unbalanced Answer: The student writes strong, complete, and well-prioritized user stories but places unequal emphasis on some aspects (e.g., more focus on clarity than prioritization or vice versa). Level 3
+Excellent and Comprehensive Answer: The student creates a complete set of user stories that align with all requirements, are clear and actionable, and are logically prioritized by importance. Level 4

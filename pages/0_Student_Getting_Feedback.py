@@ -51,7 +51,7 @@ def clear_cache():
         st.session_state.messages = []
 
 with tab1:
-   
+   st.markdown("something")
 
 with tab2:
     st.image("https://miro.medium.com/v2/resize:fit:720/format:webp/1*fiEXMWcFg328ztjZEWYlpg.jpeg", width=400)

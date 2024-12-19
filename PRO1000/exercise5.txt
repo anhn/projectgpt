@@ -1,0 +1,66 @@
+Project Description: GreenCode Initiative Website
+The goal of this project is to design and develop a website that promotes sustainable programming practices (Green Software Development). The website will serve as an educational and inspirational platform for building energy-efficient, environmentally friendly, and socially responsible software systems.
+Potential Stakeholders:
+Primary Users: Software developers interested in sustainable coding practices.
+Secondary Users: Students and teachers in computer science using the platform as a learning tool.
+Additional Stakeholders: Startups, tech companies, sustainability advocates, and environmental researchers exploring eco-friendly technology.
+Possible Customers:
+Tech companies and software development firms seeking premium tools and certifications.
+Educational institutions subscribing for specialized content.
+Sustainability organizations and NGOs funding advanced tools or initiatives.
+Suggested Website Structure
+Home Page
+Mission and importance of sustainable programming.
+Quick links to website sections.
+About Green Programming
+Educational blogs on topics like efficient algorithms, optimized code, and sustainable web design.
+Sustainable Practices Toolkit
+Tools, frameworks, and checklists for green programming (e.g., Green Web Foundation, CodeCarbon).
+Case Study
+Real-world example of adopting green coding practices.
+Contact Page
+Contact form and FAQ section.
+Deliverables
+Functional website raising awareness about sustainable programming.
+Research and content creation on sustainable practices.
+Case study transcript.
+Responsive design with interactive prototypes in Figma.
+Final implementation in Wix, WordPress, or HTML/CSS/JavaScript. Backend is optional but encouraged.
+
+Timeline Start: January 2025. End: April 2024
+
+Evaluation Criteria
+Visual Appeal: Design is sustainable, engaging, and consistent with the green theme.
+Functionality: Web pages are accessible and functional.
+Content: All required content is present and well-organized.
+Quality: Tested with usability and system tests.
+
+Exercise 5 - Develop a simple project charter within 800 words with the following items:
+Business Objectives (Forretningsmål)
+Project Deliveries (Prosjektleveranser)
+Project Exclusions (Prosjektets ekskludering)
+Constraints (Begrensninger)
+Assumptions (Antagelser)
+ 
+Evaluation criteria is the Clarity and Completeness of Business Objectives, Relevance and Detail in Project Deliveries, Appropriateness of Project Exclusions, Identification of Constraints and Validity of Assumptions 
+Write feedback with the template as follows: 
+
+First of all, write one sentence to introduce the feedback purpose and, the connection of doing this exercise to the course module - Scope Management. 
+
+Secondly, in the next paragraph, evaluate the answers and give the associating evaluation level. Four levels of evaluation are Level 1 - Unsastifactor, Level 2 - Needs Improvement, Level 3 - Satisfactory and Level 4 - Excellence. For answer in Level 2, level 3 and level 4. Be easy here so if students answer all the four SWOT points the should get at least level 3
+
+Completely Out of Topic: the student writes something unrelated to the exercise, asks questions, or provides irrelevant information. Level 1
+Overly Lengthy and Off-Topic: The student includes excessive information unrelated to the assignment requirements, failing to adhere to the 800 word limit. Level 1
+Partial Answer: The student addresses only some elements of the project charter (e.g., writes about business objectives but omits exclusions, constraints, or assumptions). Level 2
+General and Superficial Answer: The student provides vague or generic statements for each section without detail or relevance to the GreenCode project. Level 
+Misunderstanding the Question: The student misinterprets the exercise, such as providing project management theory instead of focusing on the specific elements of the charter of GreenCode. Level 2
+Incorrect or Illogical Content: The student includes incorrect, unrealistic, or illogical points in their charter (e.g., stating assumptions that contradict constraints or irrelevant exclusions). Level 2
+Incomplete but Structured Answer: The student organizes their answer well and demonstrates effort but misses minor details or fails to address some aspects comprehensively. Level 3
+Excellent but Slightly Unbalanced Answer: The student provides a strong response but gives uneven emphasis to the sections (e.g., excellent exclusions and constraints but weaker assumptions). Level 3
+Excellent and Comprehensive Answer: The student thoroughly addresses all elements of the project charter with clear, relevant, and detailed content that aligns with the project requirements. Level 4
+
+Thirdly briefly summarize the strengths and weaknesses of the answer. Quote one good_sentence to illustrate for the strength and put it inside this template :green[good_sentence]. Quote one bad_sentence to illustrate for the weaknesses and put it inside this template :red[bad_sentence]. Note that only giving quotes if the good_sentence or bad_sentence can be found within the student answer.
+
+Fourthly, a headline Action points and then followed bullet points at most three actionable points to address the given feedback. 
+
+Finally, basing on the current evaluation level of this student and what they should do, write a simple question or motivating sentence to encourage the student start with fixing the feedback. 

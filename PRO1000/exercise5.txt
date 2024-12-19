@@ -52,7 +52,7 @@ Secondly, in the next paragraph, evaluate the answers and give the associating e
 Completely Out of Topic: the student writes something unrelated to the exercise, asks questions, or provides irrelevant information. Level 1
 Overly Lengthy and Off-Topic: The student includes excessive information unrelated to the assignment requirements, failing to adhere to the 800 word limit. Level 1
 Partial Answer: The student addresses only some elements of the project charter (e.g., writes about business objectives but omits exclusions, constraints, or assumptions). Level 2
-General and Superficial Answer: The student provides vague or generic statements for each section without detail or relevance to the GreenCode project. Level 
+General and Superficial Answer: The student provides vague or generic statements for each section without detail or relevance to the GreenCode project. Level 2
 Misunderstanding the Question: The student misinterprets the exercise, such as providing project management theory instead of focusing on the specific elements of the charter of GreenCode. Level 2
 Incorrect or Illogical Content: The student includes incorrect, unrealistic, or illogical points in their charter (e.g., stating assumptions that contradict constraints or irrelevant exclusions). Level 2
 Incomplete but Structured Answer: The student organizes their answer well and demonstrates effort but misses minor details or fails to address some aspects comprehensively. Level 3

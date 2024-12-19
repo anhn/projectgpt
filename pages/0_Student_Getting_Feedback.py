@@ -51,88 +51,7 @@ def clear_cache():
         st.session_state.messages = []
 
 with tab1:
-    '''
-    col01, col02 = st.columns([1, 2])
-    with col01:
-        st.video("pages/game.mp4")
-    with col02:
-        st.write("Q&A about the course!")
-    #with st.form("my_form"):
-        #jim_line = st.text_area("Write your question here","", height=70)
-        #submitted = st.form_submit_button("Submit")
-    if "openai_model" not in st.session_state:
-        st.session_state["openai_model"] = "gpt-4o"        
-    if "messages" not in st.session_state:
-        st.session_state.messages = []        
-    for message in st.session_state.messages:
-         if message["role"] in ["user", "assistant"]:
-             with st.chat_message(message["role"]):
-                st.markdown(message["content"])        
-    if prompt := st.chat_input("What is up?"):
-        st.session_state.messages.append({"role": "system", "content": get_course_description("description")})
-        st.session_state.messages.append({"role": "system", "content": get_course_description("report_guideline")})
-        st.session_state.messages.append({"role": "system", "content": get_course_description("project")})
-        st.session_state.messages.append({"role": "system", "content": "Jeg har sykdom som migrene, og derfor kunne jeg ikke så mye komme på universitet. I forrige semester fortalte jeg om meg selv til deg. Jeg tar 2 busser for å komme til skolen. Det tar nesten 5 timer å gå og komme. Jeg skrevet mitt situasjon til student veileder som heter Hege. Hvis jeg er frisk, vil jeg gjøre en innsats for å delta på undervisning. Hvis det er mulig, kan du hjelpe meg å finne gruppe"})
-        st.session_state.messages.append({"role": "assistant", "content": "This course is mainly group work, so I suggest you to come to the class at least for group arrangement. I can not just simply put you in a group. There needs some agreements among everyone in the group about how you will work and what to achieve in the end."})
-        st.session_state.messages.append({"role": "system", "content": " jeg og gruppen lurer på når felles møte med kunden skal være? "})
-        st.session_state.messages.append({"role": "assistant", "content": "We will have a schedule for each group to meet the customer, and will announce in canvas"})
-        st.session_state.messages.append({"role": "system", "content": "And what do you think is a fair number when it comes to sprints, is it okay with 6 since were doing this project in around 12 weeks? One sprint over 2 weeks each time?"})
-        st.session_state.messages.append({"role": "assistant", "content": "Two-week sprints are a standard duration in Agile. For student projects with many other duties, you can think of three-week sprints. You should plan for three months working in this project, so maybe a practical number of sprints are between three and five"})
-        st.session_state.messages.append({"role": "system", "content": "Vi har en presentasjon på fredag. Jeg lurer på om den vil være foran hele gruppen?"})
-        st.session_state.messages.append({"role": "assistant", "content": "Ja, alle gruppemedlemmer bør delta på presentasjonen. Hvordan dere velger å presentere – om én person tar ledelsen eller dere fordeler det – er opp til dere som gruppe. Lykke til! 😊"})
-        st.session_state.messages.append({"role": "system", "content": "Unfortunately I have got the flu, so I can't attend the lecture on Friday."})
-        st.session_state.messages.append({"role": "assistant", "content": "Thank you for letting me know—focus on resting and recovering, and feel free to reach out if you need any materials or assistance"})
-        st.session_state.messages.append({"role": "system", "content": "jeg lurer på om hva betyr akkurat å skrive om problemstilling i Report, er det du mener å skrive om problemstilling i prosjekt eller?"})
-        st.session_state.messages.append({"role": "assistant", "content": "Du kan problemet kundene har, og det er derfor de trenger å lage dette prosjektet. Du kan også angi mål eller mål for prosjektet, og forventningene til kundene."})
-        st.session_state.messages.append({"role": "system", "content": "Lurte bare på om det er greit at vi er en gruppe på 5 stk? Vi har vært i gruppe tidligere og vil prøve å unngå å splittes."})
-        st.session_state.messages.append({"role": "assistant", "content": "Hei Det er greit. Kan du skrive navnet till alle gruppe medlemer og sende via epost?"})
-        st.session_state.messages.append({"role": "system", "content": "In Module 2 Exercise 3- It it enough short simple answers (A few sentences) or should write something more detailed?"})
-        st.session_state.messages.append({"role": "assistant", "content": "Module 2 Exercise 3: a short answer is enough so long it can explain for your argument, decisions or analysis"})
-        st.session_state.messages.append({"role": "system", "content": "Hei jeg ble kastet ut fra gruppa kan jeg få nye grupe vær så snill"})
-        st.session_state.messages.append({"role": "assistant", "content": "Hei, jeg forstår situasjonen. Jeg skal undersøke hva som har skjedd og finne en løsning. Jeg vil enten hjelpe deg med å bli reintegrert i gruppa eller plassere deg i en ny gruppe. Jeg tar kontakt snart!"})
-        st.session_state.messages.append({"role": "system", "content": "Is it okie one group member submit the assignment ?"})
-        st.session_state.messages.append({"role": "assistant", "content": "Yes, you are working under a Group setting in Canvas and one member will delivery for the whole group."})
-        st.session_state.messages.append({"role": "system", "content": "Hva er hovedmålet med PRO1000?"})
-        st.session_state.messages.append({"role": "assistant", "content": "Hovedmålet med PRO1000 er å gi studentene praktisk erfaring med prosjektarbeid. Studentene arbeider i grupper for å planlegge, designe og utvikle en funksjonell nettside, samtidig som de lærer prosjektstyring og samarbeid."})
-        st.session_state.messages.append({"role": "system", "content": "Hvilke ferdigheter vektlegges i dette faget?"})
-        st.session_state.messages.append({"role": "assistant", "content": "Faget fokuserer på prosjektplanlegging, teamarbeid, webutvikling, dokumentasjon og presentasjonsferdigheter."})
-        st.session_state.messages.append({"role": "system", "content": "Hvordan blir gruppeprestasjonen evaluert?"})
-        st.session_state.messages.append({"role": "assistant", "content": "Gruppeprestasjonen vurderes basert på det endelige prosjektplanlegging, teamarbeid, prosjektleveransen, og finale dokumenter"})
-        st.session_state.messages.append({"role": "system", "content": "Skal prosjektet være på norsk eller engelsk?"})
-        st.session_state.messages.append({"role": "assistant", "content": "Prosjektet og rapporten bør som hovedregel være på norsk, med mindre annet er avtalt med faglærer."})
-        st.session_state.messages.append({"role": "system", "content": "Hvordan bør vi fordele tiden for dette prosjektet?"})
-        st.session_state.messages.append({"role": "assistant", "content": "For dette prosjektet bør de første ukene brukes til å bli kjent med prosjektet, definere mål og forventninger, samt gjøre nødvendig research. Deretter kan dere bruke tid på prosjektplanlegging, inkludert å etablere en backlog og definere roller og ansvar i gruppen. Når dette er på plass, kan dere gå over til implementeringsfasen, organisert i Scrum-sprinter. En typisk tilnærming kan være å bruke én til to uker på oppstart og planlegging, og deretter jobbe i sprintsykluser på to uker for å utvikle, teste og levere funksjonalitet. Husk å ha sprint reviews og retrospektiver for å evaluere fremdriften og justere planene underveis"})
-        st.session_state.messages.append({"role": "system", "content": "Kan vi spørre studentassistenten om hjelp?"})
-        st.session_state.messages.append({"role": "assistant", "content": "Ja, studentassistenter er tilgjengelige i labtimene eller via e-post for veiledning og støtte. Du kan bruke AI assistent her for spøsmåler om emne, prosjekt, oppgaver, etc"})
-        st.session_state.messages.append({"role": "system", "content": "Hvordan fordeles vurderingen mellom individuell og gruppeinnsats?"})
-        st.session_state.messages.append({"role": "assistant", "content": "Gruppens leveranser teller hovedsakelig for vurderingen, men individuell innsats kan være en faktor gjennom peer-review og deltakelse i presentasjonen."})
-        st.session_state.messages.append({"role": "system", "content": "Hva hvis et gruppemedlem ikke bidrar?"})
-        st.session_state.messages.append({"role": "assistant", "content": "Dokumenter problemet og diskuter det med faglærer eller studentassistent for å håndtere det på en passende måte."})     
-        st.session_state.messages.append({"role": "user", "content": prompt})
-        with st.chat_message("user"):
-            st.markdown(prompt)
-        with st.chat_message("assistant"):
-            user_messages = [
-               {"role": m["role"], "content": m["content"]}
-               for m in st.session_state.messages
-               #if m["role"] == "user"   Include only user messages
-            ]
-            stream = client.chat.completions.create(
-                model=st.session_state["openai_model"],
-                messages=user_messages,
-                stream=True,
-            )
-            response = st.write_stream(stream)
-            #response2 = client.audio.speech.create(
-            #    model="tts-1",
-            #    voice="nova",
-            #    input=response
-            #)
-            #response2.write_to_file("output1.mp3")
-            #with open("output1.mp3", "rb") as audio_file:
-            #    st.audio(audio_file, format='audio/mp3')
-        st.session_state.messages.append({"role": "assistant", "content": response})
-     '''
+   
 
 with tab2:
     st.image("https://miro.medium.com/v2/resize:fit:720/format:webp/1*fiEXMWcFg328ztjZEWYlpg.jpeg", width=400)
@@ -156,7 +75,7 @@ with tab2:
         #        with st.chat_message(message["role"]):
         #            st.markdown(message["content"])        
         if prompt_tab2 := st.text_area("What is up?"):
-             #if em1 == "Exercise1":
+             if em1 == "Exercise1":
              #     clear_cache()
              #     st.session_state.messages.append({"role": "system", "content": get_course_description("project")})
              #     st.session_state.messages.append({"role": "system", "content": "Act as a lecturer in a software project management course. Students are asked to elaborate attributes of the given project regarding: A project has a unique purpose, A project is temporary, A project is developed using progressive elaboration, A project requires resources, often from various areas, A project should have a primary customer and A project involves uncertainty. Evaluation criteria is the completeness and correctness of identified attributes for the given project, logical and quality of the arguments. Create a rubric for yourself with five levels: Excellent (5)	Proficient (4)	Satisfactory (3)	Needs Improvement (2)	Unsatisfactory (1). Write feedback with the template as follows: First of all, write one sentence to introduce the feedback purpose and, the connection of doing this exercise to the course learning objective. Secondly, in the next paragraph write a brief evaluation using the rubric. Give the assessment out of the full scale. Thirdly , in the next paragraph, briefly summarize the strengths and weaknesses of the answer. Quote one good_sentence to illustrate for the strength and put it inside this template :green[good_sentence]. Quote one bad_sentence to illustrate for the weaknesses and put it inside this template :red[bad_sentence]. Fourthly, a headline Action points and then followed bullet points at most three actionable points to improve the student answer. Finally, write a simple but curious and interesting question in the end to motivate the student to engage in discussing the given feedback. Write all in good Norwegian."})
@@ -167,7 +86,7 @@ with tab2:
              #if em1 == "Exercise3":
              #     clear_cache()
              #     st.session_state.messages.append({"role": "system", "content": "Act as a lecturer in a software project management course. Students are asked to answer What is the role of a project manager ? What aspects will you need to plan if you are responsible for implementing this project? Give a brief explaination. The answer is Project managers must not only strive to meet specific scope, time, cost, and quality goals of projects, they must also facilitate the entire process to meet the needs and expectations of the people involved in or affected by project activities. Among the areas in Project Management Body of Knowledge, for a student project the relevant areas are: scope management, schedule management, quality management, risk management, communication management and resource management. Evaluation criteria is the completeness and correctness of project manager's role, the relevanced of identified management area for the student project. Create a rubric for yourself with five levels: Excellent (5)	Proficient (4)	Satisfactory (3)	Needs Improvement (2)	Unsatisfactory (1). Write feedback with the template as follows: First of all, write one sentence to introduce the feedback purpose and, the connection of doing this exercise to the course learning objective. Secondly, in the next paragraph write a brief evaluation using the rubric. Give the assessment out of the full scale. Thirdly , in the next paragraph, briefly summarize the strengths and weaknesses of the answer. Quote one good_sentence to illustrate for the strength and put it inside this template :green[good_sentence]. Quote one bad_sentence to illustrate for the weaknesses and put it inside this template :red[bad_sentence]. Fourthly, a headline Action points and then followed bullet points at most three actionable points to improve the student answer. Finally, write a simple but curious and interesting question in the end to motivate the student to engage in discussing the given feedback. Write all in good Norwegian."})
-             if em1 == "Exercise4":
+             #if em1 == "Exercise4":
              #     clear_cache()
              #     st.session_state.messages.append({"role": "system", "content": "Act as a lecturer in a software project management course. Students are asked to team's Strengths, Weaknesses, Opportunities, and Threats. It's an excellent way for team members to understand their collective capabilities and areas that need improvement. This exercise fosters open communication and strategic planning. Evaluation criteria is the completeness and relevance of the given content regarding ability of a first year student taking courses in a full time bachelor program. Create a rubric for yourself with five levels: Excellent (5)	Proficient (4)	Satisfactory (3)	Needs Improvement (2)	Unsatisfactory (1). Write feedback with the template as follows: First of all, write one sentence to introduce the feedback purpose and, the connection of doing this exercise to the course learning objective. Secondly, in the next paragraph write a brief evaluation using the rubric. Give the assessment out of the full scale. Be easy here so if students answer all the four SWOT points the should get at least from 3/5. Thirdly , in the next paragraph, briefly summarize the strengths and weaknesses of the answer. Quote one good_sentence to illustrate for the strength and put it inside this template :green[good_sentence]. Quote one bad_sentence to illustrate for the weaknesses and put it inside this template :red[bad_sentence]. Fourthly, a headline Action points and then followed bullet points at most three actionable points to improve the student answer. Finally, write a simple but curious and interesting question in the end to motivate the student to engage in discussing the given feedback. Write all in good Norwegian."})
              #st.session_state.messages.append({"role": "user", "content": prompt_tab2})
@@ -207,25 +126,43 @@ with tab2:
         #    submitted = st.form_submit_button("Submit")
 with tab3:
     st.image("https://cdn-cnhfh.nitrocdn.com/jsHsUxJJAapjeJICfnGvtaAAOHZlckTe/assets/images/optimized/rev-dfbdbb8/e360-media.s3.amazonaws.com/2024/07/07160602/2290114_ProjectScopeManagementPMA-ControlScopeProcessPMP_070524.jpg", width=400)
-    col5, col6, col7, col8 = st.columns(4)
-    with col5: 
-        st.button("Github project setting",key="ex5",use_container_width=True) 
-    with col6:
-        st.button("Project Layout",key="ex6",use_container_width=True) 
-    with col7: 
-        st.button("Project success criteria",key="ex7",use_container_width=True) 
-    with col8: 
-        st.button("Requirement Gathering and Analysis",key="ex8",use_container_width=True) 
-    col9, col10 = st.columns(2)
-    with col9: 
-        st.button("Work Breakdown Structure (WBS)",key="ex9",use_container_width=True) 
-    with col10:
-        st.button("Scope validation",key="ex10",use_container_width=True) 
+    em2 = st.radio(
+        "Choose the exercise to practice",
+        ["Exercise1", "Exercise2", "Exercise3", "Exercise4"],
+        captions=[
+            "Characterizing a software project.",
+            "Stakeholder analysis.",
+            "Project management areas.",
+            "SWOT Analysis.",
+        ],
+    ) 
     with st.expander("Submit your exercise here"):
-        with st.form("my_form2"):
-            jim_email= st.text_input("Email to receive feedback", "12345678@std.usn")
-            jim_line = st.text_area("Write your exercise here","", height=200)
-            submitted = st.form_submit_button("Submit")
+        if "messages" not in st.session_state:
+            st.session_state.messages = []        
+        if prompt_tab3 := st.text_area("What is up?"):
+             #if em2 == "Exercise5":
+             #if em2 == "Exercise6":
+             #if em2 == "Exercise7":
+             if em2 == "Exercise8":
+                  st.markdown(prompt_tab3)
+                  st.markdown(f"The total number of tokens used is **{num_tokens_from_string(get_course_description("exercise5"), "gpt-4o")}**.")
+                  stream = client.chat.completions.create(
+                      model="gpt-4o",
+                      messages=
+                          [
+                            {
+                              "role": "system",
+                              "content": [{ "type": "text", "text": get_course_description("exercise5") }]
+                            },
+                            {
+                              "role": "user",
+                              "content": [{ "type": "text", "text": prompt_tab3 }]
+                            }
+                          ],
+                      stream=True,
+                      temperature=0.4
+                  )
+                  response = st.write_stream(stream)
 with tab4:
     st.image("https://images.squarespace-cdn.com/content/v1/56acc1138a65e2a286012c54/1587053683921-RPMQIPHXBQFOIZOXRTGD/time-management-1966396_1920.jpg", width=400)
     col11, col12, col13 = st.columns(3)

@@ -1,0 +1,85 @@
+Project Description: GreenCode Initiative Website
+The goal of this project is to design and develop a website that promotes sustainable programming practices (Green Software Development). The website will serve as an educational and inspirational platform for building energy-efficient, environmentally friendly, and socially responsible software systems.
+Potential Stakeholders:
+Primary Users: Software developers interested in sustainable coding practices.
+Secondary Users: Students and teachers in computer science using the platform as a learning tool.
+Additional Stakeholders: Startups, tech companies, sustainability advocates, and environmental researchers exploring eco-friendly technology.
+Possible Customers:
+Tech companies and software development firms seeking premium tools and certifications.
+Educational institutions subscribing for specialized content.
+Sustainability organizations and NGOs funding advanced tools or initiatives.
+Suggested Website Structure
+Home Page
+Mission and importance of sustainable programming.
+Quick links to website sections.
+About Green Programming
+Educational blogs on topics like efficient algorithms, optimized code, and sustainable web design.
+Sustainable Practices Toolkit
+Tools, frameworks, and checklists for green programming (e.g., Green Web Foundation, CodeCarbon).
+Case Study
+Real-world example of adopting green coding practices.
+Contact Page
+Contact form and FAQ section.
+Deliverables
+Functional website raising awareness about sustainable programming.
+Research and content creation on sustainable practices.
+Case study transcript.
+Responsive design with interactive prototypes in Figma.
+Final implementation in Wix, WordPress, or HTML/CSS/JavaScript. Backend is optional but encouraged.
+
+Timeline Start: January 2025. End: April 2024
+
+Evaluation Criteria
+Visual Appeal: Design is sustainable, engaging, and consistent with the green theme.
+Functionality: Web pages are accessible and functional.
+Content: All required content is present and well-organized.
+Quality: Tested with usability and system tests.
+
+Exercise 6 - List All Activities in the Project by Phase: Planning, Executing, and Closing
+Description:
+In this exercise, students will identify and categorize all activities involved in the GreenCode Website project into three distinct phases: Planning, Executing, and Closing. This exercise helps students understand the project lifecycle and the sequence of activities required to manage a project effectively. Students will gain practical experience in organizing tasks, ensuring nothing critical is overlooked, and aligning their efforts with project goals.
+
+Evaluation criteria are completeness, ensuring all relevant activities for planning, executing, and closing phases are identified and specific to the GreenCode Website project, relevance - assessing how well activities align with project objectives, are categorized logically.
+Example of Activities by Phase
+1. Planning Phase:
+Define project goals and objectives (e.g., promoting sustainable programming practices).
+Identify stakeholders and determine their expectations.
+Develop a work breakdown structure (WBS) to outline tasks.
+Create a timeline and Gantt chart to map task dependencies and deadlines.
+Allocate resources, including tools (e.g., Figma, WordPress) and team roles.
+Identify potential risks and create a risk register with mitigation strategies.
+Develop a communication plan for team and stakeholder updates.
+Draft the project charter.
+2. Executing Phase:
+Design wireframes and prototypes for website pages using Figma.
+Create and test interactive prototypes for usability and accessibility.
+Develop website content, including blogs, case studies, and toolkit resources.
+Build the website using chosen tools (e.g., Wix, WordPress, or custom HTML/CSS/JavaScript).
+Test website functionality, including navigation, links, and responsiveness.
+Make iterative improvements based on feedback from usability and system testing.
+3. Closing Phase:
+Present the final project deliverable to stakeholders (e.g., educators and peers).
+Conduct a project retrospective to reflect on what went well and areas for improvement.
+Compile final project documentation, including a summary of achievements, lessons learned, and feedback received.
+Host and publish the website for course purposes, ensuring accessibility and functionality.
+Celebrate project completion and acknowledge team contributions.
+
+First of all, write one sentence to introduce the feedback purpose and, the connection of doing this exercise to the course module - Scope Management. 
+
+Secondly, in the next paragraph, evaluate the answers and give the associating evaluation level. Four levels of evaluation are Level 1 - Unsastifactor, Level 2 - Needs Improvement, Level 3 - Satisfactory and Level 4 - Excellence. For answer in Level 2, level 3 and level 4. Be easy here so if students answer all the four SWOT points the should get at least level 3
+
+Completely Out of Topic: the student writes something unrelated to the exercise, asks questions, or provides irrelevant information. Level 1
+Partial Answer: The student addresses only one or two phases (e.g., lists activities for the Planning Phase but omits Executing and Closing phases). Level 2
+General and Superficial Answer: The student provides vague or generic statements for each section without detail or relevance to the GreenCode project. Level 2
+Misunderstanding the Question: The student misinterprets the exercise, such as listing generic project management concepts instead of specific activities for each phase. Level 2
+Incorrect Categorization: The student lists activities but misclassifies them into incorrect phases (e.g., placing closing activities under the executing phase). Level 2
+Incorrect or Irrelevant Activities: The student includes some relevant activities but misses key ones, or includes activities that are irrelevant to the project (e.g., advanced backend development). Level 2
+Structured but Incomplete Answer: The answer is well-organized, with clear categories for each phase, but it lacks sufficient detail or misses some minor elements. Level 3
+Excellent but Slightly Unbalanced Answer: The student provides a strong and relevant response but gives uneven emphasis to the phases (e.g., detailed Planning phase but shorter descriptions for Executing and Closing). Level 3
+Excellent and Comprehensive Answer: The student addresses all phases (Planning, Executing, and Closing) thoroughly with relevant, detailed, and logically categorized activities, demonstrating a clear understanding of the project lifecycle. Level 4
+
+Thirdly briefly summarize the strengths and weaknesses of the answer. Quote one good_sentence to illustrate for the strength and put it inside this template :green[good_sentence]. Quote one bad_sentence to illustrate for the weaknesses and put it inside this template :red[bad_sentence]. Note that only giving quotes if the good_sentence or bad_sentence can be found within the student answer.
+
+Fourthly, a headline Action points and then followed bullet points at most three actionable points to address the given feedback. 
+
+Finally, basing on the current evaluation level of this student and what they should do, write a simple question or motivating sentence to encourage the student start with fixing the feedback. 

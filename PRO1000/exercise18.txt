@@ -1,0 +1,44 @@
+Exercise 18 -  Sprint review meeting
+Prepare for the Sprint Review:
+Identify all completed tasks and user stories from the Sprint.
+Ensure the deliverables meet the Definition of Done established during Sprint Planning.
+
+Write a concise summary that includes:
+What was demonstrated: Highlight the completed work, such as prototypes, wireframes, or functional components.
+Stakeholder Feedback: Note any key feedback received during the meeting.
+Actionable Items: Document follow-up actions or revisions requested by stakeholders.
+
+Evaluation criteria are completeness -he summary must include all required elements, clarity - evaluates whether the summary is concise, well-organized, and communicates
+
+
+Act as a lecturer in a software project management course for 1st year bachelor students, write feedback with the template as follows: 
+
+First of all, write one sentence to introduce the feedback purpose and, the connection of doing this exercise to the course module - Introduction to Project and Project Management. 
+Completely Out of Topic: The student writes irrelevant content, asks unrelated questions, or provides an answer that does not address the Sprint Review exercise (e.g., discussing general project management principles or another Agile event, like Sprint Retrospectives). Level 1
+Partial Answer: The student addresses only part of the exercise (e.g., identifies completed tasks but omits stakeholder feedback or actionable follow-up items). Level 2
+General and Superficial Answer: The student provides vague or overly broad statements, such as "We showed the work and stakeholders were happy" without specific details about what was demonstrated, what feedback was received, or the follow-up actions. Level 2
+Misunderstanding the Task: The student misinterprets the requirements, such as writing about the progress of tasks instead of summarizing the completed Sprint Review or failing to address the Definition of Done. Level 2
+Incomplete Demonstration Details: The student lists some completed tasks or user stories but omits significant deliverables or fails to connect them to what was demonstrated during the review. Level 2
+Well-Structured but Incomplete Answer: The student writes a clear and concise summary but misses one or two key elements (e.g., omits the Definition of Done verification or stakeholder feedback). Level 3
+Excellent and Comprehensive Answer: The student writes a detailed and clear summary that includes all required elements. Level 4
+
+Thirdly briefly summarize the strengths and weaknesses of the answer. Quote one good_sentence to illustrate for the strength and put it inside this template :green[good_sentence]. Quote one bad_sentence to illustrate for the weaknesses and put it inside this template :red[bad_sentence]. Note that only giving quotes if the good_sentence or bad_sentence can be found within the student answer.
+
+Fourthly, a headline Action points and then followed bullet points at most three actionable points to address the given feedback. 
+
+Finally, basing on the current evaluation level of this student and what they should do, write a simple question or motivating sentence to encourage the student start with fixing the feedback. 
+
+
+
+
+Exercise 19 - Sprint retrospective meeting
+
+Gather input from all team members on:
+What went well: Highlight positive aspects of the Sprint.
+What didn’t go well: Identify challenges or obstacles faced.
+What can be improved: Suggest actionable changes for the next Sprint.
+Write a summary that includes:
+Key Successes: Achievements and effective processes.
+Challenges: Problems or blockers encountered.
+Improvement Actions: Specific steps to enhance the team's workflow or address issues in future Sprints.
+Compile the retrospective insights into a document.

@@ -27,7 +27,7 @@ Case study transcript.
 Responsive design with interactive prototypes in Figma.
 Final implementation in Wix, WordPress, or HTML/CSS/JavaScript. Backend is optional but encouraged.
 
-Timeline Start: January 2025. End: April 2024
+Timeline Start: January 2025. End: April 2025
 
 Evaluation Criteria
 Visual Appeal: Design is sustainable, engaging, and consistent with the green theme.
@@ -50,7 +50,7 @@ Evaluation criteria is the relevance - Personas should align with the target use
 
 Write feedback with the template as follows: 
 
-First of all, write one sentence to introduce the feedback purpose and, the connection of doing this exercise to the course module - Introduction to Project and Project Management. 
+First of all, write one sentence to introduce the feedback purpose and, the connection of doing this exercise to the course module - UX Design
 
 Secondly, in the next paragraph, evaluate the answers and give the associating evaluation level. Four levels of evaluation are Level 1 - Unsastifactor, Level 2 - Needs Improvement, Level 3 - Satisfactory and Level 4 - Excellence. For answer in Level 2, level 3 and level 4, write comments regarding the completeness and correctness of identified stakeholders, reasonable arguments for their interest, influence and impact.
 1. Completely Out of Topic - The student writes something irrelevant, such as discussing unrelated project management concepts or asking questions not tied to the exercise. Level 1

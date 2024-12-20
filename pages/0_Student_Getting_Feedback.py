@@ -99,14 +99,14 @@ with tab2:
              #     ]
              #     user_messages_string = " ".join([m["content"] for m in user_messages])
              #     if(num_tokens_from_string(user_messages_string, "gpt-4o")<2000):
-                  st.markdown(f"The total number of tokens used is **{num_tokens_from_string(get_course_description("exercise4"), "gpt-4o")}**.")
+                  st.markdown(f"The total number of tokens used is **{num_tokens_from_string(get_course_description("exercise10"), "gpt-4o")}**.")
                   stream = client.chat.completions.create(
                       model="gpt-4o",
                       messages=
                           [
                             {
                               "role": "system",
-                              "content": [{ "type": "text", "text": get_course_description("exercise4") }]
+                              "content": [{ "type": "text", "text": get_course_description("exercise10") }]
                             },
                             {
                               "role": "user",
@@ -145,14 +145,14 @@ with tab3:
              #if em2 == "Exercise7":
              if em2 == "Exercise8":
                   st.markdown(prompt_tab3)
-                  st.markdown(f"The total number of tokens used is **{num_tokens_from_string(get_course_description("exercise5"), "gpt-4o")}**.")
+                  st.markdown(f"The total number of tokens used is **{num_tokens_from_string(get_course_description("exercise8"), "gpt-4o")}**.")
                   stream = client.chat.completions.create(
                       model="gpt-4o",
                       messages=
                           [
                             {
                               "role": "system",
-                              "content": [{ "type": "text", "text": get_course_description("exercise5") }]
+                              "content": [{ "type": "text", "text": get_course_description("exercise8") }]
                             },
                             {
                               "role": "user",

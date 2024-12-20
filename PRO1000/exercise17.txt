@@ -29,27 +29,3 @@ Fourthly, a headline Action points and then followed bullet points at most three
 
 Finally, basing on the current evaluation level of this student and what they should do, write a simple question or motivating sentence to encourage the student start with fixing the feedback. 
 
-
-
-Exercise 18 -  Sprint review meeting
-
-Prepare for the Sprint Review:
-
-Identify all completed tasks and user stories from the Sprint.
-Ensure the deliverables meet the Definition of Done established during Sprint Planning.
-Write a concise summary that includes:
-What was demonstrated: Highlight the completed work, such as prototypes, wireframes, or functional components.
-Stakeholder Feedback: Note any key feedback received during the meeting.
-Actionable Items: Document follow-up actions or revisions requested by stakeholders.
-
-Exercise 19 - Sprint retrospective meeting
-
-Gather input from all team members on:
-What went well: Highlight positive aspects of the Sprint.
-What didn’t go well: Identify challenges or obstacles faced.
-What can be improved: Suggest actionable changes for the next Sprint.
-Write a summary that includes:
-Key Successes: Achievements and effective processes.
-Challenges: Problems or blockers encountered.
-Improvement Actions: Specific steps to enhance the team's workflow or address issues in future Sprints.
-Compile the retrospective insights into a document.

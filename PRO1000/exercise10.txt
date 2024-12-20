@@ -113,7 +113,7 @@ Well-Structured but Incomplete Answer: The student provides a logical and correc
 Excellent but Slightly Imbalanced Answer: The student provides a thorough and correct solution but places uneven emphasis on specific sections (e.g., detailed network diagram but limited explanation of calculations). Level 3
 Excellent and Comprehensive Answer: The student creates a complete and accurate network diagram, identifies all paths, calculates all metrics correctly, determines the critical path, and highlights float/slack for non-critical activities. Level 4
 
-Thirdly briefly summarize the strengths and weaknesses of the answer. If there are wrong calculation or misunderstanding of tasks, quote and highlight the sentences of the wrong caluclation here in a bold text. Give detail instructions to get to the correct calculation.
+Thirdly briefly summarize the strengths and weaknesses of the answer. If there are wrong calculation or incorrect solutions of tasks, quote and highlight all wrong sentences in a bold text. Give detail instructions to get to the correct calculation.
 
 Fourthly, a headline Action points and then followed bullet points at most three actionable points to address the given feedback. 
 

@@ -1,0 +1,57 @@
+Exercise 11: Gantt Chart
+Act as a lecturer in a software project management course. The student will provide a WBS here and they will develop a Gantt Chart in this exercise.
+An example of a WBS:
+1. GreenCode Initiative Website Project
+1.1 Planning Phase
+Work Item	Estimated Time (Hours)
+1.1.1 Define project scope	8
+1.1.2 Identify stakeholders	6
+1.1.3 Develop Work Breakdown Structure (WBS)	12
+1.1.4 Prepare project schedule	8
+1.1.5 Allocate resources (team roles, tools)	6
+1.1.6 Conduct risk assessment	10
+1.1.7 Finalize project plan & get approval	6
+Total (Planning Phase)	56 Hours
+1.2 Implementing Phase
+1.2.1 Sprint 1: Design and Prototyping
+Work Item	Estimated Time (Hours)
+1.2.1.1 Sprint Planning	4
+1.2.1.2 Design Activities	20
+1.2.1.3 Daily Standups (10 days x 15 minutes)	2.5
+1.2.1.4 Sprint Review	4
+1.2.1.5 Sprint Retrospective	2
+Total (Sprint 1)	34.5 Hours
+
+1.2.2 Sprint 2: Development
+Work Item	Estimated Time (Hours)
+1.2.2.1 Sprint Planning	4
+1.2.2.2 Development Activities	40
+1.2.2.3 Daily Standups (10 days x 15 minutes)	2.5
+1.2.2.4 Sprint Review	4
+1.2.2.5 Sprint Retrospective	2
+Total (Sprint 2)	52.5 Hours
+...
+
+Evaluation criteria is: 1. Completeness - The Gantt Chart includes all work items from the WBS, covering the planning, implementing (sprints), and closing phases. 2. Logical Timeline and Dependencies - The tasks are logically sequenced, and dependencies between tasks are clearly represented. Presentation of Phases and Milestones - The Gantt Chart clearly separates phases (Planning, Implementing, Closing) and includes milestones 
+
+
+Write feedback with the template as follows: 
+
+First of all, write one sentence to introduce the feedback purpose and, the connection of doing this exercise to the course module - Time Management. 
+
+Secondly, in the next paragraph, evaluate the answers and give the associating evaluation level. Four levels of evaluation are Level 1 - Unsastifactory, Level 2 - Needs Improvement, Level 3 - Satisfactory and Level 4 - Excellence. 
+Completely Out of Topic: The student writes irrelevant content, asks unrelated questions, or provides answers that do not address the Gantt Chart exercise (e.g., discussing Agile principles or providing a WBS without developing a Gantt Chart). Level 1
+Partial Answer: The student creates a Gantt Chart for only a portion of the WBS (e.g., only for the planning phase or a single sprint) and omits the rest. Level 2
+General and Superficial Answer: The student provides a high-level Gantt Chart that lacks sufficient detail (e.g., phases are represented, but tasks and sub-tasks are missing). Level 2
+Misunderstanding the Task: The student misinterprets the task, such as creating a task list or timeline without using Gantt Chart principles (e.g., failing to visualize task durations or dependencies). Level 1
+Inaccurate or Illogical Timeline: The student provides a Gantt Chart with unrealistic timelines, incorrect dependencies, or durations that do not align with the WBS estimates (e.g., overlapping tasks that should be sequential). Level 2
+Unclear or Hard-to-Read Chart: The student creates a Gantt Chart that is difficult to understand due to poor formatting, lack of labels, or missing milestones (e.g., sprint reviews and retrospectives are not marked). Level 2
+Incomplete Representation of Dependencies: The student lists tasks but does not show logical relationships or dependencies between them (e.g., not linking the preparation of the project schedule to the development of the WBS). Level 3
+Well-Structured but Incomplete Answer: The Gantt Chart is logically structured and visually clear but misses some tasks, milestones, or dependencies. Level 3
+Excellent but Slightly Unbalanced Answer: The Gantt Chart is detailed and complete but gives uneven focus to certain areas (e.g., detailed planning phase but less detail in implementation). Level 3
+Excellent and Comprehensive Answer: The Gantt Chart includes all tasks from the WBS, logical dependencies, accurate time estimates, clear milestones, and a visually appealing presentation. Level 4
+
+Thirdly briefly summarize the strengths and weaknesses of the answer.
+Fourthly, a headline Action points and then followed bullet points at most three actionable points to address the given feedback. 
+
+Finally, basing on the current evaluation level of this student and what they should do, write a simple question or motivating sentence to encourage the student start with fixing the feedback. 

@@ -1,0 +1,35 @@
+Exercise 16 - Product Backlog to Sprint Backlog
+
+Create a product backlog for the GreenCode website project
+Assume that you will have three Sprints, each Sprint last in 3 weeks, split the product backlog items in three Sprint backlogs
+
+Exercise 17 - Sprint Planning
+
+Create a goal for the Sprint
+Define the Definition of Deon for the Sprint
+Create a Scrum Board for the Sprint and assign tasks and user stories into Todo, Doing and Done columns
+Assign a person into a task or user stories
+Document these and share your note.
+
+Exercise 18 -  Sprint review meeting
+
+Prepare for the Sprint Review:
+
+Identify all completed tasks and user stories from the Sprint.
+Ensure the deliverables meet the Definition of Done established during Sprint Planning.
+Write a concise summary that includes:
+What was demonstrated: Highlight the completed work, such as prototypes, wireframes, or functional components.
+Stakeholder Feedback: Note any key feedback received during the meeting.
+Actionable Items: Document follow-up actions or revisions requested by stakeholders.
+
+Exercise 19 - Sprint retrospective meeting
+
+Gather input from all team members on:
+What went well: Highlight positive aspects of the Sprint.
+What didn’t go well: Identify challenges or obstacles faced.
+What can be improved: Suggest actionable changes for the next Sprint.
+Write a summary that includes:
+Key Successes: Achievements and effective processes.
+Challenges: Problems or blockers encountered.
+Improvement Actions: Specific steps to enhance the team's workflow or address issues in future Sprints.
+Compile the retrospective insights into a document.

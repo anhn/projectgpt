@@ -1,0 +1,55 @@
+Exercise 17 - Sprint Planning
+Create a goal for the Sprint
+Define the Definition of Done (DoD) for the Sprint
+Create a Scrum Board for the Sprint and assign tasks and user stories into Todo, Doing and Done columns
+Assign a person into a task or user stories
+Document these and share your note.
+
+Evaluation criteria are the clarity of the Sprint goal - a stated goal is visible, concise and actionable, Completeness evaluates whether the DoD comprehensively outlines criteria for task completion, logic of the Scrum Board, if proper task/user story assignment to "To Do," "Doing," and "Done" columns
+
+
+Act as a lecturer in a software project management course for 1st year bachelor students, write feedback with the template as follows: 
+
+First of all, write one sentence to introduce the feedback purpose and, the connection of doing this exercise to the course module - Introduction to Project and Project Management. 
+
+Completely Out of Topic: The student writes irrelevant content, asks unrelated questions, or provides an answer that does not address Sprint Planning at all (e.g., discussing general project goals or Agile principles without focusing on Sprint-specific tasks). Level 1
+Partial Answer: The student addresses only part of the exercise (e.g., creates a Sprint goal but does not define the Definition of Done (DoD) or develop a Scrum Board). Level 2
+General and Superficial Answer: The student provides vague or generic answers, such as an unclear or overly broad Sprint goal (e.g., "Complete tasks for the project"), an incomplete DoD, or a poorly structured Scrum Board with minimal detail. Level 2
+Misunderstanding the Task: The student misinterprets the requirements, such as providing project-level goals instead of Sprint-specific goals, creating a static task list instead of a dynamic Scrum Board, or confusing the DoD with general task descriptions. Level 2
+Ambiguous or Incomplete Definition of Done: The DoD is unclear or fails to provide specific criteria for task completion (e.g., "Tasks are done when finished" without detailing testing, review, or stakeholder acceptance criteria). Level 2
+Unrealistic or Vague Sprint Goal: The Sprint goal is too vague, broad, or unachievable within the Sprint timeframe (e.g., "Build the entire website" for a single Sprint). Level 2
+Unassigned Tasks: The Scrum Board is missing task assignments, leaving some tasks without ownership. Level 2
+Well-Structured but Incomplete Answer: The student provides a logical Sprint goal, a usable DoD, and a partially complete Scrum Board but misses minor elements, such as task assignments or a few tasks. Level 3
+Excellent but Slightly Unbalanced Answer: The student provides a strong and detailed answer but gives uneven focus to certain aspects (e.g., a well-defined Scrum Board but an incomplete or less actionable Sprint goal). Level 3
+Excellent and Comprehensive Answer: The student creates a clear and actionable Sprint goal, a complete and detailed DoD, a well-structured Scrum Board with properly assigned tasks, and a thoroughly documented plan shared effectively. Level 4
+
+Thirdly briefly summarize the strengths and weaknesses of the answer. Quote one good_sentence to illustrate for the strength and put it inside this template :green[good_sentence]. Quote one bad_sentence to illustrate for the weaknesses and put it inside this template :red[bad_sentence]. Note that only giving quotes if the good_sentence or bad_sentence can be found within the student answer.
+
+Fourthly, a headline Action points and then followed bullet points at most three actionable points to address the given feedback. 
+
+Finally, basing on the current evaluation level of this student and what they should do, write a simple question or motivating sentence to encourage the student start with fixing the feedback. 
+
+
+
+Exercise 18 -  Sprint review meeting
+
+Prepare for the Sprint Review:
+
+Identify all completed tasks and user stories from the Sprint.
+Ensure the deliverables meet the Definition of Done established during Sprint Planning.
+Write a concise summary that includes:
+What was demonstrated: Highlight the completed work, such as prototypes, wireframes, or functional components.
+Stakeholder Feedback: Note any key feedback received during the meeting.
+Actionable Items: Document follow-up actions or revisions requested by stakeholders.
+
+Exercise 19 - Sprint retrospective meeting
+
+Gather input from all team members on:
+What went well: Highlight positive aspects of the Sprint.
+What didn’t go well: Identify challenges or obstacles faced.
+What can be improved: Suggest actionable changes for the next Sprint.
+Write a summary that includes:
+Key Successes: Achievements and effective processes.
+Challenges: Problems or blockers encountered.
+Improvement Actions: Specific steps to enhance the team's workflow or address issues in future Sprints.
+Compile the retrospective insights into a document.

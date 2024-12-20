@@ -32,22 +32,7 @@ Determine the critical path and its duration.
 Highlight any float/slack time available for non-critical activities.
 
 Evaluation criteria is the correctness of the calculations, all paths, and critical path.
-Correct solutions as follows:
-Step 1: Understand the Project Activities and Dependencies
-List the project activities, durations, and dependencies:
-A (Market Research): 10 days, no dependencies.
-B (Requirement Analysis): 5 days, follows A.
-C (UI/UX Design): 15 days, follows B.
-D (Backend Development): 20 days, follows A.
-E (Database Setup): 10 days, follows B.
-F (API Integration): 10 days, follows D and E.
-G (Frontend Development): 25 days, follows C.
-H (Testing Phase 1): 5 days, follows F and G.
-I (User Acceptance Testing): 10 days, follows H.
-J (Final Revision): 5 days, follows I.
-K (Launch Preparation): 5 days, follows J.
-L (App Launch): 1 day, follows K.
-Step 2: Draw the Network Diagram
+Step 1: Draw the Network Diagram
 Start with activity A (Market Research) as it has no dependencies.
 Draw activities B (Requirement Analysis) and D (Backend Development), as both follow A.
 From B, draw C (UI/UX Design) and E (Database Setup).
@@ -56,20 +41,20 @@ Connect C to G (Frontend Development).
 From F and G, connect to H (Testing Phase 1).
 From H, draw I (User Acceptance Testing).
 Connect I to J (Final Revision), then to K (Launch Preparation), and finally to L (App Launch).
-Step 3: Identify All Paths
+Step 2: Identify All Paths
 Paths represent sequences of activities from start to finish. List all possible paths through the network:
 Path 1: A → B → C → G → H → I → J → K → L
 Path 2: A → B → E → F → H → I → J → K → L
 Path 3: A → D → F → H → I → J → K → L
-Step 4: Calculate the Duration of Each Path
+Step 3: Calculate the Duration of Each Path
 Path 1: 10 (A) + 5 (B) + 15 (C) + 25 (G) + 5 (H) + 10 (I) + 5 (J) + 5 (K) + 1 (L) = 81 days
 Path 2: 10 (A) + 5 (B) + 10 (E) + 10 (F) + 5 (H) + 10 (I) + 5 (J) + 5 (K) + 1 (L) = 61 days
 Path 3: 10 (A) + 20 (D) + 10 (F) + 5 (H) + 10 (I) + 5 (J) + 5 (K) + 1 (L) = 66 days
-Step 5: Determine the Critical Path
+Step 4: Determine the Critical Path
 The critical path is the longest path in the project network, which determines the minimum project duration.
 From the calculations:
 Critical Path: Path 1 (A → B → C → G → H → I → J → K → L) with a duration of 81 days.
-Step 6: Calculate ES, EF, LS, LF for Each Task
+Step 5: Calculate ES, EF, LS, LF for Each Task
 Earliest Start (ES):
 For tasks with no dependencies, ES = 0 (e.g., A starts at Day 0).
 For tasks with dependencies, ES = EF of the immediate predecessor(s).
@@ -87,14 +72,10 @@ EF = ES + Duration = 0 + 10 = 10.
 LF = Earliest LS of successors (B and D) = 10.
 LS = LF - Duration = 10 - 10 = 0.
 Repeat these steps for all tasks to calculate ES, EF, LS, and LF for the entire network.
-Step 7: Highlight Float/Slack
+Step 6: Highlight Float/Slack
 Float = LS - ES (or LF - EF).
 Tasks with Float = 0 are on the critical path.
 Identify non-critical activities with slack time and highlight opportunities for flexibility.
-Step 8: Final Results
-Critical Path: A → B → C → G → H → I → J → K → L.
-Project Duration: 81 days.
-Tasks with float/slack represent non-critical activities that can be delayed without affecting the overall timeline.
 
 Write feedback with the template as follows: 
 
@@ -113,7 +94,7 @@ Well-Structured but Incomplete Answer: The student provides a logical and correc
 Excellent but Slightly Imbalanced Answer: The student provides a thorough and correct solution but places uneven emphasis on specific sections (e.g., detailed network diagram but limited explanation of calculations). Level 3
 Excellent and Comprehensive Answer: The student creates a complete and accurate network diagram, identifies all paths, calculates all metrics correctly, determines the critical path, and highlights float/slack for non-critical activities. Level 4
 
-Thirdly briefly summarize the strengths and weaknesses of the answer. If there are wrong calculation or incorrect solutions of tasks, quote and highlight all wrong sentences in a bold text. Give detail instructions to get to the correct calculation.
+Thirdly briefly summarize the strengths and weaknesses of the answer. Check if all 3 paths are found. Check if all paths are calculated with project durations. Check if the critical path is  A → B → C → G → H → I → J → K → L and duration is 81 days. If there are wrong calculation or incorrect solutions of tasks, quote and highlight all wrong sentences in a bold text. Give detail instructions to get to the correct calculation.
 
 Fourthly, a headline Action points and then followed bullet points at most three actionable points to address the given feedback. 
 

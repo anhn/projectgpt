@@ -1,0 +1,57 @@
+Exercise 10: Network Diagram and Critical Path Analysis
+
+Context:
+You are managing a mobile app development project. The project consists of several key activities that need to be completed. Some tasks can be done simultaneously (in parallel), while others must be done sequentially. Your task is to create a network diagram for the project and determine the critical path.
+
+Project Activities:
+
+Market Research (A): 10 days
+Requirement Analysis (B): 5 days, follows A
+UI/UX Design (C): 15 days, follows B
+Backend Development (D): 20 days, can start after A is completed
+Database Setup (E): 10 days, can start after B is completed
+API Integration (F): 10 days, follows D and E
+Frontend Development (G): 25 days, follows C
+Testing Phase 1 (H): 5 days, follows F and G
+User Acceptance Testing (I): 10 days, follows H
+Final Revision (J): 5 days, follows I
+Launch Preparation (K): 5 days, follows J
+App Launch (L): 1 day, follows K
+
+Assumptions:
+
+All activities start the next day after the completion of their predecessor(s).
+Weekends are not included in the schedule; only workdays are counted.
+
+Exercise Tasks:
+
+Draw the network diagram for this project.
+Calculate the earliest start (ES), earliest finish (EF), latest start (LS), and latest finish (LF) for each activity.
+Identify all paths through the network diagram.
+Determine the critical path and its duration.
+Highlight any float/slack time available for non-critical activities.
+
+Evaluation criteria is the correctness of the calculations, all paths, and critical path.
+
+Write feedback with the template as follows: 
+
+First of all, write one sentence to introduce the feedback purpose and, the connection of doing this exercise to the course module - Time Management. Hightlight for students that this exercise does not relate to the GreenCode project they do but give neccessary skills for time planning for the project.
+
+Secondly, in the next paragraph, evaluate the answers and give the associating evaluation level. Four levels of evaluation are Level 1 - Unsastifactory, Level 2 - Needs Improvement, Level 3 - Satisfactory and Level 4 - Excellence. 
+
+Completely Out of Topic: The student writes irrelevant content, asks unrelated questions, or fails to address the exercise requirements (e.g., discussing unrelated project management principles). Level 1
+Partial Answer: The student completes only part of the exercise (e.g., creates a network diagram but does not calculate the critical path or evaluate the float/slack for activities). Level 1
+General and Superficial Answer: The student provides vague or generic responses (e.g., “The critical path is the longest path” without identifying specific activities or providing calculations). Level 1
+Misunderstanding the Task: The student misinterprets the exercise, such as creating a Gantt chart instead of a network diagram, or incorrectly identifying dependencies between tasks. Level 1
+Incomplete Network Diagram: The student creates a network diagram but omits tasks, dependencies, or fails to account for parallel/sequential relationships. Level 2
+Incorrect Calculations: The student identifies paths but makes errors in calculating earliest start/finish, latest start/finish, or float/slack for activities. Level 2
+Incorrect Identification of Critical Path: The student calculates the paths but fails to correctly identify the longest path or incorrectly determines the project duration. Level 2
+Well-Structured but Incomplete Answer: The student provides a logical and correct solution but omits minor details, such as failing to calculate slack or providing partial results. Level 3
+Excellent but Slightly Imbalanced Answer: The student provides a thorough and correct solution but places uneven emphasis on specific sections (e.g., detailed network diagram but limited explanation of calculations). Level 3
+Excellent and Comprehensive Answer: The student creates a complete and accurate network diagram, identifies all paths, calculates all metrics correctly, determines the critical path, and highlights float/slack for non-critical activities. Level 4
+
+Thirdly briefly summarize the strengths and weaknesses of the answer. If there are wrong calculation or misunderstanding of tasks, quote and highlight the sentences of the wrong_caluclation with :red[wrong_calculation]. Give detail instructions to get to the correct calculation.
+
+Fourthly, a headline Action points and then followed bullet points at most three actionable points to address the given feedback. 
+
+Finally, basing on the current evaluation level of this student and what they should do, write a simple question or motivating sentence to encourage the student start with fixing the feedback. 

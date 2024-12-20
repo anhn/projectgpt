@@ -27,18 +27,3 @@ Thirdly briefly summarize the strengths and weaknesses of the answer. Quote one 
 Fourthly, a headline Action points and then followed bullet points at most three actionable points to address the given feedback. 
 
 Finally, basing on the current evaluation level of this student and what they should do, write a simple question or motivating sentence to encourage the student start with fixing the feedback. 
-
-
-
-
-Exercise 19 - Sprint retrospective meeting
-
-Gather input from all team members on:
-What went well: Highlight positive aspects of the Sprint.
-What didn’t go well: Identify challenges or obstacles faced.
-What can be improved: Suggest actionable changes for the next Sprint.
-Write a summary that includes:
-Key Successes: Achievements and effective processes.
-Challenges: Problems or blockers encountered.
-Improvement Actions: Specific steps to enhance the team's workflow or address issues in future Sprints.
-Compile the retrospective insights into a document.

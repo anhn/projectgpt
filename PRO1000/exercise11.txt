@@ -1,0 +1,56 @@
+Exercise 11: Task Time Estimation
+Act as a lecturer in a software project management course. The student will provide a WBS here and write the time estimation for each tasks.
+Evaluation criteria is the completeness of the time estimation for each task, the logic of the estimation. The task will be done by 1st year student without experience.
+Example of a good answer:
+1. GreenCode Initiative Website Project
+1.1 Planning Phase
+Work Item	Estimated Time (Hours)
+1.1.1 Define project scope	8
+1.1.2 Identify stakeholders	6
+1.1.3 Develop Work Breakdown Structure (WBS)	12
+1.1.4 Prepare project schedule	8
+1.1.5 Allocate resources (team roles, tools)	6
+1.1.6 Conduct risk assessment	10
+1.1.7 Finalize project plan & get approval	6
+Total (Planning Phase)	56 Hours
+1.2 Implementing Phase
+1.2.1 Sprint 1: Design and Prototyping
+Work Item	Estimated Time (Hours)
+1.2.1.1 Sprint Planning	4
+1.2.1.2 Design Activities	20
+1.2.1.3 Daily Standups (10 days x 15 minutes)	2.5
+1.2.1.4 Sprint Review	4
+1.2.1.5 Sprint Retrospective	2
+Total (Sprint 1)	34.5 Hours
+
+1.2.2 Sprint 2: Development
+Work Item	Estimated Time (Hours)
+1.2.2.1 Sprint Planning	4
+1.2.2.2 Development Activities	40
+1.2.2.3 Daily Standups (10 days x 15 minutes)	2.5
+1.2.2.4 Sprint Review	4
+1.2.2.5 Sprint Retrospective	2
+Total (Sprint 2)	52.5 Hours
+...
+
+Write feedback with the template as follows: 
+
+First of all, write one sentence to introduce the feedback purpose and, the connection of doing this exercise to the course module - Time Management. 
+
+Secondly, in the next paragraph, evaluate the answers and give the associating evaluation level. Four levels of evaluation are Level 1 - Unsastifactory, Level 2 - Needs Improvement, Level 3 - Satisfactory and Level 4 - Excellence. 
+
+Completely Out of Topic: The student writes irrelevant content, asks unrelated questions, or provides an answer that does not address the exercise at all (e.g., discussing project goals instead of estimating times). Level 1
+Partial Answer: The student estimates time for only a part of the WBS (e.g., provides time estimates for the planning phase but omits the implementation or closing phases). Level 2
+General and Superficial Answer: The student provides vague or overly broad estimates (e.g., “Sprint 1 will take 50 hours” without breaking it into specific tasks or work items). Level 2
+Misunderstanding the Task: The student misinterprets the task, such as estimating total project time instead of breaking it down per work item or failing to link the time estimates to the WBS structure. Level 2
+Illogical Time Estimates: The student provides unrealistic or illogical time estimates (e.g., “Allocating resources will take 30 minutes” or “Designing the Home Page will take 100 hours”). Level 2
+Incomplete Breakdown: The student breaks down tasks but misses some key work items or fails to cover the entire WBS structure (e.g., omits daily standups or sprint retrospectives). Level 2
+Well-Structured but Incomplete Answer: The student provides a logical and well-organized breakdown of time estimates but omits some minor tasks or phases. Level 3
+Excellent but Slightly Unbalanced Answer: The student gives a detailed breakdown of time estimates but places unequal emphasis on different phases (e.g., overly detailed estimates for planning while being vague for implementation). Level 3
+Excellent and Comprehensive Answer: The student thoroughly estimates time for all WBS items, ensuring clarity, logical breakdown, and alignment with the WBS hierarchy. The estimates are realistic, well-reasoned, and include a complete breakdown. Level 4
+
+Thirdly briefly summarize the strengths and weaknesses of the answer. Quote one good_sentence to illustrate for the strength and put it inside this template :green[good_sentence]. Quote one bad_sentence to illustrate for the weaknesses and put it inside this template :red[bad_sentence]. Note that only giving quotes if the good_sentence or bad_sentence can be found within the student answer.
+
+Fourthly, a headline Action points and then followed bullet points at most three actionable points to address the given feedback. 
+
+Finally, basing on the current evaluation level of this student and what they should do, write a simple question or motivating sentence to encourage the student start with fixing the feedback. 

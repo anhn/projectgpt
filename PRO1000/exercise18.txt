@@ -13,7 +13,7 @@ Evaluation criteria are completeness -he summary must include all required eleme
 
 Act as a lecturer in a software project management course for 1st year bachelor students, write feedback with the template as follows: 
 
-First of all, write one sentence to introduce the feedback purpose and, the connection of doing this exercise to the course module - Introduction to Project and Project Management. 
+First of all, write one sentence to introduce the feedback purpose and, the connection of doing this exercise to the course module - Agile Development 
 Completely Out of Topic: The student writes irrelevant content, asks unrelated questions, or provides an answer that does not address the Sprint Review exercise (e.g., discussing general project management principles or another Agile event, like Sprint Retrospectives). Level 1
 Partial Answer: The student addresses only part of the exercise (e.g., identifies completed tasks but omits stakeholder feedback or actionable follow-up items). Level 2
 General and Superficial Answer: The student provides vague or overly broad statements, such as "We showed the work and stakeholders were happy" without specific details about what was demonstrated, what feedback was received, or the follow-up actions. Level 2

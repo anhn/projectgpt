@@ -6,7 +6,7 @@ Evaluation criteria is the completeness - three Sprints together should include 
 
 Write feedback with the template as follows: 
 
-First of all, write one sentence to introduce the feedback purpose and, the connection of doing this exercise to the course module - Introduction to Project and Project Management. 
+First of all, write one sentence to introduce the feedback purpose and, the connection of doing this exercise to the course module - Agile development 
 
 Secondly, in the next paragraph, evaluate the answers and give the associating evaluation level. Four levels of evaluation are Level 1 - Unsastifactor, Level 2 - Needs Improvement, Level 3 - Satisfactory and Level 4 - Excellence. 
 Completely Out of Topic: The student writes irrelevant content, asks unrelated questions, or provides an answer that does not address the exercise (e.g., discussing Agile principles without creating a product or Sprint backlog). Level 1

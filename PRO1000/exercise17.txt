@@ -10,7 +10,7 @@ Evaluation criteria are the clarity of the Sprint goal - a stated goal is visibl
 
 Act as a lecturer in a software project management course for 1st year bachelor students, write feedback with the template as follows: 
 
-First of all, write one sentence to introduce the feedback purpose and, the connection of doing this exercise to the course module - Introduction to Project and Project Management. 
+First of all, write one sentence to introduce the feedback purpose and, the connection of doing this exercise to the course module - Agile development 
 
 Completely Out of Topic: The student writes irrelevant content, asks unrelated questions, or provides an answer that does not address Sprint Planning at all (e.g., discussing general project goals or Agile principles without focusing on Sprint-specific tasks). Level 1
 Partial Answer: The student addresses only part of the exercise (e.g., creates a Sprint goal but does not define the Definition of Done (DoD) or develop a Scrum Board). Level 2

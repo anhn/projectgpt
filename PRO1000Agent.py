@@ -1,4 +1,5 @@
 import streamlit as st
+import plotly.graph_objects as go
 
 # Initialize step and all session state keys only once
 if 'step' not in st.session_state:
@@ -91,8 +92,56 @@ elif st.session_state.step == 4:
         feasibility_level = "🔴 Chưa khả thi"
 
     st.subheader("🔍 Tổng điểm: " + str(score) + " / 45")
+    st.subheader("📊 Biểu đồ đánh giá theo tiêu chí")
+    # Radar chart categories and values
+    labels = [
+        "Công nghệ (TCH)",
+        "Tương thích (COM)",
+        "Lợi ích cảm nhận (RAD)",
+        "Độ phức tạp (CPL ↓)",
+        "Bảo mật (SEC)",
+        "Chi phí (COS ↓)",
+        "Pháp lý (LSG)",
+        "Tổ chức (ORG)",
+        "Cạnh tranh (CPT)"
+    ]
+    
+    # Invert CPL and COS to represent "less is better"
+    values = [
+        st.session_state.TCH,
+        st.session_state.COM,
+        st.session_state.RAD,
+        6 - st.session_state.CPL,
+        st.session_state.SEC,
+        6 - st.session_state.COS,
+        st.session_state.LSG,
+        st.session_state.ORG,
+        st.session_state.CPT
+    ]
+    
+    fig = go.Figure(
+        data=[
+            go.Scatterpolar(
+                r=values,
+                theta=labels,
+                fill='toself',
+                name='Mức điểm đánh giá'
+            )
+        ],
+        layout=go.Layout(
+            polar=dict(
+                radialaxis=dict(
+                    visible=True,
+                    range=[0, 5]
+                )
+            ),
+            showlegend=False
+        )
+    )
+    
+    st.plotly_chart(fig, use_container_width=True)
     st.success(f"Đánh giá mức độ khả thi: **{feasibility_level}**")
-
+    
     # Recommendations
     st.markdown("### 📌 Khuyến nghị:")
     if st.session_state.LSG < 3:

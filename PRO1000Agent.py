@@ -1,5 +1,18 @@
 import streamlit as st
 
+# Initialize step and all session state keys only once
+if 'step' not in st.session_state:
+    st.session_state.step = 0
+    st.session_state.TCH = 3
+    st.session_state.COM = 3
+    st.session_state.RAD = 3
+    st.session_state.CPL = 3
+    st.session_state.SEC = 3
+    st.session_state.COS = 3
+    st.session_state.LSG = 3
+    st.session_state.ORG = 3
+    st.session_state.CPT = 3
+    
 # Initialize session state
 if 'step' not in st.session_state:
     st.session_state.step = 0
